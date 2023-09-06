@@ -1,0 +1,51 @@
+## Favorite subject
+- intrusion detection
+	- [NEMEA](https://github.com/CESNET/Nemea)?
+	- detection of possibly bad behavior and informs home users
+- smaller low-budget scale-institutions/individuals
+- integration of existing systems
+- usable security
+	- check-list for common users with stories
+- network probes - SNORT
+## Topics
+- home security?
+	- ESP32 that looks through the network and reports problems?
+		- maybe a Pi Zero for more powerfull OPs?
+	- something like [Turris](https://www.turris.com/en/) but not a router, just a separated device?
+	- detects outdated IoT devices?
+		- cheap IP cameras, ....
+- phantom version app migration?
+- home network intrusion detection?
+- on-prem security?
+	- scanning/evaluation
+		- Wazuh
+	- many amateur/junior programmers will buy VPS but do not known how to properly secure it
+## Meeting
+- was security increased with client isolation/wpa3
+	- / analysis in SOHO
+		- home routers are unable to analyse all the traffic
+		- DNS, ...
+	- where does normal person store its cloud data in a cloud
+	- analysis of (home) networks
+- TikTok & FB & SnapChat & Ashley Madison & analysis of its data
+	- methodoly design (from simmilar analysis of the same kind)
+	- use tools to go through the methodology
+	- MiMT
+- Zero Trust in small-network design
+	- House NAS
+	- With help of agents - *"Will this help home users?"*
+	- CloudFlare Zero-Trust solution for personal free
+	- *"How can Cloudflare help home networks"*
+- SaaS for SOHO
+	- What solutions are on marked & compare them
+		- price, quality, scope
+		- mails, antiviturs, EDR, tablets, LDAP, SSO....
+	- Can work with different scenarios
+		- student with one laptop
+		- family with 4 computers
+		- small company with 20 employees
+## TODO
+- research till week & quick update
+	- articles, thesis, (blogs.)
+- have more info till two weeks
+- 
