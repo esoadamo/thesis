@@ -89,4 +89,6 @@
   - behind paywall
 - [[Insecurity by Obscurity: A Review of SoHo Router Literature from a Network Security Perspective](https://commons.erau.edu/cgi/viewcontent.cgi?article=1060&context=jdfsl)](https://commons.erau.edu/jdfsl/vol4/iss3/1/)
   - talks about how manuals are confusing for average users
-  - 
+- [Securing Home Wi-Fi with WPA3 Personal](https://ieeexplore.ieee.org/abstract/document/9369629)
+  - [WPA3 | TP-Link](https://www.tp-link.com/us/wpa3/)
+- 
