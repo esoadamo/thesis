@@ -124,6 +124,10 @@
                 - can it do SAML
     - zero trust chapter?
 - cloud bank accounting 
+- automation
+    - https://www.make.com/en
+    - IFTT
+    - zappier
 - **take a look at what services are offered -> to be analyzed**
-- **best security guidelines for SoHo**
+- **best security guidelines for SoHo`**`
 - **revide old SoHo reccomendatation**
