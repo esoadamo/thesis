@@ -99,18 +99,19 @@
     - Synology LDAP
 - password managers, shared passwords
 - what areas are people using? What do users need?
+    - it student vs art student
     - need shared storage, office software
     - people are afraid -> antivirus (EDR)
     - console showing the healt of devices
         - licenses & scaling
-- IM sources: Cloudflare, 365, Google, Synology (is on-prem)
+- IM sources: **Cloudflare, 365, Google, Synology (is on-prem)**
     - TrueNAS (custom solution, smaller focus)
     - my implementation? As Docker container?
     - Avast, Mega, Dropbox do that too or not?
     - GitLab has SSO? vs Gitea
 - knowledge base & processes records
 - every group puts focus on different areas with different priorities
-- TODO: go trough what microsoft offers & what cloudflare offers
+- **TODO**: go trough what microsoft offers & what cloudflare offers
 - do we still need VPN? guest accounts? guest wifis? + privacy consideration
 - spam & mailbox protection
     - custom domain with mail
@@ -128,6 +129,12 @@
     - https://www.make.com/en
     - IFTT
     - zappier
+    - idoklad
+    - IM in state services & Bank Id
+- how to keep software updated
+    - WinRar
+    - unsupported software - Office 10
 - **take a look at what services are offered -> to be analyzed**
-- **best security guidelines for SoHo`**`
+- **best security guidelines for SoHo**
 - **revide old SoHo reccomendatation**
+- till two weeks again
