@@ -92,48 +92,49 @@
 - [Securing Home Wi-Fi with WPA3 Personal](https://ieeexplore.ieee.org/abstract/document/9369629)
   - [WPA3 | TP-Link](https://www.tp-link.com/us/wpa3/)
 
-##  Meeting 2
+## Meeting 2
+
 - shared mailboxes
 - big focus on identity managment
-    - Home Assistant, wifi for children only
-    - Synology LDAP
+  - Home Assistant, wifi for children only
+  - Synology LDAP
 - password managers, shared passwords
 - what areas are people using? What do users need?
-    - it student vs art student
-    - need shared storage, office software
-    - people are afraid -> antivirus (EDR)
-    - console showing the healt of devices
-        - licenses & scaling
+  - it student vs art student
+  - need shared storage, office software
+  - people are afraid -> antivirus (EDR)
+  - console showing the healt of devices
+    - licenses & scaling
 - IM sources: **Cloudflare, 365, Google, Synology (is on-prem)**
-    - TrueNAS (custom solution, smaller focus)
-    - my implementation? As Docker container?
-    - Avast, Mega, Dropbox do that too or not?
-    - GitLab has SSO? vs Gitea
+  - TrueNAS (custom solution, smaller focus)
+  - my implementation? As Docker container?
+  - Avast, Mega, Dropbox do that too or not?
+  - GitLab has SSO? vs Gitea
 - knowledge base & processes records
 - every group puts focus on different areas with different priorities
 - **TODO**: go trough what microsoft offers & what cloudflare offers
 - do we still need VPN? guest accounts? guest wifis? + privacy consideration
 - spam & mailbox protection
-    - custom domain with mail
-    - Microsoft payed, Cloudflare; Seznam free; Protonmail; DDG Privacy mail?
+  - custom domain with mail
+  - Microsoft payed, Cloudflare; Seznam free; Protonmail; DDG Privacy mail?
 - show antipaters
-    - refuse to update
-    - personal vs service account
-    - what if device is lost
-        - files backup & disc encryption
-            - Uložto storage & Mega & OneDrive & Google Drive
-                - can it do SAML
-    - zero trust chapter?
+  - refuse to update
+  - personal vs service account
+  - what if device is lost
+    - files backup & disc encryption
+      - Uložto storage & Mega & OneDrive & Google Drive
+        - can it do SAML
+  - zero trust chapter?
 - cloud bank accounting 
 - automation
-    - https://www.make.com/en
-    - IFTT
-    - zappier
-    - idoklad
-    - IM in state services & Bank Id
+  - https://www.make.com/en
+  - IFTT
+  - zappier
+  - idoklad
+  - IM in state services & Bank Id
 - how to keep software updated
-    - WinRar
-    - unsupported software - Office 10
+  - WinRar
+  - unsupported software - Office 10
 - **take a look at what services are offered -> to be analyzed**
 - **best security guidelines for SoHo**
 - **revide old SoHo reccomendatation**
