@@ -19,12 +19,19 @@
   - ![entra-muni-devices.png](materials/entra-muni-devices.png)
   - [Přidání existujícího předplatného Azure do tenanta - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/cs-cz/azure/active-directory/fundamentals/how-subscriptions-associated-directory?amp%3Bclcid=0x5)
   - [Vytvoření bezplatného vývojářského tenanta Azure Active Directory - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/cs-cz/azure/active-directory/verifiable-credentials/how-to-create-a-free-developer-account)
+- [Set up sign-up and sign-in with a Microsoft Account - Azure AD B2C | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-microsoft-account?pivots=b2c-user-flow)
+- **TODO: Proklikat https://account.microsoft.com/?ref=MeControl&refd=www.microsoft365.com**
+  - cena pomocí triku prodloužení?
 
 ## Google
 
-- [Identity and Access Management &nbsp;|&nbsp; IAM &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/iam/)
-  - *"provided on no additional charge"*
-- [Overview of Google identity management &nbsp;|&nbsp; Cloud Architecture Center &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/architecture/identity/overview-google-authentication)
+- ~~[Identity and Access Management &nbsp;|&nbsp; IAM &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/iam/)~~
+  - ~~*"provided on no additional charge"*~~
+  - ~~[Overview of Google identity management &nbsp;|&nbsp; Cloud Architecture Center &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/architecture/identity/overview-google-authentication)~~
+  - is only for access to the Cloud
+- [Identity Platform &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/identity-platform)
+- **TODO: Google Workspace**
+- **TODO: GSuite for family existuje?**
 
 ## Synnogy
 
@@ -61,3 +68,18 @@
     - Data security - provides DLP (Data loss prevention)
     - Threat protection - anti-mallware & sandboxing & URL filtering .…
     - Compliance - self explaining
+
+### TODO
+
+- cloud backup & device search & antivirus & family safety
+  - kolem Google workspace
+- Vašek má Synnology disk!
+- [Box - Nextcloud](https://nextcloud.com/box/)
+- on-prem - zmínit hardwarovou bezpečnost
+- seznam.cz poskytuje Open-ID?
+  - přihlášení na vašem webu pomocí Seznam účtu?
+- synchronizace všeho po ukradení notebooku?
+  - prý umí Synnology
+- pozor na krabicové officy - not in scope of this thesis
+- Klárka - doptat na věci
+- tisky? WiFi?
