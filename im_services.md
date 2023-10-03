@@ -69,6 +69,12 @@
     - Threat protection - anti-mallware & sandboxing & URL filtering .…
     - Compliance - self explaining
 
+
+## Authelia
+-  https://www.authelia.com/
+- open-source IdP
+
+
 ### TODO
 
 - cloud backup & device search & antivirus & family safety
@@ -83,3 +89,11 @@
 - pozor na krabicové officy - not in scope of this thesis
 - Klárka - doptat na věci
 - tisky? WiFi?
+
+### Cloudflare login
+
+
+- https://www.authelia.com/integration/openid-connect/cloudflare-zerotrust/
+- https://www.reddit.com/r/selfhosted/comments/z9n8ul/using_cloudflare_tunnel_auth_with_gitea/
+- https://developers.cloudflare.com/cloudflare-one/tutorials/gitlab/
+
