@@ -10,6 +10,11 @@
   - [Phone app](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/protect-your-family-how-to-select-a-phone-monitoring-app) allows for key-logging
   - payed ransomware protection & 6TB of OneDrive space
   - up to 6 accounts
+  - much faster onboarding than Google (thanks to existing email?)
+  - Junior can be allowed/denied to use microsoft account to login to 3rd party services
+  - can set spedning limit using Microsoft money
+    - https://support.microsoft.com/cs-cz/account-billing/p%C5%99id%C3%A1n%C3%AD-pen%C4%9Bz-na-%C3%BA%C4%8Det-microsoft-%C4%8Dlena-rodiny-d2a4d821-4d8b-fe19-49f1-c21d51f18aa7
+  - 
 - [Microsoft Entra - Secure Identities and Access | Microsoft Security](https://www.microsoft.com/en-us/security/business/microsoft-entra)
   - [Microsoft Entra Plans and Pricing | Microsoft Security](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)
   - says free, but could not find it
@@ -20,6 +25,9 @@
   - [Přidání existujícího předplatného Azure do tenanta - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/cs-cz/azure/active-directory/fundamentals/how-subscriptions-associated-directory?amp%3Bclcid=0x5)
   - [Vytvoření bezplatného vývojářského tenanta Azure Active Directory - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/cs-cz/azure/active-directory/verifiable-credentials/how-to-create-a-free-developer-account)
 - [Set up sign-up and sign-in with a Microsoft Account - Azure AD B2C | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-microsoft-account?pivots=b2c-user-flow)
+- OneDrive has ransomware protection
+  - https://support.microsoft.com/en-us/windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3
+- 
 - **TODO: Proklikat https://account.microsoft.com/?ref=MeControl&refd=www.microsoft365.com**
   - cena pomocí triku prodloužení?
 
@@ -30,8 +38,37 @@
   - ~~[Overview of Google identity management &nbsp;|&nbsp; Cloud Architecture Center &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/architecture/identity/overview-google-authentication)~~
   - is only for access to the Cloud
 - [Identity Platform &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/identity-platform)
-- **TODO: Google Workspace**
-- **TODO: GSuite for family existuje?**
+- Workpace for bussiness (expensive)
+  - 6€/user/month - https://workspace.google.com/intl/cs/pricing.html
+- Workspace for inviduals
+  - 240CZK/month - https://workspace.google.com/intl/cs/individual/
+  - has e-signature, cool
+- Ransomware protection - not needed on Chrome OS
+  - https://static.googleusercontent.com/media/www.google.com/cs//support/enterprise/static/gapps/docs/admin/en/gapps_workspace/How%20to%20mitigate%20ransomware%20risks%20for%20Google%20Workspace%20documents.pdf
+- Drive & Mail anti-virus scan
+- GSuite for families = Google One
+  - https://one.google.com/faq/plan-sharing - up to 6 people
+  - full Smarphone backup - https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red
+  - payed tarrif offers advanced photo editing
+  - 100GB = 50CZK/month
+  - 2TB = 80CZK/month + better google meet
+    - https://one.google.com/premium/workspace?hl=cs&utm_medium=web&utm_term=escape_hatch&utm_campaign=&utm_source=
+  - Jaký je rozdíl mezi službou Google One a Google Workspace Individual?
+    - Google Workspace Individual zahrnuje prémiové funkce jako rozpis schůzek a e‑mailový marketing, které jednotlivým vlastníkům firem pomáhají s provozem a rozšiřováním podniku. Google One je tarif pro běžné uživatele, který poskytuogole je větší úložiště ve službách Disk Google, Gmail a Fotky Google a další funkce a výhody Google.
+  - Google experts - can help with recovering deleted files, ...
+  - Offers VPN - https://support.google.com/googleone/answer/7582172
+    - not in Czechia
+- Google Families - [Google Family Group - Stay Connected with a Family Account](https://families.google/intl/en_us/families/)
+  - free
+- Google Family Link - https://familylink.google.com/
+  - offers child account creation
+  - needs to add payment card
+    - child has access to a card with parent permission
+  - allows location watching (Android), web restrictions
+    - the restrictions can be overriden by parent PIN code
+  - 
+  - ![](/home/adam/.config/marktext/images/2023-10-05-08-49-05-image.png)
+  - ![](/home/adam/.config/marktext/images/2023-10-05-08-50-14-image.png)
 
 ## Synnogy
 
@@ -68,32 +105,54 @@
     - Data security - provides DLP (Data loss prevention)
     - Threat protection - anti-mallware & sandboxing & URL filtering .…
     - Compliance - self explaining
-
+- Identity sources:
+  - Azure AD tennant - hard to set-up
+    - [Azure AD® · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/azuread/)
+  - Google Project - allows any Google user to log-in
+    - [Google · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/google/)
+  - Google Workspace - **TODO**
+    - [Google Workspace - IdP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/gsuite)
+- **TO STUDY** - logging in with cloudlfare
+  - [Cloudflare Zero Trust - Integration - Authelia](https://www.authelia.com/integration/openid-connect/cloudflare-zerotrust/)
+  - [Reddit - Dive into anything](https://www.reddit.com/r/selfhosted/comments/z9n8ul/using_cloudflare_tunnel_auth_with_gitea/)
+  - [Zero Trust GitLab SSH & HTTP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/tutorials/gitlab/)
 
 ## Authelia
--  https://www.authelia.com/
-- open-source IdP
 
+- https://www.authelia.com/
+- open-source IdP
+- **TO DISCUSS** -- should be included?
+
+## Seznam
+
+- ![](assets/2023-10-04-11-06-48-image.png)
+- může ověřit účet pomocí bankovní identity
+- používá vlastní 2FA aplikace, fallback na SMS
+- [OpenID zrušeno 2015](https://www.cnews.cz/clanky/seznam-rusi-openid-lide-se-uz-naucili-pouzivat-jine-zpusoby-prihlasovani/)
+- [Podporuje OAuth](https://vyvojari.seznam.cz/oauth)
+
+## MojeID
+
+- [hodně podporovaných služeb](https://www.mojeid.cz/cs/kde-pouzit/katalog-sluzeb/) - datová schránka, portál občana, Alza, knihovny, ....
+  - dovoluje nastavit jako [zdroj OIDC](https://www.mojeid.cz/dokumentace/html/ImplementacePodporyMojeid/OpenidConnect/index.html)
+- může mít úroveň záruky "vysoká", "značná" atp.
+
+## Nextcloud
+
+- [Box - Nextcloud](https://nextcloud.com/box/)
+- může být [OIDC provider](https://apps.nextcloud.com/apps/oidc)
+
+## Notes
+
+- zmínit hardwarovou bezpečnost - řeší ji někdo? Používají šifrování? USB s PIN?
+- krabicové offices - často už nemají updates -> nebezpečné
 
 ### TODO
 
-- cloud backup & device search & antivirus & family safety
-  - kolem Google workspace
 - Vašek má Synnology disk!
-- [Box - Nextcloud](https://nextcloud.com/box/)
-- on-prem - zmínit hardwarovou bezpečnost
-- seznam.cz poskytuje Open-ID?
-  - přihlášení na vašem webu pomocí Seznam účtu?
 - synchronizace všeho po ukradení notebooku?
   - prý umí Synnology
-- pozor na krabicové officy - not in scope of this thesis
 - Klárka - doptat na věci
 - tisky? WiFi?
 
-### Cloudflare login
-
-
-- https://www.authelia.com/integration/openid-connect/cloudflare-zerotrust/
-- https://www.reddit.com/r/selfhosted/comments/z9n8ul/using_cloudflare_tunnel_auth_with_gitea/
-- https://developers.cloudflare.com/cloudflare-one/tutorials/gitlab/
 
