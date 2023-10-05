@@ -122,6 +122,7 @@
 - https://www.authelia.com/
 - open-source IdP
 - **TO DISCUSS** -- should be included?
+- https://www.keycloak.org/
 
 ## Seznam
 
@@ -154,5 +155,3 @@
   - prý umí Synnology
 - Klárka - doptat na věci
 - tisky? WiFi?
-
-

@@ -34,6 +34,5 @@
   - cannot read text in front of them, needs help
 - does not comprehend that free things can be also good
 - *can have kids taking care of their accounts*
-- 
 
-
+**TODO: individual**
