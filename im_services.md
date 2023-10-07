@@ -112,17 +112,31 @@
     - [Google · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/google/)
   - Google Workspace - **TODO**
     - [Google Workspace - IdP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/gsuite)
-- **TO STUDY** - logging in with cloudlfare
-  - [Cloudflare Zero Trust - Integration - Authelia](https://www.authelia.com/integration/openid-connect/cloudflare-zerotrust/)
-  - [Reddit - Dive into anything](https://www.reddit.com/r/selfhosted/comments/z9n8ul/using_cloudflare_tunnel_auth_with_gitea/)
-  - [Zero Trust GitLab SSH & HTTP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/tutorials/gitlab/)
+
+### Logging in with Cloudflare
+
+- [Question on Reddit (without answer)](https://www.reddit.com/r/selfhosted/comments/z9n8ul/using_cloudflare_tunnel_auth_with_gitea/)
+- [Validate JWTs · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/authorization-cookie/validating-json/)
+  - name of the cookies, Python code
+  - [Validate the Access token with FastAPI · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/tutorials/fastapi/)
+- [Zero Trust GitLab SSH & HTTP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/tutorials/gitlab/)
+  - shows only access protection, not logging in
+- can you SAML for NextCloud - requires click on login
+  - https://medium.com/@ntrussell/enable-nextcloud-sso-authentication-through-microsoft-azure-active-directory-saml-abe37d735cd
+  - [SaaS applications · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps)
+  - for self-hosted applications two apps must be set-up
+    - one as self hosted for access
+    - second as SaaS for SAML
+- gitea has no SAML yet - https://github.com/go-gitea/gitea/issues/5512
+  - *to study*: [SAML vs OIDC: What’s the Real Difference? | OneLogin Blog](https://www.onelogin.com/blog/real-difference-saml-oidc)
+  - maybe implement custom SAML -> OIDC server?
 
 ## Authelia
 
 - https://www.authelia.com/
 - open-source IdP
-- **TO DISCUSS** -- should be included?
-- https://www.keycloak.org/
+- alternative: https://www.keycloak.org/
+  - has support for Kerberos, but overall difficult to configure
 
 ## Seznam
 
