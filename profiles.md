@@ -1,5 +1,12 @@
 # User profiles
 
+## TODO
+- check if already found definitions
+- https://is.muni.cz/auth/th/h7qfk/
+- define exactly needs
+- defines what probles are now
+- finish small company
+
 ## Questions
 
 - how backup is handled?
@@ -51,6 +58,8 @@
 - family chat on Viber, friends chat on Instagram
 - browses internet using Edge on laptop, Chrome on Android
 - have bough Microsoft Office 2010 and refuse to upgrade to monthly subscription, because it still just works
+- smart TV with kids lock (privacy intrusive OS etc.)
+- one WiFi router from ISP with single SSID
 
 ### Individual tech-skilled user
 
@@ -63,12 +72,14 @@
 - in the past used Dropbox & Ulož.to to backup data, did not delete the accounts and forgot about them
 - uses Telegram for daily messaging
 - runs Chrome on both laptop and smartphone
-- synchronizes passwords using Google Chrome
+- synchronizes passwords using Google Chrome -**TODO: check if required additional password**
 - to access their data/passwords, sings using Google account on their friends/public PC regulary
 - has MFA application for every service: Google (using smartphone), Microsoft Authenticator, Steam App
   - has printed recovery codes but forgot where they put them
 - has Microsoft Defender on laptop
 - runs own Minecraft server using LogMeIn Hamachi
+- travels to school daily -> connects to public WiFis in trains, etc.
+- uses BankId for stipends
 
 ### Individual iPhone-based low-tech user
 
@@ -86,6 +97,7 @@
 ### A small company/tech start-up
 
 - 20 employees
+- hybrid working in co-working center
 - MacBooks and iPhones are company-provided
 - Windows Laptop as a server
   - Hyper-V virtual machines with shared SSH Linux accounts and RDP Windows accounts
