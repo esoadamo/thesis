@@ -161,11 +161,12 @@
 
 - zmínit hardwarovou bezpečnost - řeší ji někdo? Používají šifrování? USB s PIN?
 - krabicové offices - často už nemají updates -> nebezpečné
+- [Study Reveals Average Person Has 100 Passwords | Tech.co](https://tech.co/password-managers/how-many-passwords-average-person)
+- nejsou žádné zdroje na definici uživatelů kromě https://is.muni.cz/th/h7qfk/thesis.pdf
 
 ### TODO
 
 - Vašek má Synnology disk!
 - synchronizace všeho po ukradení notebooku?
   - prý umí Synnology
-- Klárka - doptat na věci
 - tisky? WiFi?
