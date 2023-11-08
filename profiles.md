@@ -36,7 +36,9 @@
 - *can have kids taking care of their accounts*
 
 ## Profiles
+
 ### Family with low-tech skills
+
 - 2 parents, 2 children (12 and 8 years old)
 - parents have work Windows laptops, children have one shared laptop
 - all of them have Android smartphones in under 7k CZK range
@@ -51,6 +53,7 @@
 - have bough Microsoft Office 2010 and refuse to upgrade to monthly subscription, because it still just works
 
 ### Individual tech-skilled user
+
 - 19 years old
 - reluctant to pay for software
 - Android smartphone
@@ -63,18 +66,34 @@
 - synchronizes passwords using Google Chrome
 - to access their data/passwords, sings using Google account on their friends/public PC regulary
 - has MFA application for every service: Google (using smartphone), Microsoft Authenticator, Steam App
-    - has printed recovery codes but forgot where they put them
+  - has printed recovery codes but forgot where they put them
 - has Microsoft Defender on laptop
 - runs own Minecraft server using LogMeIn Hamachi
 
 ### Individual iPhone-based low-tech user
+
 - 20 years old
 - has iPhone 11 and Windows laptop
 - saves photos to iCloud, accesses them on iPhone mostly
-    - manually downloads them with browser on PC if required
+  - manually downloads them with browser on PC if required
 - has full iPhone backup in iCloud
 - pays for extended iCloud storage
 - passwords saved with Apple password manager
-    - no way to acess them on Windows, must retype manually 
+  - no way to acess them on Windows, must retype manually 
 - uses Seznam email as main account, without MFA
 - has school-isued Microsoft account with Outlook for school-related communication
+
+### A small company/tech start-up
+
+- 20 employees
+- MacBooks and iPhones are company-provided
+- Windows Laptop as a server
+  - Hyper-V virtual machines with shared SSH Linux accounts and RDP Windows accounts
+- need to access internal network
+  - OpenVPN on a virtual Linux machine with static password
+- have a file on Google Drive with shareds passwords
+- self-hosted Jenkins
+  - no login needed for LAN network
+- using custom DNS `xxxx.company.internal` with custom CA
+- code stored on public GitLab
+- larger files shared through USB
