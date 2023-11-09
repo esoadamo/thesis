@@ -1,11 +1,21 @@
 # User profiles
 
 ## TODO
-- check if already found definitions
-- https://is.muni.cz/auth/th/h7qfk/
-- define exactly needs
-- defines what probles are now
-- finish small company
+- https://is.muni.cz/th/h7qfk/
+- digitální kompetence
+    - summary do týdne
+    - pajdák diplomky
+    - kurzy jak udělat digitálnější lidi
+- metodology
+    - problems with the curent approach
+        - that are already solved by current settings
+        - that are not solved/caused by the current settings
+    - which tasks/problems are shared
+        - can be increasing – for single user vs for multiple users may be different needs
+    - in the end we will assigns weights/scores
+        - and scores how the problems can be solved by the tasks
+- Synnology as a control group
+- point out additional problems that cannot be easily solved?
 
 ## Questions
 
@@ -102,7 +112,7 @@
 - Windows Laptop as a server
   - Hyper-V virtual machines with shared SSH Linux accounts and RDP Windows accounts
 - need to access internal network
-  - OpenVPN on a virtual Linux machine with static password
+  - OpenVPN on a virtual Linux machine with static password, with dynamic IP
 - have a file on Google Drive with shareds passwords
 - self-hosted Jenkins
   - no login needed for LAN network
