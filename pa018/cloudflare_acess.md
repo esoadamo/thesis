@@ -24,7 +24,11 @@ Another approach may be to purchage a cheap VPS (virtual private server), which 
 
 An option that relies solely on the clients talking directly to each other, usually with a help of nodes that act as a middlemans exchaning information about connected clients to each other.  Examples of such software may be [LogMeIn Hamachi](https://www.vpn.net/), [n2n](https://github.com/ntop/n2n/releases) and [gsocket](https://github.com/hackerschoice/gsocket/). Most prominently, the Hamachi is targeted on regular users, requiring little to no technical knowledge. This makes the entry barrier almost non-existent. On the other hand, it requires special software to be installed on both server and, because of its P2P nature, clients and may be blocked on more restricted networks like airports or hotel lobbies.
 
-## CFA
+## Cloudflare Access
+
+Clouflare Access is a product from a company with the same name. Cloudlfare is perhaps best known for their word-wide CDN (content delivery network), which offers both hosting static pages and acting as a reverse proxy where the inbound connections are accepted to the Cloudflare network and then internaly forwarded to a real server which will then process the request. Main benefits of using Cloudflare as a reverse proxy are then hiding locations of the real servers, which is useful in case of DDOS attacks which Cloudflare can then filter out.
+
+Generally, Cloudlfare masks the real IP adress of the server by overwriting responses to DNS queries with adressess from their own IP range. On the other hand, Cloudflare access  
 
 ## CF Zero Trust
 
