@@ -28,7 +28,19 @@ An option that relies solely on the clients talking directly to each other, usua
 
 Clouflare Access is a product from a company with the same name. Cloudlfare is perhaps best known for their word-wide CDN (content delivery network), which offers both hosting static pages and acting as a reverse proxy where the inbound connections are accepted to the Cloudflare network and then internaly forwarded to a real server which will then process the request. Main benefits of using Cloudflare as a reverse proxy are then hiding locations of the real servers, which is useful in case of DDOS attacks which Cloudflare can then filter out.
 
-Generally, Cloudlfare masks the real IP adress of the server by overwriting responses to DNS queries with adressess from their own IP range. On the other hand, Cloudflare access  
+Generally, Cloudlfare masks the real IP adress of the server by overwriting responses to DNS queries with adressess from their own IP range. On the other hand, Cloudflare access offers a multitude of approaches.
+
+### CFA Application types
+
+There are three main application types that Cloudflare access supports.
+
+### SaaS (Software as a Service)
+
+Cloudflare Acess supports integration with SaaS directly, but this solution is more focused on enterprise applications rather than SoHo, so I will consider it out-of-scope for this project.
+
+#### Self-hosted
+
+This is the type of the application thatI will focus upon in this project. Mainly, I have a self-hosted NextCloud, Gitea and Home Assistant instances running on my LAN.
 
 ## CF Zero Trust
 
