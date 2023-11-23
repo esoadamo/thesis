@@ -1,12 +1,8 @@
+[[thesis]]
 # User profiles
 
 ## TODO
 
-- https://is.muni.cz/th/h7qfk/
-- digitální kompetence
-  - summary do týdne
-  - pajdák diplomky
-  - kurzy jak udělat digitálnější lidi
 - metodology
   - problems with the curent approach
     - that are already solved by current settings
@@ -20,6 +16,7 @@
 
 ## Digital competence
 
+- https://is.muni.cz/th/h7qfk/ - very basic
 - [digitální gramotnost v RVP ZV | revize ICT RVP v ZV](https://revize.edu.cz/digitalni-gramotnost-v-rvp-zv)
   - has a diagram what a high school absolvent should know
 - [Digital Skills Assessment Tool](https://europa.eu/europass/digitalskills/screen/home)

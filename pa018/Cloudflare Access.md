@@ -1,3 +1,4 @@
+[[thesis]]
 # Using Cloudflare Access for exposing self-hosted LAN applications
 
 Self-hosting applications at one's home provides benefits over using their cloud-native alternativates. These benefits may include privacy (your data is stored at your hardware vs in cloud with 2nd party),

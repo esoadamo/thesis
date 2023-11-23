@@ -1,3 +1,4 @@
+[[thesis]]
 ## Favorite subject
 
 - intrusion detection
