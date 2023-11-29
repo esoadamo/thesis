@@ -41,7 +41,11 @@ Cloudflare Acess supports integration with SaaS directly, but this solution is m
 
 #### Self-hosted
 
-This is the type of the application thatI will focus upon in this project. Mainly, I have a self-hosted NextCloud, Gitea and Home Assistant instances running on my LAN.
+This is the type of the application thatI will focus upon in this project. Mainly, I have a self-hosted NextCloud, Gitea and Home Assistant instances running on my LAN. For this type.
+
+### Access policy
+
+If we were only to use the 
 
 ## CF Zero Trust
 
