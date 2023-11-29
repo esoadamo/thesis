@@ -1,0 +1,45 @@
+
+@misc{Ciernikova2022thesis,
+        AUTHOR = {ierniková, Tamara},
+        TITLE = {Selected open tools supporting security and privacy protection for regular end-users},
+        YEAR = {2022},
+        TYPE = {Bakaláská práce},
+        INSTITUTION = {Masarykova univerzita, Fakulta informatiky},
+        LOCATION = {Brno},
+        SUPERVISOR = {Václav Matyáš},
+        URL = {https://is.muni.cz/th/h7qfk/},
+        URL_DATE = {2023-11-29},
+}
+
+
+@unknown{DigiCompLevels,
+author = {Carretero, Stephanie and Vuorikari, Riina and Punie, Yves},
+year = {2017},
+month = {05},
+pages = {},
+title = {DigComp 2.1. The digital competence framework for citizens with eight proficiency levels and examples of use},
+doi = {10.2760/38842}
+}
+
+
+@unknown{DigiCompEduCZ,
+author = {NPO 3.1 DIGI NPI R},
+year = {2023},
+title = {Digitální kompetence v uzlových bodech vzdlávání},
+url = {https://revize.edu.cz/digikompetence-uzlove-body}
+}
+
+@article{STEINLECHNER20211185,
+title = {A maturity model to assess digital employee competencies in industrial enterprises},
+journal = {Procedia CIRP},
+volume = {104},
+pages = {1185-1190},
+year = {2021},
+note = {54th CIRP CMS 2021 - Towards Digitalized Manufacturing 4.0},
+issn = {2212-8271},
+doi = {https://doi.org/10.1016/j.procir.2021.11.199},
+url = {https://www.sciencedirect.com/science/article/pii/S2212827121010970},
+author = {Markus Steinlechner and Andreas Schumacher and Benedikt Fuchs and Luisa Reichsthaler and Sebastian Schlund},
+keywords = {Industry 4.0, Digitalization, Digital Competencies, Maturity Model, Human Resource},
+abstract = {Industrial enterprises increasingly identify their employee’s digital competences as a main barrier towards modern manufacturing paradigms – such as Industry 4.0. Considering shorter technology cycles, they find a key enabler in timely capturing existing digital competences to forecast future competence requirements relating to identified trends. To support digital competence planning in practise, we developed a digital competence maturity model (DigiCoM), consisting of 49 attributes in four dimensions to measure maturity on individual employee level. The model considers digital competences required for direct value creation activities as well as competences in supporting areas. We tested the model in several use-cases, whereby two use-cases in SMEs are presented in detail. Result evaluation shows that the proposed approach makes digital competences visible and measurable and builds the basis for the derivation of competence developments. The DigiCoM therefore allows interconnecting strategic human resource planning with operational employee competences on an individual level.}
+}
