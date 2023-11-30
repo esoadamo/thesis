@@ -43,3 +43,28 @@ author = {Markus Steinlechner and Andreas Schumacher and Benedikt Fuchs and Luis
 keywords = {Industry 4.0, Digitalization, Digital Competencies, Maturity Model, Human Resource},
 abstract = {Industrial enterprises increasingly identify their employee’s digital competences as a main barrier towards modern manufacturing paradigms – such as Industry 4.0. Considering shorter technology cycles, they find a key enabler in timely capturing existing digital competences to forecast future competence requirements relating to identified trends. To support digital competence planning in practise, we developed a digital competence maturity model (DigiCoM), consisting of 49 attributes in four dimensions to measure maturity on individual employee level. The model considers digital competences required for direct value creation activities as well as competences in supporting areas. We tested the model in several use-cases, whereby two use-cases in SMEs are presented in detail. Result evaluation shows that the proposed approach makes digital competences visible and measurable and builds the basis for the derivation of competence developments. The DigiCoM therefore allows interconnecting strategic human resource planning with operational employee competences on an individual level.}
 }
+
+@article{OECDSkills,
+   author = "OECD",
+   title = "Skills for a Digital World",
+   year = "2016",
+   number = "250",
+   url = "https://www.oecd-ilibrary.org/content/paper/5jlwz83z3wnw-en",
+   doi = "https://doi.org/https://doi.org/10.1787/5jlwz83z3wnw-en"
+}
+
+@misc{OECDSkillsBrief,
+   author = "OECD",
+   title = "Policy brief on the future of work: Skills for a Digital World",
+   year = "2016",
+   month = "12",
+   url = "https://www.oecd.org/els/emp/Skills-for-a-Digital-World.pdf"
+}
+
+@presentation{OECDSkillsMatter,
+   author = "OECD",
+   title = "Skills matter - Additional results from the survey of adult skills",
+   year = "2019",
+   month = "11",
+   url = "https://www.slideshare.net/OECDEDU/skills-matter-additional-results-from-the-survey-of-adult-skills"
+}

@@ -9,7 +9,7 @@
 | 4     | Understanding    | Independent and according to my needs                                    | Understanding       |
 | 5     | Applying         | Guiding others                                                           | Applying            |
 | 6     | Evaluating       | Able to adapt to others in a complex context                             | Evaluating          |
-| 7     | Creating         | Integrate to contribute to the professional practice and to guide others | Creaating           |
+| 7     | Creating         | Integrate to contribute to the professional practice and to guide others | Creating            |
 | 8     | Creating         | Propose new ideas and processes to the field                             | Creating            |
 
 ## Competence areas
@@ -57,9 +57,22 @@
 - avg levels per industry:
 	- service company: 3.0 + 2.8 + 2.9 + 3.0 = 5.85 on DigiComp
 	- manufacturing: 1.8 + 2.2 + 1.8 + 1.7 = 3.75 on DigiComp
+## Expected level of competence per country
+- from [[@OECDSkillsBrief]] and [[@OECDSkillsMatter]]
+- level mapping from OECD (1-3; [[@OECDSkillsMatter]]) to DigiComp (1-8)
+	- 1 -> 2
+	- 2 -> 3
+	- 3 -> 6
+- 2019 ([[@OECDSkillsMatter]]):
+	- young adults circa 35% level 2, 10 % level 3
+	- older adults circa 8 % level 2, 2 % level 3
+- 2015 ([[@OECDSkillsBrief]]):
+	- circa 20 % level 2, 5 % level 3
 ## Sources
 - [[@Ciernikova2022thesis]]
 	- very basic, only beginner & advanced user distinction
+- [[@OECDSkills]]
+	- what tasks are users performing when using ICT daily
 - [[@DigiCompEduCZ]]
   - has a diagram what a high school absolvent should know
 - [Digital Skills Assessment Tool](https://europa.eu/europass/digitalskills/screen/home)
