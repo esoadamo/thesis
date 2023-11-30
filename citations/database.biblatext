@@ -12,6 +12,8 @@
 }
 
 
+
+
 @unknown{DigiCompLevels,
 author = {Carretero, Stephanie and Vuorikari, Riina and Punie, Yves},
 year = {2017},
@@ -68,3 +70,27 @@ abstract = {Industrial enterprises increasingly identify their employee’s digita
    month = "11",
    url = "https://www.slideshare.net/OECDEDU/skills-matter-additional-results-from-the-survey-of-adult-skills"
 }
+
+
+
+@blog{ViberRestoreChat,
+   author = " Viber Media",
+   title = "Transfer Your Chat History From One Phone to Another ",
+   year = "2023",
+   url = "https://help.viber.com/hc/en-us/articles/9173905938845-Transfer-Your-Chat-History-From-One-Phone-to-Another"
+   accessed = "2023-11-30"
+}
+
+
+@misc{FBIDataMessenger,
+	title = {Here's what data the {FBI} can get from {WhatsApp}, {iMessage}, {Signal}, {Telegram}, and more},
+	url = {https://www.malwarebytes.com/blog/news/2021/12/heres-what-data-the-fbi-can-get-from-whatsapp-imessage-signal-telegram-and-more/},
+	abstract = {A disclosed FBI training document reveals what information can be revealed about your usage of an end to end encrypted instant messaging app.},
+	language = {en},
+	urldate = {2023-11-30},
+	journal = {Malwarebytes},
+	author = {Arntz, Pieter},
+	month = nov,
+	year = {2021},
+}
+

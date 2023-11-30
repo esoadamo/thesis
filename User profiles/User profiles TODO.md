@@ -1,11 +1,9 @@
 Describes what is left to do in regards to [[Profiles]]
-- metodology
-  - problems with the curent approach
-    - that are already solved by current settings
-    - that are not solved/caused by the current settings
-  - which tasks/problems are shared
-    - can be increasing – for single user vs for multiple users may be different needs
+- [[Metodology]]
   - in the end we will assigns weights/scores
     - and scores how the problems can be solved by the tasks
 - Synnology as a control group
+	- #todo move selected services to custom file
+	- #todo move obsolete services to custom file
+	- #todo analyze Synnology closer
 - point out additional problems that cannot be easily solved?
