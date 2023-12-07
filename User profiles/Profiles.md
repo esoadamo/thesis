@@ -9,3 +9,9 @@
 	- [[Profile of a small company or tech start-up]]
 ## Shared problems/needs
 - #todo *can also be increasing problems with scale*
+- password/secrets synchronization
+	- and sharing (increases in scale)
+- backing up important data
+- malware protection
+- password leak protection
+- 

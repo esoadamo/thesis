@@ -94,3 +94,7 @@ abstract = {Industrial enterprises increasingly identify their employee’s digita
 	year = {2021},
 }
 
+
+@misc{Toulas_2023, title={Google Drive users angry over losing months of stored data}, url={https://www.bleepingcomputer.com/news/google/google-drive-users-angry-over-losing-months-of-stored-data/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Toulas, Bill}, year={2023}, month={Nov}}
+
+@misc{GoogleChromePasswordProtection, title={How chrome protects your passwords}, url={https://support.google.com/chrome/answer/10311524}, journal={Google Chrome Help}, publisher={Google}, author={Google}}

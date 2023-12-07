@@ -2,7 +2,7 @@
 ## Profile description
 
 - 2 parents, 2 children (12 and 8 years old)
-- parents have work Windows laptops, children have one shared laptop
+- parents have work Windows laptops, children have one shared laptop with shared account set-up from store
 - all of them have Android smartphones in under 7k CZK range
 - have bought external USB harddrive for photo backup
 - neither of them is able to read warning messages - they just click agree if visible
@@ -18,6 +18,7 @@
 ## Problems with current approach
 
 - parents are using work laptop for personal agendas
+- children share the same account, may cause problems with sessions and logging out
 - their smartphones are most likely without newest security updates
 - single external USB hard drive is susceptible to fail -- simple drop to ground can destroy it
 - their low digital competence may make them vulnerable to phishing and advertising attacks
@@ -29,9 +30,15 @@
 - ISP may provide router without security patches
 - given their low understanding of technology terms, their TV may record all their conversation
 ## Already solved problems
-- #todo 
+- rudimentary backup
+- being aware of password separation
+- antivirus laptop protection
+- Home WiFi settings
 ## Needs not covered
-- #todo 
 - monitoring of child's online activity
 - monitor of child's real-time position
-- 
+- privacy protection
+- redundant backup
+- scheduled backup
+- guest WiFi password
+- secrets sharing & password management
