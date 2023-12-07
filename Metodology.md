@@ -12,3 +12,4 @@
 - how hard it is to integrate with other systems
 - how hard it is to import data from another system
 - how hard it is to export data to another system
+- how relevant it is to this profile
