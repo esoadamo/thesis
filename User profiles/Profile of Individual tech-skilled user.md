@@ -25,13 +25,17 @@
 - has legacy accounts with forgotten data
 	- may not be sufficiently protected and may leak personal information
 - uses possibly unsafe chat application with messages stored in Russia
-- Google Drive may loose stored data [[@Toulas_2023]]
+- Google Drive may loose stored data [[@Toulas_2023]] [[@GoogleDriveRecovery]]
 - friend's PC may be insecure and infected with malware
 	- may leak history (privacy) and passwords
-- 
+- no system for storing MFA recovery codes
+- connecting to unsecure networks with possibly vulnerable devices
+- LogMeIn Hamachi may expose their device to external threats
 ## Already solved problems
 - password synchronization
 - password leak detection [[@GoogleChromePasswordProtection]]
+- MFA for most critical accounts
+- basic endpoint malware protection
 ## Needs not covered
 - smartphone malware protection
 - device endpoint protection on public WiFi

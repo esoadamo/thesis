@@ -11,10 +11,8 @@
 - uses Seznam email as main account, without MFA
 - has school-isued Microsoft account with Outlook for school-related communication
 ## Problems with current approach
-- #todo 
+- no MFA on mail email account, possible takeover of said account [[@SeznamZtrataUctu]]
 ## Already solved problems
 - #todo 
 ## Needs not covered
-- #todo 
-## Needs not covered
-- #todo 
+- passwords synchronization with laptop
