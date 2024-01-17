@@ -1,0 +1,38 @@
+## Google
+
+- ~~[Identity and Access Management &nbsp;|&nbsp; IAM &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/iam/)~~
+  - ~~*"provided on no additional charge"*~~
+  - ~~[Overview of Google identity management &nbsp;|&nbsp; Cloud Architecture Center &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/architecture/identity/overview-google-authentication)~~
+  - is only for access to the Cloud
+- [Identity Platform &nbsp;|&nbsp; Google Cloud](https://cloud.google.com/identity-platform)
+- Workpace for bussiness (expensive)
+  - 6€/user/month - https://workspace.google.com/intl/cs/pricing.html
+- Workspace for inviduals
+  - 240CZK/month - https://workspace.google.com/intl/cs/individual/
+  - has e-signature, cool
+- Ransomware protection - not needed on Chrome OS
+  - https://static.googleusercontent.com/media/www.google.com/cs//support/enterprise/static/gapps/docs/admin/en/gapps_workspace/How%20to%20mitigate%20ransomware%20risks%20for%20Google%20Workspace%20documents.pdf
+- Drive & Mail anti-virus scan
+- GSuite for families = Google One
+  - https://one.google.com/faq/plan-sharing - up to 6 people
+  - full Smarphone backup - https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red
+  - payed tarrif offers advanced photo editing
+  - 100GB = 50CZK/month
+  - 2TB = 80CZK/month + better google meet
+    - https://one.google.com/premium/workspace?hl=cs&utm_medium=web&utm_term=escape_hatch&utm_campaign=&utm_source=
+  - Jaký je rozdíl mezi službou Google One a Google Workspace Individual?
+    - Google Workspace Individual zahrnuje prémiové funkce jako rozpis schůzek a e‑mailový marketing, které jednotlivým vlastníkům firem pomáhají s provozem a rozšiřováním podniku. Google One je tarif pro běžné uživatele, který poskytuogole je větší úložiště ve službách Disk Google, Gmail a Fotky Google a další funkce a výhody Google.
+  - Google experts - can help with recovering deleted files, ...
+  - Offers VPN - https://support.google.com/googleone/answer/7582172
+    - not in Czechia
+- Google Families - [Google Family Group - Stay Connected with a Family Account](https://families.google/intl/en_us/families/)
+  - free
+- Google Family Link - https://familylink.google.com/
+  - offers child account creation
+  - needs to add payment card
+    - child has access to a card with parent permission
+  - allows location watching (Android), web restrictions
+    - the restrictions can be overriden by parent PIN code
+  - 
+  - ![](/home/adam/.config/marktext/images/2023-10-05-08-49-05-image.png)
+  - ![](/home/adam/.config/marktext/images/2023-10-05-08-50-14-image.png)

@@ -14,4 +14,4 @@
 - backing up important data
 - malware protection
 - password leak protection
-- 
+- sharing of documents

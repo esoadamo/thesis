@@ -77,9 +77,7 @@
   - has a diagram what a high school absolvent should know
 - [Digital Skills Assessment Tool](https://europa.eu/europass/digitalskills/screen/home)
   - test to be taken
-- [Informační gramotnost a digitální kompetence vysokoškolských
-  studentů na spektru autismu: kvalitativní výzkumná sonda na Masarykově 
-  univerzitě](https://is.muni.cz/th/kh08r/)
+- [Informační gramotnost a digitální kompetence vysokoškolských studentů na spektru autismu: kvalitativní výzkumná sonda na Masarykově  univerzitě](https://is.muni.cz/th/kh08r/
   - valuable links to other sources
 - [Modely digitálních kompetencí](https://www.jtie.upol.cz/getrevsrc.php?identification=public&mag=jti&raid=185&type=fin&ver=2)
   - compilation of 16 studies with major points from each of them

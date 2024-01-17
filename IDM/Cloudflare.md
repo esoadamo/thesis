@@ -1,0 +1,52 @@
+- **[Cloudflare One](https://www.cloudflare.com/cloudflare-one/)**, [the story of](https://iframe.cloudflarestream.com/dc64ca8874298041945c9a6924c82b4b?preload=metadata)
+- [Family tag on blog](https://blog.cloudflare.com/tag/families/)
+  - [Overview of services for family](https://blog.cloudflare.com/shields-up-free-cloudflare-services-to-improve-your-cyber-readiness/)
+- [Zero trust sales page](https://www.cloudflare.com/zero-trust/)
+  - Integrates with SSO [source](https://www.cloudflare.com/learning/access-management/what-is-sso/)
+    - An [identity provider (IdP)](https://www.cloudflare.com/learning/access-management/what-is-an-identity-provider/) is a service that stores and verifies user identity. IdPs are typically cloud-hosted services, and they often work with single sign-on (SSO) providers to authenticate users.
+  - [Glossary](https://www.cloudflare.com/learning/security/glossary/what-is-zero-trust/)
+  - [Zero trust network access learning](https://www.cloudflare.com/learning/access-management/what-is-ztna/)
+    - explains ZTNA & endpoints & SDP (software defined perimeter)
+  - [CF Access](https://www.cloudflare.com/zero-trust/products/access/)
+    - Create an aggregation layer for secure access to all your self-hosted, SaaS, or non-web applications
+    - Connect users faster and more safely than a VPN
+    - Try it forever for up to 50 users with our Free plan
+    - has nice video presenting all its pros
+    - can use CF Warp client as an agent
+- [SASE](https://www.cloudflare.com/learning/access-management/what-is-sase/)
+  - _"Secure access service edge, or SASE, is a cloud-based IT model that bundles software-defined networking with network security functions and delivers them from a single service provider."_
+  - components: Secure web gateways (SWG), Cloud access security broker (CASB), Zero Trust Network Access (ZTNA), [Firewall-as-a-service (FWaaS)](https://www.cloudflare.com/learning/cloud/what-is-a-cloud-firewall/)
+    - [next-generation firewall (NGFW)](https://www.cloudflare.com/learning/security/what-is-next-generation-firewall-ngfw/)
+      - Intrusion prevention system (IPS), Deep packet inspection (DPI), Application control (what each application can access)
+- [IAM](https://www.cloudflare.com/learning/access-management/what-is-identity-and-access-management/)
+  - pretty basic
+  - [CASB (cloud access security broker)](https://www.cloudflare.com/learning/access-management/what-is-a-casb/)
+    - Visibility - shows undocummented systems
+    - Data security - provides DLP (Data loss prevention)
+    - Threat protection - anti-mallware & sandboxing & URL filtering .…
+    - Compliance - self explaining
+- Identity sources:
+  - Azure AD tennant - hard to set-up
+    - [Azure AD® · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/azuread/)
+  - Google Project - allows any Google user to log-in
+    - [Google · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/google/)
+  - Google Workspace - **TODO**
+    - [Google Workspace - IdP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/gsuite)
+
+### Logging in with Cloudflare
+
+- [Question on Reddit (without answer)](https://www.reddit.com/r/selfhosted/comments/z9n8ul/using_cloudflare_tunnel_auth_with_gitea/)
+- [Validate JWTs · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/identity/authorization-cookie/validating-json/)
+  - name of the cookies, Python code
+  - [Validate the Access token with FastAPI · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/tutorials/fastapi/)
+- [Zero Trust GitLab SSH & HTTP · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/tutorials/gitlab/)
+  - shows only access protection, not logging in
+- can you SAML for NextCloud - requires click on login
+  - https://medium.com/@ntrussell/enable-nextcloud-sso-authentication-through-microsoft-azure-active-directory-saml-abe37d735cd
+  - [SaaS applications · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps)
+  - for self-hosted applications two apps must be set-up
+    - one as self hosted for access
+    - second as SaaS for SAML
+- gitea has no SAML yet - https://github.com/go-gitea/gitea/issues/5512
+  - *to study*: [SAML vs OIDC: What’s the Real Difference? | OneLogin Blog](https://www.onelogin.com/blog/real-difference-saml-oidc)
+  - maybe implement custom SAML -> OIDC server?

@@ -1,0 +1,30 @@
+
+- [Microsoft family safety docs](https://support.microsoft.com/en-us/account-billing/microsoft-family-safety-bb97220e-9dd8-4b4a-9d15-8194d5941dc5)
+- ![780c6db41f3413a038a1c6078b707d46.png](./assets/780c6db41f3413a038a1c6078b707d46.png)
+- [Microsoft family safety sales pitch](https://www.microsoft.com/cs-cz/microsoft-365/family-safety?ocid=cmm15zkky0u&rtc=1)
+  - ![93509b1aa144c2641669c027b072872d.png](./assets/93509b1aa144c2641669c027b072872d.png)
+  - net filtering works by blocking browsers other than Edge
+  - [Phone app](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/protect-your-family-how-to-select-a-phone-monitoring-app) allows for key-logging
+  - payed ransomware protection & 6TB of OneDrive space
+  - up to 6 accounts
+  - much faster onboarding than Google (thanks to existing email?)
+  - Junior can be allowed/denied to use microsoft account to login to 3rd party services
+  - can set spedning limit using Microsoft money
+    - https://support.microsoft.com/cs-cz/account-billing/p%C5%99id%C3%A1n%C3%AD-pen%C4%9Bz-na-%C3%BA%C4%8Det-microsoft-%C4%8Dlena-rodiny-d2a4d821-4d8b-fe19-49f1-c21d51f18aa7
+  - 
+- [Microsoft Entra - Secure Identities and Access | Microsoft Security](https://www.microsoft.com/en-us/security/business/microsoft-entra)
+  - [Microsoft Entra Plans and Pricing | Microsoft Security](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)
+  - says free, but could not find it
+  - has basic free tier that should be enough for most users
+  - for some reason I see many personal details of MUNI people
+  - ![](materials/entry-muni-users.png)
+  - ![entra-muni-devices.png](materials/entra-muni-devices.png)
+  - [Přidání existujícího předplatného Azure do tenanta - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/cs-cz/azure/active-directory/fundamentals/how-subscriptions-associated-directory?amp%3Bclcid=0x5)
+  - [Vytvoření bezplatného vývojářského tenanta Azure Active Directory - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/cs-cz/azure/active-directory/verifiable-credentials/how-to-create-a-free-developer-account)
+- [Set up sign-up and sign-in with a Microsoft Account - Azure AD B2C | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-microsoft-account?pivots=b2c-user-flow)
+- OneDrive has ransomware protection
+  - https://support.microsoft.com/en-us/windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3
+- 
+- **TODO: Proklikat https://account.microsoft.com/?ref=MeControl&refd=www.microsoft365.com**
+  - cena pomocí triku prodloužení?
+

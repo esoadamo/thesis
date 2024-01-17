@@ -14,8 +14,16 @@
 - code stored on public GitLab
 - larger files shared through USB
 ## Problems with current approach
-- #todo 
+- Laptop with classical Windows OS is not suitable for multi-user server usage
+- shared SSH accounts and RDP accounts may lead to harder decommissioning of leaving employees
+- OpenVPN does not support MFA
+- Jenkins is not with Zero Trust in mind
+- having to include custom CA into all their devices
 ## Already solved problems
-- #todo 
+- password sharing
+- versioning code
 ## Needs not covered
-- #todo 
+- scalable VM/VPS managment
+- sharing secrets securely
+- least-privilege separation between users
+- secure file sharing for data loss prevention

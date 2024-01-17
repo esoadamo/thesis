@@ -13,6 +13,8 @@
 ## Problems with current approach
 - no MFA on mail email account, possible takeover of said account [[@SeznamZtrataUctu]]
 ## Already solved problems
-- #todo 
+- lost device recovery
 ## Needs not covered
 - passwords synchronization with laptop
+- MFA protection
+- sharing documents (e.g. weekend plans) with other people

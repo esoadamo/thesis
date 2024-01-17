@@ -102,3 +102,6 @@ abstract = {Industrial enterprises increasingly identify their employee’s digita
 @misc{SeznamZtrataUctu, title={A´ 200 Tisíc Lidí ro?n? p?ijde o sv?j E-mailový ú?et, Spo?ítal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, month={Nov}}
 
 @misc{GoogleDriveRecovery, title={Google shares ?fix? for deleted google drive files}, url={https://www.bleepingcomputer.com/news/google/google-shares-fix-for-deleted-google-drive-files/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Gatlan, Sergiu}, year={2023}, month={Dec}}
+
+
+@misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications · Cloudflare Zero Trust docs}}

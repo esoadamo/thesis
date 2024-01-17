@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "db3af0fbb917c950",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ce0f901a2530013",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5969822bad3631b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDM/Microsoft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd3a36e54904688c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDM/Cloudflare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c899f6341293e100",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDM/Synnology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbbaa6409a2eee6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDM Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26984ab052bf8e17",
+    "type": "split",
+    "children": [
+      {
+        "id": "167c85cae6b5d15f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c1ef6722ab7c11b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a456b4bb25e20ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "#todo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39f1c1e4f94dcff3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c51fe6a5f9f6b255",
+    "type": "split",
+    "children": [
+      {
+        "id": "19d54167656bfd02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5606297354a60b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IDM Services.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc544cc382e9403f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IDM Services.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fb92b05537477f35",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "89bd2c0805f6736d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IDM Services.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dbbaa6409a2eee6c",
+  "lastOpenFiles": [
+    "IDM/Cloudflare.md",
+    "IDM/Google.md",
+    "IDM Services.md",
+    "IDM/Synnology.md",
+    "User profiles/User profiles TODO.md",
+    "IDM/Microsoft.md",
+    "User profiles/Profiles.md",
+    "User profiles/Profile of Individual tech-skilled user.md",
+    "User profiles/Profile of Individual iPhone-based low-tech user.md",
+    "IDM",
+    "Metodology.md",
+    "User profiles/Digital competence.md",
+    "User profiles/Profile of a small company or tech start-up.md",
+    "citations/@SeznamZtrataUctu.md",
+    "User profiles/Profile of Family with low-tech skills.md"
+  ]
+}
