@@ -25,6 +25,10 @@
 - OneDrive has ransomware protection
   - https://support.microsoft.com/en-us/windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3
 - 
-- **TODO: Proklikat https://account.microsoft.com/?ref=MeControl&refd=www.microsoft365.com**
-  - cena pomocí triku prodloužení?
+- Microsoft accounts settings
+	- [find lost device](https://account.microsoft.com/devices/find-my-device?fref=home.drawers.devices.find-my-device)
+	- [device info](https://account.microsoft.com/devices/device?deviceId=global[0018400695BF5E6A]&fref=home.drawers.devices.view-device-details) - RAM, version, hostname
+		- has [bitlocker keys backup](https://account.microsoft.com/devices/recoverykey?refd=account.microsoft.com)
+	- Microsoft family safety link
+	- cena pomocí triku prodloužení?
 
