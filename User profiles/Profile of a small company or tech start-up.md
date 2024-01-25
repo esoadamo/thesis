@@ -17,8 +17,9 @@
 - Laptop with classical Windows OS is not suitable for multi-user server usage
 - shared SSH accounts and RDP accounts may lead to harder decommissioning of leaving employees
 - OpenVPN does not support MFA
-- Jenkins is not with Zero Trust in mind
+- Jenkins is not protected with Zero Trust in mind
 - having to include custom CA into all their devices
+- needs to use their own DNS, otherwise internal company will not resolve
 ## Already solved problems
 - password sharing
 - versioning code

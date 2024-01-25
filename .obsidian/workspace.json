@@ -13,55 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDM/Microsoft.md",
+                "file": "User profiles/Profile of a small company or tech start-up.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dd3a36e54904688c",
+            "id": "eb46a3d5065455a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDM/Cloudflare.md",
+                "file": "Metodology.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c899f6341293e100",
+            "id": "6353d913183d353a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDM/Synnology.md",
+                "file": "User profiles/Profile of Family with low-tech skills.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dbbaa6409a2eee6c",
+            "id": "be80519471f49152",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDM Services.md",
+                "file": "User profiles/Profile of Individual iPhone-based low-tech user.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "43709c6c7e0d4a70",
+            "id": "414094f10a193b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDM/Microsoft.md",
+                "file": "User profiles/Profile of Individual tech-skilled user.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12caef43bd4821fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "User profiles/Digital competence.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prokli",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDM/Microsoft.md",
+                "file": "User profiles/Profile of Individual tech-skilled user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDM/Microsoft.md",
+                "file": "User profiles/Profile of Individual tech-skilled user.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDM/Microsoft.md"
+                "file": "User profiles/Profile of Individual tech-skilled user.md"
               }
             }
           }
@@ -196,22 +207,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43709c6c7e0d4a70",
+  "active": "414094f10a193b06",
   "lastOpenFiles": [
-    "User profiles/User profiles TODO.md",
-    "IDM/Microsoft.md",
-    "IDM Services.md",
-    "IDM/Cloudflare.md",
-    "IDM/Google.md",
-    "IDM/Synnology.md",
-    "User profiles/Profiles.md",
-    "User profiles/Profile of Individual tech-skilled user.md",
-    "User profiles/Profile of Individual iPhone-based low-tech user.md",
-    "IDM",
+    "thesis.md",
     "Metodology.md",
+    "User profiles/Profiles.md",
     "User profiles/Digital competence.md",
     "User profiles/Profile of a small company or tech start-up.md",
-    "citations/@SeznamZtrataUctu.md",
-    "User profiles/Profile of Family with low-tech skills.md"
+    "User profiles/Profile of Family with low-tech skills.md",
+    "citations/@DigiCompEduCZ.md",
+    "citations/@DigiCompLevels.md",
+    "User profiles/Profile of Individual tech-skilled user.md",
+    "IDM Services.md",
+    "IDM/Synnology.md",
+    "IDM/Cloudflare.md",
+    "User profiles/Profile of Individual iPhone-based low-tech user.md",
+    "IDM/Microsoft.md",
+    "User profiles/User profiles TODO.md",
+    "IDM/Google.md",
+    "IDM",
+    "citations/@SeznamZtrataUctu.md"
   ]
 }
