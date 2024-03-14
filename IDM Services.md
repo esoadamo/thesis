@@ -1,17 +1,19 @@
-[[thesis]]
+\[\[thesis\]\]
+
 # Identity Managment for families
 
-- [[Microsoft]]
-- [[Google]]
-- [[Synnology]]
-- [[Cloudflare]]
+- \[\[Microsoft\]\]
+- \[\[Google\]\]
+- \[\[Synnology\]\]
+- \[\[Cloudflare\]\]
 
 ## Other services
+
 ### Authelia
 
 - https://www.authelia.com/
 - open-source IdP
-- alternative: https://www.keycloak.org/
+- alternative: https://www.keycloak.org/ 
   - has support for Kerberos, but overall difficult to configure
 
 ### Seznam
@@ -24,7 +26,7 @@
 
 ### MojeID
 
-- [hodně podporovaných služeb](https://www.mojeid.cz/cs/kde-pouzit/katalog-sluzeb/) - datová schránka, portál občana, Alza, knihovny, ....
+- [hodně podporovaných služeb](https://www.mojeid.cz/cs/kde-pouzit/katalog-sluzeb/) - datová schránka, portál občana, Alza, knihovny, .... 
   - dovoluje nastavit jako [zdroj OIDC](https://www.mojeid.cz/dokumentace/html/ImplementacePodporyMojeid/OpenidConnect/index.html)
 - může mít úroveň záruky "vysoká", "značná" atp.
 
@@ -45,6 +47,6 @@
 
 ### TODO
 
-- synchronizace všeho po ukradení notebooku?
+- synchronizace všeho po ukradení notebooku? 
   - prý umí Synnology
 - tisky? WiFi?

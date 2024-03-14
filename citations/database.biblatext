@@ -105,3 +105,27 @@ abstract = {Industrial enterprises increasingly identify their employee’s digita
 
 
 @misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications · Cloudflare Zero Trust docs}}
+
+@misc{viberHomeViber,
+	author = {Viber Media S.à r.l.},
+	title = {{H}ome | {V}iber --- viber.com},
+	howpublished = {\url{https://www.viber.com/en/}},
+	year = {2024},
+	note = {[Accessed 13-03-2024]},
+}
+
+@misc{appleICloudPlans,
+	author = {Apple Inc.},
+	title = {i{C}loud+ plans and pricing --- support.apple.com},
+	howpublished = {\url{https://support.apple.com/en-us/HT201238}},
+	year = {2024},
+	note = {[Accessed 13-03-2024]},
+}
+
+@misc{appleICloudPasswords,
+	author = {Apple Inc.},
+	title = {{S}et up i{C}loud {P}asswords on your {W}indows computer --- support.apple.com},
+	howpublished = {\url{https://support.apple.com/en-gb/guide/icloud-windows/icw2babf5e03/icloud}},
+	year = {2024},
+	note = {[Accessed 13-03-2024]},
+}
