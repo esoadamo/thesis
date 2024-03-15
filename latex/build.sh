@@ -13,7 +13,6 @@ cp -r ../assets/* compile/
 cp -r ../*.md compile/
 cp ../citations/database.biblatext compile/
 
-cp fi-pdflatex.tex compile/main.tex
 
 cd compile
 for f_md in *.md; do
