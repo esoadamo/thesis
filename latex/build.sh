@@ -3,11 +3,10 @@ set -xEeuo pipefail
 
 cd "$(dirname "$(realpath "$0")")"
 
-find compile -type f -exec rm {} \;
-
 if [ ! -d compile/fithesis ]; then
     mkdir -p compile/fithesis
 fi
+find compile -type f -exec rm {} \;
 
 find . -type f -exec cp {} compile/{} \;
 cp -r ../assets/* compile/
