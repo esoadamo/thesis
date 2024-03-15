@@ -1,4 +1,4 @@
-## Profiles
+# Profiles
 
 For the purposes of this thesis, I have prepared a three profiles each representing a typical user archetype. All profiles were compiled from discussions with relevant parties, personal experience and put into kontext using digital competence framework. None of the original parties posses all of the outlined problems, as they were constructed to better highlight possible solutions. (*[[Profiles]]*)
 
@@ -6,9 +6,10 @@ For the purposes of this thesis, I have prepared a three profiles each represent
 
 A first introduced profile is of a family with middle-aged parents and two young children (aged 12 and 8). Any member of the family is expected to have a non-IT related education and occupation and as such also a small technology skillset, ranging on a average Digital competence level 3 [[@OECDSkillsMatter]]. Both parents work in accounting and were issued a laptop from they employer, the kids use a second-hand laptop with shared account.
 
-### Hardware settings 
+### Hardware settings
 
 As mentioned above, both parents were provided a laptop from work, while the kids received a single Windows laptop shared between them. Each family member also posses an older personal lower-to-mid range Android smartphone (priced under 7 000 Kč). To use as a backup solution of their most important data, the family has purchaged a single 8 TB external HDD. Other than that, the family has one large-screen TV with Tizen OS. All devices are connected to a Wi-Fi router with single AP running.
+
 ### Software settings
 
 All of their laptops are running Windows OS, while admin-level permissions are available only on their shared laptop. The family does not (intentionally) use any cloud service for storing data. Their family chat is primarily located on Viber, whereas children use Instagram as their main application to stay in touch with their friends. For their personal office works and for children's school purposes they are using a Microsoft Office 2010 suite, which they have payed for in the past. They are using default web browsers for each platform, meaning Chrome for their Android phones and Edge on their laptops.
@@ -20,6 +21,7 @@ As their technological knowledge is in the level 3 range, they are supsectible t
 ### Possible problems that are already solved
 
 The family has already solved, or partially solved, some of possible issues that may arise from their common operations. Perhaps most importantly, the family does perform backups in some form. This is true both for their shared data (on external HDD) and for their Android phones, which do have backup to Google drive offered as default option. Next, the users are at least aware of basic security practices, so they are using antivirus software and more than one password. Finally, because their home network was set-up by their ISP, it can be considered as resilient and properly configured.
+
 ### Faced problems with current approach
 
 There are numerous problems with the current approach that can be divided mainly into categories of privacy and computer security. To start with the security related issues, because the Android smartphones are older and were in the lower-to-mid price range, there is a good chance that they do no longer receive any security updates, meaning that any known security vulnerability may be *(TODO: TEMU as a malware? link known Android zero day? Pegasus?)* exploited. This makes theses devices inappropriate for use with any personal data, especially baking applications with financials. As for their shared laptop, Office 2010 is [no longer supported](https://support.microsoft.com/en-us/office/end-of-support-for-office-2010-3a3e45de-51ac-4944-b2ba-c2e415432789), which in combination with their low digital competence may make them vulnerable to serious phishing and advertising attacks. The severity of this issue is also reinforced by using only two different passwords, where breach of at least one of them will result into a possible breach of multiple accounts. They are also unable to use the password manager built-into the web browser, as they use a different browser on every platform. Lastly, depending on their ISP, it is possible that they were issues an outdated router without relevant security patches, which may be issue mainly with smaller ISPs within less-densely populated areas.
@@ -60,12 +62,13 @@ Security-wise, the most critical problem with current set-up is Seznam account m
 [[@SeznamZtrataUctu]].
 
 Regarding data retention, there is a lack of backup from their Windows laptop, as it is not handled automatically by the Apple ecosystem.
+
 ### Already solved problems
 
 Because data backup is enabled on iOS by default, the student can recover all their data easily in case of a lost device. This includes a good password policy, where all passwords are securely stored inside Apple KeyChain protected by Face ID or fingerprint.
+
 ### Needs not covered
 
 Even though the Apple ecosystem solves a multiple of common issues for its user, its closeness produces new ones when trying to interact with systems outside of it. It makes it harder to interact with Windows PC and requires the iCloud for Windows software to be running on the PC for features like password sync with Google Chrome or Microsoft Edge.[[@appleICloudPasswords]] 
 
 ## Individual tech-skilled user
-
