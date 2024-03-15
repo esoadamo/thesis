@@ -1,12 +1,12 @@
 
 @misc{Ciernikova2022thesis,
-        AUTHOR = {ierniková, Tamara},
+        AUTHOR = {iernikovÃ¡, Tamara},
         TITLE = {Selected open tools supporting security and privacy protection for regular end-users},
         YEAR = {2022},
-        TYPE = {Bakaláská práce},
+        TYPE = {BakalÃ¡skÃ¡ prÃ¡ce},
         INSTITUTION = {Masarykova univerzita, Fakulta informatiky},
         LOCATION = {Brno},
-        SUPERVISOR = {Václav Matyáš},
+        SUPERVISOR = {VÃ¡clav MatyÃ¡Âš},
         URL = {https://is.muni.cz/th/h7qfk/},
         URL_DATE = {2023-11-29},
 }
@@ -27,7 +27,7 @@ doi = {10.2760/38842}
 @unknown{DigiCompEduCZ,
 author = {NPO 3.1 DIGI NPI R},
 year = {2023},
-title = {Digitální kompetence v uzlových bodech vzdlávání},
+title = {DigitÃ¡lnÃ­ kompetence v uzlovÃ½ch bodech vzdlÃ¡vÃ¡nÃ­},
 url = {https://revize.edu.cz/digikompetence-uzlove-body}
 }
 
@@ -43,7 +43,7 @@ doi = {https://doi.org/10.1016/j.procir.2021.11.199},
 url = {https://www.sciencedirect.com/science/article/pii/S2212827121010970},
 author = {Markus Steinlechner and Andreas Schumacher and Benedikt Fuchs and Luisa Reichsthaler and Sebastian Schlund},
 keywords = {Industry 4.0, Digitalization, Digital Competencies, Maturity Model, Human Resource},
-abstract = {Industrial enterprises increasingly identify their employee’s digital competences as a main barrier towards modern manufacturing paradigms – such as Industry 4.0. Considering shorter technology cycles, they find a key enabler in timely capturing existing digital competences to forecast future competence requirements relating to identified trends. To support digital competence planning in practise, we developed a digital competence maturity model (DigiCoM), consisting of 49 attributes in four dimensions to measure maturity on individual employee level. The model considers digital competences required for direct value creation activities as well as competences in supporting areas. We tested the model in several use-cases, whereby two use-cases in SMEs are presented in detail. Result evaluation shows that the proposed approach makes digital competences visible and measurable and builds the basis for the derivation of competence developments. The DigiCoM therefore allows interconnecting strategic human resource planning with operational employee competences on an individual level.}
+abstract = {Industrial enterprises increasingly identify their employeeÂ’s digital competences as a main barrier towards modern manufacturing paradigms Â– such as Industry 4.0. Considering shorter technology cycles, they find a key enabler in timely capturing existing digital competences to forecast future competence requirements relating to identified trends. To support digital competence planning in practise, we developed a digital competence maturity model (DigiCoM), consisting of 49 attributes in four dimensions to measure maturity on individual employee level. The model considers digital competences required for direct value creation activities as well as competences in supporting areas. We tested the model in several use-cases, whereby two use-cases in SMEs are presented in detail. Result evaluation shows that the proposed approach makes digital competences visible and measurable and builds the basis for the derivation of competence developments. The DigiCoM therefore allows interconnecting strategic human resource planning with operational employee competences on an individual level.}
 }
 
 @article{OECDSkills,
@@ -99,15 +99,15 @@ abstract = {Industrial enterprises increasingly identify their employee’s digita
 
 @misc{GoogleChromePasswordProtection, title={How chrome protects your passwords}, url={https://support.google.com/chrome/answer/10311524}, journal={Google Chrome Help}, publisher={Google}, author={Google}}
 
-@misc{SeznamZtrataUctu, title={A´ 200 Tisíc Lidí ro?n? p?ijde o sv?j E-mailový ú?et, Spo?ítal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, month={Nov}}
+@misc{SeznamZtrataUctu, title={AÅ½ 200 TisÃ­c LidÃ­ ro?n? p?ijde o sv?j E-mailovÃ½ Ãº?et, Spo?Ã­tal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, month={Nov}}
 
 @misc{GoogleDriveRecovery, title={Google shares ?fix? for deleted google drive files}, url={https://www.bleepingcomputer.com/news/google/google-shares-fix-for-deleted-google-drive-files/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Gatlan, Sergiu}, year={2023}, month={Dec}}
 
 
-@misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications · Cloudflare Zero Trust docs}}
+@misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications Â· Cloudflare Zero Trust docs}}
 
 @misc{viberHomeViber,
-	author = {Viber Media S.à r.l.},
+	author = {Viber Media S.Ã  r.l.},
 	title = {{H}ome | {V}iber --- viber.com},
 	howpublished = {\url{https://www.viber.com/en/}},
 	year = {2024},
@@ -128,4 +128,27 @@ abstract = {Industrial enterprises increasingly identify their employee’s digita
 	howpublished = {\url{https://support.apple.com/en-gb/guide/icloud-windows/icw2babf5e03/icloud}},
 	year = {2024},
 	note = {[Accessed 13-03-2024]},
+}
+
+
+
+@misc{Pecuch2021thesis,
+        AUTHOR = {Pecuch, Daniel},
+        TITLE = {Password managers: a survey},
+        YEAR = {2021},
+        TYPE = {BakalÃ¡Å™skÃ¡ prÃ¡ce},
+        INSTITUTION = {Masarykova univerzita, Fakulta informatiky},
+        LOCATION = {Brno},
+        SUPERVISOR = {LukÃ¡Å¡ NÄ›mec},
+        URL = {https://is.muni.cz/th/sm620/},
+        URL_DATE = {2024-03-15},
+}
+
+
+@misc{springerGuideComputer,
+	author = {Joseph Migga, Kizza},
+	title = {{G}uide to {C}omputer {N}etwork {S}ecurity --- link.springer.com},
+	howpublished = {\url{https://link.springer.com/book/10.1007/978-3-030-38141-7}},
+	year = {},
+	note = {[Accessed 15-03-2024]},
 }

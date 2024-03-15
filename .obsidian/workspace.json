@@ -121,21 +121,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f7c586343f9fa21b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
+                "file": "Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
+                "file": "Text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md"
+                "file": "Text.md"
               }
             }
           }
@@ -262,10 +250,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7c586343f9fa21b",
+  "active": "6353d913183d353a",
   "lastOpenFiles": [
-    "citations/@GoogleChromePasswordProtection.md",
+    "User profiles/Digital competence.md",
+    "materials/Guide to Computer Network securit.epub",
+    "materials/Personal and SOHO Archiving.pdf",
+    "materials/Guide to Computer Network securit.pdf",
+    "materials/978-3-030-38141-7.epub",
+    "materials/Selected open tools supporting security and privacy protection for regular end-users.pdf",
+    "materials/Password managers survey.pdf",
+    "materials/vdoc.pub_information-security-best-practices-205-basic-rules.pdf",
+    "Thesis subjects.md",
     "User profiles/Profile of Individual tech-skilled user.md",
+    "citations/@GoogleChromePasswordProtection.md",
     "Text.md",
     "User profiles/Profile of Individual iPhone-based low-tech user.md",
     "citations/@appleICloudPasswords.md",
@@ -275,12 +272,10 @@
     "citations/@DigiCompEduCZ.md",
     "User profiles/Profile of Family with low-tech skills.md",
     "thesis.md",
-    "Thesis subjects.md",
     "citations/@viberHomeViber.md",
     "citations/@FBIDataMessenger.md",
     "citations/@ViberRestoreChat.md",
     "citations/@OECDSkillsMatter.md",
-    "User profiles/Digital competence.md",
     "User profiles/Profiles.md",
     "Metodology.md",
     "User profiles/User profiles TODO.md",
@@ -289,7 +284,6 @@
     "IDM Services.md",
     "IDM/Synnology.md",
     "IDM/Cloudflare.md",
-    "IDM/Microsoft.md",
     "IDM"
   ]
 }
