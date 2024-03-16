@@ -22,7 +22,12 @@ done
 python3 insert_md.py main.tex
 
 latexmk
+ls
 cd ..
+
+if [ ! -d dist ]; then
+    mkdir dist
+fi
 
 cp compile/main.pdf dist/thesis.pdf
 
