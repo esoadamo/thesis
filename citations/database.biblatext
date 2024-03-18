@@ -152,3 +152,51 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 	year = {},
 	note = {[Accessed 15-03-2024]},
 }
+
+@misc{blogUpdatingGoogle,
+	author = {Ben-Yair, Shimrit},
+	title = {{U}pdating {G}oogle {P}hotos’ storage policy to build for the future --- blog.google},
+	howpublished = {\url{https://blog.google/products/photos/storage-changes/}},
+	year = {2020},
+}
+
+
+@misc{telegramFAQ,
+	author = {Telegram},
+	title = {{T}elegram {F}{A}{Q} --- telegram.org},
+	howpublished = {\url{https://telegram.org/faq}},
+	year = {},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{techradarWhatsAppAlternatives,
+	author = {James, O'Malley},
+	title = {{W}hats{A}pp alternatives: the best messaging apps for {A}ndroid and i{P}hone --- techradar.com},
+	howpublished = {\url{https://www.techradar.com/best/whatsapp-alternatives}},
+	year = {2021},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{lifehackerBestWhatsApp,
+	author = {Brendan Hesse},
+	title = {{T}he {B}est {W}hats{A}pp {A}lternatives --- lifehacker.com},
+	howpublished = {\url{https://lifehacker.com/the-best-whatsapp-alternatives-1832064581}},
+	year = {2021},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{ziveNahraditWhatsApp,
+	author = {Karel Kilián},
+	title = {Čím nahradit {W}hats{A}pp: {V}yberte si z 10 alternativních komunikátorů --- zive.cz},
+	howpublished = {\url{https://www.zive.cz/clanky/cim-nahradit-whatsapp-vyberte-si-z-10-alternativnich-komunikatoru/sc-3-a-207956/default.aspx}},
+	year = {2023},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{tnWhatsapp,
+	author = {Anna, Křenková},
+	title = {{W}hats{A}pp mění pravidla. {K}terými bezpečnými aplikacemi ho nahradit?},
+	howpublished = {\url{https://tn.nova.cz/zpravodajstvi/clanek/435392-whatsapp-meni-pravidla-kterymi-bezpecnymi-aplikacemi-ho-nahradit}},
+	year = {2021},
+	note = {[Accessed 17-03-2024]},
+}

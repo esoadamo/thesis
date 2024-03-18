@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5969822bad3631b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of a small company or tech start-up.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "eb46a3d5065455a4",
             "type": "leaf",
             "state": {
@@ -37,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Text.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f95b49695ee6f4a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Acronyms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d3b7d5c3f4cee93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Family with low-tech skills.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,19 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "User profiles/Profile of Individual iPhone-based low-tech user.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "414094f10a193b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "thesis.md",
+                "file": "Text.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,24 +51,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "afe4e73b24d794a5",
+            "id": "1459c926cdc507de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "User profiles/Profile of Family with low-tech skills.md",
+                "file": "User profiles/Profile of Individual tech-skilled user.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e353e0baa0393aec",
+            "id": "8fd5e503ad135d5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "User profiles/Profile of Individual iPhone-based low-tech user.md",
+                "file": "User profiles/Profile of a small company or tech start-up.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -250,40 +203,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6353d913183d353a",
+  "active": "be80519471f49152",
   "lastOpenFiles": [
-    "User profiles/Digital competence.md",
-    "materials/Guide to Computer Network securit.epub",
-    "materials/Personal and SOHO Archiving.pdf",
-    "materials/Guide to Computer Network securit.pdf",
-    "materials/978-3-030-38141-7.epub",
-    "materials/Selected open tools supporting security and privacy protection for regular end-users.pdf",
-    "materials/Password managers survey.pdf",
-    "materials/vdoc.pub_information-security-best-practices-205-basic-rules.pdf",
-    "Thesis subjects.md",
-    "User profiles/Profile of Individual tech-skilled user.md",
-    "citations/@GoogleChromePasswordProtection.md",
-    "Text.md",
-    "User profiles/Profile of Individual iPhone-based low-tech user.md",
-    "citations/@appleICloudPasswords.md",
-    "citations/@SeznamZtrataUctu.md",
-    "Acronyms.md",
-    "citations/@appleICloudPlans.md",
-    "citations/@DigiCompEduCZ.md",
-    "User profiles/Profile of Family with low-tech skills.md",
-    "thesis.md",
-    "citations/@viberHomeViber.md",
-    "citations/@FBIDataMessenger.md",
-    "citations/@ViberRestoreChat.md",
-    "citations/@OECDSkillsMatter.md",
-    "User profiles/Profiles.md",
-    "Metodology.md",
-    "User profiles/User profiles TODO.md",
+    "latex/compile/lualatex88953.fls",
+    "latex/compile/lualatex88941.fls",
+    "latex/compile/lualatex88924.fls",
+    "latex/compile/main.bbl",
+    "latex/compile/main.blg",
+    "latex/compile/main.ind",
+    "latex/compile/main.run.xml",
+    "latex/compile/_markdown_main/f61ab2ad24f06078a0607ff2dcf7af99.md.tex",
+    "latex/compile/main.markdown.in",
+    "latex/compile/main.lof",
+    "latex/compile/main.lot",
+    "latex/compile/Thesis subjects.md",
+    "latex/compile/thesis.md",
+    "latex/compile/Text.md",
+    "latex/compile/Metodology.md",
+    "latex/compile/IDM Services.md",
+    "latex/compile/93509b1aa144c2641669c027b072872d.png",
+    "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
+    "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/2023-10-04-11-06-41-image.png",
+    "latex/compile/Acronyms.md",
     "User profiles/Profile of a small company or tech start-up.md",
+    "Text.md",
+    "Metodology.md",
+    "Acronyms.md",
+    "User profiles/Profile of Individual tech-skilled user.md",
+    "citations/@ziveNahraditWhatsApp.md",
+    "citations/@techradarWhatsAppAlternatives.md",
+    "citations/@lifehackerBestWhatsApp.md",
+    "citations/@tnWhatsapp.md",
+    "citations/@telegramFAQ.md",
+    "citations/@FBIDataMessenger.md",
+    "citations/@blogUpdatingGoogle.md",
+    "citations/@appleICloudPasswords.md",
     "citations/@DigiCompLevels.md",
-    "IDM Services.md",
-    "IDM/Synnology.md",
-    "IDM/Cloudflare.md",
-    "IDM"
+    "User profiles/Digital competence.md",
+    "User profiles/Profile of Individual iPhone-based low-tech user.md",
+    "thesis.md",
+    "User profiles/Profile of Family with low-tech skills.md",
+    "Thesis subjects.md"
   ]
 }
