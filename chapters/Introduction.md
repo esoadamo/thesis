@@ -1,0 +1,1 @@
+While more user devices are connected to the internet, average user has more and more accounts with personal data attached online, it is necessary to 

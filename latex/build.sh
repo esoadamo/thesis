@@ -12,16 +12,12 @@ cp  -r fithesis compile/
 find . -type f -exec cp {} compile/{} \;
 cp -r ../assets/* compile/
 cp -r ../*.md compile/
+cp -r ../chapters/*.md compile/
 cp ../citations/database.biblatext compile/
 
 
 cd compile
-for f_md in *.md; do
-    sed -e 's/\[\[/[/g' -e 's/]]/]/g' -i "$f_md"
-    sed -Ee 's|\[@([^]]*)]| [@\1]|g' -i "$f_md"
-done
 python3 insert_md.py main.tex
-
 latexmk
 ls
 cd ..

@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb46a3d5065455a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6353d913183d353a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Acronyms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "be80519471f49152",
             "type": "leaf",
             "state": {
@@ -43,39 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "bf6a71b324fa3854",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1459c926cdc507de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fd5e503ad135d5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of a small company or tech start-up.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,30 +148,38 @@
   },
   "active": "be80519471f49152",
   "lastOpenFiles": [
-    "latex/compile/lualatex88953.fls",
-    "latex/compile/lualatex88941.fls",
-    "latex/compile/lualatex88924.fls",
+    "latex/compile/lualatex94621.fls",
+    "latex/compile/lualatex94609.fls",
+    "latex/compile/lualatex94595.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/f61ab2ad24f06078a0607ff2dcf7af99.md.tex",
+    "latex/compile/_markdown_main/43d55e0d0d844887e448528f7950e167.md.tex",
+    "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
+    "latex/compile/_markdown_main/6da9cfd817fc6483de53eed5a3a569b6.md.tex",
     "latex/compile/main.markdown.in",
-    "latex/compile/main.lof",
-    "latex/compile/main.lot",
+    "latex/compile/Introduction.md",
+    "latex/compile/Current state.md",
     "latex/compile/Thesis subjects.md",
-    "latex/compile/thesis.md",
     "latex/compile/Text.md",
     "latex/compile/Metodology.md",
-    "latex/compile/IDM Services.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
-    "latex/compile/2023-10-04-11-06-41-image.png",
+    "latex/compile/Profiles.md",
+    "latex/compile/Digital competence framework.md",
     "latex/compile/Acronyms.md",
-    "User profiles/Profile of a small company or tech start-up.md",
+    "latex/compile/2023-10-04-11-06-41-image.png",
+    "chapters/Digital competence framework.md",
     "Text.md",
+    "chapters/Current state.md",
+    "chapters/Profiles.md",
+    "chapters/Introduction.md",
     "Metodology.md",
+    "latex/compile/thesis.md",
+    "latex/compile/IDM Services.md",
+    "User profiles/Profile of a small company or tech start-up.md",
     "Acronyms.md",
     "User profiles/Profile of Individual tech-skilled user.md",
     "citations/@ziveNahraditWhatsApp.md",
@@ -236,14 +187,6 @@
     "citations/@lifehackerBestWhatsApp.md",
     "citations/@tnWhatsapp.md",
     "citations/@telegramFAQ.md",
-    "citations/@FBIDataMessenger.md",
-    "citations/@blogUpdatingGoogle.md",
-    "citations/@appleICloudPasswords.md",
-    "citations/@DigiCompLevels.md",
-    "User profiles/Digital competence.md",
-    "User profiles/Profile of Individual iPhone-based low-tech user.md",
-    "thesis.md",
-    "User profiles/Profile of Family with low-tech skills.md",
-    "Thesis subjects.md"
+    "citations/@FBIDataMessenger.md"
   ]
 }
