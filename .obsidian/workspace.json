@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Text.md",
+                "file": "chapters/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Text.md",
+                "file": "chapters/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Text.md",
+                "file": "chapters/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Text.md"
+                "file": "chapters/Introduction.md"
               }
             }
           }
@@ -148,18 +148,19 @@
   },
   "active": "be80519471f49152",
   "lastOpenFiles": [
-    "latex/compile/lualatex94621.fls",
-    "latex/compile/lualatex94609.fls",
-    "latex/compile/lualatex94595.fls",
+    "latex/compile/lualatex31151.fls",
+    "latex/compile/lualatex31126.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
     "latex/compile/_markdown_main/43d55e0d0d844887e448528f7950e167.md.tex",
     "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
-    "latex/compile/_markdown_main/6da9cfd817fc6483de53eed5a3a569b6.md.tex",
+    "latex/compile/_markdown_main/036ce4f91a4197ec523a490706eb5ee7.md.tex",
     "latex/compile/main.markdown.in",
+    "latex/compile/main.lof",
     "latex/compile/Introduction.md",
+    "latex/compile/Digital competence framework.md",
     "latex/compile/Current state.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
@@ -167,12 +168,11 @@
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
-    "latex/compile/Profiles.md",
-    "latex/compile/Digital competence framework.md",
-    "latex/compile/Acronyms.md",
     "latex/compile/2023-10-04-11-06-41-image.png",
-    "chapters/Digital competence framework.md",
+    "latex/compile/Profiles.md",
+    "latex/compile/Acronyms.md",
     "Text.md",
+    "chapters/Digital competence framework.md",
     "chapters/Current state.md",
     "chapters/Profiles.md",
     "chapters/Introduction.md",
