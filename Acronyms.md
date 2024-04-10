@@ -10,3 +10,5 @@
 | CI      | Continuous integration      |
 | CD      | Continuous development      |
 | SSO     | Single sign-on              |
+| SOHO    | Small office / Home Office  |
+| OS      | Operating System            |

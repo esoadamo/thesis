@@ -200,3 +200,30 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 	year = {2021},
 	note = {[Accessed 17-03-2024]},
 }
+
+@book{Stefanek_2002, place={Boston Mass.}, title={Information security best practices: 205 basic rules}, publisher={Butterworth-Heinemann}, author={Stefanek, George L.}, year={2002}}
+
+@misc{blogGmailProtections,
+	author = {Kumaran, Neil},
+	title = {{N}ew {G}mail protections for a safer, less spammy inbox --- blog.google},
+	howpublished = {\url{https://blog.google/products/gmail/gmail-security-authentication-spam-protection/}},
+	year = {2023},
+	note = {[Accessed 10-01-2024]},
+}
+
+@misc{javaWebBrowser,
+	author = {Oracle},
+	title = {{H}ow do {I} enable {J}ava in my web browser?},
+	howpublished = {\url{https://www.java.com/en/download/help/enable_browser.html}},
+	year = {},
+	note = {[Accessed 12-02-2024]},
+}
+
+
+@misc{thevergeGmailsBasic,
+	author = {Wes Davis},
+	title = {{G}mail’s basic {H}{T}{M}{L} view will go to the {G}oogle graveyard in 2024 --- theverge.com},
+	howpublished = {\url{https://www.theverge.com/2023/9/25/23889791/gmail-basic-html-view-discontinued-2024}},
+	year = {},
+	note = {[Accessed 10-04-2024]},
+}

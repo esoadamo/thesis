@@ -1,1 +1,0 @@
-Presently, there exists multiple sources of statue

@@ -1,8 +1,8 @@
 [[Introduction]]
 
-# State-of-the-art
+# Related work
 
-[[Current state]]
+[[Related work]]
 
 # Digital competence framework
 
