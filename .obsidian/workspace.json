@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "57234c7cd79e5362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9eed485652c94b2e",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Related work.md",
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Related work.md",
+                "file": "Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Related work.md"
+                "file": "Notes.md"
               }
             }
           }
@@ -158,10 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be80519471f49152",
+  "active": "57234c7cd79e5362",
   "lastOpenFiles": [
-    "citations/@Ciernikova2022thesis.md",
     "chapters/Related work.md",
+    "Notes.md",
+    "citations/@Strodl_Motlik_Stadler_Rauber_2008.md",
+    "citations/@Pecuch2021thesis.md",
+    "citations/@Ciernikova2022thesis.md",
     "Text.md",
     "citations/@thevergeGmailsBasic.md",
     "citations/@javaWebBrowser.md",
@@ -196,9 +212,6 @@
     "chapters/Profiles.md",
     "Metodology.md",
     "latex/compile/thesis.md",
-    "latex/compile/IDM Services.md",
-    "User profiles/Profile of a small company or tech start-up.md",
-    "User profiles/Profile of Individual tech-skilled user.md",
-    "citations/@ziveNahraditWhatsApp.md"
+    "latex/compile/IDM Services.md"
   ]
 }
