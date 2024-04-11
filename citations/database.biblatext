@@ -1,12 +1,12 @@
 
 @misc{Ciernikova2022thesis,
-        AUTHOR = {iernikov·, Tamara},
+        AUTHOR = {iernikov√°, Tamara},
         TITLE = {Selected open tools supporting security and privacy protection for regular end-users},
         YEAR = {2022},
-        TYPE = {Bakal·sk· pr·ce},
+        TYPE = {Bakal√°sk√° pr√°ce},
         INSTITUTION = {Masarykova univerzita, Fakulta informatiky},
         LOCATION = {Brno},
-        SUPERVISOR = {V·clav Maty·ö},
+        SUPERVISOR = {V√°clav Maty√°¬ö},
         URL = {https://is.muni.cz/th/h7qfk/},
         URL_DATE = {2023-11-29},
 }
@@ -27,7 +27,7 @@ doi = {10.2760/38842}
 @unknown{DigiCompEduCZ,
 author = {NPO 3.1 DIGI NPI R},
 year = {2023},
-title = {Digit·lnÌ kompetence v uzlov˝ch bodech vzdl·v·nÌ},
+title = {Digit√°ln√≠ kompetence v uzlov√Ωch bodech vzdl√°v√°n√≠},
 url = {https://revize.edu.cz/digikompetence-uzlove-body}
 }
 
@@ -43,7 +43,7 @@ doi = {https://doi.org/10.1016/j.procir.2021.11.199},
 url = {https://www.sciencedirect.com/science/article/pii/S2212827121010970},
 author = {Markus Steinlechner and Andreas Schumacher and Benedikt Fuchs and Luisa Reichsthaler and Sebastian Schlund},
 keywords = {Industry 4.0, Digitalization, Digital Competencies, Maturity Model, Human Resource},
-abstract = {Industrial enterprises increasingly identify their employeeís digital competences as a main barrier towards modern manufacturing paradigms ñ such as Industry 4.0. Considering shorter technology cycles, they find a key enabler in timely capturing existing digital competences to forecast future competence requirements relating to identified trends. To support digital competence planning in practise, we developed a digital competence maturity model (DigiCoM), consisting of 49 attributes in four dimensions to measure maturity on individual employee level. The model considers digital competences required for direct value creation activities as well as competences in supporting areas. We tested the model in several use-cases, whereby two use-cases in SMEs are presented in detail. Result evaluation shows that the proposed approach makes digital competences visible and measurable and builds the basis for the derivation of competence developments. The DigiCoM therefore allows interconnecting strategic human resource planning with operational employee competences on an individual level.}
+abstract = {Industrial enterprises increasingly identify their employee¬ís digital competences as a main barrier towards modern manufacturing paradigms ¬ñ such as Industry 4.0. Considering shorter technology cycles, they find a key enabler in timely capturing existing digital competences to forecast future competence requirements relating to identified trends. To support digital competence planning in practise, we developed a digital competence maturity model (DigiCoM), consisting of 49 attributes in four dimensions to measure maturity on individual employee level. The model considers digital competences required for direct value creation activities as well as competences in supporting areas. We tested the model in several use-cases, whereby two use-cases in SMEs are presented in detail. Result evaluation shows that the proposed approach makes digital competences visible and measurable and builds the basis for the derivation of competence developments. The DigiCoM therefore allows interconnecting strategic human resource planning with operational employee competences on an individual level.}
 }
 
 @article{OECDSkills,
@@ -77,7 +77,7 @@ abstract = {Industrial enterprises increasingly identify their employeeís digita
    author = " Viber Media",
    title = "Transfer Your Chat History From One Phone to Another ",
    year = "2023",
-   url = "https://help.viber.com/hc/en-us/articles/9173905938845-Transfer-Your-Chat-History-From-One-Phone-to-Another"
+   url = "https://help.viber.com/hc/en-us/articles/9173905938845-Transfer-Your-Chat-History-From-One-Phone-to-Another",
    accessed = "2023-11-30"
 }
 
@@ -99,15 +99,15 @@ abstract = {Industrial enterprises increasingly identify their employeeís digita
 
 @misc{GoogleChromePasswordProtection, title={How chrome protects your passwords}, url={https://support.google.com/chrome/answer/10311524}, journal={Google Chrome Help}, publisher={Google}, author={Google}}
 
-@misc{SeznamZtrataUctu, title={A¥ 200 TisÌc LidÌ ro?n? p?ijde o sv?j E-mailov˝ ˙?et, Spo?Ìtal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, month={Nov}}
+@misc{SeznamZtrataUctu, title={A≈Ω 200 Tis√≠c Lid√≠ ro?n? p?ijde o sv?j E-mailov√Ω √∫?et, Spo?√≠tal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, month={Nov}}
 
 @misc{GoogleDriveRecovery, title={Google shares ?fix? for deleted google drive files}, url={https://www.bleepingcomputer.com/news/google/google-shares-fix-for-deleted-google-drive-files/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Gatlan, Sergiu}, year={2023}, month={Dec}}
 
 
-@misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications ∑ Cloudflare Zero Trust docs}}
+@misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications ¬∑ Cloudflare Zero Trust docs}}
 
 @misc{viberHomeViber,
-	author = {Viber Media S.‡ r.l.},
+	author = {Viber Media S.√† r.l.},
 	title = {{H}ome | {V}iber --- viber.com},
 	howpublished = {\url{https://www.viber.com/en/}},
 	year = {2024},
@@ -128,4 +128,102 @@ abstract = {Industrial enterprises increasingly identify their employeeís digita
 	howpublished = {\url{https://support.apple.com/en-gb/guide/icloud-windows/icw2babf5e03/icloud}},
 	year = {2024},
 	note = {[Accessed 13-03-2024]},
+}
+
+
+
+@misc{Pecuch2021thesis,
+        AUTHOR = {Pecuch, Daniel},
+        TITLE = {Password managers: a survey},
+        YEAR = {2021},
+        TYPE = {Bakal√°≈ôsk√° pr√°ce},
+        INSTITUTION = {Masarykova univerzita, Fakulta informatiky},
+        LOCATION = {Brno},
+        SUPERVISOR = {Luk√°≈° Nƒõmec},
+        URL = {https://is.muni.cz/th/sm620/},
+        URL_DATE = {2024-03-15},
+}
+
+
+@misc{springerGuideComputer,
+	author = {Joseph Migga, Kizza},
+	title = {{G}uide to {C}omputer {N}etwork {S}ecurity --- link.springer.com},
+	howpublished = {\url{https://link.springer.com/book/10.1007/978-3-030-38141-7}},
+	year = {},
+	note = {[Accessed 15-03-2024]},
+}
+
+@misc{blogUpdatingGoogle,
+	author = {Ben-Yair, Shimrit},
+	title = {{U}pdating {G}oogle {P}hotos‚Äô storage policy to build for the future --- blog.google},
+	howpublished = {\url{https://blog.google/products/photos/storage-changes/}},
+	year = {2020},
+}
+
+
+@misc{telegramFAQ,
+	author = {Telegram},
+	title = {{T}elegram {F}{A}{Q} --- telegram.org},
+	howpublished = {\url{https://telegram.org/faq}},
+	year = {},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{techradarWhatsAppAlternatives,
+	author = {James, O'Malley},
+	title = {{W}hats{A}pp alternatives: the best messaging apps for {A}ndroid and i{P}hone --- techradar.com},
+	howpublished = {\url{https://www.techradar.com/best/whatsapp-alternatives}},
+	year = {2021},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{lifehackerBestWhatsApp,
+	author = {Brendan Hesse},
+	title = {{T}he {B}est {W}hats{A}pp {A}lternatives --- lifehacker.com},
+	howpublished = {\url{https://lifehacker.com/the-best-whatsapp-alternatives-1832064581}},
+	year = {2021},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{ziveNahraditWhatsApp,
+	author = {Karel Kili√°n},
+	title = {ƒå√≠m nahradit {W}hats{A}pp: {V}yberte si z 10 alternativn√≠ch komunik√°tor≈Ø --- zive.cz},
+	howpublished = {\url{https://www.zive.cz/clanky/cim-nahradit-whatsapp-vyberte-si-z-10-alternativnich-komunikatoru/sc-3-a-207956/default.aspx}},
+	year = {2023},
+	note = {[Accessed 17-03-2024]},
+}
+
+@misc{tnWhatsapp,
+	author = {Anna, K≈ôenkov√°},
+	title = {{W}hats{A}pp mƒõn√≠ pravidla. {K}ter√Ωmi bezpeƒçn√Ωmi aplikacemi ho nahradit?},
+	howpublished = {\url{https://tn.nova.cz/zpravodajstvi/clanek/435392-whatsapp-meni-pravidla-kterymi-bezpecnymi-aplikacemi-ho-nahradit}},
+	year = {2021},
+	note = {[Accessed 17-03-2024]},
+}
+
+@book{Stefanek_2002, place={Boston Mass.}, title={Information security best practices: 205 basic rules}, publisher={Butterworth-Heinemann}, author={Stefanek, George L.}, year={2002}}
+
+@misc{blogGmailProtections,
+	author = {Kumaran, Neil},
+	title = {{N}ew {G}mail protections for a safer, less spammy inbox --- blog.google},
+	howpublished = {\url{https://blog.google/products/gmail/gmail-security-authentication-spam-protection/}},
+	year = {2023},
+	note = {[Accessed 10-01-2024]},
+}
+
+@misc{javaWebBrowser,
+	author = {Oracle},
+	title = {{H}ow do {I} enable {J}ava in my web browser?},
+	howpublished = {\url{https://www.java.com/en/download/help/enable_browser.html}},
+	year = {},
+	note = {[Accessed 12-02-2024]},
+}
+
+
+@misc{thevergeGmailsBasic,
+	author = {Wes Davis},
+	title = {{G}mail‚Äôs basic {H}{T}{M}{L} view will go to the {G}oogle graveyard in 2024 --- theverge.com},
+	howpublished = {\url{https://www.theverge.com/2023/9/25/23889791/gmail-basic-html-view-discontinued-2024}},
+	year = {},
+	note = {[Accessed 10-04-2024]},
 }

@@ -1,0 +1,27 @@
+name: LaTeX Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Install TeX Live
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-luatex texlive-latex-base texlive-latex-extra texlive-bibtex-extra biber texlive-fonts-extra texlive-lang-english texlive-lang-other texlive-xetex latexmk xindy
+
+    - name: Compile LaTeX document using Make
+      run: make
+
+    - name: Upload PDF as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: thesis-pdf
+        path: latex/dist/thesis.pdf
+        retention-days: 5

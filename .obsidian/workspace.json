@@ -8,43 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5969822bad3631b",
+            "id": "be80519471f49152",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "User profiles/Profile of a small company or tech start-up.md",
+                "file": "chapters/Related work.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb46a3d5065455a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6353d913183d353a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Text.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f95b49695ee6f4a7",
+            "id": "9eed485652c94b2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,88 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8d3b7d5c3f4cee93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Family with low-tech skills.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be80519471f49152",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Individual iPhone-based low-tech user.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "414094f10a193b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "thesis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "bf6a71b324fa3854",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "afe4e73b24d794a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Family with low-tech skills.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e353e0baa0393aec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Individual iPhone-based low-tech user.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7c586343f9fa21b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
+                "file": "chapters/Related work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md",
+                "file": "chapters/Related work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "User profiles/Profile of Individual tech-skilled user.md"
+                "file": "chapters/Related work.md"
               }
             }
           }
@@ -262,34 +158,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7c586343f9fa21b",
+  "active": "be80519471f49152",
   "lastOpenFiles": [
-    "citations/@GoogleChromePasswordProtection.md",
-    "User profiles/Profile of Individual tech-skilled user.md",
+    "citations/@Ciernikova2022thesis.md",
+    "chapters/Related work.md",
     "Text.md",
-    "User profiles/Profile of Individual iPhone-based low-tech user.md",
-    "citations/@appleICloudPasswords.md",
-    "citations/@SeznamZtrataUctu.md",
+    "citations/@thevergeGmailsBasic.md",
+    "citations/@javaWebBrowser.md",
+    "citations/@blogGmailProtections.md",
     "Acronyms.md",
-    "citations/@appleICloudPlans.md",
-    "citations/@DigiCompEduCZ.md",
-    "User profiles/Profile of Family with low-tech skills.md",
-    "thesis.md",
-    "Thesis subjects.md",
-    "citations/@viberHomeViber.md",
-    "citations/@FBIDataMessenger.md",
-    "citations/@ViberRestoreChat.md",
-    "citations/@OECDSkillsMatter.md",
-    "User profiles/Digital competence.md",
-    "User profiles/Profiles.md",
+    "latex/compile/lualatex2637077.fls",
+    "latex/compile/lualatex2636296.fls",
+    "latex/compile/lualatex2635499.fls",
+    "latex/compile/main.bbl",
+    "latex/compile/main.blg",
+    "latex/compile/main.ind",
+    "latex/compile/main.run.xml",
+    "latex/compile/_markdown_main/43d55e0d0d844887e448528f7950e167.md.tex",
+    "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
+    "latex/compile/_markdown_main/9b92805df4e75dffaea03bc5566e4883.md.tex",
+    "latex/compile/Introduction.md",
+    "latex/compile/Current state.md",
+    "latex/compile/Thesis subjects.md",
+    "latex/compile/Text.md",
+    "latex/compile/Metodology.md",
+    "latex/compile/93509b1aa144c2641669c027b072872d.png",
+    "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
+    "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/2023-10-04-11-06-41-image.png",
+    "latex/compile/Profiles.md",
+    "latex/compile/Digital competence framework.md",
+    "latex/compile/Acronyms.md",
+    "citations/@springerGuideComputer.md",
+    "citations/@Stefanek_2002.md",
+    "chapters/Digital competence framework.md",
+    "chapters/Introduction.md",
+    "chapters/Profiles.md",
     "Metodology.md",
-    "User profiles/User profiles TODO.md",
+    "latex/compile/thesis.md",
+    "latex/compile/IDM Services.md",
     "User profiles/Profile of a small company or tech start-up.md",
-    "citations/@DigiCompLevels.md",
-    "IDM Services.md",
-    "IDM/Synnology.md",
-    "IDM/Cloudflare.md",
-    "IDM/Microsoft.md",
-    "IDM"
+    "User profiles/Profile of Individual tech-skilled user.md",
+    "citations/@ziveNahraditWhatsApp.md"
   ]
 }
