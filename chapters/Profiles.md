@@ -146,3 +146,14 @@ Even though not done securely, there is a strong want for password sharing. Next
 ### Needs not covered
 
 The company would definitely benefit from a scaleable virtual machine management that is not dependent on the current state of their ISP. Next, the company should implement some form of least-privilege separation between users accessing the virtual machines, that would streamline onboarding and offboarding of employees, perhaps best with a SSO from a single identity provider.  Lastly, a more robust solution for sharing larger files should be put in place in order to prevent data loss or data leak.
+
+## Shared needs and problems
+
+It is evident that there exists a pattern among the profiles, which can be categorized as a list of shared problems or needs which any user of any category may encounter. These problems or needs include:
+
+- passwords or secret  sharing and synchronization
+-  backing up important data
+- malware endpoint protection
+- sharing of documents.
+
+It is notable that the requirement for backing up data is not comparable between string data for personal use or for long-term data preservation dictated by law for companies. Despite these differences in scale, it is observed that almost every profile includes these needs in some form or another. We may conclude that it would be beneficial to find a solution that addresses these needs, as it would lower the risk of setting up things incorrectly or insecurely and cover most of the needs by itself. It is important to note that when discussing password management or sharing passwords with others, we will also consider identity management services that can be used for single sign-on. This thesis proposes that not having to input any password is generally more secure than having a specifically generated password for each account. The reason behind this is that a general user does not have the necessary capacity, knowledge, or skills to manage their passwords securely in the long term. By preferring services that provide a single sign-on service, the user does not need to keep more than a few passwords, mainly for the service itself and for other services that do not support any form of single sigle sing-on authentication.

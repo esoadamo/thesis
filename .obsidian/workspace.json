@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Related work.md",
+                "file": "chapters/Services.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "57234c7cd79e5362",
+            "id": "5a793d7240be0803",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes.md",
+                "file": "Text.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,49 @@
               "type": "markdown",
               "state": {
                 "file": "Acronyms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dd75a90fd1e36c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Profiles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f32c517c83f939c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30122c9d2f3242e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/IDM/Microsoft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76cd6cd8ab658878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/IDM/Google.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes.md",
+                "file": "Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes.md",
+                "file": "Text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes.md"
+                "file": "Text.md"
               }
             }
           }
@@ -171,47 +214,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57234c7cd79e5362",
+  "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "chapters/Related work.md",
-    "Notes.md",
-    "citations/@Strodl_Motlik_Stadler_Rauber_2008.md",
-    "citations/@Pecuch2021thesis.md",
-    "citations/@Ciernikova2022thesis.md",
-    "Text.md",
-    "citations/@thevergeGmailsBasic.md",
-    "citations/@javaWebBrowser.md",
-    "citations/@blogGmailProtections.md",
-    "Acronyms.md",
-    "latex/compile/lualatex2637077.fls",
-    "latex/compile/lualatex2636296.fls",
-    "latex/compile/lualatex2635499.fls",
+    "latex/compile/lualatex446013.fls",
+    "latex/compile/lualatex445990.fls",
+    "latex/compile/lualatex445897.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/43d55e0d0d844887e448528f7950e167.md.tex",
+    "latex/compile/_markdown_main/2f6c0073c210e94e7023891fd7fc8c6f.md.tex",
     "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
-    "latex/compile/_markdown_main/9b92805df4e75dffaea03bc5566e4883.md.tex",
+    "latex/compile/_markdown_main/8401cf357046189ed8554c064a9c9adf.md.tex",
+    "latex/compile/main.markdown.in",
+    "latex/compile/Services.md",
+    "latex/compile/Related work.md",
     "latex/compile/Introduction.md",
-    "latex/compile/Current state.md",
+    "latex/compile/Digital competence framework.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
+    "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
+    "latex/compile/Assigment.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
     "latex/compile/2023-10-04-11-06-41-image.png",
     "latex/compile/Profiles.md",
-    "latex/compile/Digital competence framework.md",
     "latex/compile/Acronyms.md",
-    "citations/@springerGuideComputer.md",
-    "citations/@Stefanek_2002.md",
-    "chapters/Digital competence framework.md",
-    "chapters/Introduction.md",
+    "chapters/Related work.md",
+    "notes/IDM/Google.md",
+    "notes/IDM/Synnology.md",
+    "Acronyms.md",
     "chapters/Profiles.md",
-    "Metodology.md",
-    "latex/compile/thesis.md",
-    "latex/compile/IDM Services.md"
+    "chapters/Services.md",
+    "notes/IDM/Microsoft.md",
+    "assets/780c6db41f3413a038a1c6078b707d46.png",
+    "notes/User profiles/Profiles.md",
+    "notes/IDM/Cloudflare.md",
+    "notes/IDM Services.md",
+    "citations/@Strodl_Motlik_Stadler_Rauber_2008.md",
+    "citations/@Pecuch2021thesis.md",
+    "Notes.md",
+    "Assigment.md"
   ]
 }

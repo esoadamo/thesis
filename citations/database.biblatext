@@ -228,4 +228,4 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 	note = {[Accessed 10-04-2024]},
 }
 
-@article{Strodl_Motlik_Stadler_Rauber_2008, title={Personal & Soho archiving}, DOI={10.1145/1378889.1378910}, journal={Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries}, author={Strodl, Stephan and Motlik, Florian and Stadler, Kevin and Rauber, Andreas}, year={2008}, month={Jun}} 
+@article{Strodl_Motlik_Stadler_Rauber_2008, title={Personal \& Soho archiving}, DOI={10.1145/1378889.1378910}, journal={Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries}, author={Strodl, Stephan and Motlik, Florian and Stadler, Kevin and Rauber, Andreas}, year={2008}, month={Jun}}
