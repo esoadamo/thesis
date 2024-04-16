@@ -229,3 +229,19 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 }
 
 @article{Strodl_Motlik_Stadler_Rauber_2008, title={Personal \& Soho archiving}, DOI={10.1145/1378889.1378910}, journal={Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries}, author={Strodl, Stephan and Motlik, Florian and Stadler, Kevin and Rauber, Andreas}, year={2008}, month={Jun}}
+
+@misc{onedrivePricing,
+	author = {Microsoft},
+	title = { {C}ompare cloud storage pricing and plans},
+	howpublished = {\url{https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans}},
+	year = {2024},
+	note = {[Accessed 16-04-2024]},
+}
+
+@misc{microsoftApplyEncryption,
+	author = {Microsoft},
+	title = {{A}pply encryption using sensitivity labels --- learn.microsoft.com},
+	howpublished = {\url{https://learn.microsoft.com/en-us/purview/encryption-sensitivity-labels}},
+	year = {2024},
+	note = {[Accessed 16-04-2024]},
+}

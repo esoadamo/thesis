@@ -79,12 +79,21 @@ def process_obsidian_md(file_md, root):
   # Include other .md files
   while True:
     try:
-      match = next(re.finditer(r"\[\[([^@][^]]*?)]]", content))
+      match = next(re.finditer(r"!?\[\[([^@][^]]*?)]]", content))
     except StopIteration:
       break
     replace = match.group(0)
-    file_md_insert = Path(match.group(1) + '.md')
-    content = content.replace(replace, process_obsidian_md(file_md_insert, root))
+    file_link_name = caption = match.group(1)
+
+    if '|' in file_link_name:
+      file_link_name, caption = file_link_name.split('|')
+
+    if '.' in file_link_name:
+      content = content.replace(replace, '```latex\n\\begin{figure}[h]\n\\caption{' + caption + '}\n\\centering\n\\includegraphics[width=\\textwidth]{' + file_link_name + '}\n\\end{figure}\n```')
+
+    else:
+      file_md_insert = Path(file_link_name + '.md')
+      content = content.replace(replace, process_obsidian_md(file_md_insert, root))
 
   # Parse raw latex blocks
   while True:

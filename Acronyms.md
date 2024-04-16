@@ -12,3 +12,4 @@
 | SSO     | Single sign-on              |
 | SOHO    | Small office / Home Office  |
 | OS      | Operating System            |
+| NAS     | Network Attached Storage    |
