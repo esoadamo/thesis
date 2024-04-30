@@ -74,6 +74,8 @@ The next solution that I would like to propose is the Proton ecosystem, which is
 
 ## Bitwarden
 
+As special solution for SaaS that does not cover wide range of needs, but instead focuses only one one specific area, I would like to introduce Bitwarden. This solution can be found in ___ and . Bitwarden is a open-source password manager that is available both as an extension to the web browser and as a native application on most popular platforms. It supports standart features such as auto-filling of passwords, but also advanced features where it can pose as a virtual WebAuth token.
+
 On the other hand, when looking on services that do provide actually on this scope, we can take a look at Bitmorton Password Manager, which is an open-source password manager that allows anyone to synchronize their passwords with support of all the systems, including automatic filling. So, it has an enterprise version, which includes more features or even a Kite system, where it includes features like generating TOTP codes on the line and sharing, which would be useful for the firm and family to use. 
 ## Considered solutions
 
