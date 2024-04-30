@@ -22,6 +22,8 @@ For the Android OS Microsoft provides a Family Safety application. After install
 ### Desktop integration
 
 As an operating system from Microsoft, Windows seamlessly integrates with the company's ecosystem of services. Windows also comes preinstalled with OneDrive application or Microsoft Defender, an endpoint malware protection program. Additionally, the operating system features contain also a Microsoft Smart Screen, which verifies the authenticity of applications before launching them. This security measure ensures that only trusted applications are allowed to run on the computer, unless explicitly disabled. When using BitLocker-encrypted hard drive, Microsoft also provides an option to recover encryption keys from the online portal if needed.
+
+- find my device
 ## Google
 
 Google is the second large provider of security as a service introduced in this thesis. Unlike Microsoft, which has a large portion of the desktop market, Google has a large coverage of the smartphone market with its Android OS as new devices with this system do often come with pre-installed Google applications. Google is also well-known for its web browser, Google Chrome.
@@ -31,10 +33,37 @@ Google provides various publicly available free services -- perhaps most importa
 
 ![[Pasted image 20240429211526.png|Google One Subscription plans]]
 
+### Smartphone services
+
+- Play Services
+- App backup
+- Security scan
+- Find my device
+
 ## Apple
 
-The next system I would consider for this thesis as one of the providers of a security service, I would name the Echo ecosystem. Even though this ecosystem is slightly close to Apple produced devices, it still, if you are within this contained ecosystem with your device, can provide a wide range of security services, namely, one of the most prominent features of this ecosystem is the synchronization of everything across all of your devices, which is actually backed up by the cloud storage software iCloud. The iCloud has one ability that neither Microsoft nor Google Drive possesses and that is that it is actually end-to-end encrypted, even though the key can be recovered by Apple, if not specifically set otherwise. Next, Apple Echo system can provide you with a new email on iCloud.com domain, if you choose to create a new account and the Apple devices like iPhone do actually have enabled a full backup by default, meaning that if you want to use your device or something like that, you can recover the full content of the device just by logging into your Apple account and downloading everything on a new device. The downside to this is that even though you have a full backup of your phone, this actually takes a lot of space on your iCloud drive, where you get only 5GB of memory for free and you have to pay to get more memory with a monthly subscription, which I'll include prices in the version text. Moving on, the Apple does also provide a method for storing passwords, so called Apple Key Vault, which is able and enabled by default to store all your login credentials, and again synchronize with entry and entry encryption. Next, the Apple Echo system comes with an inbuilt Find My Device feature for locating your device. And to do, does it have something for family? I don't know, I need to find out.
+Another ecosystem that provides security as a service is the Apple ecosystem. Even though all of the Apple services are mostly closed for devices produced by the company, it provides a wide range of services for them.
 
+### Identity managment
+
+Apple provides an option to create a new free account, called Apple ID, for its products. This account is essential for the correct working of Apple-produced devices, as currently, it is needed to be able to install new software from Apple store. Together with this Account, the user may choose to also create a new mail account on icloud.com domain. This account can be subsequently used as a identity source for other services, e. g. it is the only option for SSO login to the Cloudflare Dashboard. The login process to the Apple account itself can be set in such a way so that it requires login confirmation as a MFA on user's existing device.
+
+![[Pasted image 20240430084545.png|Login form for a Cloudflare Dashboard portal]]
+### Cloud services
+
+The main point of cloud services provided by Apple for general consumers is its cloud storage iCloud. With a free Apple ID account on a Apple device, the user gets only 5 GB of storage. Though, this storage can be extended with payed subscription. By default, the Apple automatically backs-up both all taken photos to the iCloud and the whole device itself. As this does not require any action to be taken by user, it can be considered as a secure-by-default solution. On the other hand, it can quickly drain the available free storage, pushing user to the payed subscription. Other than this tiered subscriptions, there exists also the possibility to use so-called [Web-only access to iCloud](https://support.apple.com/en-us/102447), which offers only 1 GB of space.
+
+![[Pasted image 20240430085537.png|Payed subscription plans for iCloud]]
+
+Apple also provides a full office suite, available for both all Apple-produced devices and for web access using iCloud.
+
+Another security feature that is available on the Apple devices by default is its password manager iCloud Keychain. This manager is set to auto-fill on the iOS by default and is protected by the same measures as the device's lock screen. 
+
+### Smartphone 
+
+For Apple devices, Apple provides an E2EE communication service called iMessage. However, as with many Apple products, this service cannot currently be used outside of the Apple ecosystem.
+
+For families, it may be useful that the iOS provides a location sharing feature, where one person can select contact which are then able to see the position updated in real time. As with both Google and Microsoft, there is a web UI for locating a misplaced device.
 ## Synology
 
 As the control group, we can include Synology network storage, which is a standalone device that you can purchase for a few thousand crowns when both first-hands or near two thousand crowns when both form a second hand. Even though this device is primarily supposed to be used for storing files, it does actually come with a large plug-in system and the main advantage of Synology is that it actually provide a convenient bridge between using a cloud-based solution and by self-hosting everything yourself, as it does come with very convenient GUI for configuration, which even intermittently or late-beginner users should be able to configure to their needs. This GUI is web-based and after creating a main account, you are able to download more plugins, which include Thunder server, Contacts server, and many more, and one of the main advantages is that on your devices, you have the ability to run self-hosted Docker container, which means that you are able to run pretty much everything. Under the hood, the newer Synology systems do actually use ETRFS by default, meaning that you get support for checksum files to watch for corruption and use your hard drives and software write to have multiple hard drives connected into one for larger storage. A very important feature of Synology is that it is possible to configure something called Synology Quick Connect to be able to access your Synology device remotely, as it does actually This Quick Connect is for up to 250 users and 10 devices, and as you can see, if you configure this yourself, you are able to achieve a self-hosted solution with the obvious downside being the obvious upside of this solution is that you get a solution that you pay only once for, and you get running forever, with the obvious disadvantage of decreased physical security of your data and having to somewhat manage the server itself. Another disadvantage may be that the Synology devices do actually reach the end of their lifetime, and after the EOL, no more security updates may be published, which may actually put your data at high risk if you do not invest into a newer device, even though the old one is still functioning pretty well. Furthermore, Synology does actually provide anti-virus scan for stored files and nice client for full disk backup of your Windows operating system. Another module that Synology provides is a single sign-on server, where you can actually use your configured Synology users as a program source of truth to work into other applications.

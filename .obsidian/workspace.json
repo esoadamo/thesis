@@ -160,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c51fe6a5f9f6b255",
@@ -239,12 +239,16 @@
   },
   "active": "2dd75a90fd1e36c9",
   "lastOpenFiles": [
+    "chapters/Digital competence framework.md",
+    "Acronyms.md",
+    "chapters/Services.md",
+    "assets/Pasted image 20240430085537.png",
+    "chapters/Solutions.md",
+    "assets/Pasted image 20240430084545.png",
     "assets/Pasted image 20240429211526.png",
     "assets/Pasted image 20240429211418.png",
-    "chapters/Services.md",
     "notes/IDM/Google.md",
     "notes/IDM/Microsoft.md",
-    "chapters/Solutions.md",
     "notes/User profiles/Profile of Family with low-tech skills.md",
     "chapters/Profiles.md",
     "notes/User profiles/Original questions.md",
@@ -276,13 +280,9 @@
     "latex/compile/Pasted image 20240424193102.png",
     "latex/compile/Microsoft 365 Individual Pricing.png",
     "latex/compile/Microsoft 365 Business Pricing.png",
-    "latex/compile/CryptPad sheets.png",
-    "latex/compile/CryptPad rich text.png",
-    "latex/compile/CryptPad main menu.png",
     "latex/compile/Profiles.md",
     "latex/compile/Digital competence framework.md",
     "latex/compile/Acronyms.md",
-    "Acronyms.md",
     "Text.md",
     "chapters/Metodology.md"
   ]
