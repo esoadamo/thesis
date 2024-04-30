@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9eed485652c94b2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Acronyms.md",
+                "file": "chapters/Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Profiles.md",
+                "file": "chapters/Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98e8739260567574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Digital competence framework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5d3f4e59448f513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acronyms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f32c517c83f939c2",
@@ -55,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/IDM/Microsoft.md",
+                "file": "notes/IDM/Google.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,14 +80,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/IDM/Google.md",
+                "file": "notes/User profiles/Original questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e00fcbe223e52fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Solution notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75bdae6b26944258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/User profiles/Profile of Family with low-tech skills.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,8 +156,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,19 +237,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a793d7240be0803",
+  "active": "2dd75a90fd1e36c9",
   "lastOpenFiles": [
-    "latex/compile/lualatex511627.fls",
-    "latex/compile/main.bbl",
-    "latex/compile/main.blg",
-    "latex/compile/main.ind",
-    "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/6cfdf13aac6c8f9fd36f9044af4fcba3.md.tex",
-    "latex/compile/_markdown_main/46d105d69c6c2239d5da76e8560fcd4d.md.tex",
-    "latex/compile/_markdown_main/5bc7b3c22d225077f9ac0c8baa371e4a.md.tex",
+    "assets/Pasted image 20240429211526.png",
+    "assets/Pasted image 20240429211418.png",
+    "chapters/Services.md",
+    "notes/IDM/Google.md",
+    "notes/IDM/Microsoft.md",
+    "chapters/Solutions.md",
+    "notes/User profiles/Profile of Family with low-tech skills.md",
+    "chapters/Profiles.md",
+    "notes/User profiles/Original questions.md",
+    "chapters/Related work.md",
+    "notes/User profiles/Digital competence.md",
+    "notes/Solution notes.md",
     "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
-    "latex/compile/_markdown_main/8401cf357046189ed8554c064a9c9adf.md.tex",
+    "latex/compile/_markdown_main/efe22dd32c4edf7ccb025e598f98502f.md.tex",
     "latex/compile/main.markdown.in",
+    "latex/compile/main.lof",
+    "latex/compile/main.lot",
+    "latex/compile/main.toc",
+    "latex/compile/main.bcf",
+    "latex/compile/main.out",
+    "latex/compile/main.pdf",
+    "latex/compile/main.idx",
+    "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
     "latex/compile/Introduction.md",
@@ -226,29 +273,17 @@
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Pasted image 20240424193102.png",
     "latex/compile/Microsoft 365 Individual Pricing.png",
     "latex/compile/Microsoft 365 Business Pricing.png",
+    "latex/compile/CryptPad sheets.png",
+    "latex/compile/CryptPad rich text.png",
+    "latex/compile/CryptPad main menu.png",
     "latex/compile/Profiles.md",
     "latex/compile/Digital competence framework.md",
     "latex/compile/Acronyms.md",
-    "citations/@microsoftApplyEncryption.md",
-    "assets/Microsoft 365 Individual Pricing.png",
-    "assets/Microsoft 365 Business Pricing.png",
-    "chapters/Services.md",
-    "latex/compile/Pasted image 20240416213814.png",
     "Acronyms.md",
-    "latex/compile/Microsoft 365 Pricing.png",
-    "citations/@onedrivePricing.md",
     "Text.md",
-    "chapters/Profiles.md",
-    "assets/93509b1aa144c2641669c027b072872d.png",
-    "chapters/Related work.md",
-    "notes/IDM/Google.md",
-    "notes/IDM/Synnology.md",
-    "notes/IDM/Microsoft.md",
-    "notes/User profiles/Profiles.md",
-    "notes/IDM/Cloudflare.md",
-    "notes/IDM Services.md",
-    "citations/@Strodl_Motlik_Stadler_Rauber_2008.md"
+    "chapters/Metodology.md"
   ]
 }

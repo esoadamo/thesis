@@ -11,22 +11,22 @@
 ### Answers 1
 
 - haweibeenpwned
-- people are cautios about new technologies - will iCloud stole all my data?
+- people are cautious about new technologies - will iCloud stole all my data?
   - external disc must be bought
 - MFA is scary, but people are already using it for smarbanking
-- advices can be taken from authoritative people
-- cyberbulling \~80%
+- advises can be taken from authoritative people
+- cyber-bulling \~80%
 - devices: laptop for offices, smartphone
-- syncing between devices non-occuring
+- syncing between devices non-occurring
   - abstract idea is hard
 - does not know how to navigate file system
   - abstract idea is hard
-- newer heard of password manager
-- **big conceptual change of how to manager digital data**
-  - what is abstraction????
+- never heard of password manager
+- **big conceptual change of how to manage digital data**
+  - what is abstraction?
 - people do not thing in categories
 - hard to comprehend: extra work now does help in future
-- antivirus - what is it??
+- antivirus - what is it?
   - I need CCleaner, MalwareBytes, download all of them!
 - do not read and click -> buys everything!!!!
   - cannot read text in front of them, needs help

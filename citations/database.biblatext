@@ -245,3 +245,27 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 	year = {2024},
 	note = {[Accessed 16-04-2024]},
 }
+
+@misc{cryptpadSecurity,
+	author = {CryptPad Team},
+	title = {{S}ecurity - {C}rypt{P}ad 2024.3.0 documentation --- docs.cryptpad.org},
+	howpublished = {\url{https://docs.cryptpad.org/en/user_guide/security.html}},
+	year = {2024},
+	note = {[Accessed 17-04-2024]},
+}
+
+@misc{cryptPadFAQ,
+	author = {CryptPad Team},
+	title = {{F}requently {A}sked {Q}uestions - {C}rypt{P}ad 2024.3.0 documentation --- docs.cryptpad.org},
+	howpublished = {\url{https://docs.cryptpad.org/en/FAQ.html\#can-cryptpad-sync-documents-to-my-local-filesystem}},
+	year = {2024},
+	note = {[Accessed 17-04-2024]},
+}
+
+@misc{microsoftPhoneMonitoring,
+	author = {Microsoft},
+	title = {{P}hone monitoring apps and protecting your family in the digital age - {M}icrosoft 365},
+	howpublished = {\url{https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/protect-your-family-how-to-select-a-phone-monitoring-app}},
+	year = {2021},
+	note = {[Accessed 22-04-2024]},
+}

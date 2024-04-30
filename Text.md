@@ -16,3 +16,6 @@
 
 [[Services]]
 
+# Solutions for profiles
+
+[[Solutions]]

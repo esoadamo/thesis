@@ -4,6 +4,8 @@
 - [Microsoft family safety sales pitch](https://www.microsoft.com/cs-cz/microsoft-365/family-safety?ocid=cmm15zkky0u&rtc=1)
   - ![93509b1aa144c2641669c027b072872d.png](./assets/93509b1aa144c2641669c027b072872d.png)
   - net filtering works by blocking browsers other than Edge
+  - https://prod.support.services.microsoft.com/en-us/account-billing/microsoft-family-safety-faq-bad45b7f-ee38-45fb-b1d2-7976e87a5526
+	  - changes comming at 29 feb 2024
   - [Phone app](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/protect-your-family-how-to-select-a-phone-monitoring-app) allows for key-logging
   - payed ransomware protection & 6TB of OneDrive space
   - up to 6 accounts

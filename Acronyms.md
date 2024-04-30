@@ -13,3 +13,4 @@
 | SOHO    | Small office / Home Office  |
 | OS      | Operating System            |
 | NAS     | Network Attached Storage    |
+| OIDC    | Open ID Connect             |

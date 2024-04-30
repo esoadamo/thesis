@@ -89,7 +89,7 @@ def process_obsidian_md(file_md, root):
       file_link_name, caption = file_link_name.split('|')
 
     if '.' in file_link_name:
-      content = content.replace(replace, '```latex\n\\begin{figure}[h]\n\\caption{' + caption + '}\n\\centering\n\\includegraphics[width=\\textwidth]{' + file_link_name + '}\n\\end{figure}\n```')
+      content = content.replace(replace, '```latex\n\\begin{figure}[h]\n\\caption{' + caption + '}\n\\centering\n\\includegraphics[width=\\textwidth,height=0.4\\textheight,keepaspectratio]{' + file_link_name + '}\n\\end{figure}\n```')
 
     else:
       file_md_insert = Path(file_link_name + '.md')

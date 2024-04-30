@@ -1,0 +1,61 @@
+- how long does it take to setup
+	- already set up
+	- under hour
+	- under three hours
+	- under six hour
+	- more
+- if it breaks, can the user can repair it itself
+	- without any trouble
+	- with a little need for research
+	- with a possible help of a peer
+	- unlikely
+- does the user understand what they are doing.
+	- fully
+	- almost everything
+	- are able to remember process
+	- unlinkely
+- is it affordable
+	- free
+	- <200 crowns/month
+	- <1500 crowns/month
+	- >1500 crowns/month
+- does it cover their needs
+	- fully
+	- mostly
+	- partialy
+	- not at all
+- does it cover additional needs
+	- fully
+	- mostly
+	- partialy
+	- not at all
+- does it provide enough security
+	- top focus
+	- good enough
+	- partial
+	- bad
+- does it provide enough privacy
+	- top focus
+	- good enough
+	- partial
+	- bad
+- how hard it is to integrate with other systems
+	- top focus
+	- good enough
+	- hacky
+	- impossible
+- how hard it is to import data from another system
+	- top focus
+	- good enough
+	- hacky
+	- impossible
+- how hard it is to export data to another system
+	- top focus
+	- good enough
+	- hacky
+	- impossible
+- how relevant it is to this profile
+	- essential
+	- important
+	- nice-to-have
+	- completely out of scope
