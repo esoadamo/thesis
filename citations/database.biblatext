@@ -38,6 +38,63 @@
 	note = {[Accessed 01-05-2024]},
 }
 
+@misc{synologyServiceServer,
+	author = {Synology Inc.},
+	title = {{S}ervice | {S}{S}{O} {S}erver - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/SSOServer/sso_server_service?version=7}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{synology2FactorAuthentication,
+	author = {Synology Inc.},
+	title = {2-{F}actor {A}uthentication | {D}{S}{M} - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-global/DSM/help/DSM/SecureSignIn/2factor_authentication?version=7}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{synologySyncFiles,
+	author = {Synology Inc.},
+	title = {{H}ow to sync files between {S}ynology {N}{A}{S} and your computer using {S}ynology {D}rive {C}lient - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-us/DSM/tutorial/How_to_sync_files_between_Synology_NAS_and_your_computer_using_Drive_desktop}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{synologyPhotoSynology,
+	author = {Synology Inc.},
+	title = {{D}{S} photo | i{O}{S} - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/DSphoto/iPhone?version=6}},
+	year = {},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{synologyPhotoAndroid,
+	author = {Synology Inc.},
+	title = {{D}{S} photo | {A}ndroid - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/DSphoto/Android?version=6}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{synologyQuickConnectSynology,
+	author = {Synology Inc.},
+	title = {{Q}uick{C}onnect | {D}{S}{M} - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/connection_quickconnect?version=7}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+
+@misc{synologyBackEntire,
+	author = {Synology Inc.},
+	title = {{H}ow do {I} back up an entire computer or server using {A}ctive {B}ackup for {B}usiness? - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
+	howpublished = {\url{https://kb.synology.com/en-us/DSM/tutorial/How_back_up_PC_physical_server_with_ABB}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
 @misc{Ciernikova2022thesis,
         AUTHOR = {ierniková, Tamara},
         TITLE = {Selected open tools supporting security and privacy protection for regular end-users},

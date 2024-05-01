@@ -42,6 +42,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8bc5fbfe7dec7470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acronyms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -215,51 +227,51 @@
   },
   "active": "eee013a434415bd4",
   "lastOpenFiles": [
-    "latex/compile/lualatex207150.fls",
-    "latex/compile/lualatex207095.fls",
-    "latex/compile/lualatex207012.fls",
+    "latex/compile/lualatex257806.fls",
+    "latex/compile/lualatex257777.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/38f46ee23823cb363c46d1e1a50f897b.md.tex",
+    "latex/compile/_markdown_main/a0e7620b8ec5017dcf44af41cf978dda.md.tex",
+    "latex/compile/_markdown_main/fd6b391501601710902fc37ccd585e1a.md.tex",
+    "latex/compile/_markdown_main/4966ef9b54e203d3fcbc208edbbb3d4b.md.tex",
+    "latex/compile/_markdown_main/31cd00d934b8eff840630dd74a8f3044.md.tex",
     "latex/compile/_markdown_main/a73ff7064f9de5f98adf47b83f20801a.md.tex",
-    "latex/compile/_markdown_main/01a4d30d40e85eb0f2f35a8acace6556.md.tex",
-    "latex/compile/_markdown_main/1048df4cd26bb9969ef61136a3186ecb.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
-    "latex/compile/Profiles.md",
     "latex/compile/Introduction.md",
-    "latex/compile/Digital competence framework.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
     "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
-    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Pasted image 20240501192735.png",
+    "latex/compile/Pasted image 20240501192143.png",
+    "latex/compile/Pasted image 20240501190623.png",
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184729.png",
     "latex/compile/Pasted image 20240501184329.png",
     "latex/compile/Pasted image 20240501184257.png",
-    "latex/compile/Pasted image 20240501184149.png",
-    "latex/compile/Pasted image 20240501184116.png",
-    "latex/compile/Pasted image 20240501154113.png",
-    "Text.md",
+    "citations/@synologyQuickConnectSynology.md",
+    "latex/compile/Profiles.md",
+    "latex/compile/Digital competence framework.md",
+    "latex/compile/Acronyms.md",
+    "citations/@synologyPhotoSynology.md",
+    "citations/@synologyPhotoAndroid.md",
+    "citations/@synologyBackEntire.md",
+    "citations/@synologySyncFiles.md",
+    "citations/@synology2FactorAuthentication.md",
+    "citations/@synologyServiceServer.md",
+    "Acronyms.md",
     "chapters/Services.md",
+    "Text.md",
     "chapters/Solutions.md",
     "notes/IDM/Synnology.md",
-    "notes/IDM/Google.md",
-    "notes/Solution notes.md",
-    "chapters/Related work.md",
-    "citations/@googleBackRestore.md",
-    "citations/@androidcentralGooglePlay.md",
-    "citations/@googleblogFoughtApps.md",
-    "citations/@protonDownloadProton.md",
-    "citations/@protonCreateFree.md",
-    "Acronyms.md"
+    "notes/IDM/Google.md"
   ]
 }

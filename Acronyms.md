@@ -14,3 +14,4 @@
 | OS      | Operating System            |
 | NAS     | Network Attached Storage    |
 | OIDC    | Open ID Connect             |
+| NAS     | Network-attached storage    |
