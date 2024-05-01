@@ -157,7 +157,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,8 +239,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2dd75a90fd1e36c9",
+  "active": "4a456b4bb25e20ec",
   "lastOpenFiles": [
+    "citations/@protonDownloadProton.md",
+    "citations/@protonCreateFree.md",
+    "assets/Pasted image 20240501154113.png",
     "Acronyms.md",
     "chapters/Services.md",
     "chapters/Related work.md",
@@ -280,11 +284,8 @@
     "latex/compile/2023-10-04-11-06-48-image.png",
     "latex/compile/Pasted image 20240424193102.png",
     "latex/compile/Microsoft 365 Individual Pricing.png",
-    "latex/compile/Microsoft 365 Business Pricing.png",
     "latex/compile/Profiles.md",
     "latex/compile/Digital competence framework.md",
-    "latex/compile/Acronyms.md",
-    "Text.md",
-    "chapters/Metodology.md"
+    "latex/compile/Acronyms.md"
   ]
 }
