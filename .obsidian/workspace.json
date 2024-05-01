@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/IDM/Google.md",
+                "file": "notes/IDM/Synnology.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,33 +85,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "75bdae6b26944258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/User profiles/Profile of Family with low-tech skills.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b353ce7c45dcaa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/Related work.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,41 +214,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a456b4bb25e20ec",
+  "active": "2dd75a90fd1e36c9",
   "lastOpenFiles": [
-    "citations/@protonDownloadProton.md",
-    "citations/@protonCreateFree.md",
-    "assets/Pasted image 20240501154113.png",
-    "Acronyms.md",
-    "chapters/Services.md",
-    "chapters/Related work.md",
-    "notes/IDM/Google.md",
-    "chapters/Digital competence framework.md",
-    "assets/Pasted image 20240430085537.png",
-    "chapters/Solutions.md",
-    "assets/Pasted image 20240430084545.png",
-    "assets/Pasted image 20240429211526.png",
-    "assets/Pasted image 20240429211418.png",
-    "notes/IDM/Microsoft.md",
-    "notes/User profiles/Profile of Family with low-tech skills.md",
-    "chapters/Profiles.md",
-    "notes/User profiles/Original questions.md",
-    "notes/User profiles/Digital competence.md",
-    "notes/Solution notes.md",
-    "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
-    "latex/compile/_markdown_main/efe22dd32c4edf7ccb025e598f98502f.md.tex",
-    "latex/compile/main.markdown.in",
-    "latex/compile/main.lof",
-    "latex/compile/main.lot",
-    "latex/compile/main.toc",
-    "latex/compile/main.bcf",
-    "latex/compile/main.out",
-    "latex/compile/main.pdf",
-    "latex/compile/main.idx",
+    "latex/compile/lualatex150614.fls",
+    "latex/compile/lualatex150601.fls",
+    "latex/compile/lualatex150579.fls",
+    "latex/compile/main.bbl",
+    "latex/compile/main.blg",
+    "latex/compile/main.ind",
+    "latex/compile/main.run.xml",
+    "latex/compile/_markdown_main/34a9bfcc3c941c7372c922583ecdcdca.md.tex",
+    "latex/compile/_markdown_main/ba3a485f4d174f070b0e54c06d57de78.md.tex",
+    "latex/compile/_markdown_main/a73ff7064f9de5f98adf47b83f20801a.md.tex",
+    "latex/compile/_markdown_main/01a4d30d40e85eb0f2f35a8acace6556.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
     "latex/compile/Introduction.md",
+    "latex/compile/Digital competence framework.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
     "latex/compile/Notes.md",
@@ -282,10 +240,27 @@
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Pasted image 20240501154113.png",
+    "latex/compile/Pasted image 20240430085537.png",
+    "latex/compile/Pasted image 20240430084545.png",
+    "latex/compile/Pasted image 20240429211526.png",
     "latex/compile/Pasted image 20240424193102.png",
-    "latex/compile/Microsoft 365 Individual Pricing.png",
+    "latex/compile/Microsoft 365 Business Pricing.png",
+    "latex/compile/CryptPad sheets.png",
     "latex/compile/Profiles.md",
-    "latex/compile/Digital competence framework.md",
-    "latex/compile/Acronyms.md"
+    "latex/compile/Acronyms.md",
+    "notes/IDM/Synnology.md",
+    "notes/IDM/Google.md",
+    "notes/Solution notes.md",
+    "chapters/Related work.md",
+    "chapters/Services.md",
+    "citations/@googleBackRestore.md",
+    "citations/@androidcentralGooglePlay.md",
+    "citations/@googleblogFoughtApps.md",
+    "citations/@protonDownloadProton.md",
+    "citations/@protonCreateFree.md",
+    "Acronyms.md",
+    "chapters/Digital competence framework.md",
+    "chapters/Solutions.md"
   ]
 }

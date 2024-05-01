@@ -22,8 +22,6 @@ For the Android OS Microsoft provides a Family Safety application. After install
 ### Desktop integration
 
 As an operating system from Microsoft, Windows seamlessly integrates with the company's ecosystem of services. Windows also comes preinstalled with OneDrive application or Microsoft Defender, an endpoint malware protection program. Additionally, the operating system features contain also a Microsoft Smart Screen, which verifies the authenticity of applications before launching them. This security measure ensures that only trusted applications are allowed to run on the computer, unless explicitly disabled. When using BitLocker-encrypted hard drive, Microsoft also provides an option to recover encryption keys from the online portal if needed.
-
-- find my device
 ## Google
 
 Google is the second large provider of security as a service introduced in this thesis. Unlike Microsoft, which has a large portion of the desktop market, Google has a large coverage of the smartphone market with its Android OS as new devices with this system do often come with pre-installed Google applications. Google is also well-known for its web browser, Google Chrome.
@@ -35,16 +33,27 @@ Google provides various publicly available free services -- perhaps most importa
 
 ### Smartphone services
 
-- Play Services
-- App backup
-- Security scan
-- Find my device
+When installing new applications through Google Play, the applications have already been processes by Google Play Protect and deemed as non-malicious.[[@googleblogFoughtApps]] Next, because of sometimes slow rolling out of security updates for Android devices by third-party manufacturers, Google has introduces Google Play Services, that can be used to apply security patches even.[[@androidcentralGooglePlay]] To recover misplaced device, Google offers a web portal that is able to contact device and show its real-time location on map or force the device to start ringing. On Android, Google also offers the ability to perform a backup and restore of all apps that support it on a fresh or new device. [[@googleBackRestore]]
 
+### Family services
+
+Similarly to Microsoft's Family Safety, Google presents its own service called Family Link. This service, after linking parent and children accounts, allows for seeing the physical location of the child in real time or for specifying which applications and sites can they access with optionally imposing time limits. The controls can be more granular on per-Google-app basis, meaning that the parent can currently configure control restrictions for:
+
+- Google Play Store
+- YouTube
+- Google Chrome
+- Google search
+- Google Assistant
+- Google Photos
+
+These restrictions are applied whenever possible, e.g. Youtube and Google search options are enforced whenever the child logs in with their account, while Google Chrome settings are used on all platforms.
+
+Furthermore, the parent can control the whole device more closely, they can remotely lock the device, enable or disable installation of applications outside Google Play, turn developer options on or off or directly manage permissions of each application -- e.g. removing microphone permission from web browser and checking an option that only the parent can allow application to access microphone on the child's device. Next, the parent has a detailed control of the child's Google account -- they can set required parent's approval on every sing-in attempt to the child's account or when the child uses their Google account to sign into third party app. They can also directly change the child's account password or delete the account altogether.
 ## Apple
 
 Another ecosystem that provides security as a service is the Apple ecosystem. Even though all of the Apple services are mostly closed for devices produced by the company, it provides a wide range of services for them.
 
-### Identity managment
+### Identity management
 
 Apple provides an option to create a new free account, called Apple ID, for its products. This account is essential for the correct working of Apple-produced devices, as currently, it is needed to be able to install new software from Apple store. Together with this Account, the user may choose to also create a new mail account on icloud.com domain. This account can be subsequently used as a identity source for other services, e. g. it is the only option for SSO login to the Cloudflare Dashboard. The login process to the Apple account itself can be set in such a way so that it requires login confirmation as a MFA on user's existing device.
 
@@ -64,9 +73,6 @@ Another security feature that is available on the Apple devices by default is it
 For Apple devices, Apple provides an E2EE communication service called iMessage. However, as with many Apple products, this service cannot currently be used outside of the Apple ecosystem.
 
 For families, it may be useful that the iOS provides a location sharing feature, where one person can select contact which are then able to see the position updated in real time. As with both Google and Microsoft, there is a web UI for locating a misplaced device.
-## Synology
-
-As the control group, we can include Synology network storage, which is a standalone device that you can purchase for a few thousand crowns when both first-hands or near two thousand crowns when both form a second hand. Even though this device is primarily supposed to be used for storing files, it does actually come with a large plug-in system and the main advantage of Synology is that it actually provide a convenient bridge between using a cloud-based solution and by self-hosting everything yourself, as it does come with very convenient GUI for configuration, which even intermittently or late-beginner users should be able to configure to their needs. This GUI is web-based and after creating a main account, you are able to download more plugins, which include Thunder server, Contacts server, and many more, and one of the main advantages is that on your devices, you have the ability to run self-hosted Docker container, which means that you are able to run pretty much everything. Under the hood, the newer Synology systems do actually use ETRFS by default, meaning that you get support for checksum files to watch for corruption and use your hard drives and software write to have multiple hard drives connected into one for larger storage. A very important feature of Synology is that it is possible to configure something called Synology Quick Connect to be able to access your Synology device remotely, as it does actually This Quick Connect is for up to 250 users and 10 devices, and as you can see, if you configure this yourself, you are able to achieve a self-hosted solution with the obvious downside being the obvious upside of this solution is that you get a solution that you pay only once for, and you get running forever, with the obvious disadvantage of decreased physical security of your data and having to somewhat manage the server itself. Another disadvantage may be that the Synology devices do actually reach the end of their lifetime, and after the EOL, no more security updates may be published, which may actually put your data at high risk if you do not invest into a newer device, even though the old one is still functioning pretty well. Furthermore, Synology does actually provide anti-virus scan for stored files and nice client for full disk backup of your Windows operating system. Another module that Synology provides is a single sign-on server, where you can actually use your configured Synology users as a program source of truth to work into other applications.
 
 ## Proton
 
@@ -94,3 +100,9 @@ A main downside of the CryptPad, for the purposes of this thesis, is the inabili
 ![[CryptPad sheets.png|Modifying sheet on CryptPad with simple formula]]
 
 ![[CryptPad rich text.png|Modifying rich text document on CryptPad]]
+
+## Synology
+
+All of the before mentioned services are running 
+
+As the control group, we can include Synology network storage, which is a standalone device that you can purchase for a few thousand crowns when both first-hands or near two thousand crowns when both form a second hand. Even though this device is primarily supposed to be used for storing files, it does actually come with a large plug-in system and the main advantage of Synology is that it actually provide a convenient bridge between using a cloud-based solution and by self-hosting everything yourself, as it does come with very convenient GUI for configuration, which even intermittently or late-beginner users should be able to configure to their needs. This GUI is web-based and after creating a main account, you are able to download more plugins, which include Thunder server, Contacts server, and many more, and one of the main advantages is that on your devices, you have the ability to run self-hosted Docker container, which means that you are able to run pretty much everything. Under the hood, the newer Synology systems do actually use ETRFS by default, meaning that you get support for checksum files to watch for corruption and use your hard drives and software write to have multiple hard drives connected into one for larger storage. A very important feature of Synology is that it is possible to configure something called Synology Quick Connect to be able to access your Synology device remotely, as it does actually This Quick Connect is for up to 250 users and 10 devices, and as you can see, if you configure this yourself, you are able to achieve a self-hosted solution with the obvious downside being the obvious upside of this solution is that you get a solution that you pay only once for, and you get running forever, with the obvious disadvantage of decreased physical security of your data and having to somewhat manage the server itself. Another disadvantage may be that the Synology devices do actually reach the end of their lifetime, and after the EOL, no more security updates may be published, which may actually put your data at high risk if you do not invest into a newer device, even though the old one is still functioning pretty well. Furthermore, Synology does actually provide anti-virus scan for stored files and nice client for full disk backup of your Windows operating system. Another module that Synology provides is a single sign-on server, where you can actually use your configured Synology users as a program source of truth to work into other applications.

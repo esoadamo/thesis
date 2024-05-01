@@ -14,6 +14,29 @@
 	note = {[Accessed 01-05-2024]},
 }
 
+@misc{googleblogFoughtApps,
+	author = {Kafka, Steve},
+	title = {{H}ow we fought bad apps and bad actors in 2023 --- security.googleblog.com},
+	howpublished = {\url{https://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{androidcentralGooglePlay,
+	author = {Namerah, Fatmi},
+	title = {{G}oogle {P}lay {S}ervices: {W}hat is it, and how does it keep your {A}ndroid phone safe? --- androidcentral.com},
+	howpublished = {\url{https://www.androidcentral.com/apps-software/google-play-services}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
+
+@misc{googleBackRestore,
+	author = {Google},
+	title = {{B}ack up or restore data on your {A}ndroid device - {A}ndroid {H}elp --- support.google.com},
+	howpublished = {\url{https://support.google.com/android/answer/2819582?hl=en}},
+	year = {2024},
+	note = {[Accessed 01-05-2024]},
+}
 
 @misc{Ciernikova2022thesis,
         AUTHOR = {ierniková, Tamara},
