@@ -74,19 +74,17 @@ The next solution that I would like to propose is the Proton ecosystem, which is
 
 ## Bitwarden
 
-As special solution for SaaS that does not cover wide range of needs, but instead focuses only one one specific area, I would like to introduce Bitwarden. This solution can be found in ___ and . Bitwarden is a open-source password manager that is available both as an extension to the web browser and as a native application on most popular platforms. It supports standart features such as auto-filling of passwords, but also advanced features where it can pose as a virtual WebAuth token.
+As special solution for SaaS that does not cover wide range of needs, but instead focuses only one one specific area, I would like to introduce Bitwarden. This solution can be found in [[@Pecuch2021thesis]] and [[@Ciernikova2022thesis]]. Bitwarden is a open-source password manager that is available both as an extension to the web browser and as a native application on most popular platforms. It supports standart features such as auto-filling of passwords, but also advanced features where it can pose as a virtual WebAuthn token. Another service available with a free Bitwaden account is so-called [Bitwaden Send](https://bitwarden.com/products/send/) capable of sending E2EE text as a link with an expiration date and optional password protection.
 
-On the other hand, when looking on services that do provide actually on this scope, we can take a look at Bitmorton Password Manager, which is an open-source password manager that allows anyone to synchronize their passwords with support of all the systems, including automatic filling. So, it has an enterprise version, which includes more features or even a Kite system, where it includes features like generating TOTP codes on the line and sharing, which would be useful for the firm and family to use. 
-## Considered solutions
+The Bitwarden also provides a payed subscription tiers for individuals, families and business, where the added features are the option to share saved credentials, send arbitrary files through Bitwarden Send or use the Bitwarden client as an TOTP keychain. For business plans, there is an option to set-up login through SSO. 
 
-Of course, when staying in only the cloud storage services, we can have many more examples, for example, Dropbox or Box, but these do not include more than only this service. So, we will consider them out of scope for this thesis, even though mega.nz does actually state that it provides end-to-end encrypted storage system. Given that its own founder has said that nobody should actually trust this encryption system, we will stay away also from this software implementation.
+## CryptPad
 
-### Crypt pad
+CryptPad is a service that focuses maily on a E2EE cloud storage. It is similar to Proton Drive, but with an addition a full office suite contained inside web-UI. The user can either self-host their own Crypt dat instance, use the [official CryptPad](https://cryptpad.fr/) instance, or use one of [third party instances](https://cryptpad.org/instances/).  When using the official instance, any registered user obtains 1 GB of free storage, while with payed subscription it can be upgraded to to 50 GB. Every stored file can be shared with other users or by a link. A special features are the ability of a document to self-destruct after being opened e.g. by the recipient of the shared link to it and a permanent chat for every document. Additionally to the office suite, CryptPad also integrates a calendar and ability to create virtual teams with multiple users.
 
-- https://github.com/rclone/rclone/issues/4715
-- "The way encryption is currently used in CryptPad does not allow syncing with the local file system." [[@cryptPadFAQ]]
+A main downside of the CryptPad, for the purposes of this thesis, is the inability to integrate with other systems. To quote directly from the documentation: "The way encryption is currently used in CryptPad does not allow syncing with the local file system." [[@cryptPadFAQ]] This limitation severely decreases the ease of usage as any user must either keep all their document directly in the cloud or export them manually to the local drive. A second largest obstacle, at least for the official instance, is that the maximal size of each file is only 25 MB for free account and 150 MB for the highest tier of payed account.
 
-![[CryptPad main menu.png|The main menu of CryptPad with flder and files selection]]
+![[CryptPad main menu.png|The main menu of CryptPad with folder and files selection]]
 
 ![[CryptPad sheets.png|Modifying sheet on CryptPad with simple formula]]
 
