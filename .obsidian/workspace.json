@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "2dd75a90fd1e36c9",
+            "id": "eee013a434415bd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -132,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,22 +213,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2dd75a90fd1e36c9",
+  "active": "eee013a434415bd4",
   "lastOpenFiles": [
-    "latex/compile/lualatex150614.fls",
-    "latex/compile/lualatex150601.fls",
-    "latex/compile/lualatex150579.fls",
+    "latex/compile/lualatex207150.fls",
+    "latex/compile/lualatex207095.fls",
+    "latex/compile/lualatex207012.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/34a9bfcc3c941c7372c922583ecdcdca.md.tex",
-    "latex/compile/_markdown_main/ba3a485f4d174f070b0e54c06d57de78.md.tex",
+    "latex/compile/_markdown_main/38f46ee23823cb363c46d1e1a50f897b.md.tex",
     "latex/compile/_markdown_main/a73ff7064f9de5f98adf47b83f20801a.md.tex",
     "latex/compile/_markdown_main/01a4d30d40e85eb0f2f35a8acace6556.md.tex",
+    "latex/compile/_markdown_main/1048df4cd26bb9969ef61136a3186ecb.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
+    "latex/compile/Profiles.md",
     "latex/compile/Introduction.md",
     "latex/compile/Digital competence framework.md",
     "latex/compile/Thesis subjects.md",
@@ -237,30 +237,29 @@
     "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
+    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Pasted image 20240501184816.png",
+    "latex/compile/Pasted image 20240501184729.png",
+    "latex/compile/Pasted image 20240501184329.png",
+    "latex/compile/Pasted image 20240501184257.png",
+    "latex/compile/Pasted image 20240501184149.png",
+    "latex/compile/Pasted image 20240501184116.png",
     "latex/compile/Pasted image 20240501154113.png",
-    "latex/compile/Pasted image 20240430085537.png",
-    "latex/compile/Pasted image 20240430084545.png",
-    "latex/compile/Pasted image 20240429211526.png",
-    "latex/compile/Pasted image 20240424193102.png",
-    "latex/compile/Microsoft 365 Business Pricing.png",
-    "latex/compile/CryptPad sheets.png",
-    "latex/compile/Profiles.md",
-    "latex/compile/Acronyms.md",
+    "Text.md",
+    "chapters/Services.md",
+    "chapters/Solutions.md",
     "notes/IDM/Synnology.md",
     "notes/IDM/Google.md",
     "notes/Solution notes.md",
     "chapters/Related work.md",
-    "chapters/Services.md",
     "citations/@googleBackRestore.md",
     "citations/@androidcentralGooglePlay.md",
     "citations/@googleblogFoughtApps.md",
     "citations/@protonDownloadProton.md",
     "citations/@protonCreateFree.md",
-    "Acronyms.md",
-    "chapters/Digital competence framework.md",
-    "chapters/Solutions.md"
+    "Acronyms.md"
   ]
 }

@@ -19,6 +19,13 @@ After its creation, the Microsoft account can be used as a single sign-on source
 
 For the Android OS Microsoft provides a Family Safety application. After installing this application on both the parent's and the children's phone, the parents gain the ability take a look at the children's position, be notified when children reach certain locations such as their school or home, or they can impose limits on how much of applications for which time the child can actually use per day. There is also a possibility of recording all his strokes to protect the children against cyber-bullying.[[@microsoftPhoneMonitoring]]  As the application is installed as an administrator of the device, it has the authority to require parent's approval before installation of any new application. Furthermore, when using the Microsoft Edge browser on the smartphone or desktop, the parent can monitor all visited sites and create a whitelist of allowed sites for the child. These features are also available on a desktop version od Edge.
 
+![[Family Safety Members.png|Microsoft Family Safety showing position of children]]
+
+![[Pasted image 20240501184149.png|Microsoft Family Safety asking parent to allow access to application]]
+
+![[Pasted image 20240501184257.png|Microsoft family safety activity overview]]
+
+![[Pasted image 20240501184729.png|Microsoft Family Safety preventing launch of other web browser than Microsoft Edge]]
 ### Desktop integration
 
 As an operating system from Microsoft, Windows seamlessly integrates with the company's ecosystem of services. Windows also comes preinstalled with OneDrive application or Microsoft Defender, an endpoint malware protection program. Additionally, the operating system features contain also a Microsoft Smart Screen, which verifies the authenticity of applications before launching them. This security measure ensures that only trusted applications are allowed to run on the computer, unless explicitly disabled. When using BitLocker-encrypted hard drive, Microsoft also provides an option to recover encryption keys from the online portal if needed.
@@ -47,6 +54,14 @@ Similarly to Microsoft's Family Safety, Google presents its own service called F
 - Google Photos
 
 These restrictions are applied whenever possible, e.g. Youtube and Google search options are enforced whenever the child logs in with their account, while Google Chrome settings are used on all platforms.
+
+![[Pasted image 20240501184116.png|Google Family Link showing the position of children]]
+
+![[Pasted image 20240501184329.png|Child attempting to install application requires approval form Google Family Link]]
+
+![[Pasted image 20240501184528.png|Google Family Link asking parent to approve installation on child's device]]
+
+![[Pasted image 20240501184816.png|Google Family Link preventing the child from accessing disallowed site in Google Chrome]]
 
 Furthermore, the parent can control the whole device more closely, they can remotely lock the device, enable or disable installation of applications outside Google Play, turn developer options on or off or directly manage permissions of each application -- e.g. removing microphone permission from web browser and checking an option that only the parent can allow application to access microphone on the child's device. Next, the parent has a detailed control of the child's Google account -- they can set required parent's approval on every sing-in attempt to the child's account or when the child uses their Google account to sign into third party app. They can also directly change the child's account password or delete the account altogether.
 ## Apple
@@ -103,6 +118,6 @@ A main downside of the CryptPad, for the purposes of this thesis, is the inabili
 
 ## Synology
 
-All of the before mentioned services are running 
+All of the before mentioned services are sharing the property of being executed in the cloud. As some of the services do require a monthly-payed subscription to function properly, I am presenting a solution that should be capable of handing the needs of the users in a similar manner. 
 
 As the control group, we can include Synology network storage, which is a standalone device that you can purchase for a few thousand crowns when both first-hands or near two thousand crowns when both form a second hand. Even though this device is primarily supposed to be used for storing files, it does actually come with a large plug-in system and the main advantage of Synology is that it actually provide a convenient bridge between using a cloud-based solution and by self-hosting everything yourself, as it does come with very convenient GUI for configuration, which even intermittently or late-beginner users should be able to configure to their needs. This GUI is web-based and after creating a main account, you are able to download more plugins, which include Thunder server, Contacts server, and many more, and one of the main advantages is that on your devices, you have the ability to run self-hosted Docker container, which means that you are able to run pretty much everything. Under the hood, the newer Synology systems do actually use ETRFS by default, meaning that you get support for checksum files to watch for corruption and use your hard drives and software write to have multiple hard drives connected into one for larger storage. A very important feature of Synology is that it is possible to configure something called Synology Quick Connect to be able to access your Synology device remotely, as it does actually This Quick Connect is for up to 250 users and 10 devices, and as you can see, if you configure this yourself, you are able to achieve a self-hosted solution with the obvious downside being the obvious upside of this solution is that you get a solution that you pay only once for, and you get running forever, with the obvious disadvantage of decreased physical security of your data and having to somewhat manage the server itself. Another disadvantage may be that the Synology devices do actually reach the end of their lifetime, and after the EOL, no more security updates may be published, which may actually put your data at high risk if you do not invest into a newer device, even though the old one is still functioning pretty well. Furthermore, Synology does actually provide anti-virus scan for stored files and nice client for full disk backup of your Windows operating system. Another module that Synology provides is a single sign-on server, where you can actually use your configured Synology users as a program source of truth to work into other applications.
