@@ -38,6 +38,8 @@ Another data loss can currently happen in relation to the Viber application bein
 A specific category for this profile is the need of keeping the children safe both in virtual and physical world. For that matter, Microsoft's Family Safety provides those features, just as explained in previous chapters. By linking parents and children accounts, the parents can set-up parameters for their children devices.
 ### Google
 
+As the family already has a Google accounts for their Android smartphones, it will not require them to create any new. Similar to the 
+
 #### Security
 
 #### Privacy

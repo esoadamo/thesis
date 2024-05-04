@@ -6,6 +6,7 @@
       {
         "id": "9ce0f901a2530013",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "5a793d7240be0803",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/Appendix.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,12 +56,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f32c517c83f939c2",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "30122c9d2f3242e0",
@@ -68,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/IDM/Synnology.md",
+                "file": "chapters/Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Services.md",
+                "file": "chapters/Appendix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Services.md",
+                "file": "chapters/Appendix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Services.md"
+                "file": "chapters/Appendix.md"
               }
             }
           }
@@ -225,8 +226,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eee013a434415bd4",
+  "active": "5a793d7240be0803",
   "lastOpenFiles": [
+    "chapters/Digital competence framework.md",
+    "chapters/Services.md",
+    "chapters/Appendix.md",
+    "chapters/Solutions.md",
+    "notes/IDM/Synnology.md",
     "latex/compile/lualatex257806.fls",
     "latex/compile/lualatex257777.fls",
     "latex/compile/main.bbl",
@@ -237,7 +243,6 @@
     "latex/compile/_markdown_main/fd6b391501601710902fc37ccd585e1a.md.tex",
     "latex/compile/_markdown_main/4966ef9b54e203d3fcbc208edbbb3d4b.md.tex",
     "latex/compile/_markdown_main/31cd00d934b8eff840630dd74a8f3044.md.tex",
-    "latex/compile/_markdown_main/a73ff7064f9de5f98adf47b83f20801a.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
@@ -268,10 +273,6 @@
     "citations/@synology2FactorAuthentication.md",
     "citations/@synologyServiceServer.md",
     "Acronyms.md",
-    "chapters/Services.md",
-    "Text.md",
-    "chapters/Solutions.md",
-    "notes/IDM/Synnology.md",
-    "notes/IDM/Google.md"
+    "Text.md"
   ]
 }
