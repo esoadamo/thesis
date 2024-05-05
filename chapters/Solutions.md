@@ -38,50 +38,52 @@ Another data loss can currently happen in relation to the Viber application bein
 A specific category for this profile is the need of keeping the children safe both in virtual and physical world. For that matter, Microsoft's Family Safety provides those features, just as explained in previous chapters. By linking parents and children accounts, the parents can set-up parameters for their children devices.
 ### Google
 
-As the family already has a Google accounts for their Android smartphones, it will not require them to create any new. Similar to the 
-
+As the family already has a Google accounts for their Android smartphones, it will not require them to create any new. Similar to the Microsoft, Google provides a dedicated service for the security of the children. The disadvantage may be that neither the Chrome browser nor Google Drive client is not installed on Windows devices by default and needs to be downloaded separately.
 #### Security
 
+On desktop, the most important part of security for the users may be the Google Chrome web browser. One of the security benefits in using this browser is its inbuilt phishing protection. [[@blogBrowseSafely]] Next, similarly to the Microsoft Edge, the Chrome browser has inbuilt password manager. On desktop, the password manager works similar to the Edge browser, offering the option to be notified when any of the saved passwords is found withing the list of known breached passwords. The main difference is that, when signed into the account, the passwords can be also shown within the Google [passwords web portal](https://passwords.google.com/), making it easier to access the passwords on any device. On Android, after sing in with their account, Google offers saving and auto-filling saved passwords by default, making the process friction-less. As with Microsoft account, when all passwords are being stored within the same account as e.g. email, a simple breach of this account could result into a breach of all account that the user has saved credentials for.
+
+As for the vulnerable office suite, the Google provides its full-web-based office suite within Google Drive. As all documents are edited within the web browser, this solution should not possess any security vulnerabilities that are not present inside the browser itself. On the other hand, this suite may pose some compatibility problems that are explored more within the Data retention section. To further strengthen the security of the files stored on Google Drive or received to a GMail account, Google scans all files for malware or possible phishing documents. [[@bleepingcomputerGoogleDrive]].
 #### Privacy
+
+To solve the most notable privacy problem -- the children sharing the same account on their shared laptop -- Google does provide an option to define multiple Google Chrome profiles, where each of them has its own settings and active accounts. In contrast to the solution of creating multiple user accounts, this solution works more on a trust-based approach that the other child will not international launch other child's profile, but on the other hand is easier to set-up than creating a new Windows account. 
+
+To replace Viber, the user may use Google Duo for calls, but there does not exist any suitable replacement for text messages.
 
 #### Data retention
 
+As Google Drive can be upgraded up to 2 TB of available storage with the shared Google One subscription, this should still be enough for the family data, though is a several step down from the total of up-to 6 TB of storage for Microsoft's One drive. For Windows the user may download the Google Drive application that will then allow them to access and synchronize stored files. All supported platforms, including smartphone apps, have the ability to mark certain files to be available even when not connected to the internet.
+
+Given that Google has its own office suite with its own storage format and even though the suite offers most features that the user may need, it may not fully support all features that are available in the Microsoft Office. Conversion from the Microsoft office format into the format used by Google Drive may loose some of the special formatting, resulting into a partial loss of data. Furthermore, it makes it overall less comfortable to edit any documents from office suites. Next, to be able to edit documents offline, the user needs to install a Chrome extension.[[@googleDriveOffline]] Google Drive offers a trash bin and a version control, with a detailed differentials version history for the office documents.
 #### Child safety
 
+Additionally to the similar features in Microsoft Family Safety, the Google Family Link provides more direct control over the children account -- e. g. by allowing the parent to only allow the child to use SSO to application that do not require permissions except for name, email and profile picture, the child can safely log into any application without worrying about giving too much access to the account. 
 ### Synology
 
+Given that the Synology requires an initial setup, it may be needed for the family to consult with a professional for the initial setup. Even after that, Synology does not provide easy solution to all outlined problems and the family will need to keep care of the device -- e. g. monitoring that the device is not after its end of life and still receives regular security updates.
 #### Security
 
+To replace the vulnerable Microsoft Office suite, Synology does offer its own office suite as a downloadable package for some of its models. This office suite works similarly to the Google Drive office suite, as it employs its own storage format and as such requires importing and exporting when working with third party office suites. [[@synoOffice]] This again presents the possible problem of some features not being fully supported by the Synology office.
+
+Next, there is no password manager from Synology. Of course it is possible to self-host a password manager such as BitWarden using the generic Docker container feature of some of the Synology models, but I would advice against that as the family members cannot be expected to maintain self hosted password manager in a secure and safe manner.
+
+Even though Synology can be used as a SSO source, it firsts needs to be configured as such with any application that should support it, making it unfeasible for the family.
 #### Privacy
 
+Except for the obvious advantage that the data does never leave family's owned devices,the most prominent way of how Synology may improve the privacy is if all the users do keep most of their files only stored there, as then they are protected by their account credentials as opposed having the files synchronized with the shared computer account. The Viber can be replaced by a Synology Chat package, that allows for basic chatting, while outsourcing video and audio calling to third-party applications such as JumpChat and Jitsi. [[@synoChat]]
 #### Data retention
 
+Given that the Synology works with the hard drives that are directly supplied by the user, they have a large impact on how resilient the system will be. As the storage is a single-time investment, it can be expected that the hard drive will have more capacity that the 6 TB offered by Microsoft O365 family subscription. Furthermore, we can probably expect the user to have only one hard drive, or set up RAID 0 to maximize the available storage, so the failure of one disc may mean a unrecoverable loss of stored data. To combat this, the user may set-up a secondary backup solution with e.g. cloud sync, or in-built Amazon Glacier backup. Though, both of these options require additional, possibly too complex, setup, while inquiring more costs.
+
+On the other hand, the users may synchronize files from them computer automatically or have their taken media uploaded from their smartphone, so that the original data is still stored directly on the user's device. When files are modified or deleted, Synology provides both trash bin control and restoring old versions, with the Office package providing a nice user interface for the performed changes.
 #### Child safety
 
+As there is no direct control over what content can children access or directly monitor the child's online activity, the options for the child safety are severely limited. To be able to monitor at least the position of children, a 3rd party application may be recommend. As an example, the family can install an application called Find My Device (FMD) [[@fdroidFindDevice]], that is capable to respond to commands sent over SMS, so it does not need to rely on any specific service.
 ### Unsolved problems
-- outdated android devices
-- outdated router
-- privacy on work laptop
-- smart TV on separate network
-- double backup (but not needed)
-- handling of smart devices
-- guest WiFi network
 
---- 
+Unfortunately, not all problems can be solved directly by any of these services, as they are either too complex or out of scope. First example for this may be the use of outdated Android devices, where the best option may be to buy new devices with declared duration of security updates. As for outdated router from ISP, the best course of action may be to ask the ISP to replace said router, as the family cannot be expected to manager their own router in a secure manner. Related to their router is a creation of a WiFi network for guests, where a router with an user-friendly web interface may help. Creating a separate WiFi network would also help with moving less-trusted devices into the more isolated network.
 
-- need help with setup
-- cover sync
-- still can be broken
-	- azure glacier
-
-- Microsoft
-	- integrated OneDrive
-		- buy 1 TB
-	- Family link
-	- Edge
-	- Teams? Signal?
-- Google
-	- Chrome -- needs to be downloaded
+As for the possible privacy concerns of using the company-provided laptop for personal activities, here the user needs to consult their company laptop usage policy or contact their IT department. Last need that was not covered is performing a backup of the cloud storage service, such as even when the account is compromised and all data falls victim to e.g. ransomware attack, there is an option to restore said data. Solving this problem would increase the complexity of the solution, while the currently proposed solutions do already severly increase the data security.
 
 ## Low-tech skilled university student
 

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Appendix.md",
+                "file": "chapters/Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/User profiles/Original questions.md",
+                "file": "chapters/Profiles.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Appendix.md",
+                "file": "chapters/Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Appendix.md",
+                "file": "chapters/Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Appendix.md"
+                "file": "chapters/Solutions.md"
               }
             }
           }
@@ -228,25 +230,37 @@
   },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "chapters/Digital competence framework.md",
-    "chapters/Services.md",
-    "chapters/Appendix.md",
+    "chapters/Profiles.md",
     "chapters/Solutions.md",
-    "notes/IDM/Synnology.md",
-    "latex/compile/lualatex257806.fls",
-    "latex/compile/lualatex257777.fls",
-    "latex/compile/main.bbl",
-    "latex/compile/main.blg",
-    "latex/compile/main.ind",
-    "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/a0e7620b8ec5017dcf44af41cf978dda.md.tex",
-    "latex/compile/_markdown_main/fd6b391501601710902fc37ccd585e1a.md.tex",
-    "latex/compile/_markdown_main/4966ef9b54e203d3fcbc208edbbb3d4b.md.tex",
-    "latex/compile/_markdown_main/31cd00d934b8eff840630dd74a8f3044.md.tex",
+    "notes/User profiles/Profiles.md",
+    "notes/User profiles/Original questions.md",
+    "chapters/Services.md",
+    "citations/@fdroidFindDevice.md",
+    "citations/@synoChat.md",
+    "citations/@synoOffice.md",
+    "notes/IDM/Google.md",
+    "citations/@googleDriveOffline.md",
+    "citations/@bleepingcomputerGoogleDrive.md",
+    "notes/Solution notes.md",
+    "notes/IDM Services.md",
+    "citations/@blogBrowseSafely.md",
+    "latex/compile/_markdown_main/36a67359bc579e1428bde28fe1c00eb0.md.tex",
+    "latex/compile/_markdown_main/06610c3ea216c36bb50a46fa93f16d98.md.tex",
+    "latex/compile/_markdown_main/9a90d13c581a86c43f7a8844c160fb65.md.tex",
+    "latex/compile/_markdown_main/194e7aec2cd255eafe6a88d03e7dd511.md.tex",
+    "latex/compile/_markdown_main/46d105d69c6c2239d5da76e8560fcd4d.md.tex",
+    "latex/compile/_markdown_main/fabded93dca63b49ce394f925202c8de.md.tex",
+    "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
+    "latex/compile/_markdown_main/efe22dd32c4edf7ccb025e598f98502f.md.tex",
+    "latex/compile/main.markdown.in",
+    "latex/compile/main.lof",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
+    "latex/compile/Profiles.md",
     "latex/compile/Introduction.md",
+    "latex/compile/Digital competence framework.md",
+    "latex/compile/Appendix.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
     "latex/compile/Notes.md",
@@ -260,19 +274,7 @@
     "latex/compile/Pasted image 20240501190623.png",
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184729.png",
-    "latex/compile/Pasted image 20240501184329.png",
-    "latex/compile/Pasted image 20240501184257.png",
-    "citations/@synologyQuickConnectSynology.md",
-    "latex/compile/Profiles.md",
-    "latex/compile/Digital competence framework.md",
-    "latex/compile/Acronyms.md",
-    "citations/@synologyPhotoSynology.md",
-    "citations/@synologyPhotoAndroid.md",
-    "citations/@synologyBackEntire.md",
-    "citations/@synologySyncFiles.md",
-    "citations/@synology2FactorAuthentication.md",
-    "citations/@synologyServiceServer.md",
-    "Acronyms.md",
-    "Text.md"
+    "latex/compile/Pasted image 20240501184528.png",
+    "latex/compile/Pasted image 20240501184329.png"
   ]
 }

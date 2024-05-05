@@ -1,3 +1,35 @@
+@misc{fdroidFindDevice,
+	author = {Nulide},
+	title = {{F}ind {M}y {D}evice ({F}{M}{D}) | {F}-{D}roid - {F}ree and {O}pen {S}ource {A}ndroid {A}pp {R}epository --- f-droid.org},
+	howpublished = {\url{https://f-droid.org/packages/de.nulide.findmydevice/}},
+	year = {2024},
+	note = {[Accessed 05-05-2024]},
+}
+
+@misc{synoChat,
+	author = {Synology Inc.},
+	title = {Synology Chat --- synology.com},
+	howpublished = {\url{https://www.synology.com/en-global/dsm/feature/chat}},
+	year = {2024},
+	note = {[Accessed 05-05-2024]},
+}
+
+@misc{synoOffice,
+	author = {Synology Inc.},
+	title = {Synology Office --- synology.com},
+	howpublished = {\url{https://www.synology.com/en-us/dsm/feature/office}},
+	year = {2024},
+	note = {[Accessed 05-05-2024]},
+}
+
+@misc{googleDriveOffline,
+	author = {Google},
+	title = {{U}se {G}oogle {D}rive files offline - {C}omputer - {G}oogle {D}rive {H}elp --- support.google.com},
+	howpublished = {\url{https://support.google.com/drive/answer/2375012?hl=en&co=GENIE.Platform%3DDesktop}},
+	year = {2024},
+	note = {[Accessed 04-05-2024]},
+}
+
 @misc{protonCreateFree,
 	author = {Proton AG},
 	title = {{C}reate a free email account or choose a paid plan | {P}roton --- proton.me},
@@ -12,6 +44,22 @@
 	howpublished = {\url{https://proton.me/pass/download}},
 	year = {2024},
 	note = {[Accessed 01-05-2024]},
+}
+
+@misc{blogBrowseSafely,
+	author = {Jonathan Li, Jasika Bawa},
+	title = {{B}rowse safely with real-time protection on {C}hrome --- blog.google},
+	howpublished = {\url{https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/}},
+	year = {2024},
+	note = {[Accessed 04-05-2024]},
+}
+
+@misc{bleepingcomputerGoogleDrive,
+	author = {Sergiu Gatlan},
+	title = {{G}oogle {D}rive now warns you of suspicious phishing, malware docs --- bleepingcomputer.com},
+	howpublished = {\url{https://www.bleepingcomputer.com/news/google/google-drive-now-warns-you-of-suspicious-phishing-malware-docs/}},
+	year = {2024},
+	note = {[Accessed 04-05-2024]},
 }
 
 @misc{googleblogFoughtApps,

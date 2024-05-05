@@ -18,3 +18,4 @@
 
 # Solutions for profiles
 
+[[Solutions]]
