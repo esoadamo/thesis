@@ -25,7 +25,7 @@
 @misc{googleDriveOffline,
 	author = {Google},
 	title = {{U}se {G}oogle {D}rive files offline - {C}omputer - {G}oogle {D}rive {H}elp --- support.google.com},
-	howpublished = {\url{https://support.google.com/drive/answer/2375012?hl=en&co=GENIE.Platform%3DDesktop}},
+	howpublished = {\url{https://support.google.com/drive/answer/2375012?hl=en}},
 	year = {2024},
 	note = {[Accessed 04-05-2024]},
 }

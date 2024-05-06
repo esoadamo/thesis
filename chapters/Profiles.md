@@ -13,7 +13,7 @@ All of their laptops are running Windows OS, while admin-level permissions are a
 
 ### Digital hygiene
 
-As their technological knowledge is in the level 3 range, they are supsectible to adverts and reccomendations for software, resulting in multiple antivirus softwares and computer-cleaning programs being installed superfluously at once. They are also not bothered by any type of pop-up dialogs or warning, as they simply select continue on anything. During the early days of Internet, it was a common knowledge that anything uploaded to the Internet will forever stay on the Internet. For that matter, they are reluctant to intentionally (e.g. Viber uses Google Drive in background for message backups) use any cloud service. They have started with a Seznam.cz account for freemail services, but with the comming of Android phones, they have added a Google account for everyone. Nowadays they have multiple accounts for various social media (Facebook, TikTok, Instagram), hobby sites and so on. They are using two separate passwords, one "strong" for critical accounts (online banking and primary email account) and one easy-to-remember for all other accounts.
+As their technological knowledge is in the level 3 range, they are supsectible to adverts and recommendations for software, resulting in multiple antivirus softwares and computer-cleaning programs being installed superfluously at once. They are also not bothered by any type of pop-up dialogs or warning, as they simply select continue on anything. During the early days of Internet, it was a common knowledge that anything uploaded to the Internet will forever stay on the Internet. For that matter, they are reluctant to intentionally (e.g. Viber uses Google Drive in background for message backups) use any cloud service. They have started with a Seznam.cz account for freemail services, but with the comming of Android phones, they have added a Google account for everyone. Nowadays they have multiple accounts for various social media (Facebook, TikTok, Instagram), hobby sites and so on. They are using two separate passwords, one "strong" for critical accounts (online banking and primary email account) and one easy-to-remember for all other accounts.
 
 ### Possible problems that are already solved
 
@@ -98,7 +98,7 @@ Even if (only) the password is leaked for one of their most critical account, th
 
 As the student takes security into account when dealing with managing login credentials, the biggest security threat may pose when the requirement of logging into his Google account every time they need to access their passwords. If they perform the login operation on an infected machine, it may be possible that their session may be stolen and used to extract data (passwords, browsing history) from their account. Secondly, there may be possible threats from other devices connected to the same LogMeIn Hamachi network or to the public network in public transportation.
 
-The largest possible privacy issue is connected to the forgotten legacy account on Dropbox and Ulož.to, which may not be sufficiently protected and still contain personal data. Next possible privacy issue may be with Telegram -- a messenger that calls itself "... more secure than mass market messengers like WhatsApp and Line" [[@telegramFAQ]]. The main issue may be that the messenger itself does not have E2EE enabled unless a special feature is used ("Telegram’s special [secret chats](https://telegram.org/faq#secret-chats) use end-to-end encryption" [[@telegramFAQ]]), but in mainstream media is still being presented as if everything on Telegram was using E2EE  [[@lifehackerBestWhatsApp]] [[@tnWhatsapp]] ] or the detail that a special feature must be turned on is omitted [[@techradarWhatsAppAlternatives]] [[@ziveNahraditWhatsApp]] , which may confuse or deceive any user into believing that every message on Telegram is protected with E2EE.
+The largest possible privacy issue is connected to the forgotten legacy account on Dropbox and Ulož.to, which may not be sufficiently protected and still contain personal data. Next possible privacy issue may be with Telegram -- a messenger that calls itself "... more secure than mass market messengers like WhatsApp and Line" [[@telegramFAQ]]. The main issue may be that the messenger itself does not have E2EE enabled unless a special feature is used ("Telegram’s special [secret chats](https://telegram.org/faq#secret-chats) use end-to-end encryption" [[@telegramFAQ]]), but in mainstream media is still being presented as if everything on Telegram was using E2EE  [[@lifehackerBestWhatsApp]] [[@tnWhatsapp]]  or the detail that a special feature must be turned on is omitted [[@techradarWhatsAppAlternatives]] [[@ziveNahraditWhatsApp]] , which may confuse or deceive any user into believing that every message on Telegram is protected with E2EE.
 
 Regarding data retention, the student is backing up all their important data on Google Drive, which may be further improved by having a separate backup copy on another service. Not only because an account compromise could lead to the saved files being deleted by a malicious party, but also the service itself can break and the student could lose some of their files  [[@Toulas_2023]] [[@GoogleDriveRecovery]].
 ### Needs not covered
@@ -157,3 +157,73 @@ It is evident that there exists a pattern among the profiles, which can be categ
 - sharing of documents.
 
 It is notable that the requirement for backing up data is not comparable between storing the data for personal use or for long-term data preservation dictated by law for companies. Despite these differences in scale, it is observed that every presented user profile does include these needs in some form. It is easy  to conclude that it would be beneficial to find a single solution that addresses these needs, as the lower number of used services would lower the risk of setting them up incorrectly or insecurely. It is important to note that when discussing password management or sharing secrets, this thesis does also consider identity management services that can be used as single sign-on sources on the reasoning that not having to input any password is generally more secure than having a specifically generated password for each account. The reason behind this is that the user does not need to have the necessary capacity, knowledge, or skills to manage their passwords securely in the long term. By preferring services that provide a single sign-on service, the user does not need to keep more than a few passwords, mainly for the service itself and for other services that do not support any form of single single sing-on authentication.
+
+## Summary of problems and needs
+
+To provide an easier navigation within this thesis, an bullet point summary of current problems with and needs of all the profiles can be found in `TEX:\autoref{tab:ProfiSummary}`. 
+
+```latex
+\begin{landscape}
+\begin{longtable}{p{4cm}p{7cm}p{7cm}}
+    \caption{Summary profiles' needs and problems}\\ \toprule
+    \label{tab:ProfiSummary}
+    \textbf{Profile} &\textbf{Problems} & \textbf{Needs}\\
+    \midrule
+
+    \noindent Low-tech skilled family &
+	\begin{itemize}
+		\item unsupported office suite
+		\item possibly outdated router
+		\item no guest network separation
+		\item complex chat history backup
+		\item company laptops used for personal agenda
+	\end{itemize} &
+	\begin{itemize}
+		\item password managment
+		\item children account separation
+		\item resilient personal data backup
+		\item physical and virual security of children
+	\end{itemize}\\
+	
+    \noindent Low-tech skilled university student &
+    \begin{itemize}
+		\item main mail account missing MFA
+		\item having to re-type passwords on desktop
+	\end{itemize} &
+	\begin{itemize}
+		\item sychronization of passwords with desktop
+		\item automatic backu of desktop data
+	\end{itemize}\\
+
+    \noindent Individual tech-skilled user &
+    \begin{itemize}
+		\item sharing the account for password managment and for mail
+		\item having P2P connections with untrusted parties
+		\item forgotten accounts with leftover data
+		\item using Telegram without E2EE
+	\end{itemize} &
+	\begin{itemize}
+		\item having backup on multiple services
+		\item smartphone malware proteciton
+		\item more secure public WiFi usage
+	\end{itemize}\\
+
+    \noindent Small technology company start-up &
+    \begin{itemize}
+		\item plain-text shared password
+		\item no MFA on VPN server
+		\item custom top-level domain \& CA
+		\item centralized device managment
+	\end{itemize} &
+	\begin{itemize}
+		\item scaleable virtual machine managment
+		\item least-privilege access
+		\item secure file sharing
+		\item SSO zero-trust authentication
+	\end{itemize}\\
+
+	\bottomrule
+
+\end{longtable}
+\end{landscape}
+```

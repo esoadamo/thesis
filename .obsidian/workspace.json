@@ -6,7 +6,7 @@
       {
         "id": "9ce0f901a2530013",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 50.11933174224343,
         "children": [
           {
             "id": "5a793d7240be0803",
@@ -15,6 +15,18 @@
               "type": "markdown",
               "state": {
                 "file": "chapters/Solutions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98e8739260567574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Profiles.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,18 +45,6 @@
             }
           },
           {
-            "id": "98e8739260567574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/Digital competence framework.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8bc5fbfe7dec7470",
             "type": "leaf",
             "state": {
@@ -55,13 +55,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f6451d59a121a705",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Digital competence framework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f32c517c83f939c2",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 49.88066825775656,
         "children": [
           {
             "id": "30122c9d2f3242e0",
@@ -167,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/Profiles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/Profiles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Solutions.md"
+                "file": "chapters/Profiles.md"
               }
             }
           }
@@ -228,32 +241,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a793d7240be0803",
+  "active": "76cd6cd8ab658878",
   "lastOpenFiles": [
-    "chapters/Profiles.md",
-    "chapters/Solutions.md",
-    "notes/User profiles/Profiles.md",
-    "notes/User profiles/Original questions.md",
-    "chapters/Services.md",
-    "citations/@fdroidFindDevice.md",
-    "citations/@synoChat.md",
-    "citations/@synoOffice.md",
-    "notes/IDM/Google.md",
-    "citations/@googleDriveOffline.md",
-    "citations/@bleepingcomputerGoogleDrive.md",
-    "notes/Solution notes.md",
-    "notes/IDM Services.md",
-    "citations/@blogBrowseSafely.md",
-    "latex/compile/_markdown_main/36a67359bc579e1428bde28fe1c00eb0.md.tex",
-    "latex/compile/_markdown_main/06610c3ea216c36bb50a46fa93f16d98.md.tex",
-    "latex/compile/_markdown_main/9a90d13c581a86c43f7a8844c160fb65.md.tex",
-    "latex/compile/_markdown_main/194e7aec2cd255eafe6a88d03e7dd511.md.tex",
-    "latex/compile/_markdown_main/46d105d69c6c2239d5da76e8560fcd4d.md.tex",
-    "latex/compile/_markdown_main/fabded93dca63b49ce394f925202c8de.md.tex",
-    "latex/compile/_markdown_main/d1b44e66bef3c5ca4a290e53836cb24d.md.tex",
-    "latex/compile/_markdown_main/efe22dd32c4edf7ccb025e598f98502f.md.tex",
-    "latex/compile/main.markdown.in",
-    "latex/compile/main.lof",
+    "latex/compile/lualatex151912.fls",
+    "latex/compile/main.bbl",
+    "latex/compile/main.blg",
+    "latex/compile/main.ind",
+    "latex/compile/main.run.xml",
+    "latex/compile/_markdown_main/3345c8d57f85852c03560657f98e11f6.md.tex",
+    "latex/compile/_markdown_main/66fbedde8dfc206def65c42295003829.md.tex",
+    "latex/compile/_markdown_main/d332cb146a86190d0d3bece034f84d39.md.tex",
+    "latex/compile/_markdown_main/fd6b391501601710902fc37ccd585e1a.md.tex",
+    "latex/compile/_markdown_main/4966ef9b54e203d3fcbc208edbbb3d4b.md.tex",
+    "latex/compile/_markdown_main/31cd00d934b8eff840630dd74a8f3044.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
@@ -266,6 +266,7 @@
     "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
+    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
@@ -275,6 +276,18 @@
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184729.png",
     "latex/compile/Pasted image 20240501184528.png",
-    "latex/compile/Pasted image 20240501184329.png"
+    "latex/compile/Pasted image 20240501184329.png",
+    "chapters/Solutions.md",
+    "chapters/Profiles.md",
+    "chapters/Digital competence framework.md",
+    "Acronyms.md",
+    "chapters/Services.md",
+    "notes/User profiles/Profiles.md",
+    "notes/User profiles/Original questions.md",
+    "citations/@fdroidFindDevice.md",
+    "citations/@synoChat.md",
+    "citations/@synoOffice.md",
+    "notes/IDM/Google.md",
+    "citations/@googleDriveOffline.md"
   ]
 }

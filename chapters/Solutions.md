@@ -87,6 +87,36 @@ As for the possible privacy concerns of using the company-provided laptop for pe
 
 ## Low-tech skilled university student
 
+The specificity of low-tech skilled university student is in the closeness of the Apple ecosystem combined with a Windows laptop.
+
+### Apple
+
+As the student is already using their smartphone as their main device, they are already used to services provided by the Apple by default. 
+#### Security
+
+
+
+#### Privacy
+
+#### Data retention
+
+### Google
+
+#### Security
+
+#### Privacy
+
+#### Data retention
+
+### Synology
+
+#### Security
+
+#### Privacy
+
+#### Data retention
+--- 
+
 - iCloud 
 - Chrome??
 - BitWarden
@@ -102,5 +132,6 @@ As for the possible privacy concerns of using the company-provided laptop for pe
 
 ## Small technology company start-up
 
-- Microsoft for cloud
 - Cloudflare for self-hosting
+- Microsoft for cloud
+- Google for cloud 2
