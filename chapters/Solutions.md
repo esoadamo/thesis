@@ -91,38 +91,56 @@ The specificity of low-tech skilled university student is in the closeness of th
 
 ### Apple
 
-As the student is already using their smartphone as their main device, they are already used to services provided by the Apple by default. 
+As the student is already using their smartphone as their main device, they are already used to services provided by the Apple by default. Furthermore, as the services are well integrated into the iOS, it would be useful to have a solution, that uses the same services on other platforms.
 #### Security
 
+The most important security aspect to cover for this profile is the missing MFA for the main mail account which is hosted on Seznam. For this, there exists three solutions:
 
+- moving away from Seznam to iCloud mail, which has integrated MFA confirmation into the iOS
+- install a separate [Seznam application](https://apps.apple.com/us/app/seznam-cz/id950278657) to approve login
+- utilize Apple KeyChain as a TOTP code generator
+
+The first solution is time demanding and, as some services do not allow to change email address after account creation, potentially impossible. Second solution can be considered most secure, as the user can review every login and act accordingly, but requires installation of additional application.
+
+The third solution may be the most viable, as it uses an application that the user is already comfortable with. This solution also contributes to the user need to be able to synchronize the password to their desktop, as all the user needs to do is to install iCloud for Windows and a web browser extension. [[@appleICloudPasswords]]
+
+![[Pasted image 20240506163134.png|Apple KeyChain providing the option to add TOTP]]
 
 #### Privacy
 
+By default, iCloud Drive offers encryption both in transit and at rest, which should be enough for regular use. Furthermore, when combined with the MFA-protected Apple ID account, no unauthorized party should be able to access the stored data.
 #### Data retention
 
-### Google
+If the users purchases at least 200 GB of storage, it should be enough for them to store all their important data. Though, unlike other cloud storage providers, Apple does not support versioning files, only restoring deleted files from trashbin. [[@appleVersionHistory]] This may become a disadvantage if the users does accidentally rewrite their files, e.g. when using an external office suite and saving an empty document in place of an existing one. The taken photos are uploaded automatically from iOS by default, while for synchronization with Windows computer, the user needs to download and install the iCloud application.
+### Microsoft
 
+Microsoft's main advantage over Services provided by Google is its already present integration of Microsoft Edge and OneDrive into the Windows OS. Its solutions are also slightly cheaper for comparable products. Furthermore, as the student is already using O365 via its university subscription, it may be possible that they already have all services free of charge for the length of their studies.
 #### Security
 
+Same as for Apple, there is a option to same the TOTP secret into Microsoft Authentication application, which the user should already be using if they have MFA enabled for their Microsoft account. If they do not have a MFA enabled yet, it may add complexity to the setup fo this solution.
+
+As presented in the solution to the family profile, Microsoft Edge can hold and synchronize saved passwords to multiple sites. Sam as on Android, the Microsoft Edge can be changed as the default auto-fill source inside the iOS settings, solving the password management and synchronization between different platforms and systems.
 #### Privacy
 
+Same as the default settings of iCloud Drive, the data is encrypted both in transit and at rest. The protection of the Microsoft account with MFA using Microsoft authenticator itself is comparable to the security of Apple ID account.
 #### Data retention
 
+As 100 GB of storage may not be enough for all of the documents and photos, the next available tier has the storage size of 1 TB. Compared to the iCloud Drive, OneDrive offers a support for versioning of files.
+
+As the OneDrive is already included within the Windows OS, the users does not have to install anything new. On the iOS they need to download the OneDrive application, which can be used to automatically upload taken photos and videos.
 ### Synology
 
+For the individual student with low tech skills, purchasing a Synology device may be too expensive and also overly complex to setup. Furthermore, as the student can be expected to be traveling between their home, dormitory and school, they need to give a though about physical placement of the device in case of the device or power failuire.
 #### Security
+
+As there is no direct option to perform password management or storing MFA tokens instead of directly hosting Docker containers, I conclude Synology as unsuitable for this profile.
 
 #### Privacy
 
+Same as for the family profile, the main advantage in terms of privacy for Synology is that the data are stored on the user-owned device. Other than that, for the purposes of this profile, there are no significant privacy features.
 #### Data retention
---- 
 
-- iCloud 
-- Chrome??
-- BitWarden
-- MFA-protected main account
-- Signal, Element
-- Synology added, 
+For the purposes of this profile, there is no significant difference in terms of features when compared to the Microsoft OneDrive. The most important difference is that now the user has an added responsibility of managing the storage device itself.
 
 ## Individual tech-skilled user
 

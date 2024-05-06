@@ -68,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f32c517c83f939c2",
@@ -180,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Profiles.md",
+                "file": "chapters/Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Profiles.md",
+                "file": "chapters/Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Profiles.md"
+                "file": "chapters/Solutions.md"
               }
             }
           }
@@ -241,11 +240,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76cd6cd8ab658878",
+  "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "latex/compile/lualatex151912.fls",
-    "latex/compile/main.bbl",
-    "latex/compile/main.blg",
+    "chapters/Services.md",
+    "chapters/Solutions.md",
+    "chapters/Profiles.md",
+    "citations/@appleVersionHistory.md",
+    "assets/Pasted image 20240506163134.png",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
     "latex/compile/_markdown_main/3345c8d57f85852c03560657f98e11f6.md.tex",
@@ -254,19 +255,18 @@
     "latex/compile/_markdown_main/fd6b391501601710902fc37ccd585e1a.md.tex",
     "latex/compile/_markdown_main/4966ef9b54e203d3fcbc208edbbb3d4b.md.tex",
     "latex/compile/_markdown_main/31cd00d934b8eff840630dd74a8f3044.md.tex",
+    "latex/compile/_markdown_main/a73ff7064f9de5f98adf47b83f20801a.md.tex",
+    "latex/compile/_markdown_main/01a4d30d40e85eb0f2f35a8acace6556.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
-    "latex/compile/Profiles.md",
     "latex/compile/Introduction.md",
     "latex/compile/Digital competence framework.md",
-    "latex/compile/Appendix.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
     "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
-    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
@@ -275,13 +275,12 @@
     "latex/compile/Pasted image 20240501190623.png",
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184729.png",
-    "latex/compile/Pasted image 20240501184528.png",
     "latex/compile/Pasted image 20240501184329.png",
-    "chapters/Solutions.md",
-    "chapters/Profiles.md",
+    "latex/compile/Profiles.md",
+    "latex/compile/Appendix.md",
+    "latex/compile/Acronyms.md",
     "chapters/Digital competence framework.md",
     "Acronyms.md",
-    "chapters/Services.md",
     "notes/User profiles/Profiles.md",
     "notes/User profiles/Original questions.md",
     "citations/@fdroidFindDevice.md",

@@ -45,7 +45,7 @@ The profile of student is simpler in terms of hardware settings, because they ar
 
 ### Software settings
 
-As their main device is iPhone with iOS, most of their software settings is centered around the Apple ecosystem -- all their photos and videos are automatically saved to iCloud, as these are a default settings of iOS, together with the full system backup. Because the free storage limit of iCloud is set to 5 GB[[@appleICloudPlans]], they need to use the paid plan to be able to fit into the limit. As they use their smartphone as their main device, it is also where they do create a majority of their online accounts, which they saved to the built-in Apple Keychain.
+As their main device is iPhone with iOS, most of their software settings is centered around the Apple ecosystem -- all their photos and videos are automatically saved to iCloud, as these are a default settings of iOS, together with the full system backup. Because the free storage limit of iCloud is set to 5 GB[[@appleICloudPlans]], they need to use the paid plan to be able to fit into the limit. As they use their smartphone as their main device, it is also where they do create a majority of their online accounts, which they saved to the built-in Apple KeyChain.
 
 For working with documents and note taking, they are using Office 365 suite provided by the university with linked Microsoft account.
 
@@ -192,7 +192,7 @@ To provide an easier navigation within this thesis, an bullet point summary of c
 	\end{itemize} &
 	\begin{itemize}
 		\item sychronization of passwords with desktop
-		\item automatic backu of desktop data
+		\item automatic backup of desktop data
 	\end{itemize}\\
 
     \noindent Individual tech-skilled user &

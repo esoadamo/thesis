@@ -75,7 +75,15 @@ Apple provides an option to create a new free account, called Apple ID, for its 
 ![[Pasted image 20240430084545.png|Login form for a Cloudflare Dashboard portal]]
 ### Cloud services
 
-The main point of cloud services provided by Apple for general consumers is its cloud storage iCloud. With a free Apple ID account on a Apple device, the user gets only 5 GB of storage. Though, this storage can be extended with payed subscription. By default, the Apple automatically backs-up both all taken photos to the iCloud and the whole device itself. As this does not require any action to be taken by user, it can be considered as a secure-by-default solution. On the other hand, it can quickly drain the available free storage, pushing user to the payed subscription. Other than this tiered subscriptions, there exists also the possibility to use so-called [Web-only access to iCloud](https://support.apple.com/en-us/102447), which offers only 1 GB of space.
+The main point of cloud services provided by Apple for general consumers is its cloud storage iCloud. With a free Apple ID account on a Apple device, the user gets only 5 GB of storage. Though, this storage can be extended with payed subscription. By default, the Apple automatically backs-up both all taken photos to the iCloud and the whole device itself. As this does not require any action to be taken by user, it can be considered as a secure-by-default solution. On the other hand, it can quickly drain the available free storage, pushing user to the payed subscription. The payed subscription is priced monthly at [[@appleICloudPlans]]:
+
+- 25 Kč for 50 GB
+- 79 Kč for 200 GB
+- 249 Kč for 2 TB
+- 749 Kč for 6 TB
+- 1490 Kč for 12 TB
+
+Other than this tiered subscriptions, there exists also the possibility to use so-called [Web-only access to iCloud](https://support.apple.com/en-us/102447), which offers only 1 GB of space.
 
 ![[Pasted image 20240430085537.png|Payed subscription plans for iCloud]]
 
