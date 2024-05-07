@@ -9,18 +9,6 @@
         "dimension": 50.11933174224343,
         "children": [
           {
-            "id": "5a793d7240be0803",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/Solutions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "98e8739260567574",
             "type": "leaf",
             "state": {
@@ -240,53 +228,90 @@
       "command-palette:Open command palette": false
     }
   },
+  "floating": {
+    "id": "661e32069a9f4e7f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6b08d1f25b940d59",
+        "type": "window",
+        "children": [
+          {
+            "id": "f3584f89dd0092b9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5a793d7240be0803",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "chapters/Solutions.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2256,
+        "y": 42,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "chapters/Services.md",
-    "chapters/Solutions.md",
+    "latex/compile/main.bcf",
+    "latex/compile/main.out",
+    "latex/compile/main.pdf",
     "chapters/Profiles.md",
-    "citations/@appleVersionHistory.md",
-    "assets/Pasted image 20240506163134.png",
-    "latex/compile/main.ind",
-    "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/3345c8d57f85852c03560657f98e11f6.md.tex",
-    "latex/compile/_markdown_main/66fbedde8dfc206def65c42295003829.md.tex",
-    "latex/compile/_markdown_main/d332cb146a86190d0d3bece034f84d39.md.tex",
-    "latex/compile/_markdown_main/fd6b391501601710902fc37ccd585e1a.md.tex",
-    "latex/compile/_markdown_main/4966ef9b54e203d3fcbc208edbbb3d4b.md.tex",
-    "latex/compile/_markdown_main/31cd00d934b8eff840630dd74a8f3044.md.tex",
-    "latex/compile/_markdown_main/a73ff7064f9de5f98adf47b83f20801a.md.tex",
-    "latex/compile/_markdown_main/01a4d30d40e85eb0f2f35a8acace6556.md.tex",
+    "latex/compile/main.idx",
+    "latex/compile/main.log",
+    "latex/compile/main.fls",
+    "latex/compile/lualatex74165.fls",
+    "latex/compile/main.fdb_latexmk",
+    "latex/compile/main.aux",
+    "latex/compile/database.biblatext",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
+    "latex/compile/Profiles.md",
     "latex/compile/Introduction.md",
     "latex/compile/Digital competence framework.md",
+    "latex/compile/Appendix.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
     "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
+    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Pasted image 20240507094955.png",
+    "latex/compile/Pasted image 20240506163134.png",
     "latex/compile/Pasted image 20240501192735.png",
     "latex/compile/Pasted image 20240501192143.png",
     "latex/compile/Pasted image 20240501190623.png",
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184729.png",
-    "latex/compile/Pasted image 20240501184329.png",
-    "latex/compile/Profiles.md",
-    "latex/compile/Appendix.md",
-    "latex/compile/Acronyms.md",
+    "latex/compile/main.tex",
+    "chapters/Services.md",
+    "citations/@googleFreeCloud.md",
+    "chapters/Solutions.md",
+    "citations/@appleVersionHistory.md",
     "chapters/Digital competence framework.md",
     "Acronyms.md",
     "notes/User profiles/Profiles.md",
     "notes/User profiles/Original questions.md",
     "citations/@fdroidFindDevice.md",
     "citations/@synoChat.md",
-    "citations/@synoOffice.md",
-    "notes/IDM/Google.md",
-    "citations/@googleDriveOffline.md"
+    "citations/@synoOffice.md"
   ]
 }

@@ -1,3 +1,19 @@
+@misc{microsoftFree,
+	author = {Microsoft},
+	title = {{C}reate {Y}our {A}zure {F}ree {A}ccount {T}oday | {M}icrosoft {A}zure --- azure.microsoft.com},
+	howpublished = {\url{https://azure.microsoft.com/en-us/free/}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{googleFreeCloud,
+	author = {Google},
+	title = {{F}ree cloud features and trial offer | {G}oogle {C}loud {F}ree {P}rogram --- cloud.google.com},
+	howpublished = {\url{https://cloud.google.com/free/docs/free-cloud-features}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
 @misc{appleVersionHistory,
 	author = {WinsC1},
 	title = {{V}ersion {H}istory in i{C}loud {D}rive - {A}pple {C}ommunity --- discussions.apple.com},

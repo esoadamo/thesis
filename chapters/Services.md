@@ -12,6 +12,10 @@ This storage can be extended to 50 GB or 1 TB in paid plans, the business plans 
 
 ![[Microsoft 365 Business Pricing.png|Pricing and feature comparison for Microsoft 365 business subscription]]
 
+For more business-related use cases, Microsoft provides a cloud hosting service Azure. New customers are presented with a 30-day \$200 free credit and popular services free for 12 months. These popular services include also a Linux or Windows virtual machines. Other than that, there is also a range of always-free services (with some limitations), such as Functions or Azure DevOps -- a service for hosting Git repos and performing CI/CD.
+
+![[Pasted image 20240507103156.png|Azure provided 12 months free for virtual machines]]
+
 ### Identity management
 
 After its creation, the Microsoft account can be used as a single sign-on source for other applications. For more technical users and complex scenarios, the accounts can be assigned to groups within Microsoft Azure portal, though the exact procedure is out of scope for this thesis. For companies, Microsoft also provides advanced security features such as data loss prevention for filtering documents and email messages for company-confidential data, or specifying labels assigned to assets together with polices, that can apply encryption to the data and prevent its accidental leakage [[@microsoftApplyEncryption]].
@@ -37,6 +41,10 @@ Google is the second large provider of security as a service introduced in this 
 Google provides various publicly available free services -- perhaps most importantly its free mail service GMail and cloud storage Google Drive. These services come with a shared free 15 GB of storage and do include a full web-based office suite. With a Google One subscription plan, the storage can be extended for up to 2 TB of storage, that can be shared with up to 5 other people. 
 
 ![[Pasted image 20240429211526.png|Google One Subscription plans]]
+
+For more advanced use cases, Google offers its own cloud hosting solution Google Cloud. This cloud provides standart features such as VPS hosting, functions, containers, databases, ... One of the specifics of the google Cloud is that it provides a 90-day \$300 free trial and also a range of always-free services, including a signal free VPS. [[@googleFreeCloud]]
+
+![[Pasted image 20240507094955.png|Free VPS specifications provided by Google Cloud]]
 
 ### Smartphone services
 

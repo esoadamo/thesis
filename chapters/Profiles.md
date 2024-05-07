@@ -204,7 +204,7 @@ To provide an easier navigation within this thesis, an bullet point summary of c
 	\end{itemize} &
 	\begin{itemize}
 		\item having backup on multiple services
-		\item smartphone malware proteciton
+		\item smartphone malware protection
 		\item more secure public WiFi usage
 	\end{itemize}\\
 

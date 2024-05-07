@@ -144,9 +144,60 @@ For the purposes of this profile, there is no significant difference in terms of
 
 ## Individual tech-skilled user
 
-- CloudFlare for self hosting
-- Google as main, also free VPS
-- Does Microsoft have free VPS?
+As this user is more experienced, we cam expect them to be able to understand or create at their own even a more complex solutions. First, as this profile is more interested in privacy, they may consider switching from their main Google account to Proton, which offers similar features to what the user is currently using. A second advantage of Proton is that is offers a private VPN service, that could solve the need to protect their device when connecting to untrusted networks.
+
+Next, as one of the needs of this profile is to create a distinct accounts for password managing and for other other actions. As a separate account for password management, the user may consider BitWarden password manager. This manager is available for all user's platforms, can be accessed through web UI, so that user does not need to install additional software e.g. on university computers, and can be also used to auto-fill on smartphones and in web browsers via extensions.
+### Google
+
+As the student already uses Google account for their daily tasks, they do not need to create any new accounts for this service. Its main advantage over Microsoft is its always-free tier with VPS so that the student does not need to worry about checking when their free starting credit will run out.
+#### Security
+
+For hosting the Minecraft server for their friends, it is possible to set-up the free Google VPS, doable by either with experience or by following some online hosting tutorials. By default, as the Google VPS's shell can be accessed directly through web UI and firewall allows only a limited number of ports, this leaves out the need for managing SSH keys or restricting the access with a manual firewall configuration, simplifying process.  Furthermore, by moving the hosting away from the student's device, they achieve both higher uptime and, in case of compromise of the Minecraft server, security for the data on the student's device itself.
+#### Data retention
+
+For solving the double-backup, that could serve as a last resort in case a malicious party gains access to the currently used cloud storage and purges original files even from trash bin, Google offers S3-API compatible solution called Google Storage. With only 5 GB of storage being free, it can be expected, that the user will be required to change to the payed subscription. The user may set-up a system schedule to copy all their local files or whole Google Drive into this remote storage with a program such as [rclone](https://rclone.org/googlecloudstorage/). As this setup is more complicated, it can be severely simplified with the usage of Synology, as shown below.
+
+### Cloudflare
+
+Even though Cloudflare is more business-oriented, it may prove usable for some of the student dues to its provided hosting and tunneling solutions, data storage and VPN.
+#### Security
+
+Even though Cloudflare does not allow to host the Minecraft server directly, its ZeroTrust Netowrk can serve as a replacement for the currently used LogMeIn Hamachi. It can be configured as a direct replacement, where the routes are configured to point to the friend group devices, providing no additional benefit.
+
+Second option requires configuring tunnel pointing the students device and selecting which port should be forwarded. This approach provides additional security because only required ports are exposed, decreasing the possible attack surface.
+
+#### Privacy
+
+To solve the issue of privacy and security threats of connecting to the untrusted networks, the student may use the free VPN software 1.1.1.1.
+
+#### Data retention
+
+Similarly to Google, Cloudflare provides its own S3-API-compatible storage called R2. As the provided free storage is only 10 GB of space, it is reasonable, that the user will need to pay monthly fee for the stored data. The storing procedure may be same as outlined for Google solution.
+### BackBlaze
+
+As the BackBlaze is service specializing only in data backup, it cannot cover most of the needs of the user, except for the double backup. First option that BackBlaze offers is its B2 Cloud Storage that has S3-compatible API and can be used in the same way as Google Storage or Cloudflare R2. 
+
+The second option is the unlimited personal backup for \$99 per year, which the user may install on their Windows laptop to perform full backup of their data, together with versioning.
+
+### Synology
+
+For this profile, the Synology may solve many needs either on its own or in conjunction with other presented services.
+
+#### Security
+
+Same as a VPS, Synology can run arbitrary software as a docker container. This means, that the Synology can host the Minecraft server, achieving a higher uptime than on laptop and security for same reasons as shown within the Google solution. The remote access to Synology can then be provided by Cloudflare or through a third-party virtual network provider with step-by-step guide such as [ZeroTier](https://docs.zerotier.com/synology/).
+
+#### Data retention
+
+Synology directly provides option to perform backup to Amazon Glacier via an official package. Another option may be to use a CloudSync package that is capable of synchronizing with a remote endpoint and optionally encrypting data on the remote side. As two of the previously shown solutions for this profile -- Google Cloud Storage, Backblaze B2 -- are directly supported, setting them up for backup is relatively straightforward. To use Cloudflare R2 as a backup endpoint, the CloudSync package supports a generic S3-compatible API endpoint.
+
+### Unsolved problems
+
+One of the current problems that cannot be solved easily is a deletion of forgotten accounts, as no presented service currently automates this process. First step to deletion of old accounts is to find out which accounts do exist -- this can be significantly simplified if the user already used password management software, so that they can search for saved accounts there. Otherwise, they may need to try if the email address for every service in question is used or not. After the services and account are identified, they may use a service such as [Just Delete Me](https://backgroundchecks.org/justdeleteme/), that lists many services and step or direct links to delete accounts for them.
+
+Second unresolved problem is for the E2EE chat application, where the user currently uses Telegram. One option to achieve E2EE for one-to-one conversations would be to turn-on the Secret chats feature, but for group conversations another application must be used. Here as an alternative could be presented Signal, which uses E2EE by default for everything or Whatsapp, which is owned by Meta.
+
+Third unresolved issue is of the smartphone endpoint protection, where, in addition to the already used-by-default Google Play Protect, the student may install additional application, such as Microsoft Defender, if provided by the university.
 
 ## Small technology company start-up
 
