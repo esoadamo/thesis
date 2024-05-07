@@ -1,3 +1,83 @@
+@misc{backblazeComputerCloudPricing,
+	author = {Backblaze},
+	title = {{C}omputer {C}loud {B}ackup {P}ricing {C}omparison --- backblaze.com},
+	howpublished = {\url{https://www.backblaze.com/cloud-backup/pricing}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{backblazeCloudStoragePricing,
+	author = {BackBlaze},
+	title = {{C}loud {S}torage {P}ricing {C}omparison: {C}alculate {Y}our {C}osts --- backblaze.com},
+	howpublished = {\url{https://www.backblaze.com/cloud-storage/pricing}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{backblazeObjectLock,
+	author = {Backblaze},
+	title = {{C}loud {S}torage {O}bject {L}ock --- backblaze.com},
+	howpublished = {\url{https://www.backblaze.com/docs/cloud-storage-object-lock}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{backblazeSupportedOperating,
+	author = {Backblaze},
+	title = {{S}upported {O}perating {S}ystems --- backblaze.com},
+	howpublished = {\url{https://www.backblaze.com/computer-backup/docs/supported-operating-systems}},
+	year = {},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{cloudflareEverywhereSecurity,
+	author = {Cloudflare, Inc.},
+	title = {{E}verywhere {S}ecurity | {U}nified {S}ecurity {P}latform --- cloudflare.com},
+	howpublished = {\url{https://www.cloudflare.com/cybersecurity/}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{cloudflareR2,
+	author = {Cloudflare, Inc.},
+	title = {{P}ricing · {C}loudflare {R}2 docs --- developers.cloudflare.com},
+	howpublished = {\url{https://developers.cloudflare.com/r2/pricing/}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{cloudflareAccess,
+	author = {Cloudflare, Inc.},
+	title = {{E}nforce {M}{F}{A} · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
+	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/policies/access/mfa-requirements/}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{cloudflareTunnel,
+	author = {Cloudflare, Inc.},
+	title = {{C}reate a remotely-managed tunnel (dashboard) · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
+	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{cloudflarePrivateNetworks,
+	author = {Cloudflare, Inc.},
+	title = {{P}rivate networks · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
+	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/#create-a-tunnel-to-connect-your-network}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
+@misc{one1111Free,
+	author = {Cloudflare, Inc.},
+	title = {1.1.1.1 — {T}he free app that makes your {I}nternet faster. --- one.one.one.one},
+	howpublished = {\url{https://one.one.one.one/}},
+	year = {2024},
+	note = {[Accessed 07-05-2024]},
+}
+
 @misc{microsoftFree,
 	author = {Microsoft},
 	title = {{C}reate {Y}our {A}zure {F}ree {A}ccount {T}oday | {M}icrosoft {A}zure --- azure.microsoft.com},

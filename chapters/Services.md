@@ -114,11 +114,43 @@ Proton is a Swiss-based company providing SaaS focused primarily on privacy. Its
 Unlike Google or Microsoft, Proton Drive does not currently offer any office suite, so all files must be edited externally. On the other hand, Proton provides desktop applications for Windows and Mac, while Linux can be integrated with software such as [rclone](https://rclone.org/protondrive/). The mobile application on Android has the ability to automatically upload all taken photos. All deleted files stay inside trash bin, until it is manually emptied. For payed subscription, the the Drive keeps up to 200 versions of files for up to 10 years. The E2EE is preserved even when sharing files through links and the shares can be password-protected with optional expiration date.
 
 Proton Pass password manager is structured into so-called vaults, which can be shared with other people. In free version, the user can create up to 2 vaults and share it with up to 2 other accounts. For payer plans, the user can create up to 50 vaults, share them with up to 10 other accounts and use the manager also as a TOTP generator. The passwords stored inside the manager can be accessed either through web UI, extension for popular web browsers, native application for smartphone OSs and Windows, with macOS and Linux applications coming soon.[[@protonDownloadProton]] On smartphones, the Proton Pass can be used to auto-fill passwords throughout the system.
+
+## Cloudflare
+
+Cloudflare SaaS solutions are targeted more at companies or IT enthusiasts rather than regular individuals, as its main core of services consists of providing secure hosting of web applications. However, the range of services that Cloudflare provides is broad, so in this thesis I will focus only those relevant to the solutions. [[@cloudflareEverywhereSecurity]] As for pricing, all of the services discussed in this thesis are free with limits set such as a single person or start-up should not reach them, with some exceptions.
+
+With Cloudflare account, the user can use R2 -- a cloud storage service with S3-compatible API, free for up to 10 GB of stored data [[@cloudflareR2]]. Though, for most of services to function, the users first needs to link a domain with their Cloudflare account, either by registering it Cloudflare directly or by pointing domains DNS servers toward Cloudflare. After that is done, the user gains access to a Cloudflare Zero Trust dashboard.
+
+Within the Zero Trust dashboard, it is possible to configure following services:
+
+- Access -- enforces policies, such as users having to authenticate via SSO with MFA enabled, until they are allowed to the application itself [[@cloudflareAccess]]
+- Routes -- after installing a connector on an endpoint device, it is possible to set-up IP address ranges that should be forwarded through [[@cloudflarePrivateNetworks]]
+- Tunnel -- after installing a connector, can specify which subdomain should be forwarded through to a specific IP address and port combination [[@cloudflareTunnel]]
+
+For HTTP-only or HTTPS-only tunnels, there is no additional software required, while for non-HTTP applications additional software is required to be installed on the machine that tried to access the resource -- WARP client for desktop, Cloudflare One Agent app for iOS and Android. The user logs in into the additional software before any access is allowed, so that policies can be enforced correctly.
+
+Other than that, Cloudflare offers a free VPN service for all major smartphone and desktop OS. This VPN service does have an option to switch between functioning as a DNS resolver only or forwarding all data through it, with optionally blocking malware or adult sites.
+
 ## Bitwarden
 
 As special solution for SaaS that does not cover wide range of needs, but instead focuses only one one specific area, I would like to introduce Bitwarden. This solution can be found in [[@Pecuch2021thesis]] and [[@Ciernikova2022thesis]]. Bitwarden is a open-source password manager that is available both as an extension to the web browser and as a native application on most popular platforms. It supports standart features such as auto-filling of passwords, but also advanced features where it can pose as a virtual WebAuthn token. Another service available with a free Bitwaden account is so-called [Bitwaden Send](https://bitwarden.com/products/send/) capable of sending E2EE text as a link with an expiration date and optional password protection.
 
 The Bitwarden also provides a payed subscription tiers for individuals, families and business, where the added features are the option to share saved credentials, send arbitrary files through Bitwarden Send or use the Bitwarden client as an TOTP keychain. For business plans, there is an option to set-up login through SSO. 
+
+## BackBlaze
+
+BackBlaze is only a cloud archiving solution, where heavy focus is being laid upon file versioning and deletion prevention. It offers two products:
+
+- Computer Backup for backing up personal computers with unlimited storage [[@backblazeComputerCloudPricing]]
+- B2 Cloud Storage with S3-compatible API with pay-as-you-go pricing (fixed pricing is available for purchases of 20+ TB) [[@backblazeCloudStoragePricing]]
+
+Computer Backup is supported for Windows and Mac OS, while its default settings is to perform backup all data across all user profiles. Given its unlimited storage for fixed price, it makes it a perfect service when the user want to be sure that everything is properly stored. [[@backblazeSupportedOperating]]
+
+B2 Cloud Storage works by creating buckets into which the data is then uploaded. Except for standart features like versioning of files, B2 offers setting a so-called Object Lock, which for given period of time prevents modification or deletion of file, which is useful for protecting against ransomware attacks or for compliance with local laws. [[@backblazeObjectLock]]
+
+![[Pasted image 20240507181120.png|BackBlaze Computer Backup pricing comparison]]
+![[Pasted image 20240507181210.png|BackBlaze B2 Cloud Storage pricing comparison]]
+
 
 ## CryptPad
 
