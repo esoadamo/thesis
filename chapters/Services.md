@@ -127,6 +127,8 @@ Within the Zero Trust dashboard, it is possible to configure following services:
 - Routes -- after installing a connector on an endpoint device, it is possible to set-up IP address ranges that should be forwarded through [[@cloudflarePrivateNetworks]]
 - Tunnel -- after installing a connector, can specify which subdomain should be forwarded through to a specific IP address and port combination [[@cloudflareTunnel]]
 
+![[Pasted image 20240507195336.png|Cloudflare Access requiring sign in with two configured SSO providers before allowing access to the application]]
+
 For HTTP-only or HTTPS-only tunnels, there is no additional software required, while for non-HTTP applications additional software is required to be installed on the machine that tried to access the resource -- WARP client for desktop, Cloudflare One Agent app for iOS and Android. The user logs in into the additional software before any access is allowed, so that policies can be enforced correctly.
 
 Other than that, Cloudflare offers a free VPN service for all major smartphone and desktop OS. This VPN service does have an option to switch between functioning as a DNS resolver only or forwarding all data through it, with optionally blocking malware or adult sites.
