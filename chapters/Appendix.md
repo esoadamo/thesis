@@ -1,10 +1,35 @@
-## Questionnaires
+## Profile data collecting
 
-- students
-- teachers
-- individuals with iPhone
+During writing of this thesis, I have sent following questions to students (n=5) of non-it university:
+
+- Do you consciously back up your photos/videos?
+- Do you consciously back up documents/school notes?
+- Do you use a password manager? For example Apple KeyChain?
+- Do you use email on your iPhone? Possibly through their Mail app or some other app?
+- Do you use some form of multi-level login/MFA/PassKeys?
+- Do you use the iCloud app for Windows? Possibly for what?
+
+Next I have performed discussion about password practices with (n=27) high-school students and high-school teachers (n=33), with questions such as:
+
+- Do you have more than three complex passwords that you remember?
+- Do you use passphrases instead of passwords?
+- Do you use password manager?
+- Did you ever used some form of password-less login?
+
+With students (n=27), I have performed also a discussion about data retention, back ups and privacy with instant messaging applications:
+
+- Do you know how to back up data?
+- Do you use some form of backup?
+- Have you ever heard of or used a cloud storage?
+- Do you know what a NAS device or Synology is?
+- Which messaging applications do you use?
+- Could you order them in terms of privacy?
+- Do you know what E2EE is?
+- Which of these applications utilize E2EE?
 
 ## Author's solution
+
+To stress out why selecting a simple to manage solution from beginning is important, I am including the approach and history of what solution I do implement. This solution in not perfect, but can show how a technical debt can be quickly created when learning how to achieve hosting goals on the go.
 
 Initially, I have started self-hosting stored files using a dedicated Windows XP device inside a basement with Windows folder sharing. My reasoning for self-hosting most of the software As this solution was not very stable in a long term, I have moved to a dedicated Linux machine with Apache web server with [ownCloud](https://owncloud.com/) . For some time, I have experimented with a P2P VPN software such as [N2N](https://github.com/ntop/n2n) to be able access my ownCloud instance even when not within the same LAN. I have abandoned this solution because it required the N2N to be installed and properly configured on all devices and made it impossible to access the site on devices that I did not own. For that, I have bought my first domain together with the cheapest Czech-based VPS I could find. On that VPS I have installed a reverse-proxy tool [HAProxy](https://www.haproxy.org/) and OpenVPN server to forward requests to certain subdomains to the server on my LAN.
 

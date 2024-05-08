@@ -2,63 +2,48 @@
 
 ## Questions for metodology
 - how long does it take to setup
-	- already set up
-	- under hour
-	- under three hours
-	- under six hour
-	- more
+	- already set up - 8
+	- under hour - 6
+	- under three hours - 4
+	- under six hour - 2
+	- more - 0
 - if it breaks, can the user can repair it itself
-	- without any trouble
-	- with a little need for research
-	- with a possible help of a peer
-	- unlikely
+	- without any trouble - 8
+	- with a little need for research - 5
+	- with a possible help of a peer - 2
+	- unlikely - 0
 - does the user understand what they are doing.
-	- fully
-	- almost everything
-	- are able to remember process
-	- unlinkely
+	- fully - 6
+	- almost everything - 4
+	- are able to remember process - 2
+	- unlinkely - 0
 - is it affordable
-	- free
-	- <200 crowns/month
-	- <1500 crowns/month
-	- >1500 crowns/month
-- does it cover their needs
-	- fully
-	- mostly
-	- partialy
-	- not at all
-- does it cover additional needs
-	- fully
-	- mostly
-	- partialy
-	- not at all
-- does it provide enough security
-	- top focus
-	- good enough
-	- partial
-	- bad
-- does it provide enough privacy
-	- top focus
-	- good enough
-	- partial
-	- bad
+	- free - 6
+	- <200 crowns/month - 5
+	- <1500 crowns/month - 2
+	- >1500 crowns/month - 0
+- does it solve their problems
+	- fully - 8
+	- mostly - 5
+	- partialy - 2
+	- not at all - 0
 - how hard it is to integrate with other systems
-	- top focus
-	- good enough
-	- hacky
-	- impossible
+	- top focus - 6
+	- good enough - 4
+	- hacky - 2
+	- impossible - 0
 - how hard it is to import data from another system
-	- top focus
-	- good enough
-	- hacky
-	- impossible
+	- top focus - 6
+	- good enough - 4
+	- hacky - 2
+	- impossible - 0
 - how hard it is to export data to another system
-	- top focus
-	- good enough
-	- hacky
-	- impossible
+	- top focus - 6
+	- good enough - 4
+	- hacky - 2
+	- impossible - 0
 - how relevant it is to this profile
-	- essential
-	- important
-	- nice-to-have
-	- completely out of scope
+	- essential - 8
+	- important - 6
+	- nice-to-have - 2
+	- completely out of scope -0

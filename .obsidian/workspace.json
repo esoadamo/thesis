@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/Solutions methodology.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,18 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "chapters/Profiles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eee013a434415bd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +50,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Digital competence framework.md",
+                "file": "Text.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5893706324d9f50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Appendix.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes.md",
+                "file": "notes/Metodology questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,9 +122,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10b24f7d7a2c38d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "latex/compile/Solutions methodology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/Solutions methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/Solutions methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Solutions.md"
+                "file": "chapters/Solutions methodology.md"
               }
             }
           }
@@ -253,18 +265,17 @@
   },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "latex/compile/lualatex139854.fls",
-    "latex/compile/lualatex139798.fls",
-    "latex/compile/lualatex139601.fls",
+    "latex/compile/lualatex321606.fls",
+    "latex/compile/lualatex321566.fls",
+    "latex/compile/lualatex321491.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/db5051bceaa790ccc3af6d75f9cf2eaa.md.tex",
+    "latex/compile/_markdown_main/16e04e9eddbd915d468f9aa84c5a0c29.md.tex",
     "latex/compile/_markdown_main/fe3731aede4fcc795b895e62ce31dabe.md.tex",
     "latex/compile/_markdown_main/b00384e04af4c351a7b85df64e360701.md.tex",
-    "latex/compile/_markdown_main/370d23d76cde2446c871210265053814.md.tex",
-    "latex/compile/Solutions.md",
+    "latex/compile/_markdown_main/55803ff356a051546986337c5d7cd67f.md.tex",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
     "latex/compile/Introduction.md",
@@ -282,22 +293,23 @@
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
     "latex/compile/Pasted image 20240501192143.png",
+    "latex/compile/Solutions methodology.md",
+    "chapters/Solutions methodology.md",
+    "latex/compile/Solutions.md",
+    "latex/compile/Notes.md",
+    "notes/Metodology questions.md",
+    "chapters/Services.md",
     "latex/compile/Profiles.md",
     "latex/compile/Digital competence framework.md",
     "latex/compile/Appendix.md",
-    "latex/compile/Notes.md",
     "latex/compile/Acronyms.md",
-    "Acronyms.md",
-    "chapters/Services.md",
-    "chapters/Solutions.md",
-    "citations/@googleDomains.md",
     "chapters/Profiles.md",
-    "citations/@googleMDM.md",
-    "citations/@googleFreeCloud.md",
-    "citations/@googleOne.md",
-    "citations/@googleWorkspace.md",
-    "citations/@microsoftIntune.md",
-    "Notes.md",
-    "chapters/Digital competence framework.md"
+    "chapters/Solutions.md",
+    "notes/Solution notes.md",
+    "Text.md",
+    "chapters/Digital competence framework.md",
+    "chapters/Appendix.md",
+    "Acronyms.md",
+    "Notes.md"
   ]
 }

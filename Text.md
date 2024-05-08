@@ -16,6 +16,10 @@
 
 [[Services]]
 
+# Methodology for solution
+
+[[Solutions methodology]]
+
 # Solutions for profiles
 
 [[Solutions]]
