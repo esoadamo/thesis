@@ -1,3 +1,43 @@
+@misc{microsoftIntune,
+	author = {Microsoft},
+	title = {{W}hat is device enrollment --- learn.microsoft.com},
+	howpublished = {\url{https://learn.microsoft.com/en-us/mem/intune/user-help/use-managed-devices-to-get-work-done}},
+	year = {2024},
+	note = {[Accessed 08-05-2024]},
+}
+
+@misc{googleWorkspace,
+	author = {Google},
+	title = {{C}ompare {F}lexible {P}ricing {P}lan {O}ptions | {G}oogle {W}orkspace --- workspace.google.com},
+	howpublished = {\url{https://workspace.google.com/pricing.html}},
+	year = {2024},
+	note = {[Accessed 08-05-2024]},
+}
+
+@misc{googleOne,
+	author = {Google},
+	title = {{U}pgrade {Y}our {C}loud {S}torage - {G}oogle {O}ne --- one.google.com},
+	howpublished = {\url{https://one.google.com/about/plans}},
+	year = {2024},
+	note = {[Accessed 08-05-2024]},
+}
+
+@misc{googleMDM,
+	author = {Google},
+	title = {{O}verview: {M}anage users\&apos; computers \&amp; smart home devices - {G}oogle {W}orkspace {A}dmin {H}elp --- support.google.com},
+	howpublished = {\url{https://support.google.com/a/answer/9453479?hl=en&ref_topic=9746745&sjid=5848847313747515261-EU}},
+	year = {2024},
+	note = {[Accessed 08-05-2024]},
+}
+
+@misc{googleDomains,
+	author = {Google},
+	title = {{G}oogle {D}omains | {O}fficial {S}ite – {G}oogle {D}omains --- domains.google},
+	howpublished = {\url{https://domains.google/}},
+	year = {2024},
+	note = {[Accessed 08-05-2024]},
+}
+
 @misc{backblazeComputerCloudPricing,
 	author = {Backblaze},
 	title = {{C}omputer {C}loud {B}ackup {P}ricing {C}omparison --- backblaze.com},
@@ -65,7 +105,7 @@
 @misc{cloudflarePrivateNetworks,
 	author = {Cloudflare, Inc.},
 	title = {{P}rivate networks · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
-	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/#create-a-tunnel-to-connect-your-network}},
+	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/}},
 	year = {2024},
 	note = {[Accessed 07-05-2024]},
 }

@@ -9,6 +9,18 @@
         "dimension": 50.11933174224343,
         "children": [
           {
+            "id": "5a793d7240be0803",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Solutions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "98e8739260567574",
             "type": "leaf",
             "state": {
@@ -88,6 +100,18 @@
             }
           },
           {
+            "id": "edb0eb700afda558",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e00fcbe223e52fe1",
             "type": "leaf",
             "state": {
@@ -146,8 +170,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -228,90 +251,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "661e32069a9f4e7f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6b08d1f25b940d59",
-        "type": "window",
-        "children": [
-          {
-            "id": "f3584f89dd0092b9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5a793d7240be0803",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "chapters/Solutions.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2256,
-        "y": 42,
-        "width": 600,
-        "height": 600,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "latex/compile/main.bcf",
-    "latex/compile/main.out",
-    "latex/compile/main.pdf",
-    "chapters/Profiles.md",
-    "latex/compile/main.idx",
-    "latex/compile/main.log",
-    "latex/compile/main.fls",
-    "latex/compile/lualatex74165.fls",
-    "latex/compile/main.fdb_latexmk",
-    "latex/compile/main.aux",
-    "latex/compile/database.biblatext",
+    "latex/compile/lualatex139854.fls",
+    "latex/compile/lualatex139798.fls",
+    "latex/compile/lualatex139601.fls",
+    "latex/compile/main.bbl",
+    "latex/compile/main.blg",
+    "latex/compile/main.ind",
+    "latex/compile/main.run.xml",
+    "latex/compile/_markdown_main/db5051bceaa790ccc3af6d75f9cf2eaa.md.tex",
+    "latex/compile/_markdown_main/fe3731aede4fcc795b895e62ce31dabe.md.tex",
+    "latex/compile/_markdown_main/b00384e04af4c351a7b85df64e360701.md.tex",
+    "latex/compile/_markdown_main/370d23d76cde2446c871210265053814.md.tex",
     "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
-    "latex/compile/Profiles.md",
     "latex/compile/Introduction.md",
-    "latex/compile/Digital competence framework.md",
-    "latex/compile/Appendix.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
-    "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
-    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Pasted image 20240508105111.png",
+    "latex/compile/Pasted image 20240507195336.png",
+    "latex/compile/Pasted image 20240507181210.png",
+    "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
-    "latex/compile/Pasted image 20240501192735.png",
     "latex/compile/Pasted image 20240501192143.png",
-    "latex/compile/Pasted image 20240501190623.png",
-    "latex/compile/Pasted image 20240501184816.png",
-    "latex/compile/Pasted image 20240501184729.png",
-    "latex/compile/main.tex",
-    "chapters/Services.md",
-    "citations/@googleFreeCloud.md",
-    "chapters/Solutions.md",
-    "citations/@appleVersionHistory.md",
-    "chapters/Digital competence framework.md",
+    "latex/compile/Profiles.md",
+    "latex/compile/Digital competence framework.md",
+    "latex/compile/Appendix.md",
+    "latex/compile/Notes.md",
+    "latex/compile/Acronyms.md",
     "Acronyms.md",
-    "notes/User profiles/Profiles.md",
-    "notes/User profiles/Original questions.md",
-    "citations/@fdroidFindDevice.md",
-    "citations/@synoChat.md",
-    "citations/@synoOffice.md"
+    "chapters/Services.md",
+    "chapters/Solutions.md",
+    "citations/@googleDomains.md",
+    "chapters/Profiles.md",
+    "citations/@googleMDM.md",
+    "citations/@googleFreeCloud.md",
+    "citations/@googleOne.md",
+    "citations/@googleWorkspace.md",
+    "citations/@microsoftIntune.md",
+    "Notes.md",
+    "chapters/Digital competence framework.md"
   ]
 }

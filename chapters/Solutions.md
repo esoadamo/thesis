@@ -1,3 +1,5 @@
+In this chapter I present selected solutions for all of the profiles. These solutions that fit the profile best are described in more detail and accompanied with the possible solution by using a self-hosted Synology device instead of cloud service. Even though all solutions tries to map to the needs and problems of presented profile as best as possible, in real settings it can be expected that the implemented solution will be combination of all the presented ones, together with more smaller SaaS products tailored for specific needs.
+
 ## Low-tech skilled family
 
 As mentioned already before, the most prominent issues faced from their somewhat outdated and mixed knowledge of best practices. As they do not possess adequated skillset for completing complex tasks, the solutions for this profile will focus mainly on the usability aspect with a slight compromise on privacy and security. Some of the issues though cannot be solve other than by training the user for the best security practices, such as not installing multiple malware protection programs.
@@ -189,18 +191,46 @@ Same as a VPS, Synology can run arbitrary software as a docker container. This m
 
 #### Data retention
 
-Synology directly provides option to perform backup to Amazon Glacier via an official package. Another option may be to use a CloudSync package that is capable of synchronizing with a remote endpoint and optionally encrypting data on the remote side. As two of the previously shown solutions for this profile -- Google Cloud Storage, Backblaze B2 -- are directly supported, setting them up for backup is relatively straightforward. To use Cloudflare R2 as a backup endpoint, the CloudSync package supports a generic S3-compatible API endpoint.
+Synology directly provides option to perform backup to Amazon Glacier via an official package. Another option may be to use a CloudSync package that is capable of synchronizing with a remote endpoint and optionally encrypting data on the remote side. As two of the previously shown solutions for this profile -- Google Cloud Storage, BackBlaze B2 -- are directly supported, setting them up for backup is relatively straightforward. To use Cloudflare R2 as a backup endpoint, the CloudSync package supports a generic S3-compatible API endpoint.
 
 ### Unsolved problems
 
 One of the current problems that cannot be solved easily is a deletion of forgotten accounts, as no presented service currently automates this process. First step to deletion of old accounts is to find out which accounts do exist -- this can be significantly simplified if the user already used password management software, so that they can search for saved accounts there. Otherwise, they may need to try if the email address for every service in question is used or not. After the services and account are identified, they may use a service such as [Just Delete Me](https://backgroundchecks.org/justdeleteme/), that lists many services and step or direct links to delete accounts for them.
 
-Second unresolved problem is for the E2EE chat application, where the user currently uses Telegram. One option to achieve E2EE for one-to-one conversations would be to turn-on the Secret chats feature, but for group conversations another application must be used. Here as an alternative could be presented Signal, which uses E2EE by default for everything or Whatsapp, which is owned by Meta.
+Second unresolved problem is for the E2EE chat application, where the user currently uses Telegram. One option to achieve E2EE for one-to-one conversations would be to turn-on the Secret chats feature, but for group conversations another application must be used. Here as an alternative could be presented Signal, which uses E2EE by default for everything or WhatsApp, which is owned by Meta.
 
 Third unresolved issue is of the smartphone endpoint protection, where, in addition to the already used-by-default Google Play Protect, the student may install additional application, such as Microsoft Defender, if provided by the university.
 
 ## Small technology company start-up
 
-- Cloudflare for self-hosting
-- Microsoft for cloud
-- Google for cloud 2
+The specificity of the small-technology start-up profile is that when services are not available it may lead to revenue loss. As the start-up has higher budget than students, together with IT professionals, it is possible to present more complex solutions that may take a significant amount of time to setup.
+
+### Microsoft
+
+As Microsoft provides a range of services for cloud management for companies, it is possible to resolve needs of this profile by moving the infrastructure to the cloud. However, given its volume of different services and configuration options, the administrator may require some training before being able to set whole system in a secure manner.
+
+The company IT administrator may start by creating a new Microsoft Entra ID (previously known as  Azure Active Directory) instance, the company gains the possibility to structure company employees into groups, making the process of moving into the least-privilege access philosophy easier. With Microsoft account, employees are now able to use the account as SSO source to multiple applications. Furthermore, if a web application is not configured to support SSO login (such as companies Jenkins), it can be placed behind Azure's built-in authentication mechanism that will first require the user to authenticate against it before any request is let to pass to the target application.
+
+Azure directly supports managing VMs, solving the need for more scaleable approach. Next, the company can directly register a new domain name with a automatic generation of TLS certificate, making the internal custom top level domain with custom DNS obsolete. When everything is moved into cloud, there is no longer any need for a VPN server to the internal company network. 
+
+For secure storage and sharing of files, employees may use their OneDrive subscription, which offers 1 TB per employee, which should be enough for generic company data. For sharing secrets that should not be stored directly on OneDrive, the company may use Azure Key Vault, which offers secure storage and management of secrets and certificates.
+
+Last need to solve is of a centralized device management, which can be solved by Microsoft Intune, that has direct support for enrolling macOS and iOS devices.
+
+### Google
+
+Google offers very similar services as Microsoft, which can be found under different product names. To secure access to the web application with Zero Trust access model, the administrator may use the Identity-Aware Proxy. Same as a Microsoft, Google offers automatic setup and renewal of TLS certificates. For secure sharing of files, the users may use Google Drive, for sharing of secrets the Secret Manager. Device management can be done with the Google device management software.
+
+Where Google differs from the Microsoft solution is the storage space that is available to the users, where in the Google's case the storage is set at 2 TB, but for roughly double price of the Microsoft solution. Furthermore, O365 for business offers a Microsoft Teams subscription, that is capable of performing both video and chat messaging, while the Google Workspace offers only video conferences. The second difference is that Google no longer offers domain registration, as it was outsourced to Squarespace on September 7 2023. [[@googleDomains]]
+
+### Synology + Cloudflare
+
+Even though Synology itself does support a wide range of needs of this profile, it lacks the option to create a VPN server with MFA, purchase custom domain or to protect hosted applications with zero trust. To solve this, the administrator can set up a Cloudflare tunnel on the Synology device to connect it to the Cloudflare Zero Trust. As the Synology account do offers MFA protection and can be used as a OIDC-compatible SSO source, by exposing the Synology DSM interface either via QuickConnect or via publicly accessible tunnel, the Cloudflare Zero Trust can be set-up to perform authentication via the local Synology accounts.
+
+With using the Cloudflare WARP clients on the company devices, the employees can, after logging in through the SSO, connect to the hosted Synology device. The advantage of connecting the company device via WARP client is that the Cloudflare administrator is able to see basic information about connected devices and linked users, posing as a basic for of a centralized device managment.
+
+Even when not connecting via the public internet, Cloudflare offers to set-up zero trust authentication before letting the requests pass through, similarly to the Google and Microsoft solutions. Cloudflare does offer domain registration, with all tunnels having a valid HTTPS certificate for their subdomains, no matter if the target service does use HTTP or HTTPS.
+
+As the Synology does offer hosting arbitrary docker containers or whole virtual machines, the process of hosting their services is simple. Synology also offers per-user or per-group permissions, making it easy to implement least-privilege access. As a NAS device, sharing files is one of its core features, mainly when combined with the encryption of data on rest, which Synology natively supports.
+
+The obvious drawbacks of this solution still persist, where the Synology still poses as a single point of failure in case of power outage or connectivity downtime. Next, the physical security of this device is more important than with other profiles, as accidental dropping or theft of the device could lead again to service unavailability or company-confidential data leakage. Lastly, there is a need for a password manager or secret sharing software capable of sharing passwords and secrets, where, same as for other profiles, an external service such as Bitwarden need to be used.

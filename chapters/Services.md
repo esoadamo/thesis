@@ -18,7 +18,7 @@ For more business-related use cases, Microsoft provides a cloud hosting service 
 
 ### Identity management
 
-After its creation, the Microsoft account can be used as a single sign-on source for other applications. For more technical users and complex scenarios, the accounts can be assigned to groups within Microsoft Azure portal, though the exact procedure is out of scope for this thesis. For companies, Microsoft also provides advanced security features such as data loss prevention for filtering documents and email messages for company-confidential data, or specifying labels assigned to assets together with polices, that can apply encryption to the data and prevent its accidental leakage [[@microsoftApplyEncryption]].
+After its creation, the Microsoft account can be used as a single sign-on source for other applications. For more technical users and complex scenarios, the accounts can be assigned to groups within Microsoft Azure portal, though the exact procedure is out of scope for this thesis. For companies, Microsoft also provides advanced security features such as data loss prevention for filtering documents and email messages for company-confidential data, or specifying labels assigned to assets together with polices, that can apply encryption to the data and prevent its accidental leakage [[@microsoftApplyEncryption]]. To help with managing multiple company-owned devices and to assure compliance with company policies (such as password complexity policies), Microsoft provides Intune, that is available for all major desktop and smartphone OSs. [[@microsoftIntune]] 
 ### Family services
 
 For the Android OS Microsoft provides a Family Safety application. After installing this application on both the parent's and the children's phone, the parents gain the ability take a look at the children's position, be notified when children reach certain locations such as their school or home, or they can impose limits on how much of applications for which time the child can actually use per day. There is also a possibility of recording all his strokes to protect the children against cyber-bullying.[[@microsoftPhoneMonitoring]]  As the application is installed as an administrator of the device, it has the authority to require parent's approval before installation of any new application. Furthermore, when using the Microsoft Edge browser on the smartphone or desktop, the parent can monitor all visited sites and create a whitelist of allowed sites for the child. These features are also available on a desktop version od Edge.
@@ -38,11 +38,13 @@ As an operating system from Microsoft, Windows seamlessly integrates with the co
 Google is the second large provider of security as a service introduced in this thesis. Unlike Microsoft, which has a large portion of the desktop market, Google has a large coverage of the smartphone market with its Android OS as new devices with this system do often come with pre-installed Google applications. Google is also well-known for its web browser, Google Chrome.
 ### Cloud services
 
-Google provides various publicly available free services -- perhaps most importantly its free mail service GMail and cloud storage Google Drive. These services come with a shared free 15 GB of storage and do include a full web-based office suite. With a Google One subscription plan, the storage can be extended for up to 2 TB of storage, that can be shared with up to 5 other people. 
+Google provides various publicly available free services -- perhaps most importantly its free mail service GMail and cloud storage Google Drive. These services come with a shared free 15 GB of storage and do include a full web-based office suite. With a Google One subscription plan, the storage can be extended for up to 2 TB of storage, that can be shared with up to 5 other people. [[@googleOne]] When in company settings with more than 6 people, Google offers its Google workspace solution, that offers company mail hosting solution, video conferences via Google Meet and storage for Google Drive ranging from 30 GB to 5 TB per user, or more with undisclosed pricing. [[@googleWorkspace]]
 
 ![[Pasted image 20240429211526.png|Google One Subscription plans]]
 
-For more advanced use cases, Google offers its own cloud hosting solution Google Cloud. This cloud provides standart features such as VPS hosting, functions, containers, databases, ... One of the specifics of the google Cloud is that it provides a 90-day \$300 free trial and also a range of always-free services, including a signal free VPS. [[@googleFreeCloud]]
+![[Pasted image 20240508105111.png|Google Workspace subscription plans]]
+
+For more advanced use cases, Google offers its own cloud hosting solution Google Cloud. This cloud provides standart features such as VPS hosting, functions, containers, databases, ... One of the specifics of the google Cloud is that it provides a 90-day \$300 free trial and also a range of always-free services, including a signal free VPS. [[@googleFreeCloud]] With company settings, Google offers its device management, supported for all major desktop and smartphone OSs. [[@googleMDM]]
 
 ![[Pasted image 20240507094955.png|Free VPS specifications provided by Google Cloud]]
 
@@ -177,7 +179,7 @@ Synology NAS is a device that, after entering a one or more hard drives, boots i
 ![[Pasted image 20240501192143.png|Synology DSM Web UI with opened file manager]]
 ### Provided services
 
-Even though initially the system supports only file sharing, there exists a wide range of packages that can be directly installed that extend the functions of the system. These packages include CardDAV for contact synchronization, CloudSync for synchronization with other storage providers (with the option to encrypt the remote content, which may be useful for backup of local data), VPN server, RADIUS server and many more. Some devices do allow execution of arbitrary docker images, making it easy to run practically any service.
+Even though initially the system supports only file sharing, there exists a wide range of packages that can be directly installed that extend the functions of the system. These packages include CardDAV for contact synchronization, CloudSync for synchronization with other storage providers (with the option to encrypt the remote content, which may be useful for backup of local data), VPN server, RADIUS server and many more. Some devices do allow execution of arbitrary docker images or full virtual machines via Virtual Machine Manager, making it easy to run practically any service.
 
 ![[Pasted image 20240501192735.png|Some of the existing Synology DSM packages]]
 

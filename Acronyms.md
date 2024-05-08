@@ -1,3 +1,4 @@
+
 | Acronym | Explanation                 |
 | ------- | --------------------------- |
 | MFA     | Multi-factor authentization |
@@ -15,3 +16,6 @@
 | NAS     | Network Attached Storage    |
 | OIDC    | Open ID Connect             |
 | NAS     | Network-attached storage    |
+| VM      | Virtual Machine             |
+| VPS     | Virtual Private Server      |
+| TLS     | Transport Layer Security    |
