@@ -122,21 +122,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "10b24f7d7a2c38d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "latex/compile/Solutions methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,6 +253,8 @@
   },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
+    "chapters/Appendix.md",
+    "chapters/Solutions methodology.md",
     "latex/compile/lualatex321606.fls",
     "latex/compile/lualatex321566.fls",
     "latex/compile/lualatex321491.fls",
@@ -275,7 +265,6 @@
     "latex/compile/_markdown_main/16e04e9eddbd915d468f9aa84c5a0c29.md.tex",
     "latex/compile/_markdown_main/fe3731aede4fcc795b895e62ce31dabe.md.tex",
     "latex/compile/_markdown_main/b00384e04af4c351a7b85df64e360701.md.tex",
-    "latex/compile/_markdown_main/55803ff356a051546986337c5d7cd67f.md.tex",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
     "latex/compile/Introduction.md",
@@ -294,7 +283,6 @@
     "latex/compile/Pasted image 20240506163134.png",
     "latex/compile/Pasted image 20240501192143.png",
     "latex/compile/Solutions methodology.md",
-    "chapters/Solutions methodology.md",
     "latex/compile/Solutions.md",
     "latex/compile/Notes.md",
     "notes/Metodology questions.md",
@@ -308,7 +296,6 @@
     "notes/Solution notes.md",
     "Text.md",
     "chapters/Digital competence framework.md",
-    "chapters/Appendix.md",
     "Acronyms.md",
     "Notes.md"
   ]

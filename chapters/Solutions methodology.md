@@ -1,51 +1,52 @@
 To be able to select and formulate which solutions are the most fitting to the needs of every profile, it is necessary to first formulate a methodology of selecting those solutions. The selected methodology for this thesis consists of questions and answers to them in form of options with assigned scored of relevancy. The questions that this thesis asks are:
 
+
 - How long to set solution up?
-	- already set up - 8
-	- under hour - 6
-	- under three hours - 4
-	- under six hour - 2
-	- more - 0
+	- Under half an hour -- 8 points
+	- Under one hour -- 6 points
+	- Under three hours -- 4 points
+	- Under six hour -- 2 points
+	- More than six hours or not applicable -- 0 points
 - Can the user repair it in case of a problem?
-	- without any trouble - 8
-	- with a little need for research - 5
-	- with a possible help of a peer - 2
-	- unlikely - 0
+	- Without any issues or external sources -- 8 points
+	- With a simple internet search -- 5 points
+	- With a help of a peer or professional -- 2 points
+	- Not likely or not applicable -- 0 points
 - Does the user understand the solution?
-	- fully - 6
-	- almost everything - 4
-	- are able to remember process - 2
-	- unlinkely - 0
+	- They fully understand how the solutions works -- 6 points
+	- They understand almost all aspects of the solution -- 4 points
+	- The are able to remember how to operate the solution without understanding it -- 2 points
+	- Unlikely they will be able to understand or operate the solution  or not applicable -- 0 points
 - Is it affordable?
-	- free - 6
-	- <200 crowns/month - 5
-	- <1500 crowns/month - 2
-	- >1500 crowns/month - 0
+	- Free -- 6 points
+	- Small investment -- 5 points
+	- Considerable investment -- 2 points
+	- Over the budget -- 0 points
 - Does it solve user's problems and needs?
-	- fully - 8
-	- mostly - 5
-	- partialy - 2
-	- not at all - 0
+	- It solves all problems and needs -- 8 points
+	- It solves most of the problems and needs -- 5 points
+	- It solves some of the problems and needs -- 2 points
+	- It does not solve any of the users problems or needs --- 0 points
 - Does the solution integrate well with other systems?
-	- top focus - 6
-	- good enough - 4
-	- hacky - 2
-	- impossible - 0
+	- Integration is a crucial part of the solution -- 6 points
+	- It is possible to integrate the solution with reasonable amount of work -- 4 points
+	- It is possible to integrate the solution with significant work or workarounds -- 2 points
+	- It is impossible to integrate the solution -- 0 points
 - Does the solution support importing data?
-	- top focus - 6
-	- good enough - 4
-	- hacky - 2
-	- impossible - 0
+	- Importing data is crucial part of the solution -- 6 points
+	- It is possible to import data to the solution with reasonable amount of work -- 4 points
+	- It is possible to import data to the solution with significant amount of work or data loss -- 2 points
+	- It is not possible to import data into the solution -- 0 points
 - Does the solution support exporting data?
-	- top focus - 6
-	- good enough - 4
-	- hacky - 2
-	- impossible - 0
+	- Exporting data is crucial part of the solution -- 6 points
+	- It is possible to export data from the solution with reasonable amount of work -- 4 points
+	- It is possible to export data from the solution with significant amount of work or data loss -- 2 points
+	- It is not possible to export data from the solution -- 0 points
 - Is this solution relevant to the profile?
-	- essential - 8
-	- important - 6
-	- nice-to-have - 2
-	- completely out of scope -0
+	- It is essential to fulfill the problems and needs -- 8 points
+	- It is important part of the solution -- 6 points
+	- The service brings some advantages but is not necessary -- 2 points
+	- This service is fully out of scope for this solution -- 0 points
 
 Results of questions for each profile can be found:
 
