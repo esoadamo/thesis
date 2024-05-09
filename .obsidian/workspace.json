@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Solutions methodology.md",
+                "file": "chapters/Conclusion.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,9 +122,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "16369ad2434fc785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Solutions methodology.md",
+                "file": "chapters/Conclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Solutions methodology.md",
+                "file": "chapters/Conclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Solutions methodology.md"
+                "file": "chapters/Conclusion.md"
               }
             }
           }
@@ -253,8 +265,11 @@
   },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "chapters/Appendix.md",
+    "Notes.md",
+    "notes/Solution notes.md",
+    "chapters/Conclusion.md",
     "chapters/Solutions methodology.md",
+    "chapters/Appendix.md",
     "latex/compile/lualatex321606.fls",
     "latex/compile/lualatex321566.fls",
     "latex/compile/lualatex321491.fls",
@@ -293,10 +308,8 @@
     "latex/compile/Acronyms.md",
     "chapters/Profiles.md",
     "chapters/Solutions.md",
-    "notes/Solution notes.md",
     "Text.md",
     "chapters/Digital competence framework.md",
-    "Acronyms.md",
-    "Notes.md"
+    "Acronyms.md"
   ]
 }

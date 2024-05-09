@@ -1,0 +1,2 @@
+In this thesis I have identified 5 of the user archetypes -- , together with their current workflows in terms of computer security, with focus on privacy and data retention. All of the users were also put into context with existing research regarding to their abilities and skillsets within the Digital Competence framework.
+Next, I have analysed existing SaaS solution on the market that could solve problems and antipatterns shown in the profiles behavior, with also fulfilling their additional needs for more secure setup.
