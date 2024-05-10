@@ -135,8 +135,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -265,9 +264,10 @@
   },
   "active": "5a793d7240be0803",
   "lastOpenFiles": [
-    "Notes.md",
+    "chapters/Services.md",
     "notes/Solution notes.md",
     "chapters/Conclusion.md",
+    "Notes.md",
     "chapters/Solutions methodology.md",
     "chapters/Appendix.md",
     "latex/compile/lualatex321606.fls",
@@ -301,7 +301,6 @@
     "latex/compile/Solutions.md",
     "latex/compile/Notes.md",
     "notes/Metodology questions.md",
-    "chapters/Services.md",
     "latex/compile/Profiles.md",
     "latex/compile/Digital competence framework.md",
     "latex/compile/Appendix.md",

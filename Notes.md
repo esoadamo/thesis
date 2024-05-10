@@ -4,8 +4,6 @@
 - italic names of book
 - capital Internet???
 - uvozovky, "strong"
-- appendix:
-	- questionare
 - cite tables
 - pretty tables
 	- smaller font?
