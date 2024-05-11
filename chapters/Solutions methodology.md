@@ -1,54 +1,54 @@
-To be able to select and formulate which solutions are the most fitting to the needs of every profile, it is necessary to first formulate a methodology of selecting those solutions. The selected methodology for this thesis consists of questions and answers to them in form of options with assigned scored of relevancy. The questions that this thesis asks are:
+To select and formulate which solutions best fit the needs of every profile, it is necessary first to formulate a methodology for selecting those solutions. The selected methodology for this thesis consists of questions and answers to them in the form of options with assigned scores of relevancy. The questions that this thesis asks are:
 
-
-- How long to set solution up?
+- How long does it take to set the solution up?
 	- Under half an hour -- 8 points
 	- Under one hour -- 6 points
 	- Under three hours -- 4 points
-	- Under six hour -- 2 points
+	- Under six hours -- 2 points
 	- More than six hours or not applicable -- 0 points
-- Can the user repair it in case of a problem?
+- Can the user repair it if there is a problem?
 	- Without any issues or external sources -- 8 points
 	- With a simple internet search -- 5 points
-	- With a help of a peer or professional -- 2 points
+	- With the help of a peer or professional -- 2 points
 	- Not likely or not applicable -- 0 points
 - Does the user understand the solution?
-	- They fully understand how the solutions works -- 6 points
+	- They fully understand how the solutions work -- 6 points
 	- They understand almost all aspects of the solution -- 4 points
-	- The are able to remember how to operate the solution without understanding it -- 2 points
+	- They can remember how to operate the solution without understanding it -- 2 points
 	- Unlikely they will be able to understand or operate the solution  or not applicable -- 0 points
 - Is it affordable?
 	- Free -- 6 points
 	- Small investment -- 5 points
 	- Considerable investment -- 2 points
 	- Over the budget -- 0 points
-- Does it solve user's problems and needs?
+- Does it solve the user's problems and needs?
 	- It solves all problems and needs -- 8 points
 	- It solves most of the problems and needs -- 5 points
 	- It solves some of the problems and needs -- 2 points
-	- It does not solve any of the users problems or needs --- 0 points
+	- It does not solve any of the user's problems or needs --- 0 points
 - Does the solution integrate well with other systems?
 	- Integration is a crucial part of the solution -- 6 points
-	- It is possible to integrate the solution with reasonable amount of work -- 4 points
+	- It is possible to integrate the solution with a reasonable amount of work -- 4 points
 	- It is possible to integrate the solution with significant work or workarounds -- 2 points
 	- It is impossible to integrate the solution -- 0 points
 - Does the solution support importing data?
-	- Importing data is crucial part of the solution -- 6 points
-	- It is possible to import data to the solution with reasonable amount of work -- 4 points
-	- It is possible to import data to the solution with significant amount of work or data loss -- 2 points
+	- Importing data is a crucial part of the solution -- 6 points
+	- It is possible to import data to the solution with a reasonable amount of work -- 4 points
+	- It is possible to import data to the solution with a significant amount of work or data loss -- 2 points
 	- It is not possible to import data into the solution -- 0 points
 - Does the solution support exporting data?
-	- Exporting data is crucial part of the solution -- 6 points
-	- It is possible to export data from the solution with reasonable amount of work -- 4 points
-	- It is possible to export data from the solution with significant amount of work or data loss -- 2 points
+	- Exporting data is a crucial part of the solution -- 6 points
+	- It is possible to export data from the solution with a reasonable amount of work -- 4 points
+	- It is possible to export data from the solution with a significant amount of work or data loss -- 2 points
 	- It is not possible to export data from the solution -- 0 points
 - Is this solution relevant to the profile?
-	- It is essential to fulfill the problems and needs -- 8 points
-	- It is important part of the solution -- 6 points
+	- It is essential to fulfil the problems and needs -- 8 points
+	- It is an important part of the solution -- 6 points
 	- The service brings some advantages but is not necessary -- 2 points
 	- This service is fully out of scope for this solution -- 0 points
 
 Results of questions for each profile can be found:
+
 
 - Low-tech skilled family solutions in `TEX:\autoref{tab:SoluFamily}`
 - Low-tech skilled university student solutions in `TEX:\autoref{tab:SoluLowStud}`

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Profiles.md",
+                "file": "chapters/Digital competence framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,13 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Appendix.md",
+                "file": "chapters/Solutions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f32c517c83f939c2",
@@ -201,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Conclusion.md",
+                "file": "chapters/Digital competence framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Conclusion.md",
+                "file": "chapters/Digital competence framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Conclusion.md"
+                "file": "chapters/Digital competence framework.md"
               }
             }
           }
@@ -262,14 +263,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a793d7240be0803",
+  "active": "98e8739260567574",
   "lastOpenFiles": [
     "chapters/Services.md",
-    "notes/Solution notes.md",
-    "chapters/Conclusion.md",
-    "Notes.md",
+    "chapters/Related work.md",
+    "chapters/Profiles.md",
     "chapters/Solutions methodology.md",
+    "chapters/Solutions.md",
     "chapters/Appendix.md",
+    "Text.md",
+    "Acronyms.md",
+    "chapters/Metodology.md",
+    "chapters/Conclusion.md",
+    "chapters/Introduction.md",
+    "chapters/Digital competence framework.md",
+    "notes/Solution notes.md",
+    "Notes.md",
     "latex/compile/lualatex321606.fls",
     "latex/compile/lualatex321566.fls",
     "latex/compile/lualatex321491.fls",
@@ -301,14 +310,6 @@
     "latex/compile/Solutions.md",
     "latex/compile/Notes.md",
     "notes/Metodology questions.md",
-    "latex/compile/Profiles.md",
-    "latex/compile/Digital competence framework.md",
-    "latex/compile/Appendix.md",
-    "latex/compile/Acronyms.md",
-    "chapters/Profiles.md",
-    "chapters/Solutions.md",
-    "Text.md",
-    "chapters/Digital competence framework.md",
-    "Acronyms.md"
+    "latex/compile/Profiles.md"
   ]
 }
