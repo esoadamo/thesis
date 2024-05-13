@@ -1,25 +1,25 @@
-[[Introduction]]
+[[00 Introduction]]
 
 # Related work
 
-[[Related work]]
+[[01 Related work]]
 
 # Digital competence framework
 
-[[Digital competence framework]]
+[[02 Digital competence framework]]
 
 # Profiles
 
-[[Profiles]]
+[[03 Profiles]]
 
 # Services
 
-[[Services]]
+[[04 Services]]
 
 # Methodology for solution
 
-[[Solutions methodology]]
+[[05 Solutions methodology]]
 
 # Solutions for profiles
 
-[[Solutions]]
+[[06 Solutions]]

@@ -1,4 +1,4 @@
-Describes what is left to do in regards to [[Profiles]]
+Describes what is left to do in regards to [[notes/User profiles/Profiles]]
 - [[Metodology]]
   - in the end we will assigns weights/scores
     - and scores how the problems can be solved by the tasks

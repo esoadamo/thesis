@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Conclusion.md",
+                "file": "chapters/07 Conclusion.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Solutions methodology.md",
+                "file": "chapters/07 Conclusion.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Solutions.md",
+                "file": "chapters/06 Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Services.md",
+                "file": "chapters/04 Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Profiles.md",
+                "file": "chapters/03 Profiles.md",
                 "mode": "source",
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Solutions methodology.md",
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/Solutions methodology.md",
+                "file": "Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/Solutions methodology.md"
+                "file": "Notes.md"
               }
             }
           }
@@ -252,13 +252,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98e8739260567574",
+  "active": "16369ad2434fc785",
   "lastOpenFiles": [
-    "latex/compile/lualatex260194.fls",
-    "latex/compile/lualatex260099.fls",
-    "chapters/Solutions.md",
-    "Text.md",
-    "latex/compile/lualatex260043.fls",
+    "chapters/07 Conclusion.md",
+    "Notes.md",
+    "latex/compile/lualatex261205.fls",
+    "latex/compile/lualatex261145.fls",
+    "latex/compile/lualatex261082.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
@@ -266,39 +266,39 @@
     "latex/compile/_markdown_main/809fcf2bfd0813a71c9af332ecde8146.md.tex",
     "latex/compile/_markdown_main/20ea8a70dfe58c57bd6123c14efc7085.md.tex",
     "latex/compile/_markdown_main/b6e72fbaaac2b1bb51a3386122144f73.md.tex",
-    "latex/compile/_markdown_main/ee5119b473378cfbe5e7af5bb594a562.md.tex",
-    "latex/compile/Services.md",
-    "latex/compile/Related work.md",
-    "latex/compile/Introduction.md",
-    "latex/compile/Conclusion.md",
+    "latex/compile/99 Appendix.md",
+    "latex/compile/07 Conclusion.md",
+    "latex/compile/06 Solutions.md",
+    "latex/compile/05 Solutions methodology.md",
+    "latex/compile/04 Services.md",
+    "latex/compile/03 Profiles.md",
+    "latex/compile/02 Digital competence framework.md",
+    "latex/compile/01 Related work.md",
+    "latex/compile/00 Introduction.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
+    "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
+    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
     "latex/compile/Pasted image 20240508105111.png",
     "latex/compile/Pasted image 20240507195336.png",
     "latex/compile/Pasted image 20240507181210.png",
+    "latex/compile/Pasted image 20240507181120.png",
     "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
-    "latex/compile/Pasted image 20240501192143.png",
-    "latex/compile/Solutions.md",
-    "latex/compile/Notes.md",
-    "latex/compile/Digital competence framework.md",
-    "latex/compile/Solutions methodology.md",
-    "latex/compile/Profiles.md",
-    "latex/compile/Appendix.md",
-    "latex/compile/Acronyms.md",
-    "chapters/Introduction.md",
-    "chapters/Digital competence framework.md",
-    "citations/@digi22.md",
-    "citations/@europaDigitalCompetence.md",
-    "chapters/Conclusion.md",
-    "chapters/Appendix.md",
-    "chapters/Services.md",
-    "chapters/Related work.md"
+    "chapters/06 Solutions.md",
+    "chapters/05 Solutions methodology.md",
+    "chapters/04 Services.md",
+    "chapters/03 Profiles.md",
+    "chapters/02 Digital competence framework.md",
+    "chapters/01 Related work.md",
+    "chapters/00 Introduction.md",
+    "chapters/99 Appendix.md",
+    "Text.md"
   ]
 }

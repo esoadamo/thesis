@@ -1,6 +1,4 @@
 
-- citations accessed format
-- italic names of book
 - cite tables
 - pretty tables
 	- smaller font?
