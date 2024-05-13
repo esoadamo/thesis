@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Digital competence framework.md",
+                "file": "chapters/Solutions methodology.md",
                 "mode": "source",
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes.md",
+                "file": "chapters/Solutions methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes.md",
+                "file": "chapters/Solutions methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes.md"
+                "file": "chapters/Solutions methodology.md"
               }
             }
           }
@@ -252,27 +252,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16369ad2434fc785",
+  "active": "98e8739260567574",
   "lastOpenFiles": [
-    "latex/compile/lualatex167950.fls",
-    "latex/compile/lualatex167883.fls",
-    "latex/compile/lualatex167812.fls",
+    "latex/compile/lualatex260194.fls",
+    "latex/compile/lualatex260099.fls",
+    "chapters/Solutions.md",
+    "Text.md",
+    "latex/compile/lualatex260043.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
     "latex/compile/_markdown_main/809fcf2bfd0813a71c9af332ecde8146.md.tex",
-    "latex/compile/_markdown_main/8f458abde1c7506a4e6054f7c52b0e56.md.tex",
-    "latex/compile/_markdown_main/d55fabc86943a6d41b648a13c4074f39.md.tex",
+    "latex/compile/_markdown_main/20ea8a70dfe58c57bd6123c14efc7085.md.tex",
+    "latex/compile/_markdown_main/b6e72fbaaac2b1bb51a3386122144f73.md.tex",
     "latex/compile/_markdown_main/ee5119b473378cfbe5e7af5bb594a562.md.tex",
-    "latex/compile/Solutions.md",
     "latex/compile/Services.md",
     "latex/compile/Related work.md",
     "latex/compile/Introduction.md",
     "latex/compile/Conclusion.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
-    "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
@@ -281,24 +281,24 @@
     "latex/compile/Pasted image 20240508105111.png",
     "latex/compile/Pasted image 20240507195336.png",
     "latex/compile/Pasted image 20240507181210.png",
-    "latex/compile/Pasted image 20240507181120.png",
     "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
+    "latex/compile/Pasted image 20240501192143.png",
+    "latex/compile/Solutions.md",
+    "latex/compile/Notes.md",
+    "latex/compile/Digital competence framework.md",
     "latex/compile/Solutions methodology.md",
     "latex/compile/Profiles.md",
-    "latex/compile/Digital competence framework.md",
     "latex/compile/Appendix.md",
     "latex/compile/Acronyms.md",
+    "chapters/Introduction.md",
     "chapters/Digital competence framework.md",
-    "chapters/Services.md",
-    "chapters/Related work.md",
-    "chapters/Profiles.md",
-    "chapters/Solutions methodology.md",
-    "chapters/Solutions.md",
+    "citations/@digi22.md",
+    "citations/@europaDigitalCompetence.md",
+    "chapters/Conclusion.md",
     "chapters/Appendix.md",
-    "Text.md",
-    "Acronyms.md",
-    "chapters/Metodology.md"
+    "chapters/Services.md",
+    "chapters/Related work.md"
   ]
 }

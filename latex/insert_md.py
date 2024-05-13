@@ -60,7 +60,7 @@ def main():
   while r'\markdownInput' in content:
       match = next(re.finditer(r"\\markdownInput\{(.*?)\}", content))
       replace = match.group(0)
-      file_md = Path(match.group(1))
+      file_md = Path(Path(match.group(1)).name)
       markdown = MD_PREFIX + process_obsidian_md(file_md, file_md.parent) + MD_SUFFIX
       content = content.replace(replace, markdown)
 
@@ -75,6 +75,7 @@ def process_obsidian_md(file_md, root):
 
   # User correct citation syntax
   content = re.sub(r"\[\[@([^]]*?)]]", r"[@\1]", content)
+  content = re.sub(r"\s\[@", r"~[@", content)
 
   # Include other .md files
   while True:

@@ -1,8 +1,6 @@
 
 - citations accessed format
-- take care of misc citations
 - italic names of book
-- capital Internet???
 - cite tables
 - pretty tables
 	- smaller font?

@@ -1,302 +1,293 @@
-@misc{microsoftIntune,
+@online{microsoftIntune,
 	author = {Microsoft},
-	title = {{W}hat is device enrollment --- learn.microsoft.com},
-	howpublished = {\url{https://learn.microsoft.com/en-us/mem/intune/user-help/use-managed-devices-to-get-work-done}},
+	title = {{W}hat is device enrollment},
+	url = {https://learn.microsoft.com/en-us/mem/intune/user-help/use-managed-devices-to-get-work-done},
 	year = {2024},
-	note = {[Accessed 08-05-2024]},
+	urldate = {2024-05-08},
 }
 
-@misc{googleWorkspace,
+@online{googleWorkspace,
 	author = {Google},
-	title = {{C}ompare {F}lexible {P}ricing {P}lan {O}ptions | {G}oogle {W}orkspace --- workspace.google.com},
-	howpublished = {\url{https://workspace.google.com/pricing.html}},
+	title = {{C}ompare {F}lexible {P}ricing {P}lan {O}ptions | {G}oogle {W}orkspace},
+	url = {https://workspace.google.com/pricing.html},
 	year = {2024},
-	note = {[Accessed 08-05-2024]},
+	urldate = {2024-05-08},
 }
 
-@misc{googleOne,
+@online{googleOne,
 	author = {Google},
-	title = {{U}pgrade {Y}our {C}loud {S}torage - {G}oogle {O}ne --- one.google.com},
-	howpublished = {\url{https://one.google.com/about/plans}},
+	title = {{U}pgrade {Y}our {C}loud {S}torage - {G}oogle {O}ne},
+	url = {https://one.google.com/about/plans},
 	year = {2024},
-	note = {[Accessed 08-05-2024]},
+	urldate = {2024-05-08},
 }
 
-@misc{googleMDM,
+@online{googleMDM,
 	author = {Google},
-	title = {{O}verview: {M}anage users\&apos; computers \&amp; smart home devices - {G}oogle {W}orkspace {A}dmin {H}elp --- support.google.com},
-	howpublished = {\url{https://support.google.com/a/answer/9453479?hl=en&ref_topic=9746745&sjid=5848847313747515261-EU}},
+	title = {{O}verview: {M}anage users' computers \& smart home devices - {G}oogle {W}orkspace {A}dmin {H}elp},
+	url = {https://support.google.com/a/answer/9453479?hl=en},
 	year = {2024},
-	note = {[Accessed 08-05-2024]},
+	urldate = {2024-05-08},
 }
 
-@misc{googleDomains,
+@online{googleDomains,
 	author = {Google},
-	title = {{G}oogle {D}omains | {O}fficial {S}ite – {G}oogle {D}omains --- domains.google},
-	howpublished = {\url{https://domains.google/}},
+	title = {{G}oogle {D}omains | {O}fficial {S}ite – {G}oogle {D}omains},
+	url = {https://domains.google/},
 	year = {2024},
-	note = {[Accessed 08-05-2024]},
+	urldate = {2024-05-08},
 }
 
-@misc{backblazeComputerCloudPricing,
+@online{backblazeComputerCloudPricing,
 	author = {Backblaze},
-	title = {{C}omputer {C}loud {B}ackup {P}ricing {C}omparison --- backblaze.com},
-	howpublished = {\url{https://www.backblaze.com/cloud-backup/pricing}},
+	title = {{C}omputer {C}loud {B}ackup {P}ricing {C}omparison},
+	url = {https://www.backblaze.com/cloud-backup/pricing},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{backblazeCloudStoragePricing,
+@online{backblazeCloudStoragePricing,
 	author = {BackBlaze},
-	title = {{C}loud {S}torage {P}ricing {C}omparison: {C}alculate {Y}our {C}osts --- backblaze.com},
-	howpublished = {\url{https://www.backblaze.com/cloud-storage/pricing}},
+	title = {{C}loud {S}torage {P}ricing {C}omparison: {C}alculate {Y}our {C}osts},
+	url = {https://www.backblaze.com/cloud-storage/pricing},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{backblazeObjectLock,
+@online{backblazeObjectLock,
 	author = {Backblaze},
-	title = {{C}loud {S}torage {O}bject {L}ock --- backblaze.com},
-	howpublished = {\url{https://www.backblaze.com/docs/cloud-storage-object-lock}},
+	title = {{C}loud {S}torage {O}bject {L}ock},
+	url = {https://www.backblaze.com/docs/cloud-storage-object-lock},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{backblazeSupportedOperating,
+@online{backblazeSupportedOperating,
 	author = {Backblaze},
-	title = {{S}upported {O}perating {S}ystems --- backblaze.com},
-	howpublished = {\url{https://www.backblaze.com/computer-backup/docs/supported-operating-systems}},
+	title = {{S}upported {O}perating {S}ystems},
+	url = {https://www.backblaze.com/computer-backup/docs/supported-operating-systems},
 	year = {},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{cloudflareEverywhereSecurity,
-	author = {Cloudflare, Inc.},
-	title = {{E}verywhere {S}ecurity | {U}nified {S}ecurity {P}latform --- cloudflare.com},
-	howpublished = {\url{https://www.cloudflare.com/cybersecurity/}},
+@online{cloudflareEverywhereSecurity,
+	author = {{Cloudflare, Inc.}},
+	title = {{E}verywhere {S}ecurity | {U}nified {S}ecurity {P}latform},
+	url = {https://www.cloudflare.com/cybersecurity/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{cloudflareR2,
-	author = {Cloudflare, Inc.},
-	title = {{P}ricing · {C}loudflare {R}2 docs --- developers.cloudflare.com},
-	howpublished = {\url{https://developers.cloudflare.com/r2/pricing/}},
+@online{cloudflareR2,
+	author = {{Cloudflare, Inc.}},
+	title = {{P}ricing · {C}loudflare {R}2 docs},
+	url = {https://developers.cloudflare.com/r2/pricing/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{cloudflareAccess,
-	author = {Cloudflare, Inc.},
-	title = {{E}nforce {M}{F}{A} · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
-	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/policies/access/mfa-requirements/}},
+@online{cloudflareAccess,
+	author = {{Cloudflare, Inc.}},
+	title = {{E}nforce {M}{F}{A} · {C}loudflare {Z}ero {T}rust docs},
+	url = {https://developers.cloudflare.com/cloudflare-one/policies/access/mfa-requirements/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{cloudflareTunnel,
-	author = {Cloudflare, Inc.},
-	title = {{C}reate a remotely-managed tunnel (dashboard) · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
-	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/}},
+@online{cloudflareTunnel,
+	author = {{Cloudflare, Inc.}},
+	title = {{C}reate a remotely-managed tunnel (dashboard) · {C}loudflare {Z}ero {T}rust docs},
+	url = {https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{cloudflarePrivateNetworks,
-	author = {Cloudflare, Inc.},
-	title = {{P}rivate networks · {C}loudflare {Z}ero {T}rust docs --- developers.cloudflare.com},
-	howpublished = {\url{https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/}},
+@online{cloudflarePrivateNetworks,
+	author = {{Cloudflare, Inc.}},
+	title = {{P}rivate networks · {C}loudflare {Z}ero {T}rust docs},
+	url = {https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/private-net/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{one1111Free,
-	author = {Cloudflare, Inc.},
-	title = {1.1.1.1 — {T}he free app that makes your {I}nternet faster. --- one.one.one.one},
-	howpublished = {\url{https://one.one.one.one/}},
+@online{one1111Free,
+	author = {{Cloudflare, Inc.}},
+	title = {1.1.1.1 — {T}he free app that makes your {I}nternet faster.},
+	url = {https://one.one.one.one/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{microsoftFree,
+@online{microsoftFree,
 	author = {Microsoft},
-	title = {{C}reate {Y}our {A}zure {F}ree {A}ccount {T}oday | {M}icrosoft {A}zure --- azure.microsoft.com},
-	howpublished = {\url{https://azure.microsoft.com/en-us/free/}},
+	title = {{C}reate {Y}our {A}zure {F}ree {A}ccount {T}oday | {M}icrosoft {A}zure},
+	url = {https://azure.microsoft.com/en-us/free/},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{googleFreeCloud,
+@online{googleFreeCloud,
 	author = {Google},
-	title = {{F}ree cloud features and trial offer | {G}oogle {C}loud {F}ree {P}rogram --- cloud.google.com},
-	howpublished = {\url{https://cloud.google.com/free/docs/free-cloud-features}},
+	title = {{F}ree cloud features and trial offer | {G}oogle {C}loud {F}ree {P}rogram},
+	url = {https://cloud.google.com/free/docs/free-cloud-features},
 	year = {2024},
-	note = {[Accessed 07-05-2024]},
+	urldate = {2024-05-07},
 }
 
-@misc{appleVersionHistory,
+@online{appleVersionHistory,
 	author = {WinsC1},
-	title = {{V}ersion {H}istory in i{C}loud {D}rive - {A}pple {C}ommunity --- discussions.apple.com},
-	howpublished = {\url{https://discussions.apple.com/thread/254911251?sortBy=best}},
+	title = {{V}ersion {H}istory in i{C}loud {D}rive - {A}pple {C}ommunity},
+	url = {https://discussions.apple.com/thread/254911251?sortBy=best},
 	year = {2024},
-	note = {[Accessed 06-05-2024]},
+	urldate = {2024-05-06},
 }
 
-@misc{appleICloudPlans,
-	author = {Apple Inc.},
-	title = {i{C}loud+ plans and pricing - {A}pple {S}upport --- support.apple.com},
-	howpublished = {\url{https://support.apple.com/en-us/108047}},
-	year = {2024},
-	note = {[Accessed 06-05-2024]},
-}
-
-@misc{fdroidFindDevice,
+@online{fdroidFindDevice,
 	author = {Nulide},
-	title = {{F}ind {M}y {D}evice ({F}{M}{D}) | {F}-{D}roid - {F}ree and {O}pen {S}ource {A}ndroid {A}pp {R}epository --- f-droid.org},
-	howpublished = {\url{https://f-droid.org/packages/de.nulide.findmydevice/}},
+	title = {{F}ind {M}y {D}evice ({F}{M}{D}) | {F}-{D}roid - {F}ree and {O}pen {S}ource {A}ndroid {A}pp {R}epository},
+	url = {https://f-droid.org/packages/de.nulide.findmydevice/},
 	year = {2024},
-	note = {[Accessed 05-05-2024]},
+	urldate = {2024-05-05},
 }
 
-@misc{synoChat,
-	author = {Synology Inc.},
-	title = {Synology Chat --- synology.com},
-	howpublished = {\url{https://www.synology.com/en-global/dsm/feature/chat}},
+@online{synoChat,
+	author = {{Synology Inc.}},
+	title = {Synology Chat},
+	url = {https://www.synology.com/en-global/dsm/feature/chat},
 	year = {2024},
-	note = {[Accessed 05-05-2024]},
+	urldate = {2024-05-05},
 }
 
-@misc{synoOffice,
-	author = {Synology Inc.},
-	title = {Synology Office --- synology.com},
-	howpublished = {\url{https://www.synology.com/en-us/dsm/feature/office}},
+@online{synoOffice,
+	author = {{Synology Inc.}},
+	title = {Synology Office},
+	url = {https://www.synology.com/en-us/dsm/feature/office},
 	year = {2024},
-	note = {[Accessed 05-05-2024]},
+	urldate = {2024-05-05},
 }
 
-@misc{googleDriveOffline,
+@online{googleDriveOffline,
 	author = {Google},
-	title = {{U}se {G}oogle {D}rive files offline - {C}omputer - {G}oogle {D}rive {H}elp --- support.google.com},
-	howpublished = {\url{https://support.google.com/drive/answer/2375012?hl=en}},
+	title = {{U}se {G}oogle {D}rive files offline - {C}omputer - {G}oogle {D}rive {H}elp},
+	url = {https://support.google.com/drive/answer/2375012?hl=en},
 	year = {2024},
-	note = {[Accessed 04-05-2024]},
+	urldate = {2024-05-04},
 }
 
-@misc{protonCreateFree,
-	author = {Proton AG},
-	title = {{C}reate a free email account or choose a paid plan | {P}roton --- proton.me},
-	howpublished = {\url{https://proton.me/mail/pricing}},
+@online{protonCreateFree,
+	author = {{Proton AG}},
+	title = {{C}reate a free email account or choose a paid plan | {P}roton},
+	url = {https://proton.me/mail/pricing},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{protonDownloadProton,
-	author = {Proton AG},
-	title = {{D}ownload {P}roton {P}ass for your {B}rowser or {M}obile {D}evice | {P}roton --- proton.me},
-	howpublished = {\url{https://proton.me/pass/download}},
+@online{protonDownloadProton,
+	author = {{Proton AG}},
+	title = {{D}ownload {P}roton {P}ass for your {B}rowser or {M}obile {D}evice},
+	url = {https://proton.me/pass/download},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{blogBrowseSafely,
+@online{blogBrowseSafely,
 	author = {Jonathan Li, Jasika Bawa},
-	title = {{B}rowse safely with real-time protection on {C}hrome --- blog.google},
-	howpublished = {\url{https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/}},
+	title = {{B}rowse safely with real-time protection on {C}hrome},
+	url = {https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/},
 	year = {2024},
-	note = {[Accessed 04-05-2024]},
+	urldate = {2024-05-04},
 }
 
-@misc{bleepingcomputerGoogleDrive,
+@online{bleepingcomputerGoogleDrive,
 	author = {Sergiu Gatlan},
-	title = {{G}oogle {D}rive now warns you of suspicious phishing, malware docs --- bleepingcomputer.com},
-	howpublished = {\url{https://www.bleepingcomputer.com/news/google/google-drive-now-warns-you-of-suspicious-phishing-malware-docs/}},
+	title = {{G}oogle {D}rive now warns you of suspicious phishing, malware docs},
+	url = {https://www.bleepingcomputer.com/news/google/google-drive-now-warns-you-of-suspicious-phishing-malware-docs/},
 	year = {2024},
-	note = {[Accessed 04-05-2024]},
+	urldate = {2024-05-04},
 }
 
-@misc{googleblogFoughtApps,
+@online{googleblogFoughtApps,
 	author = {Kafka, Steve},
-	title = {{H}ow we fought bad apps and bad actors in 2023 --- security.googleblog.com},
-	howpublished = {\url{https://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html}},
+	title = {{H}ow we fought bad apps and bad actors in 2023},
+	url = {https://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{androidcentralGooglePlay,
+@online{androidcentralGooglePlay,
 	author = {Namerah, Fatmi},
-	title = {{G}oogle {P}lay {S}ervices: {W}hat is it, and how does it keep your {A}ndroid phone safe? --- androidcentral.com},
-	howpublished = {\url{https://www.androidcentral.com/apps-software/google-play-services}},
+	title = {{G}oogle {P}lay {S}ervices: {W}hat is it, and how does it keep your {A}ndroid phone safe?},
+	url = {https://www.androidcentral.com/apps-software/google-play-services},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{googleBackRestore,
+@online{googleBackRestore,
 	author = {Google},
-	title = {{B}ack up or restore data on your {A}ndroid device - {A}ndroid {H}elp --- support.google.com},
-	howpublished = {\url{https://support.google.com/android/answer/2819582?hl=en}},
+	title = {{B}ack up or restore data on your {A}ndroid device - {A}ndroid {H}elp},
+	url = {https://support.google.com/android/answer/2819582?hl=en},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{synologyServiceServer,
-	author = {Synology Inc.},
-	title = {{S}ervice | {S}{S}{O} {S}erver - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/SSOServer/sso_server_service?version=7}},
+@online{synologyServiceServer,
+	author = {{Synology Inc.}},
+	title = {{S}ervice | {S}{S}{O} {S}erver - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-us/DSM/help/SSOServer/sso_server_service?version=7},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{synology2FactorAuthentication,
-	author = {Synology Inc.},
-	title = {2-{F}actor {A}uthentication | {D}{S}{M} - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-global/DSM/help/DSM/SecureSignIn/2factor_authentication?version=7}},
+@online{synology2FactorAuthentication,
+	author = {{Synology Inc.}},
+	title = {2-{F}actor {A}uthentication | {D}{S}{M} - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-global/DSM/help/DSM/SecureSignIn/2factor_authentication?version=7},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{synologySyncFiles,
-	author = {Synology Inc.},
-	title = {{H}ow to sync files between {S}ynology {N}{A}{S} and your computer using {S}ynology {D}rive {C}lient - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-us/DSM/tutorial/How_to_sync_files_between_Synology_NAS_and_your_computer_using_Drive_desktop}},
+@online{synologySyncFiles,
+	author = {{Synology Inc.}},
+	title = {{H}ow to sync files between {S}ynology {N}{A}{S} and your computer using {S}ynology {D}rive {C}lient - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-us/DSM/tutorial/How_to_sync_files_between_Synology_NAS_and_your_computer_using_Drive_desktop},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{synologyPhotoSynology,
-	author = {Synology Inc.},
-	title = {{D}{S} photo | i{O}{S} - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/DSphoto/iPhone?version=6}},
+@online{synologyPhotoSynology,
+	author = {{Synology Inc.}},
+	title = {{D}{S} photo | i{O}{S} - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-us/DSM/help/DSphoto/iPhone?version=6},
 	year = {},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{synologyPhotoAndroid,
-	author = {Synology Inc.},
-	title = {{D}{S} photo | {A}ndroid - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/DSphoto/Android?version=6}},
+@online{synologyPhotoAndroid,
+	author = {{Synology Inc.}},
+	title = {{D}{S} photo | {A}ndroid - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-us/DSM/help/DSphoto/Android?version=6},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{synologyQuickConnectSynology,
-	author = {Synology Inc.},
-	title = {{Q}uick{C}onnect | {D}{S}{M} - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/connection_quickconnect?version=7}},
+@online{synologyQuickConnectSynology,
+	author = {{Synology Inc.}},
+	title = {{Q}uick{C}onnect | {D}{S}{M} - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/connection_quickconnect?version=7},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-
-@misc{synologyBackEntire,
-	author = {Synology Inc.},
-	title = {{H}ow do {I} back up an entire computer or server using {A}ctive {B}ackup for {B}usiness? - {S}ynology {K}nowledge {C}enter --- kb.synology.com},
-	howpublished = {\url{https://kb.synology.com/en-us/DSM/tutorial/How_back_up_PC_physical_server_with_ABB}},
+@online{synologyBackEntire,
+	author = {{Synology Inc.}},
+	title = {{H}ow do {I} back up an entire computer or server using {A}ctive {B}ackup for {B}usiness? - {S}ynology {K}nowledge {C}enter},
+	url = {https://kb.synology.com/en-us/DSM/tutorial/How_back_up_PC_physical_server_with_ABB},
 	year = {2024},
-	note = {[Accessed 01-05-2024]},
+	urldate = {2024-05-01},
 }
 
-@misc{Ciernikova2022thesis,
-        AUTHOR = {ierniková, Tamara},
+@online{Ciernikova2022thesis,
+        AUTHOR = {Čierniková, Tamara},
         TITLE = {Selected open tools supporting security and privacy protection for regular end-users},
         YEAR = {2022},
         TYPE = {Bakaláská práce},
@@ -307,7 +298,20 @@
         URL_DATE = {2023-11-29},
 }
 
+@misc{europaDigitalCompetence,
+	author = {Galina Misheva},
+	title = {{T}he {D}igital {C}ompetence {F}ramework ({D}ig{C}omp) --- digital-skills-jobs.europa.eu},
+	url = {https://digital-skills-jobs.europa.eu/en/actions/european-initiatives/digital-competence-framework-digcomp},
+	year = {2021},
+	urldate = {2024-01-13},
+}
 
+@book{digi22,
+author = {European Commission and Joint Research Centre and Vuorikari, R and Kluzer, S and Punie, Y},
+title = {DigComp 2.2, The Digital Competence framework for citizens – With new examples of knowledge, skills and attitudes},
+publisher = {Publications Office of the European Union},
+year = {2022},
+doi = {doi/10.2760/115376}}
 
 
 @unknown{DigiCompLevels,
@@ -319,12 +323,12 @@ title = {DigComp 2.1. The digital competence framework for citizens with eight p
 doi = {10.2760/38842}
 }
 
-
-@unknown{DigiCompEduCZ,
-author = {NPO 3.1 DIGI NPI R},
+@online{DigiCompEduCZ,
+author = {{MŠMT ČR} and {NPI ČR}},
 year = {2023},
 title = {Digitální kompetence v uzlových bodech vzdlávání},
-url = {https://revize.edu.cz/digikompetence-uzlove-body}
+url = {https://revize.edu.cz/digikompetence-uzlove-body},
+urldate = {2023-12-30}
 }
 
 @article{STEINLECHNER20211185,
@@ -335,7 +339,7 @@ pages = {1185-1190},
 year = {2021},
 note = {54th CIRP CMS 2021 - Towards Digitalized Manufacturing 4.0},
 issn = {2212-8271},
-doi = {https://doi.org/10.1016/j.procir.2021.11.199},
+doi = {10.1016/j.procir.2021.11.199},
 url = {https://www.sciencedirect.com/science/article/pii/S2212827121010970},
 author = {Markus Steinlechner and Andreas Schumacher and Benedikt Fuchs and Luisa Reichsthaler and Sebastian Schlund},
 keywords = {Industry 4.0, Digitalization, Digital Competencies, Maturity Model, Human Resource},
@@ -348,15 +352,15 @@ abstract = {Industrial enterprises increasingly identify their employees digit
    year = "2016",
    number = "250",
    url = "https://www.oecd-ilibrary.org/content/paper/5jlwz83z3wnw-en",
-   doi = "https://doi.org/https://doi.org/10.1787/5jlwz83z3wnw-en"
+   doi = "10.1787/5jlwz83z3wnw-en"
 }
 
-@misc{OECDSkillsBrief,
+@online{OECDSkillsBrief,
    author = "OECD",
-   title = "Policy brief on the future of work: Skills for a Digital World",
    year = "2016",
-   month = "12",
-   url = "https://www.oecd.org/els/emp/Skills-for-a-Digital-World.pdf"
+   title = "Policy Brief on the Future of Work, Skills for a Digital World",
+   url = "https://www.oecd.org/els/emp/Skills-for-a-Digital-World.pdf",
+   urldate = {2023-12-30}
 }
 
 @presentation{OECDSkillsMatter,
@@ -367,18 +371,15 @@ abstract = {Industrial enterprises increasingly identify their employees digit
    url = "https://www.slideshare.net/OECDEDU/skills-matter-additional-results-from-the-survey-of-adult-skills"
 }
 
-
-
 @blog{ViberRestoreChat,
-   author = " Viber Media",
+   author = {{Viber Media S.à r.l.}},
    title = "Transfer Your Chat History From One Phone to Another ",
    year = "2023",
    url = "https://help.viber.com/hc/en-us/articles/9173905938845-Transfer-Your-Chat-History-From-One-Phone-to-Another",
    accessed = "2023-11-30"
 }
 
-
-@misc{FBIDataMessenger,
+@online{FBIDataMessenger,
 	title = {Here's what data the {FBI} can get from {WhatsApp}, {iMessage}, {Signal}, {Telegram}, and more},
 	url = {https://www.malwarebytes.com/blog/news/2021/12/heres-what-data-the-fbi-can-get-from-whatsapp-imessage-signal-telegram-and-more/},
 	abstract = {A disclosed FBI training document reveals what information can be revealed about your usage of an end to end encrypted instant messaging app.},
@@ -386,49 +387,52 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 	urldate = {2023-11-30},
 	journal = {Malwarebytes},
 	author = {Arntz, Pieter},
-	month = nov,
 	year = {2021},
 }
 
+@online{Toulas_2023, title={Google Drive users angry over losing months of stored data}, url={https://www.bleepingcomputer.com/news/google/google-drive-users-angry-over-losing-months-of-stored-data/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Toulas, Bill}, year={2023}, urldate = {2024-12-30}}
 
-@misc{Toulas_2023, title={Google Drive users angry over losing months of stored data}, url={https://www.bleepingcomputer.com/news/google/google-drive-users-angry-over-losing-months-of-stored-data/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Toulas, Bill}, year={2023}, month={Nov}}
+@online{GoogleChromePasswordProtection, title={How chrome protects your passwords}, url={https://support.google.com/chrome/answer/10311524}, journal={Google Chrome Help}, publisher={Google}, author={Google}}
 
-@misc{GoogleChromePasswordProtection, title={How chrome protects your passwords}, url={https://support.google.com/chrome/answer/10311524}, journal={Google Chrome Help}, publisher={Google}, author={Google}}
+@online{SeznamZtrataUctu, title={Až 200 tisíc lidí ročně přijde o svůj e-mailový účet, spočítal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, urldate = {2023-12-30}}}
 
-@misc{SeznamZtrataUctu, title={AŽ 200 Tisíc Lidí ro?n? p?ijde o sv?j E-mailový ú?et, Spo?ítal Seznam}, url={https://www.lupa.cz/aktuality/az-200-tisic-lidi-rocne-prijde-o-svuj-e-mailovy-ucet-spocital-seznam/}, journal={Lupa.cz}, publisher={Internet Info, s.r.o.}, author={Drtina, Martin}, year={2023}, month={Nov}}
-
-@misc{GoogleDriveRecovery, title={Google shares ?fix? for deleted google drive files}, url={https://www.bleepingcomputer.com/news/google/google-shares-fix-for-deleted-google-drive-files/}, journal={BleepingComputer}, publisher={BleepingComputer}, author={Gatlan, Sergiu}, year={2023}, month={Dec}}
-
-
-@misc{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications · Cloudflare Zero Trust docs}}
-
-@misc{viberHomeViber,
-	author = {Viber Media S.à r.l.},
-	title = {{H}ome | {V}iber --- viber.com},
-	howpublished = {\url{https://www.viber.com/en/}},
-	year = {2024},
-	note = {[Accessed 13-03-2024]},
+@online{GoogleDriveRecovery,
+	title={Google shares "fix" for deleted Google Drive files},
+	url={https://www.bleepingcomputer.com/news/google/google-shares-fix-for-deleted-google-drive-files/},
+	journal={BleepingComputer},
+	publisher={BleepingComputer},
+	author={Gatlan, Sergiu},
+	year={2023},
+	urldate = {2023-12-30}
 }
 
-@misc{appleICloudPlans,
-	author = {Apple Inc.},
-	title = {i{C}loud+ plans and pricing --- support.apple.com},
-	howpublished = {\url{https://support.apple.com/en-us/HT201238}},
+@online{CFSaas, url={https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/saas-apps/}, journal={SaaS applications · Cloudflare Zero Trust docs}}
+
+@online{viberHomeViber,
+	author = {{Viber Media S.à r.l.}},
+	title = {{H}ome | {V}iber},
+	url = {https://www.viber.com/en/},
 	year = {2024},
-	note = {[Accessed 13-03-2024]},
+	urldate = {2024-03-13},
 }
 
-@misc{appleICloudPasswords,
-	author = {Apple Inc.},
-	title = {{S}et up i{C}loud {P}asswords on your {W}indows computer --- support.apple.com},
-	howpublished = {\url{https://support.apple.com/en-gb/guide/icloud-windows/icw2babf5e03/icloud}},
+@online{appleICloudPlans,
+	author = {{Apple Inc.}},
+	title = {i{C}loud+ plans and pricing},
+	url = {https://support.apple.com/en-us/HT201238},
 	year = {2024},
-	note = {[Accessed 13-03-2024]},
+	urldate = {2024-03-13},
 }
 
+@online{appleICloudPasswords,
+	author = {{Apple Inc.}},
+	title = {{S}et up i{C}loud {P}asswords on your {W}indows computer},
+	url = {https://support.apple.com/en-gb/guide/icloud-windows/icw2babf5e03/icloud},
+	year = {2024},
+	urldate = {2024-03-13},
+}
 
-
-@misc{Pecuch2021thesis,
+@online{Pecuch2021thesis,
         AUTHOR = {Pecuch, Daniel},
         TITLE = {Password managers: a survey},
         YEAR = {2021},
@@ -440,128 +444,161 @@ abstract = {Industrial enterprises increasingly identify their employees digit
         URL_DATE = {2024-03-15},
 }
 
-
 @book{springerGuideComputer,
-	author = {Joseph Migga, Kizza},
-	title = {{G}uide to {C}omputer {N}etwork {S}ecurity --- link.springer.com},
-	howpublished = {\url{https://link.springer.com/book/10.1007/978-3-030-38141-7}},
-	year = {},
-	note = {[Accessed 15-03-2024]},
+  title     = "Guide to computer network security",
+  author    = "Kizza, Joseph Migga",
+  abstract  = "This timely textbook presents a comprehensive guide to the core
+               topics in cybersecurity, covering issues of security that extend
+               beyond traditional computer networks to the ubiquitous mobile
+               communications and online social networks that have become part
+               of our daily lives. In the context of our growing dependence on
+               an ever-changing digital ecosystem, this book stresses the
+               importance of security awareness, whether in our homes, our
+               businesses, or our public spaces. This fully updated new edition
+               features new material on the security issues raised by
+               blockchain technology, and its use in logistics, digital
+               ledgers, payments systems, and digital contracts. Topics and
+               features: Explores the full range of security risks and
+               vulnerabilities in all connected digital systems Inspires debate
+               over future developments and improvements necessary to enhance
+               the security of personal, public, and private enterprise systems
+               Raises thought-provoking questions regarding legislative, legal,
+               social, technical, and ethical challenges, such as the tension
+               between privacy and security Describes the fundamentals of
+               traditional computer network security, and common threats to
+               security Reviews the current landscape of tools, algorithms, and
+               professional best practices in use to maintain security of
+               digital systems Discusses the security issues introduced by the
+               latest generation of network technologies, including mobile
+               systems, cloud computing, and blockchain Presents exercises of
+               varying levels of difficulty at the end of each chapter, and
+               concludes with a diverse selection of practical projects Offers
+               supplementary material for students and instructors at an
+               associated website, including slides, additional projects, and
+               syllabus suggestions This important textbook/reference is an
+               invaluable resource for students of computer science,
+               engineering, and information management, as well as for
+               practitioners working in data- and information-intensive
+               industries.",
+  publisher = "Springer Nature",
+  month     =  jun,
+  year      =  2020,
+  address   = "Cham, Switzerland",
+  language  = "en"
 }
 
-@misc{blogUpdatingGoogle,
+@online{blogUpdatingGoogle,
 	author = {Ben-Yair, Shimrit},
-	title = {{U}pdating {G}oogle {P}hotos’ storage policy to build for the future --- blog.google},
-	howpublished = {\url{https://blog.google/products/photos/storage-changes/}},
+	title = {{U}pdating {G}oogle {P}hotos’ storage policy to build for the future},
+	url = {https://blog.google/products/photos/storage-changes/},
 	year = {2020},
 }
 
-
-@misc{telegramFAQ,
+@online{telegramFAQ,
 	author = {Telegram},
-	title = {{T}elegram {F}{A}{Q} --- telegram.org},
-	howpublished = {\url{https://telegram.org/faq}},
+	title = {{T}elegram {F}{A}{Q}},
+	url = {https://telegram.org/faq},
 	year = {},
-	note = {[Accessed 17-03-2024]},
+	urldate = {2024-03-17},
 }
 
-@misc{techradarWhatsAppAlternatives,
+@online{techradarWhatsAppAlternatives,
 	author = {James, O'Malley},
-	title = {{W}hats{A}pp alternatives: the best messaging apps for {A}ndroid and i{P}hone --- techradar.com},
-	howpublished = {\url{https://www.techradar.com/best/whatsapp-alternatives}},
+	title = {{W}hats{A}pp alternatives: the best messaging apps for {A}ndroid and i{P}hone},
+	url = {https://www.techradar.com/best/whatsapp-alternatives},
 	year = {2021},
-	note = {[Accessed 17-03-2024]},
+	urldate = {2024-03-17},
 }
 
-@misc{lifehackerBestWhatsApp,
+@online{lifehackerBestWhatsApp,
 	author = {Brendan Hesse},
-	title = {{T}he {B}est {W}hats{A}pp {A}lternatives --- lifehacker.com},
-	howpublished = {\url{https://lifehacker.com/the-best-whatsapp-alternatives-1832064581}},
+	title = {{T}he {B}est {W}hats{A}pp {A}lternatives},
+	url = {https://lifehacker.com/the-best-whatsapp-alternatives-1832064581},
 	year = {2021},
-	note = {[Accessed 17-03-2024]},
+	urldate = {2024-03-17},
 }
 
-@misc{ziveNahraditWhatsApp,
+@online{ziveNahraditWhatsApp,
 	author = {Karel Kilián},
-	title = {Čím nahradit {W}hats{A}pp: {V}yberte si z 10 alternativních komunikátorů --- zive.cz},
-	howpublished = {\url{https://www.zive.cz/clanky/cim-nahradit-whatsapp-vyberte-si-z-10-alternativnich-komunikatoru/sc-3-a-207956/default.aspx}},
+	title = {Čím nahradit {W}hats{A}pp: {V}yberte si z 10 alternativních komunikátorů},
+	url = {https://www.zive.cz/clanky/cim-nahradit-whatsapp-vyberte-si-z-10-alternativnich-komunikatoru/sc-3-a-207956/default.aspx},
 	year = {2023},
-	note = {[Accessed 17-03-2024]},
+	urldate = {2024-03-17},
 }
 
-@misc{tnWhatsapp,
+@online{tnWhatsapp,
 	author = {Anna, Křenková},
 	title = {{W}hats{A}pp mění pravidla. {K}terými bezpečnými aplikacemi ho nahradit?},
-	howpublished = {\url{https://tn.nova.cz/zpravodajstvi/clanek/435392-whatsapp-meni-pravidla-kterymi-bezpecnymi-aplikacemi-ho-nahradit}},
+	url = {https://tn.nova.cz/zpravodajstvi/clanek/435392-whatsapp-meni-pravidla-kterymi-bezpecnymi-aplikacemi-ho-nahradit},
 	year = {2021},
-	note = {[Accessed 17-03-2024]},
+	urldate = {2024-03-17},
 }
 
 @book{Stefanek_2002, place={Boston Mass.}, title={Information security best practices: 205 basic rules}, publisher={Butterworth-Heinemann}, author={Stefanek, George L.}, year={2002}}
 
-@misc{blogGmailProtections,
+@online{blogGmailProtections,
 	author = {Kumaran, Neil},
-	title = {{N}ew {G}mail protections for a safer, less spammy inbox --- blog.google},
-	howpublished = {\url{https://blog.google/products/gmail/gmail-security-authentication-spam-protection/}},
+	title = {{N}ew {G}mail protections for a safer, less spammy inbox},
+	url = {https://blog.google/products/gmail/gmail-security-authentication-spam-protection/},
 	year = {2023},
-	note = {[Accessed 10-01-2024]},
+	urldate = {2024-01-10},
 }
 
-@misc{javaWebBrowser,
+@online{javaWebBrowser,
 	author = {Oracle},
 	title = {{H}ow do {I} enable {J}ava in my web browser?},
-	howpublished = {\url{https://www.java.com/en/download/help/enable_browser.html}},
+	url = {https://www.java.com/en/download/help/enable_browser.html},
 	year = {},
-	note = {[Accessed 12-02-2024]},
+	urldate = {2024-02-12},
 }
 
-
-@misc{thevergeGmailsBasic,
+@online{thevergeGmailsBasic,
 	author = {Wes Davis},
-	title = {{G}mail’s basic {H}{T}{M}{L} view will go to the {G}oogle graveyard in 2024 --- theverge.com},
-	howpublished = {\url{https://www.theverge.com/2023/9/25/23889791/gmail-basic-html-view-discontinued-2024}},
+	title = {{G}mail’s basic {H}{T}{M}{L} view will go to the {G}oogle graveyard in 2024},
+	url = {https://www.theverge.com/2023/9/25/23889791/gmail-basic-html-view-discontinued-2024},
 	year = {},
-	note = {[Accessed 10-04-2024]},
+	urldate = {2024-04-10},
 }
 
-@article{Strodl_Motlik_Stadler_Rauber_2008, title={Personal \& Soho archiving}, DOI={10.1145/1378889.1378910}, journal={Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries}, author={Strodl, Stephan and Motlik, Florian and Stadler, Kevin and Rauber, Andreas}, year={2008}, month={Jun}}
+@article{Strodl_Motlik_Stadler_Rauber_2008, title={Personal \& Soho archiving}, DOI={10.1145/1378889.1378910}, journal={Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries}, author={Strodl, Stephan and Motlik, Florian and Stadler, Kevin and Rauber, Andreas}, year={2008}, month={07}}
 
-@misc{onedrivePricing,
+@online{onedrivePricing,
 	author = {Microsoft},
 	title = { {C}ompare cloud storage pricing and plans},
-	howpublished = {\url{https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans}},
+	url = {https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans},
 	year = {2024},
-	note = {[Accessed 16-04-2024]},
+	urldate = {2024-04-16},
 }
 
-@misc{microsoftApplyEncryption,
+@online{microsoftApplyEncryption,
 	author = {Microsoft},
-	title = {{A}pply encryption using sensitivity labels --- learn.microsoft.com},
-	howpublished = {\url{https://learn.microsoft.com/en-us/purview/encryption-sensitivity-labels}},
+	title = {{A}pply encryption using sensitivity labels},
+	url = {https://learn.microsoft.com/en-us/purview/encryption-sensitivity-labels},
 	year = {2024},
-	note = {[Accessed 16-04-2024]},
+	urldate = {2024-04-16},
 }
 
-@misc{cryptpadSecurity,
+@online{cryptpadSecurity,
 	author = {CryptPad Team},
-	title = {{S}ecurity - {C}rypt{P}ad 2024.3.0 documentation --- docs.cryptpad.org},
-	howpublished = {\url{https://docs.cryptpad.org/en/user_guide/security.html}},
+	title = {{S}ecurity - {C}rypt{P}ad 2024.3.0 documentation},
+	url = {https://docs.cryptpad.org/en/user_guide/security.html},
 	year = {2024},
-	note = {[Accessed 17-04-2024]},
+	urldate = {2024-04-17},
 }
 
-@misc{cryptPadFAQ,
+@online{cryptPadFAQ,
 	author = {CryptPad Team},
-	title = {{F}requently {A}sked {Q}uestions - {C}rypt{P}ad 2024.3.0 documentation --- docs.cryptpad.org},
-	howpublished = {\url{https://docs.cryptpad.org/en/FAQ.html\#can-cryptpad-sync-documents-to-my-local-filesystem}},
+	title = {{F}requently {A}sked {Q}uestions - {C}rypt{P}ad 2024.3.0 documentation},
+	url = {https://docs.cryptpad.org/en/FAQ.html\#can-cryptpad-sync-documents-to-my-local-filesystem},
 	year = {2024},
-	note = {[Accessed 17-04-2024]},
+	urldate = {2024-04-17},
 }
 
-@misc{microsoftPhoneMonitoring,
+@online{microsoftPhoneMonitoring,
 	author = {Microsoft},
 	title = {{P}hone monitoring apps and protecting your family in the digital age - {M}icrosoft 365},
-	howpublished = {\url{https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/protect-your-family-how-to-select-a-phone-monitoring-app}},
+	url = {https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/protect-your-family-how-to-select-a-phone-monitoring-app},
 	year = {2021},
-	note = {[Accessed 22-04-2024]},
+	urldate = {2024-04-22},
 }
+
