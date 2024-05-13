@@ -3,7 +3,6 @@
 - take care of misc citations
 - italic names of book
 - capital Internet???
-- uvozovky, "strong"
 - cite tables
 - pretty tables
 	- smaller font?
