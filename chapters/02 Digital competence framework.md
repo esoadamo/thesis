@@ -5,28 +5,44 @@ In this thesis, I will use this framework as a reference point for the abilities
 
 The Digital Competence Framework (DigiComp for short) comprises five areas and eight proficiency levels. Each of the areas covers a different aspect of working with IT systems, while levels assigned to the areas quantifying the skills of the user in the range from 1 (least-skilled, foundation) to 8 (highly specialized) [[@digi22]] [[@DigiCompLevels]]. The DigiComp areas, together with examples of tasks, can be seen in `TEX:\autoref{tab:DigiArea}`, the levels are outlined in `TEX:\autoref{tab:DigiLevel}`  [[@digi22]] [[@DigiCompLevels]].
 
-| Area                            | Example                                                                                                                                                                                                                 |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Information and data literacy   | Browsing, searching, filtering data, information and digital content; Evaluating data, information and digital content; Managing data, information and digital content                                                  |
-| Communication and collaboration | Interacting through digital technologies; Sharing through digital technologies; Engaging in citizenship through digital technologies; Collaborating through digital technologies; Netiquette; Managing digital identity |
-| Digital content creation        | Developing digital content; Integrating and re-elaborating digital content; Copyright and licenses; Programming                                                                                                         |
-| Safety                          | Protecting devices; Protecting personal data and privacy; Protecting health and well-being; Protecting the environment                                                                                                  |
-| Problem solving                 | Solving technical problems; Identifying needs and technological responses; Creatively using digital technologies; Identifying digital competence gaps                                                                   |
-:Areas of Digital Competence v2.2 with examples of tasks for each area
-`TEX:\label{tab:DigiArea}`
 
-| Level | Description        | Cognitive domain | Autonomy                                                                 |
-| ----- | ------------------ | ---------------- | ------------------------------------------------------------------------ |
-| 1     | Foundation         | Remembering      | With guidance                                                            |
-| 2     | Foundation         | Remembering      | Autonomy and with guidance where needed                                  |
-| 3     | Intermediate       | Understanding    | On my own                                                                |
-| 4     | Intermediate       | Understanding    | Independent and according to my needs                                    |
-| 5     | Advanced           | Applying         | Guiding others                                                           |
-| 6     | Advanced           | Evaluating       | Able to adapt to others in a complex context                             |
-| 7     | Highly specialized | Creating         | Integrate to contribute to the professional practice and to guide others |
-| 8     | Highly specialized | Creating         | Propose new ideas and processes to the field                             |
-:Proficiency levels of Digital Competence v2.2 with described properties 
-`TEX:\label{tab:DigiLevel}`
+```latex
+\begin{longtblr}[
+  caption = {Areas of Digital Competence v2.2 with examples of tasks for each area \cite{digi22}},
+  entry = {Areas of Digital Competence v2.2 with examples of tasks for each area},
+  label = {tab:DigiArea}
+]{
+  colspec = {|p{3cm}|X|},
+} 
+  Area                            & Example \\
+  Information and data literacy   & Browsing, searching, filtering data, information and digital content; Evaluating data, information and digital content; Managing data, information and digital content \\
+  Communication and collaboration & Interacting through digital technologies; Sharing through digital technologies; Engaging in citizenship through digital technologies; Collaborating through digital technologies; Netiquette; Managing digital identity \\
+  Digital content creation        & Developing digital content; Integrating and re-elaborating digital content; Copyright and licenses; Programming \\
+  Safety                          & Protecting devices; Protecting personal data and privacy; Protecting health and well-being; Protecting the environment \\
+  Problem solving                 & Solving technical problems; Identifying needs and technological responses; Creatively using digital technologies; Identifying digital competence gaps \\
+\end{longtblr}
+```
+
+
+```latex
+\begin{longtblr}[
+  caption = {Proficiency levels of Digital Competence v2.2 with described properties \cite{digi22,DigiCompLevels}},
+  entry = {Proficiency levels of Digital Competence v2.2 with described properties},
+  label = {tab:DigiLevel}
+]{
+  colspec = {|c|p{3cm}|p{3cm}|X|},
+} 
+Level & Description & Cognitive domain & Autonomy \\
+1 & Foundation & Remembering & With guidance \\
+2 & Foundation & Remembering & Autonomy and with guidance where needed \\
+3 & Intermediate & Understanding & On my own \\
+4 & Intermediate & Understanding & Independent and according to my needs \\
+5 & Advanced & Applying & Guiding others \\
+6 & Advanced & Evaluating & Able to adapt to others in a complex context \\
+7 & Highly specialized & Creating & Integrate to contribute to the professional practice and to guide others \\
+8 & Highly specialized & Creating & Propose new ideas and processes to the field \\
+\end{longtblr}
+```
 
 ## Mapping of other scales
 
@@ -45,9 +61,6 @@ For this thesis, I will be using the OECD average level as a point of reference,
   label = {tab:OECDLevel},
 ]{
   colspec = {|p{1cm}|X|p{1cm}|X|},
-  rowhead = 1,
-  hlines,
-  vlines,
 } 
 OECD Level & OECD Description & DigiComp level & Explanation \\
 Level 1 & Complete tasks in which the goal is explicitly stated and for which the necessary operations are performed single and familiar environment. Solve problems in the context of technology-rich environments whose solutions involve a relatively small number of steps, and a limited amount of monitoring across a large number of actions & 2 & Is able to autonomously perform operations, but in a familiar environemnt \\
@@ -72,9 +85,6 @@ The resulting overall rounded proficiency level is 4, which can be translated to
   label = {tab:HSLevels},
 ]{
   colspec = {|X|p{8ex}|p{3cm}|},
-  rowhead = 1,
-  hlines,
-  vlines,
 }
 Absolvent’s ability & Assigned Level & Explanation \\
 ... is proficient with the necessary set of digital devices, applications and services, using them in school work and in public life; adjusts and changes digital technologies and their use as available options evolve and as their own needs change & 4 & Independent in usage of technologies \\

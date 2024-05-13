@@ -18,6 +18,8 @@ MD_PREFIX = r'''\begin{markdown*}{%
 MD_SUFFIX = r'''
 \end{markdown*}'''
 
+TABLE_STYLE=r'row{odd} = {bg=gray!5},row{1} = {font=\bfseries\centering, bg=gray!10},rowhead = 1,hlines,vlines,'
+
 
 def process_acronyms(content, file_md_acronyms: Path):
   with file_md_acronyms.open('r') as f:
@@ -104,6 +106,12 @@ def process_obsidian_md(file_md, root):
       break
     replace = match.group(0)
     latex = match.group(1)
+
+    # apply table style
+    latex = re.sub(r'(colspec\s*=.*?,)', r"\1 %STYLE_TABLE%", latex)
+    latex = latex.replace("%STYLE_TABLE%", TABLE_STYLE)
+
+
     content = content.replace(replace, MD_SUFFIX + latex + MD_PREFIX)
 
   # Parse inline latex commands
