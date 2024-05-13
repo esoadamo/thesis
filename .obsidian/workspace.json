@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/02 Digital competence framework.md",
+                "file": "chapters/04 Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,9 +254,12 @@
   },
   "active": "16369ad2434fc785",
   "lastOpenFiles": [
-    "latex/compile/lualatex287234.fls",
-    "latex/compile/lualatex287130.fls",
-    "latex/compile/lualatex286983.fls",
+    "chapters/04 Services.md",
+    "chapters/06 Solutions.md",
+    "chapters/02 Digital competence framework.md",
+    "latex/compile/lualatex288814.fls",
+    "latex/compile/lualatex288624.fls",
+    "latex/compile/lualatex288478.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
@@ -264,8 +267,6 @@
     "latex/compile/_markdown_main/809fcf2bfd0813a71c9af332ecde8146.md.tex",
     "latex/compile/_markdown_main/20ea8a70dfe58c57bd6123c14efc7085.md.tex",
     "latex/compile/_markdown_main/b6e72fbaaac2b1bb51a3386122144f73.md.tex",
-    "latex/compile/_markdown_main/ee5119b473378cfbe5e7af5bb594a562.md.tex",
-    "chapters/02 Digital competence framework.md",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -291,14 +292,12 @@
     "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
+    "Notes.md",
     "chapters/01 Related work.md",
     "chapters/05 Solutions methodology.md",
-    "chapters/04 Services.md",
-    "Notes.md",
     "citations/@DigiCompLevels.md",
     "citations/@digi22.md",
     "chapters/03 Profiles.md",
-    "chapters/06 Solutions.md",
     "chapters/07 Conclusion.md"
   ]
 }

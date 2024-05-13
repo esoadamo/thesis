@@ -154,7 +154,6 @@ Bitwarden also provides paid subscription tiers for individuals, families and bu
 BackBlaze is a cloud-archiving solution focusing on file versioning and deletion prevention. It offers two products:
 
 - Computer Backup for backing up personal computers with unlimited storage [[@backblazeComputerCloudPricing]]
-
 - B2 Cloud Storage with S3-compatible API with pay-as-you-go pricing (fixed pricing is available for purchases of 20+ TB) [[@backblazeCloudStoragePricing]]
 
 Computer Backup is supported for Windows and Mac OS, while its default setting is to perform a backup of all data across all user profiles. Its unlimited storage for a fixed price makes it a perfect service when the user wants to ensure everything is properly stored. [[@backblazeSupportedOperating]]

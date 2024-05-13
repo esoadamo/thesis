@@ -9,7 +9,6 @@ As mentioned, the most prominent issues faced were their somewhat outdated and m
 They are already using Windows on their work laptops and have bought a shared one for their kids, so they are already familiar with this environment. This is a significant advantage thanks to the fewer new things to learn. Microsoft provides two services directly tailored for families:
 
 - [Microsoft 365 Family subscription](https://support.microsoft.com/en-us/office/share-your-microsoft-365-family-subscription-b389b9ce-3ae3-4a82-9017-39d79972fcba#bkmk_benefits) that can be shared for up to 6 people and includes access to the up-to-date versions classical end-user software from Microsoft
-
 - Microsoft Family Safety, which provides an assortment of tools for monitoring the well-being of a child
 
 #### Security
