@@ -1,4 +1,5 @@
 ## Profile data collecting
+`TEX:\label{pt:partCounts}`
 
 During the writing of this thesis, I have sent the following questions to students (n=5) of non-it universities:
 
