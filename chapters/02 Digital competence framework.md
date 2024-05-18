@@ -3,7 +3,7 @@ The digital competence framework "... provides a common framework to assist Euro
 In this thesis, I will use this framework as a reference point for the abilities discussed in user profiles that we can reasonably expect to be present based on existing research and publications.
 ## Framework description
 
-The Digital Competence Framework (DigiComp for short) comprises five areas and eight proficiency levels. Each of the areas covers a different aspect of working with IT systems, while levels assigned to the areas quantifying the skills of the user in the range from 1 (least-skilled, foundation) to 8 (highly specialized) [[@digi22]] [[@DigiCompLevels]]. The DigiComp areas, together with examples of tasks, can be seen in `TEX:\autoref{tab:DigiArea}`, the levels are outlined in `TEX:\autoref{tab:DigiLevel}`  [[@digi22]] [[@DigiCompLevels]].
+The Digital Competence Framework (DigiComp for short) comprises five areas and eight proficiency levels. Each of the areas covers a different aspect of working with IT systems, while levels assigned to the areas quantifying the skills of the user in the range from 1 (least-skilled, foundation) to 8 (highly specialized) [[@digi22]][[@DigiCompLevels]]. The DigiComp areas, together with examples of tasks, can be seen in `TEX:\autoref{tab:DigiArea}`, the levels are outlined in `TEX:\autoref{tab:DigiLevel}`  [[@digi22]][[@DigiCompLevels]].
 
 
 ```latex
@@ -52,7 +52,7 @@ Even though DigiComp is an international tool, not every source uses it as a ref
 
 In 2016 [[@OECDSkillsBrief]][[@OECDSkills]]  and 2019 [[@OECDSkillsMatter]], the OEDC  has published a report including the population information and communication technologies (ICT) readiness. This readiness is represented as a portion of a country's population or OECD average falling into three proficiency levels. The levels on the OECD scale and their best-match mappings into the DigiComp proficiency levels are described [[@OECDSkillsMatter]] in `TEX:\autoref{tab:OECDLevel}`.
 
-For this thesis, I will be using the OECD average level as a point of reference, so this thesis is tailored for a broader audience. The presented portion of higher levels of the Czech Republic has more percentage than the average OECD level. In the 2015 policy brief, it is shown that roughly 20 % of adults have reached OECD level 2 (DigiComp 3) and 5 % level 3 (DigiComp 6) [[@OECDSkillsBrief]]. The 2019 publication differentiates between young adults (aged 25-34) and older adults (aged 55-65), where approximately 35 % of younger adults fall into OECD level 2 and 10 % level 3, while for older adults, these numbers are 8 % and 2 % adults respectively. With that, we expect a general audience to be of DigiComp competency level 2-3, meaning that most adults can perform autonomous tasks with which they are familiar.
+For this thesis, I will be using the OECD average level as a point of reference, so this thesis is tailored for a broader audience. In the 2015 policy brief, it is shown that roughly 20 % of adults have reached OECD level 2 (DigiComp 3) and 5 % level 3 (DigiComp 6) [[@OECDSkillsBrief]]. The 2019 publication differentiates between young adults (aged 25-34) and older adults (aged 55-65), where approximately 35 % of younger adults fall into OECD level 2 and 10 % level 3, while for older adults, these numbers are 8 % and 2 % adults respectively. With that, we expect a general audience to be of DigiComp competency level 2-3, meaning that most adults can perform autonomous tasks with which they are familiar.
 
 ```latex
 \begin{landscape}
