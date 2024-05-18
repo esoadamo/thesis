@@ -6,7 +6,6 @@
       {
         "id": "9ce0f901a2530013",
         "type": "tabs",
-        "dimension": 50.11933174224343,
         "children": [
           {
             "id": "8bc5fbfe7dec7470",
@@ -14,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/99 Appendix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a5848a44196b252",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/04 Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "894e72c0ee0ef389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acronyms.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,50 +56,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "f32c517c83f939c2",
-        "type": "tabs",
-        "dimension": 49.88066825775656,
-        "children": [
-          {
-            "id": "edb0eb700afda558",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Metodology questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e00fcbe223e52fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Solution notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16369ad2434fc785",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/99 Appendix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/99 Appendix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/03 Profiles.md"
+                "file": "chapters/99 Appendix.md"
               }
             }
           }
@@ -205,51 +184,51 @@
   },
   "active": "8bc5fbfe7dec7470",
   "lastOpenFiles": [
-    "chapters/99 Appendix.md",
-    "chapters/03 Profiles.md",
-    "Notes.md",
-    "Text.md",
-    "chapters/00 Introduction.md",
-    "Acronyms.md",
-    "chapters/Profiles.md",
-    "chapters/Conclusion.md",
-    "citations/fix-getbibtex-org.py",
-    "chapters/07 Conclusion.md",
-    "chapters/06 Solutions.md",
-    "chapters/05 Solutions methodology.md",
-    "chapters/04 Services.md",
-    "chapters/02 Digital competence framework.md",
-    "chapters/01 Related work.md",
-    "notes/Solution notes.md",
-    "chapters/Solutions methodology.md",
-    "chapters/Appendix.md",
-    "latex/compile/lualatex321606.fls",
-    "latex/compile/lualatex321566.fls",
-    "latex/compile/lualatex321491.fls",
+    "latex/compile/lualatex61521.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/16e04e9eddbd915d468f9aa84c5a0c29.md.tex",
-    "latex/compile/_markdown_main/fe3731aede4fcc795b895e62ce31dabe.md.tex",
-    "latex/compile/Services.md",
-    "latex/compile/Related work.md",
-    "latex/compile/Introduction.md",
+    "latex/compile/_markdown_main/024b5b72b39a727e5f452c497355ee2a.md.tex",
+    "latex/compile/_markdown_main/0a3089c281134e8a4d4e699d149b25a5.md.tex",
+    "latex/compile/_markdown_main/800689a01e5ccaf7e115c64f66b70731.md.tex",
+    "latex/compile/_markdown_main/3ca6f98fe946828e28884a2419c8d1dd.md.tex",
+    "latex/compile/_markdown_main/6df111b74e0a86a4402fb878d3217740.md.tex",
+    "latex/compile/_markdown_main/3fd0d295a2f67016d30af59aa8a8a14f.md.tex",
+    "latex/compile/99 Appendix.md",
+    "latex/compile/07 Conclusion.md",
+    "latex/compile/06 Solutions.md",
+    "latex/compile/05 Solutions methodology.md",
+    "latex/compile/04 Services.md",
+    "latex/compile/03 Profiles.md",
+    "latex/compile/02 Digital competence framework.md",
+    "latex/compile/01 Related work.md",
+    "latex/compile/00 Introduction.md",
     "latex/compile/Thesis subjects.md",
     "latex/compile/Text.md",
+    "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
+    "latex/compile/Acronyms.md",
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
     "latex/compile/Pasted image 20240508105111.png",
     "latex/compile/Pasted image 20240507195336.png",
     "latex/compile/Pasted image 20240507181210.png",
+    "latex/compile/Pasted image 20240507181120.png",
     "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
-    "latex/compile/Pasted image 20240501192143.png",
-    "latex/compile/Solutions methodology.md",
-    "latex/compile/Solutions.md"
+    "chapters/06 Solutions.md",
+    "citations/@FBIDataMessenger.md",
+    "citations/@microsoftAutoUpload.md",
+    "citations/@microsoftRansomware.md",
+    "citations/@microsoftPasswordless.md",
+    "citations/@microsoftPasswordGenerator.md",
+    "citations/@edgePassword.md",
+    "chapters/04 Services.md",
+    "Acronyms.md",
+    "chapters/07 Conclusion.md"
   ]
 }

@@ -126,6 +126,47 @@
 	urldate = {2024-05-07},
 }
 
+@misc{edgePassword,
+	author = {Microsoft},
+	title = {{E}dit your passwords in {M}icrosoft {E}dge},
+	url = {https://support.microsoft.com/en-us/topic/edit-your-passwords-in-microsoft-edge-38ef988f-5a65-4c6a-9db8-937995d3ae31},
+	year = {2024},
+	urldate = {2024-03-18},
+}
+
+@misc{microsoftPasswordGenerator,
+	author = {Microsoft},
+	title = {{P}assword generator},
+	url = {https://www.microsoft.com/en-us/edge/features/password-generator},
+	year = {2024},
+	urldate = {2024-03-18},
+}
+
+@misc{microsoftPasswordless,
+	author = {Microsoft},
+	title = {{H}ow to go passwordless with your {M}icrosoft account},
+	url = {https://support.microsoft.com/en-us/account-billing/how-to-go-passwordless-with-your-microsoft-account-674ce301-3574-4387-a93d-916751764c43},
+	year = {2024},
+	urldate = {2024-03-18},
+}
+
+@misc{microsoftAutoUpload,
+	author = {Microsoft},
+	title = {{A}utomatically save photos and videos with {O}ne{D}rive for {A}ndroid},
+	url = {https://support.microsoft.com/en-us/office/automatically-save-photos-and-videos-with-onedrive-for-android-66605e54-48b8-4f55-bcff-34159702e344},
+	year = {2024},
+	urldate = {2024-03-18},
+}
+
+@misc{microsoftRansomware,
+	author = {Microsoft},
+	title = {{R}ansomware detection and recovering your files},
+	url = {https://support.microsoft.com/en-au/office/ransomware-detection-and-recovering-your-files-0d90ec50-6bfd-40f4-acc7-b8c12c73637f},
+	year = {2024},
+	urldate = {2024-03-18},
+}
+
+
 @online{googleFreeCloud,
 	author = {Google},
 	title = {{F}ree cloud features and trial offer | {G}oogle {C}loud {F}ree {P}rogram},

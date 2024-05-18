@@ -124,7 +124,8 @@ def process_obsidian_md(file_md, root):
     latex = match.group(1)
     content = content.replace(replace, latex)
 
-
+  # Replace single-character words with an unbreakable spaces
+  content = re.sub(r"(\s+\w) (\w)", r"\1~\2", content)
 
   return content
 

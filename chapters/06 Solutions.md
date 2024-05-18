@@ -8,19 +8,19 @@ As mentioned, the most prominent issues faced were their somewhat outdated and m
 
 They are already using Windows on their work laptops and have bought a shared one for their kids, so they are already familiar with this environment. This is a significant advantage thanks to the fewer new things to learn. Microsoft provides two services directly tailored for families:
 
-- [Microsoft 365 Family subscription](https://support.microsoft.com/en-us/office/share-your-microsoft-365-family-subscription-b389b9ce-3ae3-4a82-9017-39d79972fcba#bkmk_benefits) that can be shared for up to 6 people and includes access to the up-to-date versions classical end-user software from Microsoft
+- Microsoft 365 Family subscription that can be shared for up to 6 people and includes access to the up-to-date versions classical end-user software from Microsoft
 - Microsoft Family Safety, which provides an assortment of tools for monitoring the well-being of a child
 
 #### Security
 
-As for malware protection, Microsoft offers their Defender for both operating systems utilized by the family. On Windows, Defender is provided without cost and enabled by default. At the same time, Android needs to be installed separately on every device, together with a valid Microsoft 365 subscription. As this subscription also comes with the newest version of the Microsoft Office suite, it makes the currently used and insecure Office 2010 obsolete, consequently remediating the security threat of opening a maliciously crafted document that exploits known vulnerabilities of the old software.
+As for malware protection, Microsoft offers their Defender for both operating systems utilized by the family. On Windows, Defender is provided without cost and enabled by default. On Android, the Defender needs to be installed separately on every device, together with a valid Microsoft 365 subscription. As this subscription also comes with the newest version of the Microsoft Office suite, it makes the currently used and insecure Office 2010 obsolete, consequently remediating the security threat of opening a maliciously crafted document that exploits known vulnerabilities of the old software.
 
-Using the default web browser on Windows, Microsoft Edge, it is possible to use their Microsoft account to synchronize passwords across all their devices. The saved passwords are automatically filled into web pages. Unlike Google, there is no option to look up saved passwords from a web UI; instead having always to log-into the Edge browser to view the saved passwords. Suppose the user wants to show or copy the password manually. In that case, they first need to [fill in their device login information](https://support.microsoft.com/en-us/topic/edit-your-passwords-in-microsoft-edge-38ef988f-5a65-4c6a-9db8-937995d3ae31). The passwords cannot be copied nor shown if the device has no lock-screen protection set, as shown on `TEX:\ref{fig:edgePassw}`. On Android, the Edge browser offers to generate a strong password when creating a new account, while on Windows, this feature needs to be explicitly turned on first inside [browser's settings](https://www.microsoft.com/en-us/edge/features/password-generator?form=MA13FJ). Lastly, the Edge browser on Android can be set as a service for filling login credentials for all other system applications that support automatic field recognition.
+Using the default web browser on Windows, Microsoft Edge, it is possible to use their Microsoft account to synchronize passwords across all their devices. The saved passwords are automatically filled into web pages. Unlike Google, there is no option to look up saved passwords from a web UI; instead having always to log-into the Edge browser to view the saved passwords. Every time the user wants to show or copy the password manually, they first need to fill in their device login information. [[@edgePassword]] The passwords cannot be copied nor shown if the device has no lock-screen protection set, as shown on `TEX:\hyperref[fig:edgePassw]{figure}`. On Android, the Edge browser offers to generate a strong password when creating a new account, while on Windows, this feature needs to be explicitly turned on first inside browser's settings. [[@microsoftPasswordGenerator]] Lastly, the Edge browser on Android can be set as a service for filling login credentials for all other system applications that support automatic field recognition.
 
 ![[Edge Password Copy.png|Password in Edge cannot be shown without a lock-screen in place]]
 `TEX:\label{fig:edgePassw}`
 
-If all of the passwords are saved inside Microsoft Edge, the breach of the Microsoft account could lead to a possible breach of all other accounts. For that matter, it is imperative to secure the Microsoft account itself. One of the options that Microsoft provides is to use the account in a [passwordless](https://support.microsoft.com/en-us/account-billing/how-to-go-passwordless-with-your-microsoft-account-674ce301-3574-4387-a93d-916751764c43) manner, where the user, instead of typing password, uses a smartphone application to confirm login attempts with their bio-metric. Because no password is involved, the user does not have to worry about remembering any complex sequence, which is crucial for a user with low password hygiene, as in this profile. Next, as the Microsoft account can be used as an identity source on multiple other web services utilizing OAuth or OIDC protocol, the user can further minimize the number of used passwords while benefiting from password-less authentication even on third-party servers.
+If all of the passwords are saved inside Microsoft Edge, the breach of the Microsoft account could lead to a possible breach of all other accounts. For that matter, it is imperative to secure the Microsoft account itself. One of the options that Microsoft provides is to use the account in a passwordless manner, where the user, instead of typing password, uses a smartphone application to confirm login attempts with their bio-metric. [[@microsoftPasswordless]] Because no password is involved, the user does not have to worry about remembering any complex sequence, which is crucial for a user with low password hygiene, as in this profile. Next, as the Microsoft account can be used as an identity source on multiple other web services utilizing OAuth or OIDC protocol, the user can further minimize the number of used passwords while benefiting from password-less authentication even on third-party servers.
 
 #### Privacy
 
@@ -29,17 +29,17 @@ With the main privacy concern for children being that they use shared account on
 - for children who no longer have to worry about their browsing history being shared or forgetting to log out
 - for parents to separate their activity and data from their company-issued laptops
 
-Having a separate administrator account will also improve the overall security standing of the device, as one user cannot simply install a system-wide malicious application. Next, for communication applications, Viber can be replaced by Signal, which focuses on security without compromise and ease of use. On the other hand, neither Signal has an advantage in data retention and chat message transfer, both of which need to be taken into account when purchasing a new device.
+Having a separate administrator account will also improve the overall security standing of the device, as one user cannot simply install a system-wide malicious application. Next, for communication applications, Viber can be replaced by Signal, which focuses on security without compromise and ease of use. On the other hand, neither Signal does persist messages after logging into a new device, unless additional steps are performed.
 
 #### Data retention
 
-To solve the problem with non-redundant backup, the Family 365 subscription offers every member 1 TB of OneDrive storage, which should be enough for the critical data. Furthermore, as OneDrive is integrated into Windows from the installation, it offers a seamless experience to set up and use, together with virtual files. _Virtual files_ are shown as regular files while browsing directories on the disc but are downloaded from the cloud only when explicitly requested, saving space on the local machine. Next, the OneDrive application is also available for Android, where it offers [automatic backups](https://support.microsoft.com/en-us/office/automatically-save-photos-and-videos-with-onedrive-for-android-66605e54-48b8-4f55-bcff-34159702e344) of taken photos and video. As OneDrive offers versioning, trashbin and [ransomware protection](https://support.microsoft.com/en-au/office/ransomware-detection-and-recovering-your-files-0d90ec50-6bfd-40f4-acc7-b8c12c73637f), it is an excellent solution to guard against accidental or even malicious data loss.
+To solve the problem with non-redundant backup, the Family 365 subscription offers every member 1 TB of OneDrive storage, which should be enough for the critical data. Furthermore, as OneDrive is integrated into Windows from the installation, it provides a seamless experience to set up and use, together with virtual files. Virtual files are shown as regular files while browsing directories on the disc but are downloaded from the cloud only when explicitly requested, saving space on the local machine. Next, the OneDrive application is also available for Android, where it offers automatic backups of taken photos and video. [[@microsoftAutoUpload]] As OneDrive offers versioning, trashbin and ransomware protection, it is an valid solution to guard against accidental or even malicious data loss. [[@microsoftRansomware]]
 
-Another data loss can currently happen when the Viber application is used as a primary means of communication. Microsoft Teams, part of the Office Suite, may step in as a replacement service. Even though it is a step down in terms of privacy, as it does not provide any form of end-to-end encryption, I would suggest using a service that can archive messages without any user interaction, as losing messages may pose a significant loss to the family than storing the messages on a server with a somewhat reputable company.
+Another data loss can currently happen when the Viber application is used as a primary means of communication. Microsoft Teams, part of the Office Suite, may step in as a replacement service. Even though it is a step down in terms of privacy, as it does not provide any form of end-to-end encryption, I would suggest using a service that can archive messages without any user interaction, as losing messages may pose a more significant discomfort to the family than storing the messages on a server with a somewhat reputable company encrypted.
 
 #### Child safety
 
-A specific category for this profile is the need to keep children safe in the virtual and physical worlds. For that matter, Microsoft's Family Safety provides those features, just as explained in previous chapters. By linking parents' and children's accounts, the parents can set up setup parameters for their children's devices.
+A specific category for this profile is the need to keep children safe in the virtual and physical worlds. For that matter, Microsoft's Family Safety provides those features, just as explained in previous chapters. By linking parents' and children's accounts, the parents can set up parameters for their children's devices.
 
 ### Google
 
@@ -53,7 +53,7 @@ As for the vulnerable office suite, Google provides its full-web-based office su
 
 #### Privacy
 
-To solve the most notable privacy problem- the children sharing the same account on their shared laptop- Google provides an option to define multiple Google Chrome profiles, each with its own settings and active accounts. In contrast to creating multiple user accounts, this solution works more on a trust-based approach in that the other child will not internationally launch another child's profile. However, it is easier to set up than creating a new Windows account. 
+To solve the most notable privacy problem -- the children sharing the same account on their shared laptop- Google provides an option to define multiple Google Chrome profiles, each with its own settings and active accounts. In contrast to creating multiple user accounts, this solution works more on a trust-based approach in that the other child will not internationally launch another child's profile. However, it is easier to set up than creating a new Windows account. 
 
 The user may use Google Duo for calls to replace Viber, but no suitable replacement for text messages exists.
 
@@ -73,7 +73,7 @@ Given that Synology requires an initial setup, it may be necessary for the famil
 
 #### Security
 
-To replace the vulnerable Microsoft Office suite, Synology does offer its Office suite as a downloadable package for some of its models. This office suite works similarly to the Google Drive office suite, as it employs its storage format and, as such, requires importing and exporting when working with third-party office suites. [[@synoOffice]] This again presents the possible problem of some features needing to be fully supported by the Synology office.
+To replace the vulnerable Microsoft Office suite, Synology does offer its office suite as a downloadable package for some of its models. This office suite works similarly to the Google Drive office suite, as it employs its storage format and, as such, requires importing and exporting when working with third-party office suites. [[@synoOffice]] This again presents the possible problem of some features not being fully supported by the Synology office.
 
 Next, there needs to be a password manager from Synology. Of course, it is possible to self-host a password manager such as BitWarden using the generic Docker container feature of some of the Synology models. However, I advise against that, as the family members cannot be expected to maintain a self-hosted password manager in a secure and safe manner.
 
@@ -85,9 +85,9 @@ Except for the obvious advantage that the data does never leave family-owned dev
 
 #### Data retention
 
-Given that Synology works with the hard drives that the user directly supplies, they significantly impact how resilient the system will be. As the storage is a single-time investment, the hard drive is expected to have more capacity than the 6 TB offered by the Microsoft O365 family subscription. Furthermore, we can probably expect the user to have only one hard drive or set up RAID 0 to maximize the available storage, so the failure of one disc may mean an unrecoverable loss of stored data. To combat this, the user may set up a secondary backup solution, e.g., cloud sync or an in-built Amazon Glacier backup. However, both options require additional setup, possibly too complex, while inquiring more costs.
+Given that Synology works with the hard drives that the user directly supplies, they significantly impact how resilient the system will be. As the storage is a single-time investment, the hard drive is expected to have more capacity than the 6 TB offered by the Microsoft O365 family subscription. Furthermore, we can probably expect the user to have only one hard drive or set up RAID 0 to maximize the available storage, so the failure of one disc may mean an unrecoverable loss of stored data. To combat this, the user may set up a secondary backup solution, e.g., CloudSync or an in-built Amazon Glacier backup. However, both options require additional setup, possibly too complex, while inquiring more costs.
 
-On the other hand, users may synchronize files from their computers automatically or have their taken media uploaded from their smartphones to store the original data directly on the user's device. When files are modified or deleted, Synology provides both trash bin control and restoring old versions, with the Office package providing an excellent user interface for the performed changes.
+On the other hand, users may synchronize files from their computers automatically or have their taken media uploaded from their smartphones to store the original data directly on the user's device. When files are modified or deleted, Synology provides both trash bin control and restoring old versions, with the office package providing an convenient user interface for the view of performed changes.
 
 #### Child safety
 
@@ -128,21 +128,21 @@ By default, iCloud Drive offers encryption in transit and at rest, which should 
 
 #### Data retention
 
-If the users purchase at least 200 GB of storage, it should be enough to store all their critical data. Unlike other cloud storage providers, Apple does not support versioning files, which only restores deleted files from the trash bin. [[@appleVersionHistory]] This may become a disadvantage if the users accidentally rewrite their files, e.g., when using an external office suite and saving an empty document instead of an existing one. The taken photos are uploaded automatically from iOS by default, while for synchronization with a Windows computer, the user needs to download and install the iCloud application.
+If the users purchase at least 200 GB of storage, it should be enough to store all their critical data. Unlike other cloud storage providers, Apple does not support versioning files, but only allows of restoration of deleted files from the trash bin. [[@appleVersionHistory]] This may become a disadvantage if the users accidentally rewrite their files, e.g., when using an external office suite and saving an empty document instead of an existing one. The taken photos are uploaded automatically from iOS by default, while for synchronization with a Windows computer, the user needs to download and install the iCloud application.
 
 ### Microsoft
 
-Microsoft's main advantage over Services provided by Google is its already present integration of Microsoft Edge and OneDrive into the Windows OS. Its solutions are also slightly cheaper than comparable products. Furthermore, as the student is already using O365 via its university subscription, they already have all services free of charge for the length of their studies.
+Microsoft's main advantage over services provided by Google is its already present integration of Microsoft Edge and OneDrive into the Windows OS. Its solutions are also slightly cheaper than comparable products. Furthermore, as the student is already using O365 via its university subscription, they already have all services free of charge for the length of their studies.
 
 #### Security
 
-As with Apple, there is an option to use the TOTP secret in the Microsoft Authentication application, which users should already use if they have MFA enabled for their Microsoft account. If they still need an MFA enabled, it may add complexity to the setup of this solution.
+As with Apple, there is an option to use the TOTP secret in the Microsoft Authenticator application, which users should already use if they have MFA enabled for their Microsoft account.
 
-As presented in the solution to the family profile, Microsoft Edge can hold and synchronize saved passwords to multiple sites. Sam, as on Android, Microsoft Edge can be changed as the default auto-fill source inside the iOS settings, solving the password management and synchronization between different platforms and systems.
+As presented in the solution to the family profile, Microsoft Edge can hold and synchronize saved passwords to multiple sites. Same as on Android, Microsoft Edge can be changed as the default auto-fill source inside the iOS settings, solving the password management and synchronization between different platforms and systems.
 
 #### Privacy
 
-The same is true for the default settings of iCloud Drive; the data is encrypted both in transit and at rest. The protection of the Microsoft account with MFA using Microsoft authenticator itself is comparable to the security of an Apple ID account.
+Same as the default settings of iCloud Drive, the data is encrypted both in transit and at rest. The protection of the Microsoft account with MFA enabled using Microsoft Authenticator is comparable to the security of Apple ID account.
 
 #### Data retention
 
@@ -201,7 +201,7 @@ To solve the issue of privacy and security threats of connecting to untrusted ne
 
 #### Data retention
 
-Similarly to Google, Cloudflare provides its S3-API-compatible storage called R2. As the provided free storage is only 10 GB of space, it is reasonable for the user to pay a monthly fee for the stored data. The storing procedure may be the same as outlined for the Google solution.
+Similarly to Google, Cloudflare provides its S3-API-compatible storage called R2. As the provided free storage is only 10 GB of space, it is reasonable to expect that the user will be required to pay a monthly fee for the stored data. The storing procedure may be the same as outlined for the Google solution.
 
 ### BackBlaze
 
@@ -225,19 +225,19 @@ Synology provides an option to perform a backup to Amazon Glacier via an officia
 
 One of the current problems that cannot be solved easily is the deletion of forgotten accounts, as no presented service currently automates this process. The first step to deleting old accounts is to find out which accounts exist. This can be significantly simplified if the user has already used password management software so that they can search for saved accounts there. Otherwise, they may need to determine if the email address for every service in question is used. After the services and accounts are identified, they may use a service such as [Just Delete Me](https://backgroundchecks.org/justdeleteme/) that lists many services and steps or direct links to delete accounts for them.
 
-The second unresolved problem is for the E2EE chat application, where the user uses Telegram. One option to achieve E2EE for one-to-one conversations would be to turn on the Secret chats feature, but another application must be used for group conversations. Here, an alternative could be presented: Signal, which uses E2EE by default for everything or WhatsApp, which Meta owns.
+The second unresolved problem is for the E2EE chat application, where the user uses Telegram. One option to achieve E2EE for one-to-one conversations would be to turn on the Secret chats feature, but another application must be used for group conversations. Here, an alternative could be presented Signal, which uses E2EE by default for everything or WhatsApp, which does collect and store some data about user's communication unencypted [[@FBIDataMessenger]].
 
 A third unresolved issue is the smartphone endpoint protection, where, in addition to the already used-by-default Google Play Protect, the student may install additional applications, such as Microsoft Defender, if provided by the university.
 
 ## Small technology company start-up
 
-The specificity of the small-technology start-up profile is that when services are unavailable, it may lead to revenue loss. As the start-up has a higher budget than students, together with IT professionals, it is possible to present more complex solutions that may take a significant amount of time to set up.
+The specificity of the small-technology start-up profile is that when services are unavailable, it may lead to revenue loss. As the start-up has a higher budget than students and is staffed with IT professionals, it is possible to present more complex solutions that may take a significant amount of time to set up.
 
 ### Microsoft
 
 As Microsoft provides a range of services for cloud management for companies, it is possible to resolve the needs of this profile by moving the infrastructure to the cloud. However, given the volume of different services and configuration options, the administrator may require some training before securely setting up the whole system.
 
-The company IT administrator may start by creating a new Microsoft Entra ID (previously known as Azure Active Directory) instance; the company gains the possibility to structure company employees into groups, making the process of moving into the least-privilege access philosophy easier. With a Microsoft account, employees are now able to use the account as an SSO source for multiple applications. Furthermore, suppose a web application is not configured to support SSO login (such as companies Jenkins). In that case, it can be placed behind Azure's built-in authentication mechanism, which will first require the user to authenticate against it before any request is left to pass to the target application.
+The company IT administrator may start by creating a new Microsoft Entra ID (previously known as Azure Active Directory) instance, with which the company gains the possibility to structure company employees into groups, making the process of moving into the least-privilege access philosophy easier. With a Microsoft account, employees are now able to use the account as an SSO source for multiple applications. Furthermore, suppose a web application is not configured to support SSO login (such as companies Jenkins). In that case, it can be placed behind Azure's built-in authentication mechanism, which will first require the user to authenticate against it before any request is left to pass to the target application.
 
 Azure directly supports managing VMs, solving the need for a more scaleable approach. Next, the company can directly register a new domain name with an automatic generation of a TLS certificate, making the internal custom top-level domain with custom DNS obsolete. When everything is moved into the cloud, there is no longer any need for a VPN server to be used on the internal company network. 
 
@@ -247,7 +247,7 @@ The last need is centralized device management, which can be solved by Microsoft
 
 ### Google
 
-Google offers services similar to Microsoft's, which can be found under different product names. To secure access to the web application with the Zero Trust access model, the administrator may use the Identity-Aware Proxy. Like Microsoft, Google offers automatic setup and renewal of TLS certificates. For secure sharing of files, the users may use Google Drive to share secrets with the Secret Manager. Device management can be done with the Google device management software.
+Google offers services similar to Microsoft's, though under different product names. To secure access to the web application with the Zero Trust access model, the administrator may use the Identity-Aware Proxy. Like Microsoft, Google offers automatic setup and renewal of TLS certificates. For secure sharing of files, the users may use Google Drive to share secrets with the Secret Manager. Device management can be done with the Google device management software.
 
 Where Google differs from Microsoft is the storage space available to the users. In Google's case, the storage is set at 2 TB, but it costs roughly double the price of Microsoft's solution. Furthermore, O365 for business offers a Microsoft Teams subscription capable of performing video and chat messaging, while Google Workspace offers only video conferences. The second difference is that Google no longer offers domain registration, as it was outsourced to Squarespace on September 7 2023. [[@googleDomains]]
 
@@ -259,6 +259,6 @@ By using the Cloudflare WARP clients on the company devices, the employees can c
 
 Even when not connecting via the public internet, Cloudflare offers to set up zero trust authentication before letting the requests pass through, similar to the Google and Microsoft solutions. Cloudflare does offer domain registration, with all tunnels having a valid HTTPS certificate for their subdomains, regardless of whether the target service uses HTTP or HTTPS.
 
-Synology offers to host arbitrary docker containers or whole virtual machines, so hosting their services is simple. Synology also offers per-user or per-group permissions, making it easy to implement least-privilege access. As a NAS device, sharing files is one of its core features, mainly when combined with the encryption of data on rest, which Synology natively supports.
+Synology has to ability to run arbitrary docker containers or whole virtual machines, so hosting company's services is simple and manageable. Synology also offers per-user or per-group permissions, making it easy to implement least-privilege access. As a NAS device, sharing files is one of its core features, mainly when combined with the encryption of data on rest, which Synology natively supports.
 
 The obvious drawbacks of this solution still persist, where Synology still poses as a single point of failure in case of power outage or connectivity downtime. Next, the physical security of this device is more important than with other profiles, as accidental dropping or theft of the device could lead again to service unavailability or company-confidential data leakage. Lastly, there is a need for a password manager or secret-sharing software capable of sharing passwords and secrets, where, like for other profiles, an external service such as Bitwarden needs to be used.

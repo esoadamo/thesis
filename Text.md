@@ -23,3 +23,7 @@
 # Solutions for profiles
 
 [[06 Solutions]]
+
+# Conclusion
+
+[[07 Conclusion]]
