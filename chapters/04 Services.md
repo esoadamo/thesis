@@ -121,9 +121,9 @@ Other than these tiered subscriptions, the possibility exists to use so-called W
 
 Apple also provides a complete office suite for all Apple-produced devices and web access using iCloud.
 
-Another security feature that is available on Apple devices by default is its password manager, iCloud Keychain. This manager is set to auto-fill on iOS by default and is protected by the same measures as the device's lock screen. It is possible to access the passwords stored within the Keychain on Windows with the dedicated iCloud application and browser extension. [[@appleICloudPasswords]] App Keychain can generate TOTP codes, as shown on `TEX:\autoref{fig:Apple TOTP.png}`.
+Another security feature that is available on Apple devices by default is its password manager, iCloud Keychain. This manager is set to auto-fill on iOS by default and is protected by the same measures as the device's lock screen. It is possible to access the passwords stored within the Keychain on Windows with the dedicated iCloud application and browser extension. [[@appleICloudPasswords]] App Keychain can generate TOTP codes, as shown on `TEX:\autoref{fig:Apple Keychain.png}`.
 
-![[Apple TOTP.png|Apple KeyChain providing the option to add TOTP]]
+![[Apple Keychain.png|Apple KeyChain providing the option to add TOTP]]
 
 
 ### Smartphone services

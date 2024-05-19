@@ -173,13 +173,15 @@ To provide more straightforward navigation within this thesis, a bullet point su
 
 ```latex
 \begin{landscape}
-\begin{longtable}{p{4cm}p{7cm}p{7cm}}
-    \caption{Summary profiles' needs and problems}\\ \toprule
-    \label{tab:ProfiSummary}
-    \textbf{Profile} &\textbf{Problems} & \textbf{Needs}\\
-    \midrule
-
-    \noindent Low-tech skilled family &
+\begin{longtblr}[
+		caption = {Summary profiles' needs and problems},
+		label = {tab:ProfiSummary}
+	]{
+		colspec = {|p{3.5cm}|p{7cm}|p{7cm}|},
+	}
+	
+    Profile & Problems & Needs\\
+    Low-tech skilled family &
 	\begin{itemize}
 		\item unsupported office suite
 		\item possibly outdated router
@@ -194,7 +196,7 @@ To provide more straightforward navigation within this thesis, a bullet point su
 		\item physical and virual security of children
 	\end{itemize}\\
 	
-    \noindent Low-tech skilled university student &
+    Low-tech skilled university student &
     \begin{itemize}
 		\item main mail account missing MFA
 		\item having to re-type passwords on desktop
@@ -204,7 +206,7 @@ To provide more straightforward navigation within this thesis, a bullet point su
 		\item automatic backup of desktop data
 	\end{itemize}\\
 
-    \noindent Individual tech-skilled user &
+    Individual tech-skilled user &
     \begin{itemize}
 		\item sharing the account for password managment and for mail
 		\item having P2P connections with untrusted parties
@@ -217,7 +219,7 @@ To provide more straightforward navigation within this thesis, a bullet point su
 		\item more secure public WiFi usage
 	\end{itemize}\\
 
-    \noindent Small technology company start-up &
+    Small technology company start-up &
     \begin{itemize}
 		\item plain-text shared password
 		\item no MFA on VPN server
@@ -231,8 +233,6 @@ To provide more straightforward navigation within this thesis, a bullet point su
 		\item SSO zero-trust authentication
 	\end{itemize}\\
 
-	\bottomrule
-
-\end{longtable}
+\end{longtblr}
 \end{landscape}
 ```

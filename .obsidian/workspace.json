@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/06 Solutions.md",
+                "file": "chapters/03 Profiles.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "Acronyms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac4e41a9c657faeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/04 Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/04 Services.md",
+                "file": "chapters/02 Digital competence framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/06 Solutions.md",
+                "file": "chapters/03 Profiles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/06 Solutions.md",
+                "file": "chapters/03 Profiles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/06 Solutions.md"
+                "file": "chapters/03 Profiles.md"
               }
             }
           }
@@ -178,50 +190,51 @@
   },
   "active": "8bc5fbfe7dec7470",
   "lastOpenFiles": [
-    "chapters/04 Services.md",
-    "chapters/06 Solutions.md",
-    "latex/compile/_markdown_main/fd93e3a9d448c24a657d42e11a8998e6.md.tex",
-    "latex/compile/_markdown_main/d4502c3694db245d5914b269775c9e58.md.tex",
-    "latex/compile/_markdown_main/18fbc74dc3c6304efdf39b17a9ca3a0a.md.tex",
-    "latex/compile/_markdown_main/2a10bf31d8bfa51b54b8a738a1b150f3.md.tex",
-    "latex/compile/_markdown_main/3ab4d00bc55eb8b3fc0eb0c07656efb4.md.tex",
-    "latex/compile/_markdown_main/7f0872727c7402d4b981ab713c929b5a.md.tex",
-    "latex/compile/_markdown_main/fa2d06fa7cd27584f86890402c08ac62.md.tex",
-    "latex/compile/_markdown_main/9d56845d259c99d7ca2e1457a3ad373f.md.tex",
-    "latex/compile/_markdown_main/f282a0f7d87a512e9904e338f35023ee.md.tex",
-    "latex/compile/_markdown_main/46d105d69c6c2239d5da76e8560fcd4d.md.tex",
+    "latex/compile/lualatex412477.fls",
+    "latex/compile/lualatex412421.fls",
+    "latex/compile/main.bbl",
+    "latex/compile/main.blg",
+    "latex/compile/main.ind",
+    "latex/compile/main.run.xml",
+    "latex/compile/_markdown_main/024b5b72b39a727e5f452c497355ee2a.md.tex",
+    "latex/compile/_markdown_main/4e3c2c7f3feefd524715aad338aa404a.md.tex",
+    "latex/compile/_markdown_main/2d98d0ec3566151c46501039ec9a73a1.md.tex",
+    "latex/compile/_markdown_main/3fd0d295a2f67016d30af59aa8a8a14f.md.tex",
+    "latex/compile/_markdown_main/6bd0a26b9b1c488d9d6590b104c48776.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
     "latex/compile/05 Solutions methodology.md",
-    "latex/compile/04 Services.md",
     "latex/compile/03 Profiles.md",
-    "latex/compile/02 Digital competence framework.md",
     "latex/compile/01 Related work.md",
     "latex/compile/00 Introduction.md",
     "latex/compile/Thesis subjects.md",
-    "latex/compile/Text.md",
-    "latex/compile/Notes.md",
     "latex/compile/Metodology.md",
     "latex/compile/Assigment.md",
-    "latex/compile/Acronyms.md",
-    "latex/compile/93509b1aa144c2641669c027b072872d.png",
-    "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
-    "latex/compile/Proton Pricing.png",
-    "latex/compile/Proton business pricing.png",
-    "latex/compile/Pasted image 20240501192735.png",
     "latex/compile/Pasted image 20240501192143.png",
     "latex/compile/Pasted image 20240501184816.png",
-    "latex/compile/Pasted image 20240501184528.png",
     "latex/compile/Pasted image 20240501184329.png",
+    "latex/compile/Microsoft 365 Business Pricing.png",
+    "latex/compile/Google Workspace Pricing.png",
+    "latex/compile/Family Safety Prevents Lauching Chrome.png",
+    "latex/compile/Family Safety More Time.png",
+    "latex/compile/CryptPad rich text.png",
+    "latex/compile/Cloudflare Login.png",
+    "latex/compile/04 Services.md",
+    "latex/compile/02 Digital competence framework.md",
+    "latex/compile/Text.md",
+    "latex/compile/Notes.md",
+    "latex/compile/Acronyms.md",
+    "chapters/04 Services.md",
+    "chapters/03 Profiles.md",
+    "chapters/02 Digital competence framework.md",
+    "chapters/06 Solutions.md",
     "citations/@one1111Free.md",
     "citations/@protonBusiness.md",
     "citations/@cloudflareLogin.md",
     "citations/@protonCreateFree.md",
     "citations/@appleWebonlyAccess.md",
-    "citations/@microsoftPhoneMonitoring.md",
-    "citations/@microsoftFree.md",
-    "citations/@onedrivePricing.md"
+    "citations/@microsoftPhoneMonitoring.md"
   ]
 }
