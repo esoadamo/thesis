@@ -4,7 +4,7 @@
 
 [[01 Related work]]
 
-# Digital competence framework
+# Digital Competence Framework
 
 [[02 Digital competence framework]]
 

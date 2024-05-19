@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "Text.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Acronyms.md",
+                "file": "Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Acronyms.md",
+                "file": "Text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Acronyms.md"
+                "file": "Text.md"
               }
             }
           }
@@ -159,10 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "894e72c0ee0ef389",
+  "active": "8bc5fbfe7dec7470",
   "lastOpenFiles": [
-    "latex/compile/lualatex208230.fls",
-    "latex/compile/lualatex208156.fls",
+    "latex/compile/lualatex219249.fls",
+    "latex/compile/lualatex219195.fls",
+    "latex/compile/lualatex219166.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
@@ -171,7 +171,6 @@
     "latex/compile/_markdown_main/3b32fc46f37c73f91c67308da7bb5191.md.tex",
     "latex/compile/_markdown_main/800689a01e5ccaf7e115c64f66b70731.md.tex",
     "latex/compile/_markdown_main/2274252188a2ddeaece92ec90d5632db.md.tex",
-    "latex/compile/_markdown_main/aa61935ceff76d739594e2793d393961.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -197,15 +196,15 @@
     "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
-    "chapters/03 Profiles.md",
+    "chapters/02 Digital competence framework.md",
     "Acronyms.md",
+    "citations/@europaDigitalCompetence.md",
+    "chapters/03 Profiles.md",
     "chapters/01 Related work.md",
     "chapters/04 Services.md",
     "citations/@GoogleChromePasswordProtection.md",
-    "chapters/02 Digital competence framework.md",
     "chapters/00 Introduction.md",
     "citations/@STEINLECHNER20211185.md",
-    "citations/@tnWhatsapp.md",
-    "chapters/06 Solutions.md"
+    "citations/@tnWhatsapp.md"
   ]
 }
