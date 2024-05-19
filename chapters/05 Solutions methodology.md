@@ -1,4 +1,6 @@
-To select and formulate which solutions best fit the needs of every profile, it is necessary first to formulate a methodology for selecting those solutions. The selected methodology for this thesis consists of questions and answers to them in the form of options with assigned scores of relevancy. The questions that this thesis asks are:
+To select and formulate which solutions best fit the needs of every profile, it is necessary first to formulate a methodology for evaluating those solutions. Each service is compared with a set of 9 criteria. Each criterion is formulated as a question with a single-choice answer. Every answer is then awarded up to 6 or 8 points, where scores for each answer were defined after consultation with the thesis supervisor. The final score of the solution is equal to the sum of scores for each criterion. The scores are balanced to prefer solutions that provide higher convenience for the user and their ability to adjust the solution to their needs if they hit an obstacle over fully understanding the underlying inner workings. For example, a low-tech skilled student's understanding of how iCloud Drive performs encryption of the data provides a lower overall benefit over their ability to set up synchronization of files between their iPhone and Windows laptop in a time under a few hours. Similarly, if the solution does solve almost all of the family's problems and needs, it is more valuable, even if not completely free, over a larger number of smaller but free solutions that would need to be set up and managed independently, increasing spent overhead along the way.
+
+The criterion questions that this thesis asks are:
 
 - How long does it take to set the solution up?
 	- Under half an hour -- 8 points
@@ -16,7 +18,7 @@ To select and formulate which solutions best fit the needs of every profile, it 
 	- They understand almost all aspects of the solution -- 4 points
 	- They can remember how to operate the solution without understanding it -- 2 points
 	- Unlikely they will be able to understand or operate the solution  or not applicable -- 0 points
-- Is it affordable?
+- Is it affordable?`TEX:\footnote{As there is a considerable difference between what a student and what a company considers a small investment, these answers are defined on a per-profile basis in the tables below.}`
 	- Free -- 6 points
 	- Small investment -- 5 points
 	- Considerable investment -- 2 points
@@ -47,8 +49,7 @@ To select and formulate which solutions best fit the needs of every profile, it 
 	- The service brings some advantages but is not necessary -- 2 points
 	- This service is fully out of scope for this solution -- 0 points
 
-Results of questions for each profile can be found:
-
+Results of questions for each profile can be found in a form of a table with answer points. If there are any special considerations, they are listed in footnotes below respective table:
 
 - Low-tech skilled family solutions in `TEX:\autoref{tab:SoluFamily}`
 - Low-tech skilled university student solutions in `TEX:\autoref{tab:SoluLowStud}`
@@ -60,7 +61,7 @@ Results of questions for each profile can be found:
 \begin{longtable}{lllllllllllll}
     \caption{Low-tech skilled family solutions}\\ \toprule
     \label{tab:SoluFamily}
-    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\\
+    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\footnote{Microsoft, Google, Apple, Proton, Cloudflare, Bitwarden, BackBlaze, CryptPad, Synology}\\
     \midrule
 
     \noindent How long to set solution up? &
@@ -185,7 +186,7 @@ Results of questions for each profile can be found:
 \begin{longtable}{lllllllllllll}
     \caption{Low-tech skilled university student solutions}\\ \toprule
     \label{tab:SoluLowStud}
-    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\\
+    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\footnote{Microsoft, Google, Apple, Proton, Cloudflare, Bitwarden, BackBlaze, CryptPad, Synology}\\
     \midrule
 
     \noindent How long to set solution up? &
@@ -312,7 +313,7 @@ Results of questions for each profile can be found:
 \begin{longtable}{lllllllllllll}
     \caption{Individual tech-skilled user solutions}\\ \toprule
     \label{tab:SoluTechUser}
-    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\\
+    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\footnote{Microsoft, Google, Apple, Proton, Cloudflare, Bitwarden, BackBlaze, CryptPad, Synology}\\
     \midrule
 
     \noindent How long to set solution up? &
@@ -438,7 +439,7 @@ Results of questions for each profile can be found:
 \begin{longtable}{lllllllllllll}
     \caption{Small technology company start-up solutions}\\ \toprule
     \label{tab:SoluStartup}
-    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\\
+    \textbf{Question} &\textbf{Mst} & \textbf{Ggl} &\textbf{Apl} &\textbf{Prt} &\textbf{Clf} &\textbf{Bwa} &\textbf{BaB} &\textbf{Crp} &\textbf{Syn}\footnote{Microsoft, Google, Apple, Proton, Cloudflare, Bitwarden, BackBlaze, CryptPad, Synology}\\
     \midrule
 
     \noindent How long to set solution up? &
