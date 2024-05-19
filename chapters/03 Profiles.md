@@ -6,7 +6,7 @@ The first introduced profile is of a family with middle-aged parents and two you
 
 ### Hardware settings
 
-As mentioned above, both parents were provided with a laptop from work, while the kids received a single Windows laptop shared between them. Each family member also possesses an older, lower-to-mid-range Android smartphone (priced under 7,000 CZK). The family has purchased a single 8 TB external HDD as a backup solution for their most important data. Other than that, the family has one large-screen TV with Tizen OS. All devices are connected to a WiFi router with a single access point (AP) running.
+As mentioned above, both parents were provided with a laptop from work, while the kids received a single Windows laptop shared between them. Each family member also possesses an older, lower-to-mid-range Android smartphone (priced under 7,000 CZK). The family has purchased a single 8 TB external HDD as a backup solution for their most important data. Other than that, the family has one large-screen TV with Tizen OS. All devices are connected to a WiFi router with a single AP running.
 
 ### Software settings
 

@@ -1,10 +1,10 @@
-In this chapter, I will explore various existing services that can help address the problems outlined in the previous chapter, with a preference for those solutions that can effectively solve most of the user needs at once. This chapter contains well-known examples that may cover most user requirements while also examining smaller-scale solutions focusing on a specific subset of tasks. Lastly, in later chapters, I will introduce a unique solution that involves self-hosting everything on a Synology Network-attached storage (NAS) device as a control group for the other solutions.
+In this chapter, I will explore various existing services that can help address the problems outlined in the previous chapter, with a preference for those solutions that can effectively solve most of the user needs at once. This chapter contains well-known examples that may cover most user requirements while also examining smaller-scale solutions focusing on a specific subset of tasks. Lastly, in later chapters, I will introduce a unique solution that involves self-hosting everything on a Synology NAS device as a control group for the other solutions.
 
 ## Microsoft
 
 The first large security provider as a service that we will introduce in this thesis is Microsoft. Microsoft's most well-known product is Windows, currently available in version 10 or 11, dominating the desktop OS market. Besides that, Microsoft also provides a large spectrum of cloud-based services for individuals and company-based use.
 
-### Provided cloud services
+### Cloud services
 
 Microsoft cloud service services called Microsoft 365, range from its email freemail account to OneDrive cloud storage together with a full-featured browser-based office suite. Although, the freemail account is not a requirement, as when creating a new Microsoft account, the user may decide if they do want to reuse their existing email account or create a new mail account. In its free version, the user has the capacity of 5 GB for cloud storage and 15 GB for mail storage, if they have chosen also to create a mail account [[@onedrivePricing]].
 
@@ -87,7 +87,7 @@ Another ecosystem that provides security as a service is the Apple ecosystem. Ev
 
 ### Identity management
 
-Apple provides an option to create a new free account, called Apple ID, for its products. This account is essential for the correct working of Apple-produced devices, as currently, it is needed to be able to install new software from the Apple store. With this account, the user may also create a new mail account on the icloud.com domain. This account can be subsequently used as an identity source for other services, e.g., the only SSO login option to the Cloudflare Dashboard. The login process to the Apple account itself can be set to require login confirmation as an MFA on the user's existing device.
+Apple provides an option to create a new free account, called Apple ID, for its products. This account is essential for the correct working of Apple-produced devices, as currently, it is needed to be able to install new software from the Apple store. With this account, the user may also create a new mail account on the icloud.com domain. This account can be subsequently used as an identity source for other services, e.g., the only SSO login option to the Cloudflare Dashboard. The login process to the Apple account itself can be set to require login confirmation in a form of MFA on the user's existing device.
 
 ![[Pasted image 20240430084545.png|Login form for a Cloudflare Dashboard portal with Apple ID as a single SSO option]]
 
@@ -109,7 +109,7 @@ Apple also provides a complete office suite for all Apple-produced devices and w
 
 Another security feature that is available on Apple devices by default is its password manager, iCloud Keychain. This manager is set to auto-fill on iOS by default and is protected by the same measures as the device's lock screen. 
 
-### Smartphone 
+### Smartphone services
 
 For Apple devices, Apple provides an E2EE communication service called iMessage. However, as with many Apple products, this service cannot currently be used outside the Apple ecosystem.
 
@@ -121,7 +121,7 @@ Proton is a Swiss-based company providing SaaS focused primarily on privacy. Its
 
 ![[Pasted image 20240501154113.png|Proton pricing plans]]
 
-Unlike Google or Microsoft, Proton Drive does not offer an office suite, so all files must be edited externally. For Windows and Mac, Proton Drive provides desktop applications, while Linux can be integrated with software such as [rclone](https://rclone.org/protondrive/). The mobile application on Android can automatically upload all taken photos. All deleted files stay inside the trash bin until it is manually emptied. For a paid subscription, Drive keeps up to 200 versions of files for up to 10 years. The E2EE is preserved even when sharing files through links, and the shares can be password-protected with an optional expiration date.
+Unlike Google or Microsoft, Proton Drive does not offer an office suite, so all files must be edited externally. For Windows and Mac, Proton Drive provides desktop applications, while Linux can be integrated with software such as [rclone](https://rclone.org/protondrive/), where the user can open their files in a local editor of their choosing. The mobile application on Android can automatically upload all taken photos. All deleted files stay inside the trash bin until it is manually emptied. For a paid subscription, Drive keeps up to 200 versions of files for up to 10 years. The E2EE is preserved even when sharing files through links, and the shares can be password-protected with an optional expiration date.
 
 Proton Pass password manager is structured into so-called vaults, which can be shared with others. In the free version, the user can create up to 2 vaults and share them with up to 2 other accounts. For payer plans, the user can create up to 50 vaults, share them with ten other accounts, and use the manager as a time-based one-time password (TOTP) generator. The passwords stored inside the manager can be accessed either through web UI, an extension for popular web browsers, or a native application for smartphone OSs and Windows, with macOS and Linux applications coming soon. [[@protonDownloadProton]] On smartphones, the Proton Pass can auto-fill passwords throughout the system.
 
@@ -145,7 +145,7 @@ Other than that, Cloudflare offers a free VPN service for all major smartphone a
 
 ## Bitwarden
 
-As a special solution for SaaS that does not cover a wide range of needs but instead focuses only on one specific area, I would like to introduce Bitwarden. This solution can be found in [[@Pecuch2021thesis]] and [[@Ciernikova2022thesis]]. Bitwarden is an open-source password manager that is available as an extension to the web browser and a native application on the most popular platforms. It supports standard features such as auto-filling of passwords but also advanced features where it can pose as a virtual WebAuthn token. Another service available with a free Bitwaden account is the so-called [Bitwaden Send](https://bitwarden.com/products/send/), capable of sending E2EE text as a link with an expiration date and optional password protection.
+As a special solution for SaaS that does not cover a wide range of needs but instead focuses only on one specific area, I would like to introduce Bitwarden. This solution can be found in [[@Pecuch2021thesis]] and [[@Ciernikova2022thesis]]. Bitwarden is an open-source password manager that is available as an extension to the web browser and a native application on the most popular platforms. It supports standard features such as auto-filling of passwords but also advanced features where it can pose as a virtual WebAuthn token. Another service available with a free Bitwarden account is the so-called [Bitwarden Send](https://bitwarden.com/products/send/), capable of sending E2EE text as a link with an expiration date and optional password protection.
 
 Bitwarden also provides paid subscription tiers for individuals, families and businesses, where the added features are the option to share saved credentials, send arbitrary files through Bitwarden Send or use the Bitwarden client as a TOTP keychain. There is an option for business plans to set up login through SSO. 
 
@@ -166,7 +166,7 @@ B2 Cloud Storage creates buckets into which the data is uploaded. Except for sta
 
 ## CryptPad
 
-CryptPad is a service that focuses mainly on E2EE cloud storage. It is similar to Proton Drive but with the addition of an entire office suite contained inside the web UI. The user can either self-host their CryptPad that instance, use the [official CryptPad](https://cryptpad.fr/) instance, or use one of [third-party instances](https://cryptpad.org/instances/). When using the official instance, any registered user obtains 1 GB of free storage, while with a paid subscription, it can be upgraded to 50 GB. Every stored file can be shared with other users or by a link. A specific feature is the ability of a document to self-destruct after being opened, e.g. by the recipient of the shared link to it, and a permanent chat for every document. Additionally, in the office suite, CryptPad integrates a calendar and the ability to create virtual teams with multiple users.
+CryptPad is a service that focuses mainly on E2EE cloud storage. It is similar to Proton Drive but with the addition of an entire office suite contained inside the web UI. The user can either self-host their CryptPad instance, use the [official CryptPad](https://cryptpad.fr/) instance, or use one of [third-party instances](https://cryptpad.org/instances/). When using the official instance, any registered user obtains 1 GB of free storage, while with a paid subscription, it can be upgraded to 50 GB. Every stored file can be shared with other users or by a link. A specific feature is the ability of a document to self-destruct after being opened, e.g. by the recipient of the shared link to it, and a permanent chat for every document. Additionally, in the office suite, CryptPad integrates a calendar and the ability to create virtual teams with multiple users.
 
 For this thesis, the main downside of the CryptPad is the inability to integrate with other systems. To quote directly from the documentation: "The way encryption is currently used in CryptPad does not allow syncing with the local file system." [[@cryptPadFAQ]] This limitation severely decreases the ease of usage as any user must either keep all their document directly in the cloud or export them manually to the local drive. The second most significant obstacle, at least for the official instance, is that the maximum size of each file is only 25 MB for free accounts and 150 MB for the highest tier of paid accounts.
 
@@ -178,9 +178,11 @@ For this thesis, the main downside of the CryptPad is the inability to integrate
 
 ## Synology
 
-All of the before-mentioned services share the property of being executed in the cloud. As some of the services require a monthly subscription to function properly, I am presenting a solution that should be capable of handling the needs of the users in a similar manner.
+All of the before-mentioned services share the property of being hosted in the cloud. As some of the services require a monthly subscription to function properly, I am presenting a local solution that should be capable of handling the needs of the users in a similar manner.
 
-Synology NAS is a device that boots into the DiskStation Manager operating system after entering one or more hard drives. Initially, the system consisted of a simple web UI for creating an administrator account and setting up the actual topology of drives. The default options are to use Btrfs as a file system, taking advantage of the native support of extent checksum and RAID. After that, the administrator can create additional volumes, and users can then access said volumes through services enabled by the administrator, such as web UI, SMB, FTP, WebDAV, and more. The most prominent disadvantage of using Synology devices is that, unlike cloud-based services, they can reach their end-of-life and may be cut off from all security updates. The second disadvantage that needs to be considered is that with a physical device, the administrator needs to take care of its physical security and protect it from accidental damage or theft.
+Synology NAS is a standalone embedded devices with CPU, RAM and empty disc slots. The discs are supposed to be purchased and installed by the user separately, giving the user full control over how much storage is available. The models differ in CPU performance, RAM size or the number of available disc slots. The primary purpose of the Synology NAS is to be connected to the LAN and easy to configure.
+
+After the separate disc are inserted, the device boots into the DiskStation Manager operating system. Initially, the system consisted of a simple web UI for creating an administrator account and setting up the actual topology of drives. The default options are to use Btrfs as a file system, taking advantage of the native support of extent checksum and RAID. After that, the administrator can create additional volumes, and users can then access said volumes through services enabled by the administrator, such as web UI, SMB, FTP, WebDAV, and more. The most prominent disadvantage of using Synology devices is that, unlike cloud-based services, they can reach their end-of-life and may be cut off from all security updates. The second disadvantage that needs to be considered is that with a physical device, the administrator needs to take care of its physical security and protect it from accidental damage or theft.
 
 ![[Pasted image 20240501192143.png|Synology DSM Web UI with opened file manager]]
 
@@ -196,7 +198,7 @@ For more business-related usage, Synology can perform full-system backups of end
 
 ### Account management
 
-If an SSO Server package is installed, the local Synology account can be used as an IDM source. Other applications can be configured to accept this service with OIDC protocol, including the Cloudflare Zero Trust. [[@synologyServiceServer]] Or, the administrator can enable and set up the Directory Server package for LDAP. The accounts may be protected with an MFA using supported methods, such as approved sign-in, OTP code, or hardware security key. [[@synology2FactorAuthentication]]
+If an SSO Server package is installed, the local Synology account can be used as an SSO source. Other applications can be configured to accept this service with OIDC protocol, including the Cloudflare Zero Trust. [[@synologyServiceServer]] Or, the administrator can enable and set up the Directory Server package for LDAP. The accounts may be protected with an MFA using supported methods, such as approved sign-in, OTP code, or hardware security key. [[@synology2FactorAuthentication]]
 
 ### Remote connection
 

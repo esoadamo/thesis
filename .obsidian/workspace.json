@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/04 Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/04 Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/04 Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/03 Profiles.md"
+                "file": "chapters/04 Services.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "8bc5fbfe7dec7470",
   "lastOpenFiles": [
-    "latex/compile/lualatex163225.fls",
-    "latex/compile/lualatex163165.fls",
+    "latex/compile/lualatex202749.fls",
+    "latex/compile/lualatex202539.fls",
+    "latex/compile/lualatex202444.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
@@ -170,7 +171,6 @@
     "latex/compile/_markdown_main/3b32fc46f37c73f91c67308da7bb5191.md.tex",
     "latex/compile/_markdown_main/800689a01e5ccaf7e115c64f66b70731.md.tex",
     "latex/compile/_markdown_main/2274252188a2ddeaece92ec90d5632db.md.tex",
-    "latex/compile/_markdown_main/6df111b74e0a86a4402fb878d3217740.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -196,14 +196,14 @@
     "latex/compile/Pasted image 20240507103156.png",
     "latex/compile/Pasted image 20240507094955.png",
     "latex/compile/Pasted image 20240506163134.png",
-    "citations/@GoogleChromePasswordProtection.md",
     "chapters/03 Profiles.md",
-    "chapters/02 Digital competence framework.md",
-    "Acronyms.md",
-    "chapters/00 Introduction.md",
-    "citations/@STEINLECHNER20211185.md",
     "chapters/01 Related work.md",
     "chapters/04 Services.md",
+    "Acronyms.md",
+    "citations/@GoogleChromePasswordProtection.md",
+    "chapters/02 Digital competence framework.md",
+    "chapters/00 Introduction.md",
+    "citations/@STEINLECHNER20211185.md",
     "citations/@tnWhatsapp.md",
     "chapters/06 Solutions.md"
   ]
