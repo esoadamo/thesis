@@ -21,3 +21,4 @@
 | TLS     | Transport Layer Security     |
 | TOTP    | Time-based one-time password |
 | SaaS    | Security-as-a-Service        |
+| AP      | Access point                 |

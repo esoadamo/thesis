@@ -1,4 +1,4 @@
-For this thesis, I have prepared four profiles on which possible security, privacy and data retention threats may be presented. Each of the profiles represents a typical user archetype. All data from which the profiles were created was obtained from discussions with relevant parties and personal experience. For the creation of each of the profiles a number of real-life samples ranging from 5 to 33 were collected. The exact numbers together with questions and discussed areas can be found in `TEX:\autoref{pt:partCounts}`. During the constructions of profiles, the focus was more laid on the negative patterns observed to better highlight solutions to the issues existing in the wild. This means that no profile is a direct representation of one party, but rather a worst-case scenario of combination of frequently occurring malpractices. 
+For this thesis, I have prepared four profiles on which possible security, privacy and data retention threats may be presented. Each of the profiles represents a typical user archetype. All of the profile characteristics and the proposed solutions in later chapters are based on the DigiComp levels shown in the previous chapter. Additional data from which the profiles were created, such as their settings, needs and problems, was obtained from discussions with relevant parties and personal experience. For the creation of each of the profiles a number of real-life samples ranging from 5 to 33 were collected. The exact numbers together with questions and discussed areas can be found in `TEX:\autoref{pt:partCounts}`. During the constructions of profiles, the focus was more laid on the negative patterns observed to better highlight solutions to the issues existing in the wild. This means that no profile is a direct representation of one party, but rather a worst-case scenario of combination of frequently occurring malpractices. 
 
 ## Low-tech skilled family
 
@@ -6,7 +6,7 @@ The first introduced profile is of a family with middle-aged parents and two you
 
 ### Hardware settings
 
-As mentioned above, both parents were provided with a laptop from work, while the kids received a single Windows laptop shared between them. Each family member also possesses an older, lower-to-mid-range Android smartphone (priced under 7,000 CZK). The family has purchased a single 8 TB external HDD as a backup solution for their most important data. Other than that, the family has one large-screen TV with Tizen OS. All devices are connected to a WiFi router with a single AP running.
+As mentioned above, both parents were provided with a laptop from work, while the kids received a single Windows laptop shared between them. Each family member also possesses an older, lower-to-mid-range Android smartphone (priced under 7,000 CZK). The family has purchased a single 8 TB external HDD as a backup solution for their most important data. Other than that, the family has one large-screen TV with Tizen OS. All devices are connected to a WiFi router with a single access point (AP) running.
 
 ### Software settings
 
@@ -24,7 +24,7 @@ The family has already solved, or partially solved, some of the possible issues 
 
 There are numerous problems with the current approach that can be divided mainly into categories of privacy and computer security. To start with the security related issues, because their Android smartphones are older and are in the lower-to-mid price range, there is a good chance that they no longer receive any security updates, meaning that any known security vulnerability may be exploited. This makes these devices inappropriate for use with any personal data, especially baking applications with financials. As for their shared laptop, Office 2010 is [no longer supported](https://support.microsoft.com/en-us/office/end-of-support-for-office-2010-3a3e45de-51ac-4944-b2ba-c2e415432789), which in combination with their low digital competence may make them vulnerable to severe phishing attacks. The severity of this issue is also reinforced by using only two different passwords, where a breach of at least one of them will result in a possible breach of multiple accounts. They also cannot use the password manager built into the web browser, as they use a different browser on every platform. Lastly, depending on their ISP, they were issued an outdated router without relevant security patches, which may be an issue mainly with smaller ISPs within less-densely populated areas.
 
-As for privacy, the most notable issue can be found within the shared laptop, where issues may arise from one of the children forgetting to log out of their session without the web browser. On the other hand, the parents are using work laptops for personal agendas, which may be closely monitored by their employer (depending on the policy deployed by the company). The third risk for privacy is their smart TV, which may audio their conversation and send it for analysis to third parties without the knowledge of the family. A final privacy risk may be linked with the end-to-end encrypted chatting application Viber, which lists privacy as an important aspect of this service ("Our mission is to protect your privacy so that you never have to think twice about what you can or cannot share when you are using Viber." [[@viberHomeViber]]), but still stores a large collection of metadata on its servers. [[@FBIDataMessenger]]
+As for privacy, the most notable issue can be found within the shared laptop, where issues may arise from one of the children forgetting to log out of their session without the web browser. On the other hand, the parents are using work laptops for personal agendas, which may be closely monitored by their employer (depending on the policy deployed by the company). The third risk for privacy is their smart TV, which may record audio of their conversation and send it for analysis to third parties without the knowledge of the family. A final privacy risk may be linked with the end-to-end encrypted chatting application Viber, which lists privacy as an important aspect of this service ("Our mission is to protect your privacy so that you never have to think twice about what you can or cannot share when you are using Viber." [[@viberHomeViber]]), but still stores a large collection of metadata on its servers. [[@FBIDataMessenger]]
 
 A third category of problems consists of data retention and recovery. Even though the disc used for backup provides a basic level of redundancy, it can still be easily destroyed, e.g., by dropping it, mistakenly deleting wrong files, or simply connecting it to an infected device. Furthermore, this solution cannot be performed automatically, which may result in the backups being outdated. A thought must also be put into backing up their family conversation on Viber, where all messages are lost after onboarding on a new device unless backup is explicitly enabled. [[@ViberRestoreChat]]
 
@@ -94,13 +94,13 @@ Because of their student status, they often travel from and to their university,
 
 ### Already solved problems
 
-Thanks to a single web browser capable of password synchronization across multiple platforms, the user can have unique strong passwords for every account. Furthermore, on Windows, Google Chrome can protect access to the passwords with the Windows account password. Next, the user will be notified if there is a reported breach of their account. [[@GoogleChromePasswordProtection]]
+Thanks to a single web browser capable of password synchronization across multiple platforms, the user can have unique strong passwords for every account. Furthermore, on Windows, Google Chrome can protect access to the passwords with the Windows account password, which may serve as a basic level of protection against an attacker with physical access. Next, the user will be notified if there is a reported breach of their account. [[@GoogleChromePasswordProtection]]
 
 Even if (only) the password is leaked for one of their most critical accounts, there may not be any direct risk of account compromise thanks to the deployment of MFA on these accounts.
 
 ### Problems with current approach
 
-As the student takes security into account when managing login credentials, the biggest security threat may pose when logging into their Google account every time they need to access their passwords. If they perform the login operation on an infected machine, their session may be stolen and used to extract data (passwords, browsing history) from their account. Secondly, there may be threats from other devices connected to the same LogMeIn Hamachi network or the public network in public transportation.
+As the student takes security into account when managing login credentials, the biggest security threat may be the need to log into their Google account every time they need to access their passwords. If they perform the login operation on an infected machine, their session may be stolen and used to extract data (passwords, browsing history) from their account. Secondly, there may be threats from other devices connected to the same LogMeIn Hamachi network or the public network in public transportation.
 
 The most significant possible privacy issue is connected to the forgotten legacy account on Dropbox and Ulož.to, which may not be sufficiently protected and still contain personal data. The next possible privacy issue may be with Telegram -- a messenger that calls itself "... more secure than mass market messengers like WhatsApp and Line" [[@telegramFAQ]]. The main issue may be that the messenger itself does not have E2EE enabled unless a unique feature is used ("Telegram's special [secret chats](https://telegram.org/faq#secret-chats) use end-to-end encryption" [[@telegramFAQ]]), but in mainstream media is still being presented as if everything on Telegram was using E2EE [[@lifehackerBestWhatsApp]][[@tnWhatsapp]] or the detail that a particular feature must be turned on is omitted [[@techradarWhatsAppAlternatives]][[@ziveNahraditWhatsApp]], which may confuse or deceive any user into believing that every message on Telegram is protected with E2EE.
 
@@ -114,7 +114,7 @@ Even though the student has covered much of their needs, there may still be room
 
 The final profile is for a small technology company that is currently in its startup phase. As this is a technology company, most of the people employed will be working directly as a member of the IT/development team or will have service-related jobs, so they can be expected to have an average digital competence level of at least 6 [[@STEINLECHNER20211185]].
 
-The company currently consists of approximately 20 employees meeting in a hybrid co-working centre, so a portion of them can be expected to correct remotely from their home offices.
+The company currently consists of approximately 20 employees meeting in a hybrid co-working centre, so a portion of them can be expected to connect remotely from their home offices.
 
 ### Hardware settings
 
@@ -150,7 +150,7 @@ Lastly, having all company servers running as virtual servers on a single Window
 
 ### Already solved problems
 
-Even though not done securely, there is a strong want for password sharing. Next, as the code is versioned in a git repository hosted by a reputable service, it may be considered safely backed up.
+Even though it is not done securely, there is a centralized way to manage credentials and secrets. Next, as the code is versioned in a git repository hosted by a reputable service, it may be considered safely backed up.
 
 ### Needs not covered
 
