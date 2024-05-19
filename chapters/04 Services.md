@@ -166,7 +166,7 @@ Other than that, Cloudflare offers a free VPN service called 1.1.1.1 for all maj
 
 As a special solution for SaaS that does not cover a wide range of needs but instead focuses only on one specific area, I would like to introduce Bitwarden. This solution can be found in [[@Pecuch2021thesis]] and [[@Ciernikova2022thesis]]. Bitwarden is an open-source password manager that is available as an extension to the web browser and a native application on the most popular platforms. It supports standard features such as auto-filling of passwords but also advanced features where it can pose as a virtual WebAuthn token. Another service available with a free Bitwarden account is the so-called [Bitwarden Send](https://bitwarden.com/products/send/), capable of sending E2EE text as a link with an expiration date and optional password protection.
 
-Bitwarden also provides paid subscription tiers for individuals, families and businesses, where the added features are the option to share saved credentials, send arbitrary files through Bitwarden Send or use the Bitwarden client as a TOTP keychain. There is an option for business plans to set up login through SSO. 
+Bitwarden also provides paid subscription tiers for individuals, families and businesses, where the added features are the option to share saved credentials, send arbitrary files through Bitwarden Send or use the Bitwarden client as a TOTP keychain. There is an option for business plans to set up login through SSO. Individual plan costs are set at \$10 per year, family \$40 per year for up to 6 users. Business plans start at \$4 per month per user, with SSO included with a plan priced at \$6 per month per user.  [[@bitwardenPricing]]
 
 ## BackBlaze
 

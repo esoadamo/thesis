@@ -127,6 +127,14 @@
 	urldate = {2024-05-07},
 }
 
+@misc{bitwardenPricing,
+	author = {{Bitwarden, Inc.}},
+	title = {{B}itwarden {P}assword {M}anager {P}ricing \& {P}lans},
+	url = {https://bitwarden.com/pricing/},
+	year = {2024},
+	urldate = {2024-05-07},
+}
+
 @online{microsoftFree,
 	author = {Microsoft},
 	title = {{C}reate {Y}our {A}zure {F}ree {A}ccount {T}oday | {M}icrosoft {A}zure},

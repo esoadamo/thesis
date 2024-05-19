@@ -43,25 +43,8 @@
               }
             }
           }
-        ]
-      },
-      {
-        "id": "e45eb10517bdb55c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6020d00bcd1f1bb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/02 Digital competence framework.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/04 Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/03 Profiles.md",
+                "file": "chapters/04 Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/03 Profiles.md"
+                "file": "chapters/04 Services.md"
               }
             }
           }
@@ -188,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bc5fbfe7dec7470",
+  "active": "ac4e41a9c657faeb",
   "lastOpenFiles": [
-    "latex/compile/lualatex412477.fls",
-    "latex/compile/lualatex412421.fls",
+    "latex/compile/lualatex417824.fls",
+    "latex/compile/lualatex417788.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
@@ -205,36 +188,36 @@
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
     "latex/compile/05 Solutions methodology.md",
+    "latex/compile/04 Services.md",
     "latex/compile/03 Profiles.md",
+    "latex/compile/02 Digital competence framework.md",
     "latex/compile/01 Related work.md",
     "latex/compile/00 Introduction.md",
     "latex/compile/Thesis subjects.md",
-    "latex/compile/Metodology.md",
-    "latex/compile/Assigment.md",
-    "latex/compile/2023-10-04-11-06-48-image.png",
-    "latex/compile/Pasted image 20240501192143.png",
-    "latex/compile/Pasted image 20240501184816.png",
-    "latex/compile/Pasted image 20240501184329.png",
-    "latex/compile/Microsoft 365 Business Pricing.png",
-    "latex/compile/Google Workspace Pricing.png",
-    "latex/compile/Family Safety Prevents Lauching Chrome.png",
-    "latex/compile/Family Safety More Time.png",
-    "latex/compile/CryptPad rich text.png",
-    "latex/compile/Cloudflare Login.png",
-    "latex/compile/04 Services.md",
-    "latex/compile/02 Digital competence framework.md",
     "latex/compile/Text.md",
     "latex/compile/Notes.md",
+    "latex/compile/Metodology.md",
+    "latex/compile/Assigment.md",
     "latex/compile/Acronyms.md",
+    "latex/compile/93509b1aa144c2641669c027b072872d.png",
+    "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
+    "latex/compile/2023-10-04-11-06-48-image.png",
+    "latex/compile/Proton Pricing.png",
+    "latex/compile/Proton business pricing.png",
+    "latex/compile/Pasted image 20240501192735.png",
+    "latex/compile/Pasted image 20240501192143.png",
+    "latex/compile/Pasted image 20240501184816.png",
+    "latex/compile/Pasted image 20240501184528.png",
+    "latex/compile/Pasted image 20240501184329.png",
+    "citations/@bitwardenPricing.md",
+    "chapters/02 Digital competence framework.md",
     "chapters/04 Services.md",
     "chapters/03 Profiles.md",
-    "chapters/02 Digital competence framework.md",
     "chapters/06 Solutions.md",
     "citations/@one1111Free.md",
     "citations/@protonBusiness.md",
     "citations/@cloudflareLogin.md",
     "citations/@protonCreateFree.md",
-    "citations/@appleWebonlyAccess.md",
-    "citations/@microsoftPhoneMonitoring.md"
+    "citations/@appleWebonlyAccess.md"
   ]
 }
