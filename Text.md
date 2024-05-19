@@ -20,7 +20,7 @@
 
 [[05 Solutions methodology]]
 
-# Solutions for profiles
+# Recommended solutions for profiles
 
 [[06 Solutions]]
 

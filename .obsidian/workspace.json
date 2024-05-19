@@ -32,6 +32,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "e45eb10517bdb55c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6020d00bcd1f1bb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/04 Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,17 +178,18 @@
   },
   "active": "8bc5fbfe7dec7470",
   "lastOpenFiles": [
-    "latex/compile/main.run.xml",
-    "latex/compile/_markdown_main/024b5b72b39a727e5f452c497355ee2a.md.tex",
-    "latex/compile/_markdown_main/3b32fc46f37c73f91c67308da7bb5191.md.tex",
-    "latex/compile/_markdown_main/800689a01e5ccaf7e115c64f66b70731.md.tex",
-    "latex/compile/_markdown_main/2274252188a2ddeaece92ec90d5632db.md.tex",
-    "latex/compile/_markdown_main/5c0f63798f967dd0148db3d939ef518e.md.tex",
-    "latex/compile/_markdown_main/3fd0d295a2f67016d30af59aa8a8a14f.md.tex",
-    "latex/compile/_markdown_main/6bd0a26b9b1c488d9d6590b104c48776.md.tex",
-    "latex/compile/_markdown_main/0b026e455b96729a1ba08f6d89f3e0e1.md.tex",
-    "latex/compile/_markdown_main/33a27ee240e1d4edee559a67c0645ce8.md.tex",
-    "latex/compile/_markdown_main/a860e2e5167b5c9ece13655e6d42799a.md.tex",
+    "chapters/04 Services.md",
+    "chapters/06 Solutions.md",
+    "latex/compile/_markdown_main/fd93e3a9d448c24a657d42e11a8998e6.md.tex",
+    "latex/compile/_markdown_main/d4502c3694db245d5914b269775c9e58.md.tex",
+    "latex/compile/_markdown_main/18fbc74dc3c6304efdf39b17a9ca3a0a.md.tex",
+    "latex/compile/_markdown_main/2a10bf31d8bfa51b54b8a738a1b150f3.md.tex",
+    "latex/compile/_markdown_main/3ab4d00bc55eb8b3fc0eb0c07656efb4.md.tex",
+    "latex/compile/_markdown_main/7f0872727c7402d4b981ab713c929b5a.md.tex",
+    "latex/compile/_markdown_main/fa2d06fa7cd27584f86890402c08ac62.md.tex",
+    "latex/compile/_markdown_main/9d56845d259c99d7ca2e1457a3ad373f.md.tex",
+    "latex/compile/_markdown_main/f282a0f7d87a512e9904e338f35023ee.md.tex",
+    "latex/compile/_markdown_main/46d105d69c6c2239d5da76e8560fcd4d.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -189,22 +208,20 @@
     "latex/compile/93509b1aa144c2641669c027b072872d.png",
     "latex/compile/780c6db41f3413a038a1c6078b707d46.png",
     "latex/compile/2023-10-04-11-06-48-image.png",
-    "latex/compile/Pasted image 20240508105111.png",
-    "latex/compile/Pasted image 20240507195336.png",
-    "latex/compile/Pasted image 20240507181210.png",
-    "latex/compile/Pasted image 20240507181120.png",
-    "latex/compile/Pasted image 20240507103156.png",
-    "latex/compile/Pasted image 20240507094955.png",
-    "latex/compile/Pasted image 20240506163134.png",
-    "chapters/05 Solutions methodology.md",
-    "Text.md",
-    "Acronyms.md",
-    "chapters/02 Digital competence framework.md",
-    "citations/@europaDigitalCompetence.md",
-    "chapters/03 Profiles.md",
-    "chapters/01 Related work.md",
-    "chapters/04 Services.md",
-    "citations/@GoogleChromePasswordProtection.md",
-    "chapters/00 Introduction.md"
+    "latex/compile/Proton Pricing.png",
+    "latex/compile/Proton business pricing.png",
+    "latex/compile/Pasted image 20240501192735.png",
+    "latex/compile/Pasted image 20240501192143.png",
+    "latex/compile/Pasted image 20240501184816.png",
+    "latex/compile/Pasted image 20240501184528.png",
+    "latex/compile/Pasted image 20240501184329.png",
+    "citations/@one1111Free.md",
+    "citations/@protonBusiness.md",
+    "citations/@cloudflareLogin.md",
+    "citations/@protonCreateFree.md",
+    "citations/@appleWebonlyAccess.md",
+    "citations/@microsoftPhoneMonitoring.md",
+    "citations/@microsoftFree.md",
+    "citations/@onedrivePricing.md"
   ]
 }

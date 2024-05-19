@@ -110,6 +110,15 @@
 	urldate = {2024-05-07},
 }
 
+
+@online{cloudflareLogin,
+	author = {{Cloudflare, Inc.}},
+	title = {Log in to Cloudflare},
+	url = {https://dash.cloudflare.com/login},
+	year = {2024},
+	urldate = {2024-05-07},
+}
+
 @online{one1111Free,
 	author = {{Cloudflare, Inc.}},
 	title = {1.1.1.1 — {T}he free app that makes your {I}nternet faster.},
@@ -217,8 +226,17 @@
 
 @online{protonCreateFree,
 	author = {{Proton AG}},
-	title = {{C}reate a free email account or choose a paid plan | {P}roton},
+	title = {{C}reate a free email account or choose a paid plan},
 	url = {https://proton.me/mail/pricing},
+	year = {2024},
+	urldate = {2024-05-01},
+}
+
+
+@online{protonBusiness,
+	author = {{Proton AG}},
+	title = {{P}roton for {B}usiness plans and pricing},
+	url = {https://proton.me/business/plans},
 	year = {2024},
 	urldate = {2024-05-01},
 }
@@ -455,6 +473,14 @@ abstract = {Industrial enterprises increasingly identify their employees digit
 	url = {https://www.viber.com/en/},
 	year = {2024},
 	urldate = {2024-03-13},
+}
+
+@online{appleWebonlyAccess,
+	author = {{Apple Inc.}},
+	title = {{W}eb-only access to i{C}loud - {A}pple {S}upport},
+	url = {https://support.apple.com/en-us/102447},
+	year = {2024},
+	urldate = {2024-05-06},
 }
 
 @online{appleICloudPlans,
