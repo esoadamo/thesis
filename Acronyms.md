@@ -11,7 +11,7 @@
 | CI       | Continuous integration       |
 | CD       | Continuous development       |
 | SSO      | Single sign-on               |
-| SOHO     | Small office / Home Office   |
+| SOHO     | Small Office / Home Office   |
 | OS       | Operating System             |
 | NAS      | Network Attached Storage     |
 | OIDC     | Open ID Connect              |

@@ -40,7 +40,7 @@ For the Android OS, Microsoft provides a Family Safety application. After instal
 
 ![[Family Safety More Time.png|Microsoft Family Safety asking parent to allow access to application]]
 
-![[Family Safety Web Activity.png|Microsoft family safety activity overview]]
+![[Family Safety Web Activity.png|Microsoft Family Safety activity overview]]
 
 ![[Family Safety Prevents Lauching Chrome.png|Microsoft Family Safety preventing launch of other web browser than Microsoft Edge]]
 
@@ -103,7 +103,7 @@ Another ecosystem that provides security as a service is the Apple ecosystem. Ev
 
 Apple provides an option to create a new free account, called Apple ID, for its products. This account is essential for the correct working of Apple-produced devices, as currently, it is needed to be able to install new software from the Apple store. With this account, the user may also create a new mail account on the icloud.com domain. This account can be subsequently used as an identity source for other services, e.g., the only SSO login option to the Cloudflare Dashboard (`TEX:\autoref{fig:Cloudflare Login.png}`). The login process to the Apple account itself can be set to require login confirmation in a form of MFA on the user's existing device.
 
-![[Cloudflare Login.png|Login form for a Cloudflare Dashboard portal with Apple ID as a only SSO option]]
+![[Cloudflare Login.png|Login form for a Cloudflare Dashboard portal with Apple ID as the only SSO option]]
 
 ### Cloud services
 

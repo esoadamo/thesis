@@ -56,7 +56,8 @@ For this thesis, I will be using the OECD average level as a point of reference,
 ```latex
 \begin{landscape}
 \begin{longtblr}[
-  caption = {New Mapping of OECD proficiency levels into DigiComp levels},
+  caption = {Mapping of OECD proficiency levels \cite{OECDSkillsMatter} into DigiComp levels},
+  entry = {Mapping of OECD proficiency levels into DigiComp levels},
   label = {tab:OECDLevel},
 ]{
   colspec = {|p{1cm}|X|p{1cm}|X|},
@@ -80,7 +81,8 @@ The resulting overall rounded proficiency level is 4, which can be translated to
 
 ```latex
 \begin{longtblr}[
-  caption = {New Abilities of Czech high school absolvent with assigned DigiComp proficiency levels},
+  caption = {Abilities of Czech high school absolvent \cite{DigiCompEduCZ} with assigned DigiComp proficiency levels},
+  entry = {Abilities of Czech high school absolvent with assigned DigiComp proficiency levels},
   label = {tab:HSLevels},
 ]{
   colspec = {|X|p{8ex}|p{3cm}|},

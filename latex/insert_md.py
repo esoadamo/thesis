@@ -40,9 +40,15 @@ def process_acronyms(content, file_md_acronyms: Path):
 
     acronyms[key] = value
 
+  # Replace all acronyms occurences with gls command
+  content_metadata, content_content = content.split('abstract', 1)
   for key in acronyms:
-    content = re.sub(f"([^\w]){key}([^\w])", "\\1\\\\gls{%s}\\2" % key, content)
+    content_content = re.sub(f"([^\w]){key}([^\w])", "\\1\\\\gls{%s}\\2" % key, content_content)
+  content = content_metadata + "abstract" + content_content
+  del content_metadata
+  del content_content
 
+  # Create glossary
   acronyms_commands = ""
   for key, value in acronyms.items():
     acronyms_commands += "\\newacronym{%s}{%s}{%s}\n" % (key, key, value)

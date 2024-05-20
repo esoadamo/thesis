@@ -12,15 +12,15 @@ As mentioned above, both parents were provided with a laptop from work, while th
 
 All their laptops run Windows OS, while admin-level permissions are available only on their shared laptop. The family does not (intentionally) use any cloud service to store data. Their family chat is primarily on Viber, whereas children use Instagram as their primary application to stay in touch with friends. For their personal office work and children's school purposes, they use a Microsoft Office 2010 suite, which they have previously paid for. They use default web browsers for each platform, meaning Chrome for their Android phones and Edge on their laptops.
 
-### Digital Hygiene
+### Digital hygiene
 
 As their technological knowledge is in the level 3 range, they are susceptible to adverts and recommendations for software, resulting in multiple antivirus software and computer-cleaning programs being installed superfluously. They are also not bothered by any pop-up dialogues or warnings, as they simply select continue on anything. During the early days of the internet, it was common knowledge that anything uploaded to it would forever stay on it. For that matter, they are reluctant to intentionally (e.g. Viber uses Google Drive in the background for message backups) use any cloud service. They have started with a Seznam.cz accounts for freemail services, but with the arrival of Android phones, they have added a Google account for everyone. Nowadays, they have multiple accounts on various social media platforms (Facebook, TikTok, Instagram), hobby sites, and so on. They use two passwords, one *"strong"* for critical accounts (online banking and primary email account) and one easy-to-remember for all other accounts.
 
-### Possible problems that are already solved
+### Already solved problems
 
 The family has already solved, or partially solved, some of the possible issues that may arise from their everyday operations. Perhaps most importantly, the family does perform backups in some form. This is true for their shared data (on external HDD) and Android phones, which have backup to Google Drive as the default option. Next, the users are at least aware of basic security practices, so they use antivirus software and multiple passwords. Finally, because their ISP set up their home network, it can be considered resilient and properly configured.
 
-### Faced problems with the current approach
+### Problems with current approach
 
 There are numerous problems with the current approach that can be divided mainly into categories of privacy and computer security. To start with the security related issues, because their Android smartphones are older and are in the lower-to-mid price range, there is a good chance that they no longer receive any security updates, meaning that any known security vulnerability may be exploited. This makes these devices inappropriate for use with any personal data, especially baking applications with financials. As for their shared laptop, Office 2010 is [no longer supported](https://support.microsoft.com/en-us/office/end-of-support-for-office-2010-3a3e45de-51ac-4944-b2ba-c2e415432789), which in combination with their low digital competence may make them vulnerable to severe phishing attacks. The severity of this issue is also reinforced by using only two different passwords, where a breach of at least one of them will result in a possible breach of multiple accounts. They also cannot use the password manager built into the web browser, as they use a different browser on every platform. Lastly, depending on their ISP, they were issued an outdated router without relevant security patches, which may be an issue mainly with smaller ISPs within less-densely populated areas.
 
@@ -28,7 +28,7 @@ As for privacy, the most notable issue can be found within the shared laptop, wh
 
 A third category of problems consists of data retention and recovery. Even though the disc used for backup provides a basic level of redundancy, it can still be easily destroyed, e.g., by dropping it, mistakenly deleting wrong files, or simply connecting it to an infected device. Furthermore, this solution cannot be performed automatically, which may result in the backups being outdated. A thought must also be put into backing up their family conversation on Viber, where all messages are lost after onboarding on a new device unless backup is explicitly enabled. [[@ViberRestoreChat]]
 
-### Needs that are currently not covered
+### Needs not covered
 
 Some of the needs that needed to be covered were already outlined in the current problems, namely a redundant backup solution prone to accidental or malicious deletion, with the automatic schedule set to prevent backups from being outdated. Next, the family must be aware of basic privacy settings for handling smart devices. As the last part of privacy and security combined, the family would benefit from setting up an isolated guest-only WiFi network for the security reasons of isolating untrusted IoT devices or for privacy reasons (guests).
 
@@ -50,7 +50,7 @@ As their primary device is an iPhone with iOS, most of their software settings a
 
 To work with documents and note-taking, they use the Office 365 suite provided by the university with a linked Microsoft account.
 
-### Digital Hygiene
+### Digital hygiene
 
 For their accounts, they do use Seznam as their main email provider without any MFA. However, they were issued a school-issued Microsoft account with Outlook for university-based operation and communication. They also have an Apple account, social media accounts and many common accounts for multiple e-shops and hobby sites. Because iCloud is not preinstalled on Windows, they are not aware that it is possible to use this application to synchronize files and passwords [[@appleICloudPasswords]], so instead, they connect their phone using cable every time they need to copy photos and videos from their iPhone and retype all passwords manually when on desktop.
 
@@ -86,7 +86,7 @@ For communication with peers, they mostly use the Telegram application on smartp
 
 They are hosting a Minecraft server on their gaming laptop to play with their friends. Since they do not have a public IP address, they are using LogMeIn Hamachi software to create a P2P VPN.
 
-### Digital Hygiene
+### Digital hygiene
 
 The student is aware of some of the security threats they may become the victim of, so they are using an MFA whenever the service offers them and deploying randomly generated long passwords on other accounts. Furthermore, given that the recovery codes for their accounts are printed only once, it is possible that they need to remember where they have put the codes and may not be able to locate them again if needed.
 
@@ -128,7 +128,7 @@ In order for the employees to not have to remember the respective IP addresses o
 
 All their project files are stored inside private repositories on [central GitLab instance](https://gitlab.com/), but larger files (e.g. large binary files, promotional videos) are being transferred using USB flash discs.
 
-### Digital Hygiene
+### Digital hygiene
 
 As this is a technology startup, most employees know that computer security should be implemented on some level. However, though as they are roughly aware what security contains, they may be unreasonably confident in detecting and avoiding all threats.
 
@@ -174,7 +174,7 @@ To provide more straightforward navigation within this thesis, a bullet point su
 ```latex
 \begin{landscape}
 \begin{longtblr}[
-		caption = {Summary profiles' needs and problems},
+		caption = {Summary of profiles' needs and problems},
 		label = {tab:ProfiSummary}
 	]{
 		colspec = {|p{3.5cm}|p{7cm}|p{7cm}|},
