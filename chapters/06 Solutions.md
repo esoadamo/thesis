@@ -15,7 +15,7 @@ They are already using Windows on their work laptops and have bought a shared on
 
 As for malware protection, Microsoft offers their Defender for both operating systems utilized by the family. On Windows, Defender is provided without cost and enabled by default. On Android, the Defender needs to be installed separately on every device, together with a valid Microsoft 365 subscription. As this subscription also comes with the newest version of the Microsoft Office suite, it makes the currently used and insecure Office 2010 obsolete, consequently remediating the security threat of opening a maliciously crafted document that exploits known vulnerabilities of the old software.
 
-If all of the passwords are saved inside Microsoft Edge, the breach of the Microsoft account could lead to a possible breach of all other accounts. For that matter, it is imperative to secure the Microsoft account itself. Here, the ability to use the Microsoft account in a passwordless manner can be fully utilized to protect this account and all accounts that the family will sign into using SSO at once.
+As a password manager, the Microsoft Edge can be used. Though, if all of the passwords are saved inside Microsoft Edge, the breach of the Microsoft account could lead to a possible breach of all other accounts. For that matter, it is imperative to secure the Microsoft account itself. Here, the ability to use the Microsoft account in a passwordless manner can be fully utilized to protect this account and all accounts that the family will sign into using SSO at once.
 
 #### Privacy
 
@@ -30,7 +30,7 @@ Having a separate administrator account will also improve the overall security s
 
 To solve the problem with non-redundant backup, the Family 365 subscription offers every member 1 TB of OneDrive storage, which should be enough for the critical data. Furthermore, as OneDrive is integrated into Windows from the installation, it provides a seamless experience to set up and use. For Android, the family may set up the application to automatically upload taken photos to mitigate problems of lost of damaged device.
 
-Another data loss can currently happen when the Viber application is used as a primary means of communication. Microsoft Teams, part of the Office Suite, may step in as a replacement service. Even though it is a step down in terms of privacy, as it does not provide any form of end-to-end encryption, I would suggest using a service that can archive messages without any user interaction, as losing messages may pose a more significant discomfort to the family than storing the messages on a server with a somewhat reputable company encrypted.
+Another data loss can currently happen when the Viber application is used as a primary means of communication. Microsoft Teams, part of the Office Suite, may step in as a replacement service. Even though it is a step down in terms of privacy, as it does not provide any form of end-to-end encryption, I would suggest using a service that can archive messages without any user interaction, as losing messages may pose a more significant discomfort to the family than storing the messages on a server with a somewhat reputable company in the plain text.
 
 #### Child safety
 
@@ -47,7 +47,7 @@ As for the vulnerable office suite, the Google provided full-web-based office su
 
 #### Privacy
 
-To solve the most notable privacy problem -- the children sharing the same account on their shared laptop- Google provides an option to define multiple Google Chrome profiles, each with its own settings and active accounts. In contrast to creating multiple user accounts, this solution works more on a trust-based approach in that the other child will not internationally launch another child's profile. However, it is easier to set up than creating a new Windows account. 
+To solve the most notable privacy problem -- the children sharing the same account on their shared laptop -- Google provides an option to define multiple Google Chrome profiles, each with its own settings and active accounts. In contrast to creating multiple user accounts, this solution works more on a trust-based approach in that the other child will not internationally launch another child's profile. However, it is easier to set up than creating a new Windows account. 
 
 The user may use Google Duo for calls to replace Viber, but no suitable replacement for text messages exists.
 
@@ -55,7 +55,7 @@ The user may use Google Duo for calls to replace Viber, but no suitable replacem
 
 As Google Drive can be upgraded to up to 2 TB of available storage with the shared Google One subscription, this should still be enough for the family data. However, it is a several step down from the total of up to 6 TB of storage for Microsoft's One drive.
 
-Given that Google has its storage format for the Office suite, and even though it offers most of the features that the user may need, it may only partially support some features available in Microsoft Office. Conversion from the Microsoft Office format into the format used by Google Drive may maintain some special formatting, resulting in partial data loss.
+Given that Google has its storage format for the Office suite, and even though it offers most of the features that the user may need, it may only partially support some features available in Microsoft Office. Conversion from the Microsoft Office format into the format used by Google Drive may not maintain some special formatting, resulting in partial data loss.
 
 #### Child safety
 
@@ -63,13 +63,13 @@ In addition to similar features in Microsoft Family Safety, the Google Family Li
 
 ### Synology
 
-Given that Synology requires an initial setup, it may be necessary for the family to consult with a professional for the initial setup. Even after that, Synology does not provide easy solutions to all outlined problems, and the family will need to keep care of the device -- e.g., monitoring that the device is not after its end of life and still receives regular security updates.
+Given that Synology requires an initial setup, it may be necessary for the family to consult with a professional to perform it for them. Even after that, Synology does not provide easy solutions to all outlined problems, and the family will need to keep care of the device -- e.g., monitoring that the device is not after its end of life and still receives regular security updates.
 
 #### Security
 
 To replace the vulnerable Microsoft Office suite, the family can use the Synology web-based office suite. Though, as it uses its own storage format, this approach again presents the possible problem of some features not being fully supported by the Synology office.
 
-Next, there needs to be a password manager from Synology. Of course, it is possible to self-host a password manager such as BitWarden using the generic Docker container feature of some of the Synology models. However, I advise against that, as the family members cannot be expected to maintain a self-hosted password manager in a secure and safe manner.
+Next, Synology does not offer any password manager directly. Of course, it is possible to self-host a password manager such as BitWarden using the generic Docker container feature of some of the Synology models. However, I advise against that, as the family members cannot be expected to maintain a self-hosted password manager in a secure and safe manner.
 
 Even though Synology can be used as an SSO source, it first needs to be configured as such with any application that should support it, making it unfeasible for the family.
 
@@ -123,7 +123,7 @@ By default, iCloud Drive offers encryption in transit and at rest, which should 
 
 #### Data retention
 
-If the users purchase at least 200 GB of storage, it should be enough to store all their critical data.  Though the inability of iCloud to properly version files can become a disadvantage if the users accidentally rewrite their files, e.g., when using an external office suite and saving an empty document instead of an existing one. The taken photos are uploaded automatically from iOS by default, while for synchronization with a Windows computer, the user needs to download and install the iCloud application.
+If the users purchase at least 2 TB of storage, it should be enough to store all their critical data.  Though the inability of iCloud to properly version files can become a disadvantage if the users accidentally rewrite their files, e.g., when using an external office suite and saving an empty document instead of an existing one. The taken photos are uploaded automatically from iOS by default, while for synchronization with a Windows computer, the user needs to download and install the iCloud application.
 
 ### Microsoft
 
@@ -189,7 +189,7 @@ To solve the double-backup problem, which could serve as a last resort in case a
 
 ### Cloudflare
 
-Even though Cloudflare is more business-oriented, it may prove usable for some student dues due to its provided hosting and tunnelling solutions, data storage and VPN.
+Even though Cloudflare is more business-oriented, it may prove usable for the student due to its provided hosting and tunnelling solutions, data storage and VPN.
 
 #### Security
 
@@ -233,7 +233,7 @@ A third unresolved issue is the smartphone endpoint protection, where, in additi
 
 ### Final recommendations
 
-Even though Microsoft and Google services can handle most of the problems and needs, they may not be the best solution overall. The main drawback is that it would require a complex cloud environment setup and may become costly, which could become a problem for a student with limited income. Instead, a solution consisting of more specialized services can be recommended, as these services have lower pricing for the solved needs. Bitwarden can be used for separate password management, BackBlaze can be utilized for double-redundant backup, and Cloudflare can create a VPN among friends and browse public networks more safely. A viable solution is to outsource server hosting to Synology, which can be connected in the same way as stated above.
+Even though Google or Microsoft services can handle most of the problems and needs, they may not be the best solution overall. The main drawback is that it would require a complex cloud environment setup and may become costly, which could become a problem for a student with limited income. Instead, a solution consisting of more specialized services can be recommended, as these services have lower pricing for the solved needs. Bitwarden can be used for separate password management, BackBlaze can be utilized for double-redundant backup, and Cloudflare can create a VPN among friends and browse public networks more safely. A viable solution is to outsource server hosting to Synology, which can be connected in the same way as stated above.
 
 ## Small technology company start-up
 
@@ -263,7 +263,7 @@ Even though Synology itself does support a wide range of needs for this profile,
 
 By using the Cloudflare WARP clients on the company devices, the employees can connect to the hosted Synology device after logging in through the SSO. The advantage of connecting the company device via the WARP client is that the Cloudflare administrator can see basic information about connected devices and linked users, posing as a basic form of centralized device management.
 
-Even when not connecting via the public internet, Cloudflare offers to set up zero trust authentication before letting the requests pass through, similar to the Google and Microsoft solutions. Cloudflare does offer domain registration, with all tunnels having a valid HTTPS certificate for their subdomains, regardless of whether the target service uses HTTP or HTTPS.
+Even when connecting via the public internet, Cloudflare offers to set up zero trust authentication before letting the requests pass through, similar to the Google and Microsoft solutions. Cloudflare does offer domain registration, with all tunnels having a valid HTTPS certificate for their subdomains, regardless of whether the target service uses HTTP or HTTPS.
 
 Synology has to ability to run arbitrary docker containers or whole virtual machines, so hosting company's services is simple and managable. Synology also offers per-user or per-group permissions, making it easy to implement least-privilege access. As a NAS device, sharing files is one of its core features, mainly when combined with the encryption of data on rest, which Synology natively supports.
 
@@ -470,6 +470,7 @@ To provide more straightforward navigation within this thesis, a bullet point su
 	\begin{itemize}
 		\item basic employee device managment
 		\item no secrets sharing
+		\item single point of failure
 	\end{itemize}\\
 
 \end{longtblr}

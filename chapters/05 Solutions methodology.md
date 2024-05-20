@@ -51,8 +51,8 @@ The criterion questions that this thesis asks are:
 
 Results of questions for each profile can be found in a form of a table with answer points. If there are any special considerations, they are listed in footnotes below respective table:
 
-- Low-tech skilled family solutions in `TEX:\autoref{tab:SoluFamily}`
-- Low-tech skilled university student solutions in `TEX:\autoref{tab:SoluLowStud}`
+- Low-tech skilled family in `TEX:\autoref{tab:SoluFamily}`
+- Low-tech skilled university student in `TEX:\autoref{tab:SoluLowStud}`
 - Individual tech-skilled user in `TEX:\autoref{tab:SoluTechUser}`
 - Small technology company start-up in `TEX:\autoref{tab:SoluStartup}`
 
@@ -79,7 +79,7 @@ Results of questions for each profile can be found in a form of a table with ans
 	5 &
 	5 &
 	2 &
-	0\footnote{Forgotting password equals losing keys} &
+	0\footnote{Forgotting password equals losing encryption keys} &
 	0 &
 	0 &
 	2 &

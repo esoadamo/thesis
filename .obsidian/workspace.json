@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9ce0f901a2530013",
+        "id": "803b19f4a4d755a0",
         "type": "tabs",
         "children": [
           {
-            "id": "8bc5fbfe7dec7470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/03 Profiles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "894e72c0ee0ef389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Acronyms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac4e41a9c657faeb",
+            "id": "1bda91eccd371f75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e15f30acff8924fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/03 Profiles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,19 +158,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac4e41a9c657faeb",
+  "active": "1bda91eccd371f75",
   "lastOpenFiles": [
-    "latex/dist/thesis_final_rev.pdf",
-    "latex/dist/thesis.pdf",
-    "latex/compile/lualatex311418.fls",
-    "latex/compile/lualatex311051.fls",
-    "latex/compile/lualatex310724.fls",
+    "chapters/03 Profiles.md",
+    "chapters/07 Conclusion.md",
+    "latex/compile/lualatex529197.fls",
+    "latex/compile/lualatex528794.fls",
+    "latex/compile/lualatex528475.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
     "latex/compile/_markdown_main/024b5b72b39a727e5f452c497355ee2a.md.tex",
-    "latex/compile/_markdown_main/a9fdb35aeb7d0942a36538d21f9acf5b.md.tex",
+    "latex/compile/_markdown_main/fc034f7fa66cfc67963d38e6dc38bc47.md.tex",
+    "latex/compile/_markdown_main/f0d5d9f2f5404eed4dd44e1be8fdadf4.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -209,15 +197,13 @@
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184528.png",
     "latex/compile/Pasted image 20240501184329.png",
-    "chapters/03 Profiles.md",
-    "chapters/07 Conclusion.md",
     "chapters/06 Solutions.md",
     "chapters/04 Services.md",
     "chapters/05 Solutions methodology.md",
+    "chapters/00 Introduction.md",
+    "Acronyms.md",
     "citations/@bitwardenPricing.md",
     "chapters/02 Digital competence framework.md",
-    "citations/@one1111Free.md",
-    "citations/@protonBusiness.md",
-    "citations/@cloudflareLogin.md"
+    "citations/@one1111Free.md"
   ]
 }
