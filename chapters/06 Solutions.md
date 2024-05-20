@@ -95,7 +95,7 @@ As for the possible privacy concerns of using the company-provided laptop for pe
 
 ### Final recommendations
 
-
+For the profile of a family, out of all the services presented, the services provided by Google and Microsoft are the most fitting and almost interchangeable in terms of solving needs and problems and pricing. Microsoft may be preferable, as it provides higher overall storage space at a slightly lower price. Next, it also comes with an up-to-date version of the Microsoft Office suite, which has no compatibility problems. On the other hand, if 2 TB of shared storage is enough and a more granular control over the child's account is preferable, with only the web-based office suite being sufficient for the user's needs, Google services are a viable solution.
 
 ## Low-tech skilled university student
 
@@ -165,6 +165,10 @@ For the purposes of this profile, there is no significant difference in terms of
 
 As every one of the problems or needs was solved by at least one of the presented solutions, there are no leftover unresolved problems.
 
+### Final recommendations
+
+Because the student uses the iPhone as their primary device and already interacts with the Apple ecosystem, it is most convenient for them to use the same services on their laptop. On the other hand, OneDrive from Microsoft provides the additional benefit of restoring an older version of files, which may be preferable if the user is working on longer documents, as this would prevent accidental overwriting. However, this comes at the cost of having only half the storage (1 TB for OneDrive, 2 TB for iCloud Drive) at a comparable price.
+
 ## Individual tech-skilled user
 
 As this user is more experienced, we can expect them to be able to understand or create their own even more complex solutions. First, as this profile is more interested in privacy, they may consider switching from their main Google account to Proton, which offers features similar to those the user currently uses. A second advantage of Proton is that it offers a private VPN service that solves the need to protect their device when connecting to untrusted networks.
@@ -227,6 +231,10 @@ The second unresolved problem is for the E2EE chat application, where the user u
 
 A third unresolved issue is the smartphone endpoint protection, where, in addition to the already used-by-default Google Play Protect, the student may install additional applications, such as Microsoft Defender, if provided by the university.
 
+### Final recommendations
+
+Even though Microsoft and Google services can handle most of the problems and needs, they may not be the best solution overall. The main drawback is that it would require a complex cloud environment setup and may become costly, which could become a problem for a student with limited income. Instead, a solution consisting of more specialized services can be recommended, as these services have lower pricing for the solved needs. Bitwarden can be used for separate password management, BackBlaze can be utilized for double-redundant backup, and Cloudflare can create a VPN among friends and browse public networks more safely. A viable solution is to outsource server hosting to Synology, which can be connected in the same way as stated above.
+
 ## Small technology company start-up
 
 The specificity of the small-technology start-up profile is that when services are unavailable, it may lead to revenue loss. As the start-up has a higher budget than students and is staffed with IT professionals, it is possible to present more complex solutions that may take a significant amount of time to set up.
@@ -264,3 +272,206 @@ The obvious drawbacks of this solution still persist, where Synology still poses
 ### Unsolved problems
 
 As every one of the problems or needs was solved by at least one of the presented solutions, there are no leftover unresolved problems.
+
+### Final recommendations
+
+All of the problems and needs can be solved by migrating to a cloud environment from Google or Microsoft. Both of these companies offer similar services and both offer a possibly higher uptime than by continuing to self-host. Though, there are some smaller differences in auxiliary services, where Microsoft supports a direct registration of domain names and provides its Microsoft Team application for both text and video communication, while Google Meet supports only video conferences. Next, Google Drive pricing for business plans relevant to this profile provide double the storage space compared to Microsoft plans, but for double the price.
+
+Though, if the company does want to have a fixed pricing for its services, instead of pay-as-you-go pricing of cloud environments, the company may achieve similar results by connecting self-hosted Synology services with Cloudflare ZeroTrust. Nevertheless, the company needs to know about and accept the risks that arise from hosting on their own hardware.
+
+## Summary of selected solutions
+
+To provide more straightforward navigation within this thesis, a bullet point summary of each profile's selected solution and its advantages and disadvantages can be found: 
+
+- for low-tech skilled family in `TEX:\autoref{tab:SoluSummaryFamily}`
+- for low-tech skilled university student in `TEX:\autoref{tab:SoluSummaryLowStud}`
+- for individual tech-skilled user in `TEX:\autoref{tab:SoluSummarySkillStud}`
+- for small technology company start-up in `TEX:\autoref{tab:SoluSummaryComp}`
+
+
+```latex
+\begin{landscape}
+\begin{longtblr}[
+		caption = {Low-tech skilled family's summary of selected solutions},
+		label = {tab:SoluSummaryFamily}
+	]{
+		colspec = {|p{2.5cm}|p{7.3cm}|p{7.3cm}|},
+	}
+	
+    Solution & Advantages & Disadvantages\\
+    Microsoft &
+	\begin{itemize}
+		\item integrated chatting application
+		\item password-less login
+		\item Microsoft Office suite
+		\item larger available storage space
+	\end{itemize} &
+	\begin{itemize}
+		\item missing web UI for accesing passwords
+	\end{itemize}\\
+
+	Google &
+	\begin{itemize}
+		\item more granular control over child account
+		\item simple to set up multiple user profiles within Google Chrome
+		\item web UI for accessing passwords
+	\end{itemize} &
+	\begin{itemize}
+		\item missing chatting application
+		\item custom office file formats
+	\end{itemize}\\
+
+	Synology &
+	\begin{itemize}
+		\item one-time payment
+		\item adjustable storage space
+		\item intergated chatting applicaiton
+	\end{itemize} &
+	\begin{itemize}
+		\item complex to set up
+		\item custom office file formats
+		\item no children physical protection
+		\item no password manager
+	\end{itemize}\\
+
+\end{longtblr}
+\end{landscape}
+```
+
+
+```latex
+\begin{landscape}
+\begin{longtblr}[
+		caption = {Low-tech skilled university student's summary of selected solutions},
+		label = {tab:SoluSummaryLowStud}
+	]{
+		colspec = {|p{2.5cm}|p{7.3cm}|p{7.3cm}|},
+	}
+	
+    Solution & Advantages & Disadvantages\\
+    Apple &
+	\begin{itemize}
+		\item pre-integrated within iOS
+	\end{itemize} &
+	\begin{itemize}
+		\item no file versioning on iCloud Drive
+	\end{itemize}\\
+
+	Microsoft &
+	\begin{itemize}
+		\item file versioning
+	\end{itemize} &
+	\begin{itemize}
+		\item smaller storage space for comparable price
+	\end{itemize}\\
+
+	Synology &
+	\begin{itemize}
+		\item one-time payment
+		\item adjustable storage space
+	\end{itemize} &
+	\begin{itemize}
+		\item \textbf{too complex to set up}
+		\item no password manager
+	\end{itemize}\\
+
+\end{longtblr}
+\end{landscape}
+```
+
+
+```latex
+\begin{landscape}
+\begin{longtblr}[
+		caption = {Individual tech-skilled user's summary of selected solutions},
+		label = {tab:SoluSummarySkillStud}
+	]{
+		colspec = {|p{2.5cm}|p{7.3cm}|p{7.3cm}|},
+	}
+	
+    Solution & Advantages & Disadvantages\\
+    Google &
+	\begin{itemize}
+		\item free VPS for hosting
+	\end{itemize} &
+	\begin{itemize}
+		\item complex cloud environment
+		\item costly data backup service
+	\end{itemize}\\
+
+	Cloudflare &
+	\begin{itemize}
+		\item free VPN for both acccessing internet and friends' machines
+	\end{itemize} &
+	\begin{itemize}
+		\item software needs to be installed to on every endpoint
+	\end{itemize}\\
+
+	BackBlaze &
+	\begin{itemize}
+		\item cheap data storage for high volumes
+		\item simple data recovery and retention
+	\end{itemize} &
+	\begin{itemize}
+		\item limited scope of solved problems and needs
+	\end{itemize}\\
+
+	Synology &
+	\begin{itemize}
+		\item one-time payment
+		\item adjustable storage space
+		\item integrable with other solutions for data backup
+	\end{itemize} &
+	\begin{itemize}
+		\item only partial solution, needs to be integrated with other services
+	\end{itemize}\\
+
+\end{longtblr}
+\end{landscape}
+```
+
+
+
+```latex
+\begin{landscape}
+\begin{longtblr}[
+		caption = {Small technology company start-up's summary of selected solutions},
+		label = {tab:SoluSummaryComp}
+	]{
+		colspec = {|p{2.5cm}|p{7.3cm}|p{7.3cm}|},
+	}
+	
+    Solution & Advantages & Disadvantages\\
+	Microsoft &
+	\begin{itemize}
+		\item outsourced hardware managment
+		\item direct domain name registration
+	\end{itemize} &
+	\begin{itemize}
+		\item smaller storage space per user
+		\item dynamic pricing
+	\end{itemize}\\
+
+    Google &
+	\begin{itemize}
+		\item outsourced hardware managment
+		\item larger storage space per user
+	\end{itemize} &
+	\begin{itemize}
+		\item missing chat applicaiton
+		\item dynamic pricing
+	\end{itemize}\\
+
+    Synology + Cloudflare &
+	\begin{itemize}
+		\item direct domain name registration
+		\item fixed pricing
+	\end{itemize} &
+	\begin{itemize}
+		\item basic employee device managment
+		\item no secrets sharing
+	\end{itemize}\\
+
+\end{longtblr}
+\end{landscape}
+```

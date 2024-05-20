@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/04 Services.md",
+                "file": "chapters/06 Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,6 +45,24 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "57f0902be06f215d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4d29cc1ef32f23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/04 Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/04 Services.md",
+                "file": "chapters/06 Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/04 Services.md",
+                "file": "chapters/06 Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/04 Services.md"
+                "file": "chapters/06 Solutions.md"
               }
             }
           }
@@ -173,17 +191,17 @@
   },
   "active": "ac4e41a9c657faeb",
   "lastOpenFiles": [
-    "latex/compile/lualatex417824.fls",
-    "latex/compile/lualatex417788.fls",
+    "latex/compile/lualatex177149.fls",
+    "latex/compile/lualatex177102.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
     "latex/compile/_markdown_main/024b5b72b39a727e5f452c497355ee2a.md.tex",
-    "latex/compile/_markdown_main/4e3c2c7f3feefd524715aad338aa404a.md.tex",
+    "latex/compile/_markdown_main/ac0a62dcfc0ad3eb9a8e6c23b69a00fc.md.tex",
+    "latex/compile/_markdown_main/f0d5d9f2f5404eed4dd44e1be8fdadf4.md.tex",
+    "latex/compile/_markdown_main/72c6f92b45c024b8ae566dc32018d1e5.md.tex",
     "latex/compile/_markdown_main/2d98d0ec3566151c46501039ec9a73a1.md.tex",
-    "latex/compile/_markdown_main/3fd0d295a2f67016d30af59aa8a8a14f.md.tex",
-    "latex/compile/_markdown_main/6bd0a26b9b1c488d9d6590b104c48776.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -209,15 +227,15 @@
     "latex/compile/Pasted image 20240501184816.png",
     "latex/compile/Pasted image 20240501184528.png",
     "latex/compile/Pasted image 20240501184329.png",
-    "citations/@bitwardenPricing.md",
-    "chapters/02 Digital competence framework.md",
-    "chapters/04 Services.md",
     "chapters/03 Profiles.md",
     "chapters/06 Solutions.md",
+    "chapters/04 Services.md",
+    "chapters/05 Solutions methodology.md",
+    "citations/@bitwardenPricing.md",
+    "chapters/02 Digital competence framework.md",
     "citations/@one1111Free.md",
     "citations/@protonBusiness.md",
     "citations/@cloudflareLogin.md",
-    "citations/@protonCreateFree.md",
-    "citations/@appleWebonlyAccess.md"
+    "citations/@protonCreateFree.md"
   ]
 }
