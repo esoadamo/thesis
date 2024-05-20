@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/06 Solutions.md",
+                "file": "chapters/07 Conclusion.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,24 +45,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "57f0902be06f215d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ef4d29cc1ef32f23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chapters/04 Services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/06 Solutions.md",
+                "file": "chapters/07 Conclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapters/06 Solutions.md",
+                "file": "chapters/07 Conclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapters/06 Solutions.md"
+                "file": "chapters/07 Conclusion.md"
               }
             }
           }
@@ -191,17 +173,17 @@
   },
   "active": "ac4e41a9c657faeb",
   "lastOpenFiles": [
-    "latex/compile/lualatex177149.fls",
-    "latex/compile/lualatex177102.fls",
+    "latex/dist/thesis_final_rev.pdf",
+    "latex/dist/thesis.pdf",
+    "latex/compile/lualatex311418.fls",
+    "latex/compile/lualatex311051.fls",
+    "latex/compile/lualatex310724.fls",
     "latex/compile/main.bbl",
     "latex/compile/main.blg",
     "latex/compile/main.ind",
     "latex/compile/main.run.xml",
     "latex/compile/_markdown_main/024b5b72b39a727e5f452c497355ee2a.md.tex",
-    "latex/compile/_markdown_main/ac0a62dcfc0ad3eb9a8e6c23b69a00fc.md.tex",
-    "latex/compile/_markdown_main/f0d5d9f2f5404eed4dd44e1be8fdadf4.md.tex",
-    "latex/compile/_markdown_main/72c6f92b45c024b8ae566dc32018d1e5.md.tex",
-    "latex/compile/_markdown_main/2d98d0ec3566151c46501039ec9a73a1.md.tex",
+    "latex/compile/_markdown_main/a9fdb35aeb7d0942a36538d21f9acf5b.md.tex",
     "latex/compile/99 Appendix.md",
     "latex/compile/07 Conclusion.md",
     "latex/compile/06 Solutions.md",
@@ -228,6 +210,7 @@
     "latex/compile/Pasted image 20240501184528.png",
     "latex/compile/Pasted image 20240501184329.png",
     "chapters/03 Profiles.md",
+    "chapters/07 Conclusion.md",
     "chapters/06 Solutions.md",
     "chapters/04 Services.md",
     "chapters/05 Solutions methodology.md",
@@ -235,7 +218,6 @@
     "chapters/02 Digital competence framework.md",
     "citations/@one1111Free.md",
     "citations/@protonBusiness.md",
-    "citations/@cloudflareLogin.md",
-    "citations/@protonCreateFree.md"
+    "citations/@cloudflareLogin.md"
   ]
 }
